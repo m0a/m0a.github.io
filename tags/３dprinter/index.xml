@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>楽しいことしかやりたくない。</title>
-    <link>http://m0a.github.io/</link>
-    <description>Recent content on 楽しいことしかやりたくない。</description>
+    <title>３dprinter on 楽しいことしかやりたくない。</title>
+    <link>http://m0a.github.io/tags/%EF%BC%93dprinter/</link>
+    <description>Recent content in ３dprinter on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 16 May 2015 22:20:29 +0900</lastBuildDate>
-    <atom:link href="http://m0a.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://m0a.github.io/tags/%EF%BC%93dprinter/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>glasses</title>
@@ -34,38 +34,6 @@
 
 &lt;p&gt;thingverseにもアップしてます。
 &lt;a href=&#34;http://www.thingiverse.com/thing:790898&#34;&gt;http://www.thingiverse.com/thing:790898&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>firstStep</title>
-      <link>http://m0a.github.io/post/firstStep/</link>
-      <pubDate>Sat, 16 May 2015 18:12:30 +0900</pubDate>
-      
-      <guid>http://m0a.github.io/post/firstStep/</guid>
-      <description>
-
-&lt;h2 id=&#34;hello:89e60529a142b9bc0a0eb77341dc696a&#34;&gt;Hello&lt;/h2&gt;
-
-&lt;p&gt;こんにちわ。ちょっとブログを始めてみます。&lt;/p&gt;
-
-&lt;p&gt;Hugoを使うのってどんな感じだろう。&lt;/p&gt;
-
-&lt;p&gt;Hugoを選んだのは単純にGoが好きだから。それだけです。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>about</title>
-      <link>http://m0a.github.io/about/</link>
-      <pubDate>Sat, 16 May 2015 18:11:20 +0900</pubDate>
-      
-      <guid>http://m0a.github.io/about/</guid>
-      <description>
-
-&lt;h2 id=&#34;a-headline:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;A Headline&lt;/h2&gt;
-
-&lt;p&gt;Some Content&lt;/p&gt;
 </description>
     </item>
     
