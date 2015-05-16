@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://yourSiteHere/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>ブログはじめました。</title>
+    <link>http://m0a.github.io/</link>
+    <description>Recent content on ブログはじめました。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 16 May 2015 18:12:30 +0900</lastBuildDate>
-    <atom:link href="http://yourSiteHere/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://m0a.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>first</title>
-      <link>http://yoursitehere/post/first/</link>
+      <link>http://m0a.github.io/post/first/</link>
       <pubDate>Sat, 16 May 2015 18:12:30 +0900</pubDate>
       
-      <guid>http://yoursitehere/post/first/</guid>
+      <guid>http://m0a.github.io/post/first/</guid>
       <description>
 
 &lt;h2 id=&#34;hello:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;Hello&lt;/h2&gt;
@@ -30,10 +30,10 @@
     
     <item>
       <title>about</title>
-      <link>http://yoursitehere/about/</link>
+      <link>http://m0a.github.io/about/</link>
       <pubDate>Sat, 16 May 2015 18:11:20 +0900</pubDate>
       
-      <guid>http://yoursitehere/about/</guid>
+      <guid>http://m0a.github.io/about/</guid>
       <description>
 
 &lt;h2 id=&#34;a-headline:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;A Headline&lt;/h2&gt;
