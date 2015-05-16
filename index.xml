@@ -49,9 +49,10 @@
 
 &lt;p&gt;こんにちわ。ちょっとブログを始めてみます。&lt;/p&gt;
 
-&lt;p&gt;Hugoを使うのってどんな感じだろう。&lt;/p&gt;
-
 &lt;p&gt;Hugoを選んだのは単純にGoが好きだから。それだけです。&lt;/p&gt;
+
+&lt;p&gt;色々触ってみると、使いにくいようで実は使いやすいです。
+でもそれって逆のほうが普及しやすいよなぁ。&lt;/p&gt;
 </description>
     </item>
     
@@ -64,7 +65,7 @@
       <description>&lt;p&gt;どうもです。最近諸事情により仙台に戻っています。
 いろいろやりたいことがありますが、できることからやることがコツだと最近知りました。&lt;/p&gt;
 
-&lt;p&gt;興味あることは興味がある順に、&lt;/p&gt;
+&lt;p&gt;興味あることは&lt;/p&gt;
 
 &lt;p&gt;3DPrinter &amp;gt; iOS &amp;gt; UE4 &amp;gt; FRP(functional reactive programming),Meteor &amp;gt; 関数型言語(主にHaskell),です。&lt;/p&gt;
 </description>
