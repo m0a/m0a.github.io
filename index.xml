@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ブログはじめました。</title>
+    <title>楽しいことしかやりたくない。</title>
     <link>http://m0a.github.io/</link>
-    <description>Recent content on ブログはじめました。</description>
+    <description>Recent content on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>ja</language>
     <lastBuildDate>Sat, 16 May 2015 18:12:30 +0900</lastBuildDate>
     <atom:link href="http://m0a.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>first</title>
-      <link>http://m0a.github.io/post/first/</link>
+      <title>firstStep</title>
+      <link>http://m0a.github.io/post/firstStep/</link>
       <pubDate>Sat, 16 May 2015 18:12:30 +0900</pubDate>
       
-      <guid>http://m0a.github.io/post/first/</guid>
+      <guid>http://m0a.github.io/post/firstStep/</guid>
       <description>
 
-&lt;h2 id=&#34;hello:e8fb9c67eba912c72729806db31eaa1b&#34;&gt;Hello&lt;/h2&gt;
+&lt;h2 id=&#34;hello:89e60529a142b9bc0a0eb77341dc696a&#34;&gt;Hello&lt;/h2&gt;
 
-&lt;p&gt;こんにちわhugo
-これからブログを書いていきます。よろしくでーす。&lt;/p&gt;
+&lt;p&gt;こんにちわ。ちょっとブログを始めてみます。&lt;/p&gt;
 
-&lt;p&gt;よっろろおっろおろろ&lt;/p&gt;
+&lt;p&gt;Hugoを使うのってどんな感じだろう。&lt;/p&gt;
 
-&lt;p&gt;おおーすっげーな。&lt;/p&gt;
+&lt;p&gt;Hugoを選んだのは単純にGoが好きだから。それだけです。&lt;/p&gt;
 </description>
     </item>
     
