@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Golang on 楽しいことしかやりたくない。</title>
-    <link>http://m0a.github.io/tags/golang/</link>
+    <link>https://m0a.github.io/tags/golang/</link>
     <description>Recent content in Golang on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 16 May 2015 18:12:30 +0900</lastBuildDate>
-    <atom:link href="http://m0a.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://m0a.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>firstStep</title>
-      <link>http://m0a.github.io/post/firstStep/</link>
+      <link>https://m0a.github.io/post/firstStep/</link>
       <pubDate>Sat, 16 May 2015 18:12:30 +0900</pubDate>
       
-      <guid>http://m0a.github.io/post/firstStep/</guid>
+      <guid>https://m0a.github.io/post/firstStep/</guid>
       <description>
 
 &lt;h2 id=&#34;hello:89e60529a142b9bc0a0eb77341dc696a&#34;&gt;Hello&lt;/h2&gt;
