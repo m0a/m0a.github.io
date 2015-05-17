@@ -6,8 +6,56 @@
     <description>Recent content in Onshape on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 16 May 2015 22:20:29 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2015 10:24:49 +0900</lastBuildDate>
     <atom:link href="http://m0a.github.io/tags/onshape/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>genkei atom customize</title>
+      <link>http://m0a.github.io/post/genkei-atom-customize/</link>
+      <pubDate>Sun, 17 May 2015 10:24:49 +0900</pubDate>
+      
+      <guid>http://m0a.github.io/post/genkei-atom-customize/</guid>
+      <description>&lt;p&gt;genkei ATOMを使っています。
+3DPrinter2機種目です。1機種目は引越し時に捨ててしまいました。&lt;br&gt;
+（後から部品取りに使うなりいろいろ手があっただろうと後悔）&lt;/p&gt;
+
+&lt;p&gt;とにかく、購入して1年経過しましたが、いまいちthingiverseのデータを印刷してみるとか、&lt;br&gt;
+使いこなし切れてなかったんですが、&lt;a href=&#34;https://www.onshape.com/&#34;&gt;onShape&lt;/a&gt;をきっかけに、結構なんでも作れるようになってきました。&lt;br&gt;
+それで作ってみたのがこちら。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://m0a.github.io/images/posts/genkei_atom_customize/genkei_atom_customize.jpg&#34; alt=&#34;genkei_atom_customize.jpg&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;X軸周りのパーツを印刷しやすくしたパーツです。&lt;br&gt;
+3D Printerはとにかく、オーバーハングしたパーツを印刷するのが苦手です。&lt;br&gt;
+サポート材を付けて印刷することで、解決は出来るんですが、あとでサポート材を外すのが大変だったりします。&lt;br&gt;
+特にPLAの場合は辛い。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;なので、極力サポート材を付けずに印刷できるようなにしたほうが後々メンテ性が高いと思い、作った次第です。&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;で、作ったのがこちら。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;x_moter&lt;br&gt;
+&lt;img src=&#34;http://m0a.github.io/images/posts/genkei_atom_customize/x_moter_preview_featured.jpg&#34; alt=&#34;x_moter_preview_featured.jpg&#34; /&gt;
+&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;x_end_a&lt;br&gt;
+&lt;img src=&#34;http://m0a.github.io/images/posts/genkei_atom_customize/x_end_a_preview_featured.jpg&#34; alt=&#34;x_end_a_preview_featured.jpg&#34; /&gt;
+&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;x_carriage_lm_a b c 一体型&lt;br&gt;
+&lt;img src=&#34;http://m0a.github.io/images/posts/genkei_atom_customize/x_carriage_lm_abc_set_preview_featured.jpg&#34; alt=&#34;x_carriage_lm_abc_set_preview_featured.jpg&#34; /&gt;
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;thingiverseからダウンロードできます。
+&lt;a href=&#34;http://www.thingiverse.com/thing:798710&#34;&gt;http://www.thingiverse.com/thing:798710&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;onShapeのデータも公開してます。
+&lt;a href=&#34;https://cad.onshape.com/documents/2c2a47a4874a451bbae52e10/w/72d3ecc78847416497e807bc/e/399b262bed5b4e5e9e49d0b8&#34;&gt;https://cad.onshape.com/documents/2c2a47a4874a451bbae52e10/w/72d3ecc78847416497e807bc/e/399b262bed5b4e5e9e49d0b8&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>glasses</title>
@@ -34,6 +82,9 @@
 
 &lt;p&gt;thingverseにもアップしてます。
 &lt;a href=&#34;http://www.thingiverse.com/thing:790898&#34;&gt;http://www.thingiverse.com/thing:790898&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;onShapeのデータも公開してます。
+&lt;a href=&#34;https://cad.onshape.com/documents/6a39e60d71ae4d19ae0e66ac/w/525a50b6016f42d58042b1b0/e/73dcc89cdd2248e1846706b4&#34;&gt;https://cad.onshape.com/documents/6a39e60d71ae4d19ae0e66ac/w/525a50b6016f42d58042b1b0/e/73dcc89cdd2248e1846706b4&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
