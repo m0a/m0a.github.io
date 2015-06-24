@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Haskell on 楽しいことしかやりたくない。</title>
-    <link>http://localhost:1313/tags/haskell/</link>
-    <description>Recent content in Haskell on 楽しいことしかやりたくない。</description>
+    <title>Ue4 on 楽しいことしかやりたくない。</title>
+    <link>http://localhost:1313/tags/ue4/</link>
+    <description>Recent content in Ue4 on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 20 May 2015 23:41:36 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/haskell/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ue4/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>test</title>

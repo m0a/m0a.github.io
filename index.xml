@@ -6,8 +6,49 @@
     <description>Recent content on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 20 May 2015 14:47:52 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2015 17:22:03 +0900</lastBuildDate>
     <atom:link href="https://m0a.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>glasses2</title>
+      <link>https://m0a.github.io/post/glasses2/</link>
+      <pubDate>Wed, 24 Jun 2015 17:22:03 +0900</pubDate>
+      
+      <guid>https://m0a.github.io/post/glasses2/</guid>
+      <description>
+
+&lt;h1 id=&#34;２代目となるメガネを作ったので公開します:d11f8740114dbf91252480dd747e31e3&#34;&gt;２代目となるメガネを作ったので公開します。&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/main.jpg&#34; alt=&#34;main.jpg&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;onShapeで作成し、
+データもtingiverseにて&lt;a href=&#34;http://www.thingiverse.com/thing:895662&#34;&gt;公開&lt;/a&gt;してます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/frame_design_1.jpg&#34; alt=&#34;frame_design_1.jpg&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://m0a.github.io/post/glasses&#34;&gt;1代目&lt;/a&gt;との違いは、下記のようにレンズとサイドフレームをネジでサンドイッチする構造にしたことです。
+&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/frame_design_2.jpg&#34; alt=&#34;frame_design_2.jpg&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;おかげで、印刷後の調整がらくになりました。&lt;/p&gt;
+
+&lt;p&gt;データのリンクはこちら&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;onShape &lt;a href=&#34;https://cad.onshape.com/documents/6a39e60d71ae4d19ae0e66ac/w/525a50b6016f42d58042b1b0/e/73dcc89cdd2248e1846706b4&#34;&gt;https://cad.onshape.com/documents&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;thingiverse
+&lt;a href=&#34;http://www.thingiverse.com/thing:895662&#34;&gt;http://www.thingiverse.com/thing:895662&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;ps:d11f8740114dbf91252480dd747e31e3&#34;&gt;PS&lt;/h1&gt;
+
+&lt;p&gt;onShapeのcompareいい！
+&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/glasses_diff.jpg&#34; alt=&#34;glasses_diff.jpg&#34; /&gt;
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>hashimoto_intai_hantai</title>
@@ -164,12 +205,11 @@ youtubeで橋下さんの動画をたまに見ていて、メディアとの戦�
       <pubDate>Sat, 16 May 2015 18:11:20 +0900</pubDate>
       
       <guid>https://m0a.github.io/about/</guid>
-      <description>&lt;p&gt;どうもです。最近諸事情により仙台に戻っています。&lt;br&gt;
-理由はかなりネガティブなので、聞かないでください。&lt;br&gt;&lt;/p&gt;
+      <description>&lt;p&gt;最近諸事情により仙台に戻っています。&lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;いろいろやりたいことがありますが、できることからやることがコツだと最近知りました。&lt;br&gt;
 興味あることは、好奇心順に&lt;br&gt;
-3DPrinter &amp;gt; iOS &amp;gt; UE4 &amp;gt; FRP(functional reactive programming),Meteorです。
+3DPrinter &amp;gt; iOS &amp;gt; FRP(functional reactive programming) &amp;gt; UE4 &amp;gt; Meteor.jsです。
 Haskellもやりたいけどモナド周りが未だにわかっていない。&lt;/p&gt;
 
 &lt;p&gt;よろしくです！&lt;/p&gt;

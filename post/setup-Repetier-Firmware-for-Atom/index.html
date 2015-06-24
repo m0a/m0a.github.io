@@ -6,7 +6,7 @@
   
   <meta charset="UTF-8">
   <title>
-    3dprinter | 楽しいことしかやりたくない。
+    setup Repetier Firmware for Atom | 楽しいことしかやりたくない。
   </title>
 
 
@@ -56,61 +56,54 @@
 
 
   
-  <main id="list" role="main">
-    <div class="article-header light-gray"><h1>#3dprinter</h1></div>
-    
-    <div class="summary">
-      <h2><a href="https://m0a.github.io/post/glasses2/">メガネ作った。二回目。 </a></h2>
+  <main id="single" role="main">
+    <div class="article-header">
+      <h1>Repetier-FirmwareをATOMで使う。</h1>
       <div class="meta">
-        2015/06/24 17:22:03 &nbsp;
-        
-          #<a href="/tags/3dprinter">3DPrinter</a>&nbsp;
-        
-          #<a href="/tags/onshape">onShape</a>&nbsp;
-        
-      </div>
-    </div>
-    
-    <div class="summary">
-      <h2><a href="https://m0a.github.io/post/myDIYPrinter20150517/">3DPrinter自作01 </a></h2>
-      <div class="meta">
-        2015/05/17 20:39:59 &nbsp;
-        
-          #<a href="/tags/3dprinter">3DPrinter</a>&nbsp;
-        
-          #<a href="/tags/onshape">onShape</a>&nbsp;
-        
-          #<a href="/tags/diyprinter">DIYPrinter</a>&nbsp;
-        
-      </div>
-    </div>
-    
-    <div class="summary">
-      <h2><a href="https://m0a.github.io/post/genkei-atom-customize/">Genkei ATOMのカスタムパーツを作りました。 </a></h2>
-      <div class="meta">
-        2015/05/17 10:24:49 &nbsp;
+        2015-05-31 20:19:22 &nbsp;
         
           #<a href="/tags/3dprinter">3DPrinter</a>&nbsp;
         
           #<a href="/tags/genkei-atom">genkei atom</a>&nbsp;
         
-          #<a href="/tags/onshape">onShape</a>&nbsp;
+          #<a href="/tags/repetier-firmware">Repetier-Firmware</a>&nbsp;
         
       </div>
     </div>
+    <article>
+      <p>実は元々使っていたATOMの基板が壊れてしまいました。
+現在、RAMPS1.4+Arduino Megaに交換しましたが、その際にMarlinからRepetierにファームを変えました。
+理由はなぜかMarlinではうまく動かなかったからです。</p>
+
+<p>その際の記録をまとめます。</p>
+
+<p>こちらに使用したConfigを<a href="//">こちらにおいておきます</a>。
+その際にZ-ENDSTOPをMAX側に変更しています。何故かと言うと、オートベットレベリング機能を使うためです。
+Z-ENDSTOP-MINが有効状態だと<code>G1 Z0</code>実行時にENDSTOP-MINが邪魔をして底面まで下がらなくなってしまいます。</p>
+
+<p>Repetierを使うメリットはプロトコルがasciiベースからbainaryベースに変えることができるため、
+通信が軽くなるってことらしいですが、自分の場合はoctoprint+raspberypiで運用しているのであんまり意味が無い・・・</p>
+
+<p>参考：
+<a href="http://reprap.org/wiki/List_of_Firmware#Repetier-Firmware">http://reprap.org/wiki/List_of_Firmware#Repetier-Firmware</a></p>
+
+    </article>
     
-    <div class="summary">
-      <h2><a href="https://m0a.github.io/post/glasses/">メガネ作ったった </a></h2>
-      <div class="meta">
-        2015/05/16 22:20:29 &nbsp;
-        
-          #<a href="/tags/3dprinter">3DPrinter</a>&nbsp;
-        
-          #<a href="/tags/onshape">onShape</a>&nbsp;
-        
-      </div>
-    </div>
-    
+ <aside><div id="disqus_thread"></div></aside> 
+
+<script type="text/javascript">
+     
+    var disqus_shortname = 'm0a';
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
   </main>
 
 
@@ -137,6 +130,9 @@
 	ga('send', 'pageview');
 </script>
 
-</body>
+<script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
 </html>
 
