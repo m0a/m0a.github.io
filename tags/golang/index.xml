@@ -2,19 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Golang on 楽しいことしかやりたくない。</title>
-    <link>https://m0a.github.io/tags/golang/</link>
+    <link>http://localhost:1313/tags/golang/</link>
     <description>Recent content in Golang on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 16 May 2015 18:12:30 +0900</lastBuildDate>
-    <atom:link href="https://m0a.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 May 2015 23:41:36 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>test</title>
+      <link>http://localhost:1313/post/test/</link>
+      <pubDate>Wed, 20 May 2015 23:41:36 +0900</pubDate>
+      
+      <guid>http://localhost:1313/post/test/</guid>
+      <description>
+
+&lt;h1 id=&#34;テスト書き込み:b128b7694e4de962e0088bcb1bcb254f&#34;&gt;テスト書き込み&lt;/h1&gt;
+
+&lt;p&gt;SDカードを接続して以下のコマンドを実行&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;df -h
+Filesystem                    Size   Used  Avail Capacity   iused     ifree %iused  Mounted on
+/dev/disk1                   465Gi  303Gi  161Gi    66%  79563765  42278409   65%   /
+devfs                        353Ki  353Ki    0Bi   100%      1220         0  100%   /dev
+map -hosts                     0Bi    0Bi    0Bi   100%         0         0  100%   /net
+map auto_home                  0Bi    0Bi    0Bi   100%         0         0  100%   /home
+/dev/disk7s1                  56Mi   14Mi   42Mi    26%       512         0  100%   /Volumes/boot
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;上記から&lt;code&gt;/dev/disk7&lt;/code&gt;　が該当&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;＃ sudo diskutil umount /dev/disk7s1
+Password:
+Volume boot on disk7s1 unmounted
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;sudo dd if=XXX.img of=/dev/rdisk7 bs=1m&lt;/p&gt;
+
+&lt;p&gt;ID&amp;rsquo; : pi
+パスワード&amp;rdquo; : raspberry&lt;/p&gt;
+
+&lt;p&gt;あとはipでアクセスすると使えるようになります。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>firstStep</title>
-      <link>https://m0a.github.io/post/firstStep/</link>
+      <link>http://localhost:1313/post/firstStep/</link>
       <pubDate>Sat, 16 May 2015 18:12:30 +0900</pubDate>
       
-      <guid>https://m0a.github.io/post/firstStep/</guid>
+      <guid>http://localhost:1313/post/firstStep/</guid>
       <description>
 
 &lt;h2 id=&#34;hello:89e60529a142b9bc0a0eb77341dc696a&#34;&gt;Hello&lt;/h2&gt;

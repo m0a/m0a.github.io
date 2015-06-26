@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 楽しいことしかやりたくない。</title>
-    <link>https://m0a.github.io/post/</link>
+    <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 24 Jun 2015 17:22:03 +0900</lastBuildDate>
-    <atom:link href="https://m0a.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>glasses2</title>
-      <link>https://m0a.github.io/post/glasses2/</link>
+      <link>http://localhost:1313/post/glasses2/</link>
       <pubDate>Wed, 24 Jun 2015 17:22:03 +0900</pubDate>
       
-      <guid>https://m0a.github.io/post/glasses2/</guid>
+      <guid>http://localhost:1313/post/glasses2/</guid>
       <description>
 
 &lt;h1 id=&#34;２代目となるメガネを作ったので公開します:d11f8740114dbf91252480dd747e31e3&#34;&gt;２代目となるメガネを作ったので公開します。&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/main.jpg&#34; alt=&#34;main.jpg&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/posts/glasses2/main.jpg&#34; alt=&#34;main.jpg&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;onShapeで作成し、
 データもtingiverseにて&lt;a href=&#34;http://www.thingiverse.com/thing:895662&#34;&gt;公開&lt;/a&gt;してます。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/frame_design_1.jpg&#34; alt=&#34;frame_design_1.jpg&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/posts/glasses2/frame_design_1.jpg&#34; alt=&#34;frame_design_1.jpg&#34; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://m0a.github.io/post/glasses&#34;&gt;1代目&lt;/a&gt;との違いは、下記のようにレンズとサイドフレームをネジでサンドイッチする構造にしたことです。
-&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/frame_design_2.jpg&#34; alt=&#34;frame_design_2.jpg&#34; /&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/post/glasses&#34;&gt;1代目&lt;/a&gt;との違いは、下記のようにレンズとサイドフレームをネジでサンドイッチする構造にしたことです。
+&lt;img src=&#34;http://localhost:1313/images/posts/glasses2/frame_design_2.jpg&#34; alt=&#34;frame_design_2.jpg&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;おかげで、印刷後の調整がらくになりました。&lt;/p&gt;
@@ -46,20 +46,2428 @@
 
 &lt;p&gt;onShapeのcompareいい！
 １代目との差分を表示してます。
-&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/glasses_diff.jpg&#34; alt=&#34;glasses_diff.jpg&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/images/posts/glasses2/glasses_diff.jpg&#34; alt=&#34;glasses_diff.jpg&#34; /&gt;
 &lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>hashimoto_intai_hantai</title>
-      <link>https://m0a.github.io/post/hashimoto_intai_hantai/</link>
-      <pubDate>Wed, 20 May 2015 14:47:52 +0900</pubDate>
+      <title>oyayubishiftinput</title>
+      <link>http://localhost:1313/post/oyayubishiftinput/</link>
+      <pubDate>Sat, 20 Jun 2015 01:18:25 +0900</pubDate>
       
-      <guid>https://m0a.github.io/post/hashimoto_intai_hantai/</guid>
+      <guid>http://localhost:1313/post/oyayubishiftinput/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/hashimoto_intai_hantai/change_org.jpg&#34; alt=&#34;change_org.jpg&#34; /&gt;
+&lt;h1 id=&#34;はじめに:2982c74f74f5adebcb0b1a0505d95045&#34;&gt;はじめに&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://backspace.fm/episode/094/&#34;&gt;backspacefmというポッドキャスト&lt;/a&gt;を視聴していたところ親指シフト入力の話があり、
+すごく惹かれてしまいました。&lt;/p&gt;
+
+&lt;p&gt;ちょっとMacでUSキーボードでという状況ですが、ここからでも始められるという話を聞いたので、
+始めて見ることにしました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E8%A6%AA%E6%8C%87%E3%82%B7%E3%83%95%E3%83%88&#34;&gt;親指シフト入力とは&lt;/a&gt;
+日本語の文章を入力する上で『効率』と『使いやすさ』のバランスを再設計するために、いくつかの検討と実験を行ったうえで「一つのアクションが、一つのかなに対応する」方法&lt;/p&gt;
+
+&lt;p&gt;そうです。
+(wikipediaより)&lt;/p&gt;
+
+&lt;p&gt;打鍵数がひらがなと一致するのでローマ字入力と比べると半分近くに減ることになります。
+正直今のタイピングもエセブラインドタイピングなので、体得できるか試してみることにします。&lt;/p&gt;
+
+&lt;h1 id=&#34;操作方法:2982c74f74f5adebcb0b1a0505d95045&#34;&gt;操作方法&lt;/h1&gt;
+
+&lt;p&gt;　いい記事がありました
+&lt;a href=&#34;http://qiita.com/mochi/items/5b44169db7b3a76d3da1&#34;&gt;http://qiita.com/mochi/items/5b44169db7b3a76d3da1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;日本語入力難しい
+ししししsssss&lt;/p&gt;
+
+&lt;p&gt;う市あときいいしあいあいあいあい
+なあいうえのおおとしあとあんあい
+あきあいうえお
+をあいうえお
+あいうえのお
+あいうえお
+あいうえのおあいうえお
+あいうえお
+をあ
+あいうえお
+開いうか
+を
+あいうえお
+あいうえお
+あいうえお
+あいうえお
+を
+あん
+開いうか
+あいうえお
+を
+あん
+あいうえお
+あいうえのん&lt;/p&gt;
+
+&lt;p&gt;あいうえお
+あいうえお
+えあ&lt;/p&gt;
+
+&lt;p&gt;う
+し&lt;/p&gt;
+
+&lt;p&gt;s s あ
+ あいうえのお
+ あいうえのおん
+ あいうか
+ う
+ あいうえお
+ あいうえきとお
+ うし
+ あん
+ あいうえお
+ 開いうか
+ う
+ あいうえおん
+ あいうえと
+ う
+ あいうえとお
+ う
+ あいうえお
+ をう
+ をああ
+ あ
+ あいうえお
+ を
+ 開いうか
+ あいうえお
+ ををを
+ あいうえお
+ あいうえいん
+ あいうえお
+ を&lt;/p&gt;
+
+&lt;p&gt;あいうえと&lt;/p&gt;
+
+&lt;p&gt;を&lt;/p&gt;
+
+&lt;p&gt;あいうえお
+ あいうえお
+ を&lt;/p&gt;
+
+&lt;p&gt;う&lt;/p&gt;
+
+&lt;p&gt;市&lt;/p&gt;
+
+&lt;p&gt;あいうえお
+ あいうえの&lt;/p&gt;
+
+&lt;p&gt;あいうえお
+ あいうえとおおおおおおおおおおおおおおおおおおおおおおおおお&lt;/p&gt;
+
+&lt;p&gt;あいうあ
+ あいうえおんん&lt;/p&gt;
+
+&lt;p&gt;あいうえお
+ あいうえお
+ を&lt;/p&gt;
+
+&lt;p&gt;あいうえお
+ あいうあ&lt;/p&gt;
+
+&lt;p&gt;あいうあ&lt;/p&gt;
+
+&lt;p&gt;あいうえお
+ あいうえお
+ あいうえお
+ あいうえお
+ あいうえお
+ あいうえお
+ あいうあ&lt;/p&gt;
+
+&lt;p&gt;あいうえお
+ あいうえお
+ あいうえお
+ あいうえお
+ 開いうか&lt;/p&gt;
+
+&lt;p&gt;あいうえお
+ あいうえお
+ あいうえの&lt;/p&gt;
+
+&lt;p&gt;ののおおのおおおおおおおおののののののおおおとおおおおおおお&lt;/p&gt;
+
+&lt;p&gt;あいうえお
+ あいうえお
+ あきうえおん&lt;/p&gt;
+
+&lt;p&gt;あいうあ
+ あき&lt;/p&gt;
+
+&lt;p&gt;う&lt;/p&gt;
+
+&lt;p&gt;あいうえお
+ あいうえお
+ 開いうか
+ かええええ&lt;/p&gt;
+
+&lt;p&gt;し&lt;/p&gt;
+
+&lt;p&gt;sssss&lt;/p&gt;
+
+&lt;p&gt;し&lt;/p&gt;
+
+&lt;p&gt;あいうえお
+ あいうえお
+ し&lt;/p&gt;
+
+&lt;p&gt;s&lt;/p&gt;
+
+&lt;p&gt;し&lt;/p&gt;
+
+&lt;p&gt;あいうえの
+ 開いうか
+ あいえんん&lt;/p&gt;
+
+&lt;p&gt;あいうえお
+ あいうえのお
+ あいうえお
+ 開いうか
+ う&lt;/p&gt;
+
+&lt;p&gt;あいうえお
+ あいうえお
+ あいうえお
+ あいうえお
+ あいうえお
+ あいうえお
+ あいうえお
+ あいうえお
+ あいうえお
+ し&lt;/p&gt;
+
+&lt;p&gt;あいうえお
+ あいうえお
+ あいうえお
+ あいうえお
+ あいうえお
+ あいうえお
+ あいうえお
+ あいうえお
+ あいうえお
+ あいうえお
+ あいうえお
+ あいうえお
+ あいうえお&lt;/p&gt;
+
+&lt;p&gt;かきくけこ
+ かきくけこ
+ かきくけこ
+ かきくけこ
+ かきくけこ
+ かきくけこ
+ かきくけこ
+ かきくけこ
+ かきくけこ
+ かきくけこ
+ かきくけこ
+ かきくけこ
+ かきくけこ
+ かきと&lt;/p&gt;
+
+&lt;p&gt;かきくけこ
+ かきくけこ
+ かきくけこ
+ かきくけこ
+ かきくけこ
+ かきつ&lt;/p&gt;
+
+&lt;p&gt;かきくけこ
+ かきくけこ
+ かきくけこ
+ かきつ
+ つくくくくくく&lt;/p&gt;
+
+&lt;p&gt;くきくきくきく&lt;/p&gt;
+
+&lt;p&gt;かいく&lt;/p&gt;
+
+&lt;p&gt;かい
+ かきく
+ かきくけこ&lt;/p&gt;
+
+&lt;p&gt;かきくけこ
+ かきくけこ
+ かきくけこ
+ かきくい&lt;/p&gt;
+
+&lt;p&gt;かきくき
+ かきくけこ
+ かきくけこ&lt;/p&gt;
+
+&lt;p&gt;かきくけこ
+ かきくけこ
+ かきくけこ
+ かきくけこ
+ かきくい&lt;/p&gt;
+
+&lt;p&gt;かきくけこ
+ かきくけこ
+ かきくけさ&lt;/p&gt;
+
+&lt;p&gt;かきくけこ
+ かきくけこ
+ 。
+ かきくけこ
+ かきくけこ
+ かきくけこ
+ かきくけこ
+ し&lt;/p&gt;
+
+&lt;p&gt;かきくけこ
+ かきくけこ
+ かきくけこ
+ かきくけこ
+ かとち
+ かきくけこ
+ かきくけこ
+ かと&lt;/p&gt;
+
+&lt;p&gt;けきくけこ
+ かきくけこ
+ かきくけこ
+ かきくけこ
+ かと&lt;/p&gt;
+
+&lt;p&gt;かきとく&lt;/p&gt;
+
+&lt;p&gt;かきくけこ
+ かきくけこ
+ かきくけこ
+ かきくけく
+ かきくけこ&lt;/p&gt;
+
+&lt;p&gt;かきくけこ
+ かきけ&lt;/p&gt;
+
+&lt;p&gt;かきくけこ
+ かきくけこ
+ けきく&lt;/p&gt;
+
+&lt;p&gt;かきくけこ
+ かきくけきこ&lt;/p&gt;
+
+&lt;p&gt;かきくけき
+ こきく&lt;/p&gt;
+
+&lt;p&gt;かきくけこ
+ けきくけこ
+ かきくけこ
+ けきくけこ&lt;/p&gt;
+
+&lt;p&gt;かきくけこ
+ かきくけこ
+ けきく&lt;/p&gt;
+
+&lt;p&gt;かきくけこ
+ こき&lt;/p&gt;
+
+&lt;p&gt;かきくけこ
+ かきくけこ
+ かきくけこ
+ かきくけこ
+ けき&lt;/p&gt;
+
+&lt;p&gt;かきくけこ
+ かきくけこ
+ けきく&lt;/p&gt;
+
+&lt;p&gt;かきくけこ
+ かきくけこ
+ かきくけこ
+ かきくけこ
+ かきくけこ&lt;/p&gt;
+
+&lt;p&gt;さしすせそ
+ さしすせそ
+ さしすせそ
+ さしすせそ
+ さしすせそ
+ さして&lt;/p&gt;
+
+&lt;p&gt;さしすせそ
+ さしすせそ
+ さしすせそ
+ さしすせそ
+ し&lt;/p&gt;
+
+&lt;p&gt;さしすせそ
+ さしすせそ
+ さしすせそ
+ さしすせそ
+ さしすふ&lt;/p&gt;
+
+&lt;p&gt;さしすせそ
+ さしすせそ
+ さしすす&lt;/p&gt;
+
+&lt;p&gt;さしすせそ
+ し&lt;/p&gt;
+
+&lt;p&gt;さしすせそ
+ さてふ&lt;/p&gt;
+
+&lt;p&gt;さてすそせ&lt;/p&gt;
+
+&lt;p&gt;さて&lt;/p&gt;
+
+&lt;p&gt;さす
+ さして&lt;/p&gt;
+
+&lt;p&gt;さしすせそ
+ さてし
+ さしすい&lt;/p&gt;
+
+&lt;p&gt;さて
+ さて
+ さしすせそ
+ さて
+ さて&lt;/p&gt;
+
+&lt;p&gt;さて
+ さしすせそ
+ さしすせそ
+ さてさ&lt;/p&gt;
+
+&lt;p&gt;さして
+ さしすせそ
+ さしすせそ
+ さしすせそ
+ さしすせそ
+ さしすせそ
+ さしすせそ
+ さしすせそ&lt;/p&gt;
+
+&lt;p&gt;さしすせそ
+ さしすせそ
+ さしすせす&lt;/p&gt;
+
+&lt;p&gt;さしすせそ
+ さしすせす&lt;/p&gt;
+
+&lt;p&gt;さしすせそ
+ さしすせそ
+ さしそ
+ さて
+ さしすせす
+ さしけ
+ さて&lt;/p&gt;
+
+&lt;p&gt;さしすせそ
+ さしすせそ
+ さしすけ&lt;/p&gt;
+
+&lt;p&gt;さて&lt;/p&gt;
+
+&lt;p&gt;さしすせそ
+ さしすせそ
+ さしすせそ
+ さしせ&lt;/p&gt;
+
+&lt;p&gt;さしすせそ
+ さしすせそ
+ さしすせそ
+ さしすせそ
+ さてすせそ&lt;/p&gt;
+
+&lt;p&gt;さしすせそ
+さしすせそ
+さしすせそん&lt;/p&gt;
+
+&lt;p&gt;さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ&lt;/p&gt;
+
+&lt;p&gt;たちつてと
+たく&lt;/p&gt;
+
+&lt;p&gt;たちつてと
+たちつてと
+たちつてと
+たちつてと
+たちつてと
+たくつ&lt;/p&gt;
+
+&lt;p&gt;かた&lt;/p&gt;
+
+&lt;p&gt;たちつてと
+たちつてと
+か
+たちん&lt;/p&gt;
+
+&lt;p&gt;たちつてと
+か
+たちつてと
+てとてとてとてとてとてとてとてとてとてとてととててとてとてとてとてつつつつつてとてつつてつてつて、、&lt;/p&gt;
+
+&lt;p&gt;かかかかかか
+た&lt;/p&gt;
+
+&lt;p&gt;たちつてと
+たく
+たち≤≤≤≤&lt;/p&gt;
+
+&lt;p&gt;つ&lt;/p&gt;
+
+&lt;p&gt;か&lt;/p&gt;
+
+&lt;p&gt;たちつてと
+たちつてと
+たちき&lt;/p&gt;
+
+&lt;p&gt;たちつてと
+たちつてと
+たちつてと
+たく&lt;/p&gt;
+
+&lt;p&gt;たちつてと
+たちつた
+たちつてと
+たく
+たちて&lt;/p&gt;
+
+&lt;p&gt;たちつてと
+たちつてと
+たちつてと
+たちて
+た&lt;/p&gt;
+
+&lt;p&gt;たちつてと
+たちて&lt;/p&gt;
+
+&lt;p&gt;たちつてと
+たちつてき&lt;/p&gt;
+
+&lt;p&gt;たちつてと
+たちつてと
+たちつてと
+たちつてと
+たちつてと&lt;/p&gt;
+
+&lt;p&gt;たちつてと
+たちつてと
+たちつてと
+たちつてと
+たちつてと
+たちつてと
+たつ&lt;/p&gt;
+
+&lt;p&gt;たちつてと
+たちつてと
+たちつてと
+たちつてと
+たちつてと
+たちつてと&lt;/p&gt;
+
+&lt;p&gt;はひびびびびーーーーーーーー&lt;/p&gt;
+
+&lt;p&gt;はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ&lt;/p&gt;
+
+&lt;p&gt;はひふへほ
+はひふへほ
+はひひひひひひひひひひひひ&lt;/p&gt;
+
+&lt;p&gt;はひふへほ
+はひふへほ&lt;/p&gt;
+
+&lt;p&gt;はひひひひひひひひひひひひひすす
+ふへふへふへへふふへへへへはひふへ
+はひふへほ
+はひふへほ&lt;/p&gt;
+
+&lt;p&gt;はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひへ
+はひふへほ
+はひふへほ&lt;/p&gt;
+
+&lt;p&gt;はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ&lt;/p&gt;
+
+&lt;p&gt;つ
+まくままま
+るそ&lt;/p&gt;
+
+&lt;p&gt;ょ
+まみむめゅも
+る
+まみむめも
+まみむぬめせも
+まそみ
+まみむめも
+る
+まみむめも
+まみむめもも
+もも
+まみむめも
+まみむめゅも
+まみむめも
+まみむめも
+まみむめも&lt;/p&gt;
+
+&lt;p&gt;まみむも&lt;/p&gt;
+
+&lt;p&gt;まみむめも&lt;/p&gt;
+
+&lt;p&gt;つ&lt;/p&gt;
+
+&lt;p&gt;まみゆ
+まみめ&lt;/p&gt;
+
+&lt;p&gt;まみゆ&lt;/p&gt;
+
+&lt;p&gt;まみむめも
+まみゆ&lt;/p&gt;
+
+&lt;p&gt;むむむむむむむ
+むむ&lt;/p&gt;
+
+&lt;p&gt;ねむむね
+ねねねねねね
+むむむねね&lt;/p&gt;
+
+&lt;p&gt;まむ&lt;/p&gt;
+
+&lt;p&gt;まみむめも
+まみむめも
+まみむそ
+めめめめめ&lt;/p&gt;
+
+&lt;p&gt;ぇ&lt;/p&gt;
+
+&lt;p&gt;まみむめも
+まみののののむむむむねむね&lt;/p&gt;
+
+&lt;p&gt;ねねむむむむむむむ&lt;/p&gt;
+
+&lt;p&gt;まみむめも
+まみむめも
+まみむめも
+まみむめも&lt;/p&gt;
+
+&lt;p&gt;まみむめも
+まみょねむむむむむ&lt;/p&gt;
+
+&lt;p&gt;むむはみねむはみねみねむはむはみねみねむはむむむむむむむむむ
+むむむ&lt;/p&gt;
+
+&lt;p&gt;むむむ
+むねむ&lt;/p&gt;
+
+&lt;p&gt;むむむむむねむむむむむむむむねむむむむむむむむむむむねねむむむむむむむむむ&lt;/p&gt;
+
+&lt;p&gt;まみむめも&lt;/p&gt;
+
+&lt;p&gt;まみむめも
+まみむめも
+まみむめも&lt;/p&gt;
+
+&lt;p&gt;まみのは&lt;/p&gt;
+
+&lt;p&gt;まみののののむむむ&lt;/p&gt;
+
+&lt;p&gt;ののののむはむむねむむむむむむむ&lt;/p&gt;
+
+&lt;p&gt;まみむはい&lt;/p&gt;
+
+&lt;p&gt;む
+む
+む
+まみむは
+の
+む
+ょ
+むむむね
+む
+む
+むは
+む
+む
+む
+まみむめゅも&lt;/p&gt;
+
+&lt;p&gt;まみむめも
+まみむめも
+まみむめも&lt;/p&gt;
+
+&lt;p&gt;みみみみみみ￥￥&lt;/p&gt;
+
+&lt;p&gt;むむむむむむむむねむむむむむむむ&lt;/p&gt;
+
+&lt;p&gt;む
+む
+まみむめも
+まみむめも
+まみむめせ
+ g gg gゅもgもgもももももももggggｇももももも&lt;/p&gt;
+
+&lt;p&gt;る
+ ｐままままままままままｐまｐ&lt;/p&gt;
+
+&lt;p&gt;まみむっっっっｍ
+ ｍ、ｎ&lt;/p&gt;
+
+&lt;p&gt;ぬぬっっっっっっっｍ&lt;/p&gt;
+
+&lt;p&gt;っっｊっｃ
+ DDDD&lt;/p&gt;
+
+&lt;p&gt;p
+まみむめも
+まみむめも
+まみむめも
+まみむめも
+まみむめも&lt;/p&gt;
+
+&lt;p&gt;やぬゆよ
+よよよよよよん&lt;/p&gt;
+
+&lt;p&gt;よらよよよらよよよよよよよよ&lt;/p&gt;
+
+&lt;p&gt;やゆよ
+やゆぱよよよよよよ
+よよよよよ
+ゅ￥
+ゅゅゅゅゅゅ
+ややゆよ
+よ
+よ
+やゆよ
+やゆよ
+やゆよ
+やょそゆゆゆゆゆゆゆゆよ
+やゆよ
+やむむいむむむむむむむゆゆゆむむむむゆゆゆゆ
+やゆよ
+やむむむむむむむむむむむそゆゆよ
+やゆよ
+府&lt;/p&gt;
+
+&lt;p&gt;やゆよ
+やゆよ
+やゆよ
+やそみそゆよ
+やゆよ
+やのそゆゆゆよ
+府
+やや
+ゅ
+　　&lt;/p&gt;
+
+&lt;p&gt;ゅゅ
+やゆよ
+やゆよ
+やゆよ
+ゅ&lt;/p&gt;
+
+&lt;p&gt;やゆよ
+やゆ｛よ&lt;/p&gt;
+
+&lt;p&gt;やゆよ
+やゆよ
+やゆよ
+やゆよ
+やゆよ&lt;/p&gt;
+
+&lt;p&gt;ほわ
+むわわわ&lt;/p&gt;
+
+&lt;p&gt;わをん
+わをん
+&amp;lt;!&amp;ndash;  &amp;ndash;&amp;gt;わ&lt;/p&gt;
+
+&lt;p&gt;わをん
+ワウ
+をん&lt;/p&gt;
+
+&lt;p&gt;わをん
+わをん
+わをん
+わをん
+わをん&lt;/p&gt;
+
+&lt;p&gt;わをん&lt;/p&gt;
+
+&lt;p&gt;わをい
+んんんんん&lt;/p&gt;
+
+&lt;p&gt;わをん
+わをん
+わをん
+わをん
+わをん
+わをん
+わをん
+わをん&lt;/p&gt;
+
+&lt;p&gt;わをん
+わをん
+わをん
+わをん
+わをん&lt;/p&gt;
+
+&lt;p&gt;きのう
+きのう
+きのう
+きのう
+きのう
+ききう
+きのう&lt;/p&gt;
+
+&lt;p&gt;きのう
+きのう
+きょう
+きょう
+きょう
+きょう
+きょう
+きいう
+きょう
+きょう
+きょう&lt;/p&gt;
+
+&lt;p&gt;あす
+うす
+うす
+しあす
+あす
+あす
+あす
+あす
+あす
+あす
+あす
+あす
+あす
+あす&lt;/p&gt;
+
+&lt;p&gt;きのう
+きのう
+きのう
+きのう&lt;/p&gt;
+
+&lt;p&gt;きょう
+あす&lt;/p&gt;
+
+&lt;p&gt;きのう　きょうあすきのうあす
+きのうきょうあすきのうきょうあす
+はいけい
+はいけいはいけい
+はいけい
+はけいけ
+はいけい
+はいけい
+はいけい
+はいけい
+はいけい
+はいけい
+はいけい
+はいけい
+けいぐけいぐ
+けいぐ
+けいぐ
+景区く
+系く
+けいぐ
+系く
+けいぐ
+けいぐ
+けいぐ
+系く
+けいぐ
+けいぐ
+毛聞く
+毛聞く
+けいぐ
+けいぐ
+けいぐ
+けいぐ
+けいぐ
+けいぐ
+けいぐ&lt;/p&gt;
+
+&lt;p&gt;はいけい
+けいきけ
+はいけい
+はいけい
+はけ
+はいけい
+はんけん&lt;/p&gt;
+
+&lt;p&gt;けいけい
+はいけい
+はいけい
+はいけい
+はいけい
+はいけい
+はいけい
+はいけい
+はいけい
+はんけい
+はいけい
+はいけい
+はいけい&lt;/p&gt;
+
+&lt;p&gt;けいぐ
+けいぐ
+けいぐ
+けいぐ
+けいぐ
+けいぐ
+けいぐ
+景区&lt;/p&gt;
+
+&lt;p&gt;系く
+けいぐ
+けいぐ
+景区
+けいぐ
+けいぐし
+けいぐ
+景区
+けいぐう
+けいぐ
+景区
+けいぐ
+けいぐ
+景区
+けいぐ
+けいぐ
+けくぽ
+けいぐ
+けいぐ
+けいぐ
+けいぐ
+けいぐ
+はいけい
+けいぐ
+けいぐ
+けいぐ
+ぐぐぐぐぐぐぐ
+けいぐ
+はいけい
+はいけい
+はいけい&lt;/p&gt;
+
+&lt;p&gt;ですますますですます&lt;/p&gt;
+
+&lt;p&gt;で
+でで
+ですつつつます
+ですますですますですます
+ですます
+ですますですますですますですます
+であるだであであるなある
+である
+だ
+である
+だ
+である
+だ
+である
+だ
+である
+だ
+である
+だ
+である&lt;/p&gt;
+
+&lt;p&gt;である
+だ
+である
+だ
+である
+だ
+である
+だ
+である
+だ&lt;/p&gt;
+
+&lt;p&gt;という
+だという
+という
+だという
+という
+だという
+という
+だという&lt;/p&gt;
+
+&lt;p&gt;あなたとわたし
+あなたとわたし
+あなたとわたし
+あなたとわたし
+あなたとわたし
+あなたとわたし
+あなたとわたし
+あなたとわたし
+あなたとわたし
+あなたとわたし&lt;/p&gt;
+
+&lt;p&gt;くるこないくるくるくるくるこないくるこない
+くるこない
+くる
+こない
+くる
+たなきい
+こない
+こない
+こない
+こない
+さない
+さない
+さない
+こない
+こない
+ゃてい
+コテい
+こあい
+こない
+さない
+さ
+こない
+こない
+こない
+くぐくる
+くるん
+くる
+しかししかしかししかししかしししかししかし
+しかしまたたてた
+しかし
+まて
+また
+また
+つた
+また
+かしか
+しかし
+また
+また
+また
+また
+また
+したし
+しかし
+また
+また
+しかしまた
+しかしまた
+いって
+やって
+いってやって
+いって
+やって
+てて
+っ言ってふやって
+やって
+っっっっ
+いってやって
+いって
+これは
+これは￥
+これは
+これは
+これは
+それうを
+それを
+ををうを
+をを
+を
+　う
+を
+を
+を
+を
+それを
+これを
+これは
+これはこれは&lt;/p&gt;
+
+&lt;p&gt;06/21 8:00
+きのう　きょう　あす　きのう　きょう　あす
+はいはいはいけい
+はいけい
+けいぐぐぐぐぐぐぐ
+けいぐ
+けいぐ
+毛く
+けいるるぐ
+けいぐ
+です
+ます
+ます
+ます
+である
+である
+るるるるるるるくるはみみみはははみみみはははみは
+るるるくる
+であまるるるる
+である
+だだである
+だである
+だ
+という
+だという
+だという
+だという
+じじ&lt;/p&gt;
+
+&lt;p&gt;あなたとわたし
+あなたとわたし
+て
+あな
+あなたとわたし
+あなたとわたし
+あなたとわたし
+あなたとわたし&lt;/p&gt;
+
+&lt;p&gt;あなたとわたし&lt;/p&gt;
+
+&lt;p&gt;ししししししし
+ししししししししししし&lt;/p&gt;
+
+&lt;p&gt;ししししし
+しししししし
+あなたとわたし
+ししししししししし
+アシアし
+しあしあ足足足足足足足
+あなたとわたし
+くるるるるくるるるる
+るくるるるるるる&lt;/p&gt;
+
+&lt;p&gt;るるるるるるる
+くるるるるくくくくくくる
+くるくるくるるるるく
+くる
+くる
+くる
+くる
+こない
+ささささこない
+こなきい
+ない
+ない
+たない
+コテ
+さない
+こない
+ゃない
+こない
+こない
+こない
+くる&lt;/p&gt;
+
+&lt;p&gt;こない
+こない
+コテ
+こない
+こない
+こない
+つま
+くく
+くる
+くる
+こない
+くる
+こない
+くる
+しかし
+しかし
+しかし
+うしてけせ
+うしてけせ
+はときいん
+はときいん
+はときいんん
+はときいい
+はときいんは
+はときいん
+はときいん
+うしてけせ
+うしてけせ
+うしてけせ
+はときいん
+はときいん
+うしてけせ
+うしてけせ
+うしてけせ
+くる
+くく
+くる
+こない&lt;/p&gt;
+
+&lt;p&gt;１５：５５
+きのう　きょう　あす　のう　きょう　あす
+きのうきょうあす
+きのう　あすあした
+あした
+あした
+足足足しし&lt;/p&gt;
+
+&lt;p&gt;あした
+あす明日スススススス明日明日明日明日明日明日明日明日足寿司す&lt;/p&gt;
+
+&lt;p&gt;あした
+あいうえおかきくけこ
+さしすすすすすすせせせせ
+さしすせ
+こしすせそさしすせそ
+さしすせそさしすせそ
+さしすせそさしすせそさしすせそさしすせそさしすせそさしすせそ
+たちつてとたちつてとたちつてとたちつてとたちつてと
+たちつてと
+たちつてとたちつてとたちつてと
+たちつてと
+たちつてとたちつてと
+たちつてと
+たちつてと
+たちつてと
+たちつてと
+たちつてと
+たちつてと
+たちつてと
+たちつてと
+たち
+たちつてとたちつてとめめめ
+たちつてと
+なななななにちにににぬぬぬねねねきののの
+なにぬねねのきききききききききききききききそきききき
+なにににににににににねねねのなにぬねの
+なにぬねのねのねきねのねきねのねのねのねのねきねきねきねきねのねのねのねきねのねきねのねのねのねのねきねのねのねの
+ねのねねきねのねのねのねきねのねのねの
+なにぬそおそのぬぬぬぬなにぬ
+なるとおおゆゆゆ
+ぬぬぬ
+なにぬぬぬぬめ
+なにぬ
+なにぬ
+なるぬ
+なる
+なにぬ
+なにぬ
+なにぬねの
+なにぬねの
+なにぬねの&lt;/p&gt;
+
+&lt;p&gt;なにぬねの
+なにぬぬきぬぬめねの
+なにぬねのなにぬねのなにぬねの
+なにゆゆめぬぬねのぬむき
+の
+なにぬそそそねきの
+なにぬねのねの
+なにぬねのなにぬねきの
+なにぬねの
+なにぬねの
+なにぬねの
+なにぬねの
+なにぬねの
+なるぬねのむのむきむねのねのねのねのねの
+なにぬねの
+なにぬねの
+なにぬねの
+なにぬねの
+のねぬにな
+のねぬにな
+のねぬにな
+なにぬねの
+のにぬねの
+せいぎのみかた
+せいぎのみかた
+せいぎのみかた
+せいぎのみかた
+せいぎのみう２４
+かた
+せいぎのみかたせいぎのみか
+せいぎのみかた正義のミカタみかた&lt;/p&gt;
+
+&lt;p&gt;せいぎのみかた
+せいぎのみかた
+せいぎのみかた
+せいぎのみかた
+せいぎのみかたせいぎのみかたかたかたかたかたかかかたかたかたみかたみかたみかた
+せいぎのみかた
+せいぎのみかた
+せいぎのみかた
+せいぎのみかた&lt;/p&gt;
+
+&lt;p&gt;おしえてにゅーすらい 　げげげぶ
+教えてニュースライブ
+正義のミカタ
+安部総理と橋下氏が急接近！？
+安保法則の行方&lt;/p&gt;
+
+&lt;p&gt;えええええええ
+ぁ
+けけけけ
+なにぬねの
+なにぬねの
+あにぬねの
+なにぬねの
+なにぬねの
+なにぬねる
+の
+なにぬねの
+なるぬねの
+なにぬねの
+なにぬねの
+なにぬねの
+なにぬねの
+なるぬねの
+なるむねの
+なにぬねの
+なるぬねの
+なにぬねの
+なにぬそねの
+なにぬねの
+なにぬねの
+はひふへほ
+はひふへほ
+はひけふへほ
+はひふへほほ
+けひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+けひふへほ
+はひふへほ
+はひふへほ
+はふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+まみむめも
+まみむめも
+まみむめも
+もももももももももももも
+まみむめも
+まみむめも
+まみむめも
+まみむめもめもめもめも
+めも
+めも
+ぬ背
+めも
+めも
+まみむめも
+まみむめも
+まみむめも
+まみむめも
+まみむめも
+まみむめも&lt;/p&gt;
+
+&lt;p&gt;や
+ゆ
+ゆきき&lt;/p&gt;
+
+&lt;p&gt;そそ
+ゆゆゆゆゆ
+ゆゆゆゆ
+よ
+ら&lt;/p&gt;
+
+&lt;p&gt;よ
+よ
+よ
+よ
+よ
+よ
+やゆよく
+よ
+やゆよ
+ゆよ&lt;/p&gt;
+
+&lt;p&gt;ら
+ら
+ら
+ら
+よ
+らよ&lt;/p&gt;
+
+&lt;p&gt;よよ
+よ
+よ
+よ
+よ
+やゆよ
+やゆよ
+やゆよ
+やゆよ
+やゆよ
+やゆよ
+やゆら
+やゆよ
+らりるらりる
+え
+り
+る
+ラリルレスろ
+ろ
+ねねむむむね&lt;/p&gt;
+
+&lt;p&gt;らりるれろラリルれレスろろろサロレス
+れろれろれろれろ
+ラリルれろ
+らりるれろ
+らりるれろ
+らりるれろ
+らりるるれろれろ
+らりるれろよ
+らりるれろ
+らりるれろ
+らりりりりりりり&lt;/p&gt;
+
+&lt;p&gt;りりりりり&lt;/p&gt;
+
+&lt;p&gt;らたらり
+らりらり
+ラリるさろ
+れれれれ
+さ
+ラタ
+らりるれろ
+ラリるさろ
+らりるれろ
+らりるれろ
+らりるれろ&lt;/p&gt;
+
+&lt;p&gt;ラリルれゃれやんれろ
+らりにれろ
+わをん
+わをん
+んんんん
+わをん
+わをん
+わをん
+ほ&lt;/p&gt;
+
+&lt;p&gt;んほほほほほほほほほほほほほほほ
+わほほほほほほほね&lt;/p&gt;
+
+&lt;p&gt;むほ
+わほ
+わをん
+わをん
+ありがとうございます。
+今日の深夜番組に場稜威さんの名前を発見
+急いで録画予約しました！！
+よ&lt;/p&gt;
+
+&lt;p&gt;あいうえお
+かきくけこ
+さしすせそ
+たちつてと
+なにぬねの
+なにぬねの
+あくぬねの
+なにぬぬぬぬぬぬぬぬぬぬ
+ぬぬぬぬぬぬぬぬぬぬぬぬぬぬぬ
+なにぬねの
+なにぬねの
+なにぬねの
+なにぬねの
+なにぬねの
+なにぬねの
+あにぬねの
+なくぬねの
+なにぬねの
+なにぬねの
+なにぬねの&lt;/p&gt;
+
+&lt;p&gt;はひふへほ
+はひふへほ
+はひふへほ
+はふへほ
+はひふへほ
+はひふへほ&lt;/p&gt;
+
+&lt;p&gt;まみむめも
+まみむめも
+まみむむむむむむむめも
+まみむめも
+まみむめも
+むすめ
+むすめ
+むすめ
+むすめ
+むすめ
+むすめ&lt;/p&gt;
+
+&lt;p&gt;やゆよ
+よよよよよ
+よよ
+よ
+容疑者
+やゆよ
+やゆよ
+やゆよ
+やゆよ
+やゆよ
+やゆよゆよゆよゆよ&lt;/p&gt;
+
+&lt;p&gt;ライバル
+ライバル
+ライバル
+ライバル&lt;/p&gt;
+
+&lt;p&gt;らりるれろ
+らりるれろ
+らりるれろ
+ラリルれろ
+らりるれろ
+ラリリラリラリラリー
+ラリー
+ラリー
+ラリー
+ラリー&lt;/p&gt;
+
+&lt;p&gt;ラリー
+ラリー&lt;/p&gt;
+
+&lt;p&gt;らりるれろ
+らりるれろ
+らりるれろ
+るるるる
+らりるれろ
+らりるれろ
+らりるれろ
+らりるれろ
+らりるれろ
+らりるろろ
+らりるれろ
+らりるれろ&lt;/p&gt;
+
+&lt;p&gt;らりるれろ&lt;/p&gt;
+
+&lt;p&gt;わをん
+わをん
+わをん&lt;/p&gt;
+
+&lt;p&gt;22:25&lt;/p&gt;
+
+&lt;p&gt;あいうえお
+かきくけこ
+さしすせそ
+たちくてと
+なにぬねの
+はひふへほ
+まみむめも
+やゆよ
+らりるれろ
+わをん&lt;/p&gt;
+
+&lt;p&gt;ここまで6分23秒&lt;/p&gt;
+
+&lt;p&gt;あいうえお
+かきくけこ
+さしすせそ
+たちつてと
+はひふへほ
+まみむめも
+やゆよ
+らりるれろ
+わをん&lt;/p&gt;
+
+&lt;p&gt;ここまでで4分19秒&lt;/p&gt;
+
+&lt;p&gt;あいうえお
+かきくけこ
+さしすせそ
+たちつてと
+なにぬねの
+はひふへほ
+まみむめも
+やゆよ
+らりるれろ
+わをん&lt;/p&gt;
+
+&lt;p&gt;ここまでで7分20秒。&lt;/p&gt;
+
+&lt;p&gt;まままま
+わわわわわ
+わわ
+わ
+た
+　
+ あいうえお
+ かきくけこ
+ さしすせそ
+ たちつてと
+ なにぬねの
+ はひふへほ
+ まみむめも
+ やゆよ
+ らりるれろ
+ わをん&lt;/p&gt;
+
+&lt;p&gt;9分27秒&lt;/p&gt;
+
+&lt;p&gt;あいう&lt;/p&gt;
+
+&lt;p&gt;ええ
+えええええ
+ええええええ&lt;/p&gt;
+
+&lt;p&gt;おおおおおおおおええ
+おおおおおおおえおえお
+おお&lt;/p&gt;
+
+&lt;p&gt;かかかかかかかかかかかかかかかか&lt;/p&gt;
+
+&lt;p&gt;き&lt;/p&gt;
+
+&lt;p&gt;くくくくくくくくかくかくくくくくくくくく
+くくかくかく
+かくかく&lt;/p&gt;
+
+&lt;p&gt;けけけけけけけけけ&lt;/p&gt;
+
+&lt;p&gt;ここここここここここ&lt;/p&gt;
+
+&lt;p&gt;さささささささささささ&lt;/p&gt;
+
+&lt;p&gt;しししししししししし&lt;/p&gt;
+
+&lt;p&gt;すせせせせせせせせ
+そ&lt;/p&gt;
+
+&lt;p&gt;なななななな&lt;/p&gt;
+
+&lt;p&gt;にににに&lt;/p&gt;
+
+&lt;p&gt;ぬぬぬぬぬぬぬぬぬ&lt;/p&gt;
+
+&lt;p&gt;ねねねねねねねねね&lt;/p&gt;
+
+&lt;p&gt;ののののののののの&lt;/p&gt;
+
+&lt;p&gt;は&lt;/p&gt;
+
+&lt;p&gt;ひひひひひひひひひ&lt;/p&gt;
+
+&lt;p&gt;ふふふふふふふ&lt;/p&gt;
+
+&lt;p&gt;へほ&lt;/p&gt;
+
+&lt;p&gt;まままままま&lt;/p&gt;
+
+&lt;p&gt;みみみみみみみはみ&lt;/p&gt;
+
+&lt;p&gt;むむむむむむ
+め
+もももももも&lt;/p&gt;
+
+&lt;p&gt;やややややや
+ゆゆゆゆゆゆ
+よよよよよよよよよよよよよよよよよ&lt;/p&gt;
+
+&lt;p&gt;わをん&lt;/p&gt;
+
+&lt;p&gt;はときいんうしてけせ&lt;/p&gt;
+
+&lt;p&gt;うしてけせはときいん
+うしてけせはときいん
+うしてけせはときいん
+うしてけせはときいん
+うしてけせはときいん
+うしてけせはときいん
+うしてけせはときいん
+うしてけせはときいん
+かたこさかたこさ
+かたこさ
+かたこさ
+かたこさ&lt;/p&gt;
+
+&lt;p&gt;はとときいん
+はときいん
+うしてけせ
+うしてけせ
+はときいん
+うしてけせはときいん&lt;/p&gt;
+
+&lt;p&gt;。かたこさ。かたこさ。かたこさらちくつらちくつらちくつ
+はときいん
+はときいん
+うしてけせ
+うしてけせ
+はときいん
+うしてけせはときいん&lt;/p&gt;
+
+&lt;p&gt;。かたこさ&lt;/p&gt;
+
+&lt;p&gt;はときいん
+うしてけせ
+うしてけせ
+うしてけせ
+うしてけせ
+ひすふへひすふへめそねほ
+めそねんほ
+ひすふへ
+≥ひすふへ
+ひすふへめそねほほ
+めそ
+めそ
+うしてけせはときいん
+らちくつつ
+らちくつ
+らちくつらち
+らち
+くつ
+≤≤≤、、、、￥
+≤、、、、
+かたこさ
+かたこり&lt;/p&gt;
+
+&lt;p&gt;かたこり
+かたこり
+かたこえ
+かたこり
+かたこり
+かたこり
+りりりりり
+かたこり
+かたこり
+らちくつ
+めそ
+ねほ
+ひすふへほ&lt;/p&gt;
+
+&lt;p&gt;ふへほ
+ほ&lt;/p&gt;
+
+&lt;p&gt;うしてけせ
+うしてけせ
+こうしてさうこうして
+こうして
+こうして
+こうして&lt;/p&gt;
+
+&lt;p&gt;めそ
+らちくつねほほね
+きいん&lt;/p&gt;
+
+&lt;p&gt;はときいん
+うしてけせ
+うしてけせ
+うしてけせ
+はときいん
+かたこさ
+こうしてけせ
+こうてけせはときいん&lt;/p&gt;
+
+&lt;p&gt;こうしてけせはときいん
+こうしてけせはときいん
+かさかさかさたこ
+かさたこかさたこかたこさ
+かさかさたこたこかさかたかさかさたこ
+らちくつ
+めそねほねほほねめそはときいんらちくつ
+えりゃれえりゃれ&lt;/p&gt;
+
+&lt;p&gt;げげげつげげつ
+うしてけせ
+かたこさ
+ひすふへはときいん
+らちくつ
+めそねほ&lt;/p&gt;
+
+&lt;p&gt;かたこさ
+うしてけせ
+ひすふへらちくつ
+はときいん
+めそねほ&lt;/p&gt;
+
+&lt;p&gt;えりゃれ
+をあなゅもぅーろやぃ
+よにるままままるるるるるるるまぇぇぇぇ
+みおのむぬゆむむわ
+ぁえりゃれをあなゅも
+ぅーろやぃ
+よにるまぇみおのょっ
+み
+ぬゆむわょ&lt;/p&gt;
+
+&lt;p&gt;あいうえお
+かきくけこ
+さしすせそ
+たちつてと
+なにぬねの
+はひふへほ
+まみむめも
+やゆよ
+らりるれろ
+わをん&lt;/p&gt;
+
+&lt;p&gt;あいうえお
+かきくけこ
+さしすせそ
+たちつてと
+なにぬねの
+はひふへほ
+まみむめも
+やゆよ
+らりるれろ
+わをん&lt;/p&gt;
+
+&lt;p&gt;あいうえお
+かきくけこ
+さしすせそ
+たちつてと
+なにぬねの
+はひふへほ
+まみむめも
+やゆよ
+らりるれろ
+わをん&lt;/p&gt;
+
+&lt;p&gt;あいうえお
+かきくけこ
+さしすせそ
+たちつてと
+なにぬねの
+はひふへほ
+まみむめも
+やゆよ
+わをん&lt;/p&gt;
+
+&lt;p&gt;きのう　きょう　明日
+きのう　きょう　あす
+はいけい　けいぐ　はいけい　けいぐ
+です　ます　です　ます
+ですます
+ですます
+である　である　である
+である&lt;/p&gt;
+
+&lt;p&gt;という　だという　という
+だという
+だという&lt;/p&gt;
+
+&lt;p&gt;あなたとわたし
+あなたとわたし
+あなたとわたし
+あなたとわたし&lt;/p&gt;
+
+&lt;p&gt;あいうえおかきくけこ
+さしすせそ
+たちつてたてと
+なにぬねの
+はひふへほ
+はひふへほ
+はひふへほ&lt;/p&gt;
+
+&lt;p&gt;まみむめも
+かきくけこ
+さしすせそ
+たちつてと
+なにぬねの
+はひふへほ
+まみむめも
+やゆよ
+らりるれろ
+ろろろろ&lt;/p&gt;
+
+&lt;p&gt;らりるれろろろ&lt;/p&gt;
+
+&lt;p&gt;らりるれろろやろぃやろーぅ
+らりるれろ
+らりるれろ
+らりるれろ
+らりるれれれろ
+らりるれろ
+らりるれろ
+らりるれろ
+らりるれろろ&lt;/p&gt;
+
+&lt;p&gt;らりるれろ
+らりるれろ
+らりるれろ&lt;/p&gt;
+
+&lt;p&gt;わをん
+わをん
+わをん&lt;/p&gt;
+
+&lt;p&gt;あいうえお
+あいうえお
+あいうえお
+あいうえお
+お
+あいうえお
+あいうえお
+あいうえお
+あいうえお
+あいうえお
+あいうえお
+あいうえお
+あいうえお
+あいうえお
+あいうえお
+あいうえお
+あいうえお
+あいうえお
+あいうえお&lt;/p&gt;
+
+&lt;p&gt;かきくけこ
+かきくけこ
+かきくけこ
+かきくけこ
+かきくけこ
+かきくけこ
+こここここここここ
+ここ
+ここ&lt;/p&gt;
+
+&lt;p&gt;かきくけこ
+かきくけこ
+かきくけこ&lt;/p&gt;
+
+&lt;p&gt;かきくけこ
+かきくけこ
+かきくけこ
+かきくけこ
+かきくけこ
+かきくけこ
+かきくけこ
+かきくけこ
+かきくけこ&lt;/p&gt;
+
+&lt;p&gt;さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+さてすせそ&lt;/p&gt;
+
+&lt;p&gt;さしすせそ
+さしすせそ
+さしすせそ&lt;/p&gt;
+
+&lt;p&gt;さしすせそ
+さしすせそ&lt;/p&gt;
+
+&lt;p&gt;さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ&lt;/p&gt;
+
+&lt;p&gt;さしすせそ
+さしすせそ
+さしすせそ
+さしすせそ
+たちつてとたちつてと
+たちつてと
+たちつてと
+たちつてと
+たちつてと
+たちつてと
+たちつてと
+たちつてと
+たちつてと
+たちつてと
+たちつてと
+たちつてと
+たちつてと
+たちつてと
+たちつてと
+たちつてと
+たちつてとととと
+たちつてととととととと
+たちつてと
+たちつてと&lt;/p&gt;
+
+&lt;p&gt;たちつてと
+たちつてと
+たちつてと&lt;/p&gt;
+
+&lt;p&gt;たちつてと
+たちつてと&lt;/p&gt;
+
+&lt;p&gt;なにぬねの
+なにぬねのなにぬねの
+おの
+おの&lt;/p&gt;
+
+&lt;p&gt;なにぬねの
+なにぬねのなにぬねのなにぬねのなにぬねの
+なにぬねの
+なにぬねの
+なにぬねの
+なにぬねの
+なにぬねの
+なにぬねの
+なにぬねの
+なにぬねの
+なにぬねの
+なにぬねの
+なにぬねの
+なにぬねの&lt;/p&gt;
+
+&lt;p&gt;はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ&lt;/p&gt;
+
+&lt;p&gt;はひふへほ
+はひふへほ
+はひふへほ
+はひふへほ
+まみむめも
+めもめも
+めも
+まくるまるくくるま
+くるま&lt;/p&gt;
+
+&lt;p&gt;くるま
+まみむめもまみむめも
+まみむめもももももももまみむめもまみむめも
+まみむめもまみむめもまみむめもまみむめもまみむめもまみむめもまみむめもまみむめもまみむめも
+やゆよ
+よよ
+ゆゆゆゆゆゆみみよよよよよんんんん
+のむおゆ
+おゆ
+みぬ
+やゆよ
+屋ややややややややややゆよゆよ
+ゆよよ
+やゆよ
+やゆよ
+やゆよ
+やゆよ
+やゆよ
+おゆゆ
+よ
+らららららららら、、、ら
+ラリルえりゃれ
+れれ
+らららららら
+らりるれろすすろろろろろろ
+ろ
+らりるれろろろろ、
+ろろろ
+ぃやろろろろ
+ーぅ
+らりるれろ
+らりるれろろろろろ
+らららららららららららら
+らりるれろれされれれれれれれれれれ
+れれ
+らりるれろ
+らりるれろ
+らりるれろ
+らりるれろ
+らららららららら
+らりるれろ
+らりるれろらりるれろろれろらりるれろらりるれろらりるれろらりるれろらりるれろらりるれろらりるれろ
+らりるれろらりるれろらりるれろらりるれろ
+わをん
+わをん
+わをん
+わをん
+わをん&lt;/p&gt;
+
+&lt;p&gt;きのうふきょうあす　きのうきょうあす
+はいけい　けいぐ　はいけい　けいぐ　
+ですますますですます
+である　だであるであるだである
+という　だという　という　だという
+あなたとわたし　あなたとわたしあなたとわたし　あなたとわたし
+あなたとわたしあなたとわたし
+くるくるくるくるこないくるこないくるこないくるこないくるこないこないこないこない
+こない
+くるこないくるこないくるこないくるこない
+くるこないくるこない&lt;/p&gt;
+
+&lt;p&gt;しかししかししかし
+しかししかしまたしかししかしかしかししかししかししかし
+しかしまたしかしまたしかしまたしかしまた
+いって　いっていっていっていっていっていって
+っっっっ
+やってやってやってやってやってやってぃやって
+やって
+やって
+やって
+いってていって
+やっていってやって
+いってやっていって
+やって
+これこれれこれ
+これ
+これはこれはそれをこれをこれはそれをそれをこれはそれを
+これはそれをたこれこれ
+こさこれ
+かたこささかさかかさかさたこたこかさ&lt;/p&gt;
+
+&lt;p&gt;くるつま&lt;/p&gt;
+
+&lt;p&gt;ますますますますます
+ますすますます
+そのそのそのその
+その
+その　ますますます
+そそのそのその
+そのその
+その
+そ
+その
+ますすすすすすす
+ますますます
+ます
+ます
+ます
+その
+その
+その
+か
+かれもかのじょも　かれも　かのじょも
+きのうきょうあすきのうきょうあす
+はいけいけいぐはいけいけいぐ
+はいけいけいぐ具くぐぐぐぐぐぐ
+はいけいけいぐ
+はいけいけいぐ
+はいけいけいぐ
+ですですひす、￥&lt;/p&gt;
+
+&lt;p&gt;す&lt;/p&gt;
+
+&lt;p&gt;も￥&lt;/p&gt;
+
+&lt;p&gt;ですま
+ますます￥￥
+ますくるまま
+ます
+ぇす￥￥
+ます&lt;/p&gt;
+
+&lt;p&gt;きのう
+きょう　あす　きのう　きょう　あす
+はいけい　けいぐ　はいけい　けいぐ
+です　ます　です　ます
+である　だである　である
+だである&lt;/p&gt;
+
+&lt;p&gt;という　だという　である
+あなたとわたし　あなたとわたし　　あなたわたし
+あなたとわたし&lt;/p&gt;
+
+&lt;p&gt;くる　こない　くる　こない　くる　こない　&lt;/p&gt;
+
+&lt;p&gt;しかし　また　しかし　また　しかしまた
+いって　やって　いって　やって　いって　やって　いって　やって
+これは　それを　これは　それは　これは　それを
+ますます　その　ますます　その
+かれも　かのじょも　かれも　かのじょも　&lt;/p&gt;
+
+&lt;p&gt;きのう　きょう　あす　きのう　きょう　あす
+はいけい　けいぐ　はいけい　けいぐ
+だすですますですますですます
+ですですすです
+ますます&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>setup Repetier Firmware for Atom</title>
+      <link>http://localhost:1313/post/setup-Repetier-Firmware-for-Atom/</link>
+      <pubDate>Sun, 31 May 2015 20:19:22 +0900</pubDate>
+      
+      <guid>http://localhost:1313/post/setup-Repetier-Firmware-for-Atom/</guid>
+      <description>&lt;p&gt;実は元々使っていたATOMの基板が壊れてしまいました。
+現在、RAMPS1.4+Arduino Megaに交換しましたが、その際にMarlinからRepetierにファームを変えました。
+理由はなぜかMarlinではうまく動かなかったからです。&lt;/p&gt;
+
+&lt;p&gt;その際の記録をまとめます。&lt;/p&gt;
+
+&lt;p&gt;こちらに使用したConfigを&lt;a href=&#34;//&#34;&gt;こちらにおいておきます&lt;/a&gt;。
+その際にZ-ENDSTOPをMAX側に変更しています。何故かと言うと、オートベットレベリング機能を使うためです。
+Z-ENDSTOP-MINが有効状態だと&lt;code&gt;G1 Z0&lt;/code&gt;実行時にENDSTOP-MINが邪魔をして底面まで下がらなくなってしまいます。&lt;/p&gt;
+
+&lt;p&gt;Repetierを使うメリットはプロトコルがasciiベースからbainaryベースに変えることができるため、
+通信が軽くなるってことらしいですが、自分の場合はoctoprint+raspberypiで運用しているのであんまり意味が無い・・・&lt;/p&gt;
+
+&lt;p&gt;参考：
+&lt;a href=&#34;http://reprap.org/wiki/List_of_Firmware#Repetier-Firmware&#34;&gt;http://reprap.org/wiki/List_of_Firmware#Repetier-Firmware&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>my_autobedleveling</title>
+      <link>http://localhost:1313/post/my_autobedleveling/</link>
+      <pubDate>Sun, 31 May 2015 20:08:15 +0900</pubDate>
+      
+      <guid>http://localhost:1313/post/my_autobedleveling/</guid>
+      <description>
+
+&lt;p&gt;今回サーボとホットエンドとつなげるためのパーツを作りましたので
+パーツと取り付け方を公開します。
+サーボはマイクロスイッチの上げ下げをコントロールしてオートベットレベリングを行うために使います。&lt;/p&gt;
+
+&lt;h1 id=&#34;オートベットレベリングとは:b249ecd4ee4ee9a98883646cbe5ada80&#34;&gt;オートベットレベリングとは？&lt;/h1&gt;
+
+&lt;p&gt;オートベットレベリングとは、ヒートベットの傾きを自動検出し、
+そのズレを補正しながら印刷する機能のことです。
+最新のファームであればMarlinでもRepeterでも付いている機能となります。
+今回自分の場合はRepetier-Firmwareを使っているため、そのための手順となりますが、
+Marlinでもファームの設定以外は使えるかと思います。&lt;/p&gt;
+
+&lt;h1 id=&#34;必要なもの:b249ecd4ee4ee9a98883646cbe5ada80&#34;&gt;必要なもの&lt;/h1&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;必要なパーツ&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;個数&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;入手経路&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;印刷パーツ&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;x2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;a href=&#34;//&#34;&gt;thigiverse&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;六角ネジ3mm x 40mm&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;x2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;任意&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;六角ナット3mm&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;x2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;任意&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;RCサーボ SG90&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;x1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;a href=&#34;http://ja.aliexpress.com/item/Free-Shipping-5PCS-LOT-SG90-9g-Mini-Micro-Servo-for-RC-for-RC-250-450-Helicopter/1956963732.html&#34;&gt;aliexpress等&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;マイクロスイッチAV622264&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;x1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;a href=&#34;http://akizukidenshi.com/catalog/g/gP-09186/&#34;&gt;秋月等&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;なお、パーツの入手経路は自分の場合の話です。
+&lt;strong&gt;実際にaliexpressを使うリスクを踏まえた上でご利用下さい。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;印刷パーツは&lt;a href=&#34;h&#34;&gt;thingiverse&lt;/a&gt;に置いてあります。&lt;/p&gt;
+
+&lt;h1 id=&#34;組み立て:b249ecd4ee4ee9a98883646cbe5ada80&#34;&gt;組み立て&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;サーボに付属しているアームパーツとプラパーツをつなげてアームを作ります。
+調整時に、取り付け直すことになるので、ネジ止めはしないようにします。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;プラパーツに1.のサーボを取り付けます。
+&lt;img src=&#34;//&#34; alt=&#34;プラパーツにサーボを取り付け&#34; /&gt;
+&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;ホットエンド前面のファンを取り外し、間にプラパーツを挟む形で再度取り付けます。
+&lt;img src=&#34;//&#34; alt=&#34;プラパーツをホットエンド前面に接続&#34; /&gt;
+&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;RAMPS1.4とサーボを取り付けます。自分の場合はPin11に取り付けました。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;サーボは5V供給がないと動かないのでRAMPS1.4のVCCと5Vを短絡させます。
+&lt;img src=&#34;//&#34; alt=&#34;サーボは5V供給がないと動かないのでRAMPS1.4のVCCと5Vを短絡させます。&#34; /&gt;
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;ファームウェアの調整:b249ecd4ee4ee9a98883646cbe5ada80&#34;&gt;ファームウェアの調整&lt;/h1&gt;
+
+&lt;p&gt;今回ファームウエアは&lt;a href=&#34;h&#34;&gt;Repeter&lt;/a&gt;を使っています。
+marlinとは結構違ってG-Code自体一部異なります。
+STL印刷の時のG-Codeは互換性はあるんですが、少なくとも今回のオートベットレベリングは異なるようです。&lt;/p&gt;
+
+&lt;h2 id=&#34;ファームのサーボ機能の有効化:b249ecd4ee4ee9a98883646cbe5ada80&#34;&gt;ファームのサーボ機能の有効化&lt;/h2&gt;
+
+&lt;h2 id=&#34;サーボの調整:b249ecd4ee4ee9a98883646cbe5ada80&#34;&gt;サーボの調整&lt;/h2&gt;
+
+&lt;p&gt;以下のGCODEを打ち込むことでサーボを動かすことができます。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;M340 P0 S2350
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;上記の &lt;code&gt;2350&lt;/code&gt; の値を変えることでアームの開閉を行います。
+アームを展開させる場合の値と、閉じる場合の値をメモしておきます。&lt;/p&gt;
+
+&lt;h1 id=&#34;ファームの操作手順:b249ecd4ee4ee9a98883646cbe5ada80&#34;&gt;ファームの操作手順&lt;/h1&gt;
+
+&lt;p&gt;それを使う手順をまとめます。&lt;/p&gt;
+
+&lt;p&gt;まずはベッドにバッテンをつけます。ここを基準に、ホットエンドの先端とプローブ一の差分を検出します。&lt;/p&gt;
+
+&lt;p&gt;バッテンの位置にホットエンド先端を移動します。
+そして以下のコマンドを入力し、現在の位置情報を初期化します。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;G92 X0 Y0 Z0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;この後にサーボを下ろします。
+自分の場合は&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;M340 P0 S2350
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;switch check&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;M119
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;M114
+
+X-11.0 Y-83.0 Z:5.3
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt; M303 S190 C8
+ Kp: 10.88
+ Ki: 0.48
+ Kd: 61.87
+
+Recv: EPR:3 218 13.3400 Extr.1 PID P-gain/dead-time
+Recv: EPR:3 222 0.6700 Extr.1 PID I-gain
+Recv: EPR:3 226 66.6200 Extr.1 PID D-gain
+
+M206 T3 P808 X%(zv)s
+
+M206 T3 P218 X10.88
+M206 T3 P222 X0.67
+M206 T3 P226 X66.62
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;参考：&lt;a href=&#34;http://zennmaster.com/random-things/auto-bed-leveling-for-the-makerfarm-prusa-i3-part-3-final-setup&#34;&gt;http://zennmaster.com/random-things/auto-bed-leveling-for-the-makerfarm-prusa-i3-part-3-final-setup&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>http://localhost:1313/post/test/</link>
+      <pubDate>Wed, 20 May 2015 23:41:36 +0900</pubDate>
+      
+      <guid>http://localhost:1313/post/test/</guid>
+      <description>
+
+&lt;h1 id=&#34;テスト書き込み:b128b7694e4de962e0088bcb1bcb254f&#34;&gt;テスト書き込み&lt;/h1&gt;
+
+&lt;p&gt;SDカードを接続して以下のコマンドを実行&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;df -h
+Filesystem                    Size   Used  Avail Capacity   iused     ifree %iused  Mounted on
+/dev/disk1                   465Gi  303Gi  161Gi    66%  79563765  42278409   65%   /
+devfs                        353Ki  353Ki    0Bi   100%      1220         0  100%   /dev
+map -hosts                     0Bi    0Bi    0Bi   100%         0         0  100%   /net
+map auto_home                  0Bi    0Bi    0Bi   100%         0         0  100%   /home
+/dev/disk7s1                  56Mi   14Mi   42Mi    26%       512         0  100%   /Volumes/boot
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;上記から&lt;code&gt;/dev/disk7&lt;/code&gt;　が該当&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;＃ sudo diskutil umount /dev/disk7s1
+Password:
+Volume boot on disk7s1 unmounted
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;sudo dd if=XXX.img of=/dev/rdisk7 bs=1m&lt;/p&gt;
+
+&lt;p&gt;ID&amp;rsquo; : pi
+パスワード&amp;rdquo; : raspberry&lt;/p&gt;
+
+&lt;p&gt;あとはipでアクセスすると使えるようになります。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>hashimoto_intai_hantai</title>
+      <link>http://localhost:1313/post/hashimoto_intai_hantai/</link>
+      <pubDate>Wed, 20 May 2015 14:47:52 +0900</pubDate>
+      
+      <guid>http://localhost:1313/post/hashimoto_intai_hantai/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/posts/hashimoto_intai_hantai/change_org.jpg&#34; alt=&#34;change_org.jpg&#34; /&gt;
 &lt;/p&gt;
 
 &lt;h1 id=&#34;署名サイトを使った政治活動をやってみた:de5369f227dcc12001a74a630425c4c3&#34;&gt;署名サイトを使った政治活動をやってみた。&lt;/h1&gt;
@@ -85,13 +2493,13 @@ youtubeで橋下さんの動画をたまに見ていて、メディアとの戦�
     
     <item>
       <title>myDIYPrinter20150517</title>
-      <link>https://m0a.github.io/post/myDIYPrinter20150517/</link>
+      <link>http://localhost:1313/post/myDIYPrinter20150517/</link>
       <pubDate>Sun, 17 May 2015 20:39:59 +0900</pubDate>
       
-      <guid>https://m0a.github.io/post/myDIYPrinter20150517/</guid>
+      <guid>http://localhost:1313/post/myDIYPrinter20150517/</guid>
       <description>&lt;p&gt;onShapeで設計してみました。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/DIYPrinter01/shot01.png&#34; alt=&#34;shot01.png&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/posts/DIYPrinter01/shot01.png&#34; alt=&#34;shot01.png&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;onShapeはWebアプリなCADなのでアセンブリ画面で実際に触ることができちゃいます。&lt;/p&gt;
@@ -106,10 +2514,10 @@ youtubeで橋下さんの動画をたまに見ていて、メディアとの戦�
     
     <item>
       <title>genkei atom customize</title>
-      <link>https://m0a.github.io/post/genkei-atom-customize/</link>
+      <link>http://localhost:1313/post/genkei-atom-customize/</link>
       <pubDate>Sun, 17 May 2015 10:24:49 +0900</pubDate>
       
-      <guid>https://m0a.github.io/post/genkei-atom-customize/</guid>
+      <guid>http://localhost:1313/post/genkei-atom-customize/</guid>
       <description>&lt;p&gt;genkei ATOMを使っています。
 3DPrinter2機種目です。1機種目は引越し時に捨ててしまいました。&lt;br&gt;
 （後から部品取りに使うなりいろいろ手があっただろうと後悔）&lt;/p&gt;
@@ -118,7 +2526,7 @@ youtubeで橋下さんの動画をたまに見ていて、メディアとの戦�
 使いこなし切れてなかったんですが、&lt;a href=&#34;https://www.onshape.com/&#34;&gt;onShape&lt;/a&gt;をきっかけに、結構なんでも作れるようになってきました。&lt;br&gt;
 それで作ってみたのがこちら。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/genkei_atom_customize.jpg&#34; alt=&#34;genkei_atom_customize.jpg&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/posts/genkei_atom_customize/genkei_atom_customize.jpg&#34; alt=&#34;genkei_atom_customize.jpg&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;X軸周りのパーツを印刷しやすくしたパーツです。&lt;br&gt;
@@ -132,15 +2540,15 @@ youtubeで橋下さんの動画をたまに見ていて、メディアとの戦�
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;x_moter&lt;br&gt;
-&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/x_moter_preview_featured.jpg&#34; alt=&#34;x_moter_preview_featured.jpg&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/images/posts/genkei_atom_customize/x_moter_preview_featured.jpg&#34; alt=&#34;x_moter_preview_featured.jpg&#34; /&gt;
 &lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;x_end_a&lt;br&gt;
-&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/x_end_a_preview_featured.jpg&#34; alt=&#34;x_end_a_preview_featured.jpg&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/images/posts/genkei_atom_customize/x_end_a_preview_featured.jpg&#34; alt=&#34;x_end_a_preview_featured.jpg&#34; /&gt;
 &lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;x_carriage_lm_a b c 一体型&lt;br&gt;
-&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/x_carriage_lm_abc_set_preview_featured.jpg&#34; alt=&#34;x_carriage_lm_abc_set_preview_featured.jpg&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/images/posts/genkei_atom_customize/x_carriage_lm_abc_set_preview_featured.jpg&#34; alt=&#34;x_carriage_lm_abc_set_preview_featured.jpg&#34; /&gt;
 &lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -152,10 +2560,10 @@ youtubeで橋下さんの動画をたまに見ていて、メディアとの戦�
     
     <item>
       <title>glasses</title>
-      <link>https://m0a.github.io/post/glasses/</link>
+      <link>http://localhost:1313/post/glasses/</link>
       <pubDate>Sat, 16 May 2015 22:20:29 +0900</pubDate>
       
-      <guid>https://m0a.github.io/post/glasses/</guid>
+      <guid>http://localhost:1313/post/glasses/</guid>
       <description>
 
 &lt;h2 id=&#34;メガネを作ったんです:ef511c63b3fa744e48b4b29c062d412d&#34;&gt;メガネを作ったんです。&lt;/h2&gt;
@@ -170,7 +2578,7 @@ youtubeで橋下さんの動画をたまに見ていて、メディアとの戦�
 
 &lt;p&gt;身体に身につけてるので、俺３Dプリンタ触ってるんだアピールにピッタリ&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/myglasses.jpg&#34; alt=&#34;メガネ&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/posts/myglasses.jpg&#34; alt=&#34;メガネ&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;thingverseにもアップしてます。
@@ -183,10 +2591,10 @@ youtubeで橋下さんの動画をたまに見ていて、メディアとの戦�
     
     <item>
       <title>firstStep</title>
-      <link>https://m0a.github.io/post/firstStep/</link>
+      <link>http://localhost:1313/post/firstStep/</link>
       <pubDate>Sat, 16 May 2015 18:12:30 +0900</pubDate>
       
-      <guid>https://m0a.github.io/post/firstStep/</guid>
+      <guid>http://localhost:1313/post/firstStep/</guid>
       <description>
 
 &lt;h2 id=&#34;hello:89e60529a142b9bc0a0eb77341dc696a&#34;&gt;Hello&lt;/h2&gt;
