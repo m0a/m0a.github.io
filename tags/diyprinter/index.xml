@@ -2,59 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Diyprinter on 楽しいことしかやりたくない。</title>
-    <link>http://localhost:1313/tags/diyprinter/</link>
+    <link>https://m0a.github.io/tags/diyprinter/</link>
     <description>Recent content in Diyprinter on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 20 May 2015 23:41:36 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/diyprinter/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>test</title>
-      <link>http://localhost:1313/post/test/</link>
-      <pubDate>Wed, 20 May 2015 23:41:36 +0900</pubDate>
-      
-      <guid>http://localhost:1313/post/test/</guid>
-      <description>
-
-&lt;h1 id=&#34;テスト書き込み:b128b7694e4de962e0088bcb1bcb254f&#34;&gt;テスト書き込み&lt;/h1&gt;
-
-&lt;p&gt;SDカードを接続して以下のコマンドを実行&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;df -h
-Filesystem                    Size   Used  Avail Capacity   iused     ifree %iused  Mounted on
-/dev/disk1                   465Gi  303Gi  161Gi    66%  79563765  42278409   65%   /
-devfs                        353Ki  353Ki    0Bi   100%      1220         0  100%   /dev
-map -hosts                     0Bi    0Bi    0Bi   100%         0         0  100%   /net
-map auto_home                  0Bi    0Bi    0Bi   100%         0         0  100%   /home
-/dev/disk7s1                  56Mi   14Mi   42Mi    26%       512         0  100%   /Volumes/boot
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;上記から&lt;code&gt;/dev/disk7&lt;/code&gt;　が該当&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;＃ sudo diskutil umount /dev/disk7s1
-Password:
-Volume boot on disk7s1 unmounted
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;sudo dd if=XXX.img of=/dev/rdisk7 bs=1m&lt;/p&gt;
-
-&lt;p&gt;ID&amp;rsquo; : pi
-パスワード&amp;rdquo; : raspberry&lt;/p&gt;
-
-&lt;p&gt;あとはipでアクセスすると使えるようになります。&lt;/p&gt;
-</description>
-    </item>
+    <lastBuildDate>Sun, 17 May 2015 20:39:59 +0900</lastBuildDate>
+    <atom:link href="https://m0a.github.io/tags/diyprinter/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>myDIYPrinter20150517</title>
-      <link>http://localhost:1313/post/myDIYPrinter20150517/</link>
+      <link>https://m0a.github.io/post/myDIYPrinter20150517/</link>
       <pubDate>Sun, 17 May 2015 20:39:59 +0900</pubDate>
       
-      <guid>http://localhost:1313/post/myDIYPrinter20150517/</guid>
+      <guid>https://m0a.github.io/post/myDIYPrinter20150517/</guid>
       <description>&lt;p&gt;onShapeで設計してみました。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/posts/DIYPrinter01/shot01.png&#34; alt=&#34;shot01.png&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/DIYPrinter01/shot01.png&#34; alt=&#34;shot01.png&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;onShapeはWebアプリなCADなのでアセンブリ画面で実際に触ることができちゃいます。&lt;/p&gt;

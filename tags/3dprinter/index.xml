@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3dprinter on 楽しいことしかやりたくない。</title>
-    <link>http://localhost:1313/tags/3dprinter/</link>
+    <link>https://m0a.github.io/tags/3dprinter/</link>
     <description>Recent content in 3dprinter on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 24 Jun 2015 17:22:03 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/3dprinter/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://m0a.github.io/tags/3dprinter/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>glasses2</title>
-      <link>http://localhost:1313/post/glasses2/</link>
+      <link>https://m0a.github.io/post/glasses2/</link>
       <pubDate>Wed, 24 Jun 2015 17:22:03 +0900</pubDate>
       
-      <guid>http://localhost:1313/post/glasses2/</guid>
+      <guid>https://m0a.github.io/post/glasses2/</guid>
       <description>
 
 &lt;h1 id=&#34;２代目となるメガネを作ったので公開します:d11f8740114dbf91252480dd747e31e3&#34;&gt;２代目となるメガネを作ったので公開します。&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/posts/glasses2/main.jpg&#34; alt=&#34;main.jpg&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/main.jpg&#34; alt=&#34;main.jpg&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;onShapeで作成し、
 データもtingiverseにて&lt;a href=&#34;http://www.thingiverse.com/thing:895662&#34;&gt;公開&lt;/a&gt;してます。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/posts/glasses2/frame_design_1.jpg&#34; alt=&#34;frame_design_1.jpg&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/frame_design_1.jpg&#34; alt=&#34;frame_design_1.jpg&#34; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/post/glasses&#34;&gt;1代目&lt;/a&gt;との違いは、下記のようにレンズとサイドフレームをネジでサンドイッチする構造にしたことです。
-&lt;img src=&#34;http://localhost:1313/images/posts/glasses2/frame_design_2.jpg&#34; alt=&#34;frame_design_2.jpg&#34; /&gt;
+&lt;p&gt;&lt;a href=&#34;https://m0a.github.io/post/glasses&#34;&gt;1代目&lt;/a&gt;との違いは、下記のようにレンズとサイドフレームをネジでサンドイッチする構造にしたことです。
+&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/frame_design_2.jpg&#34; alt=&#34;frame_design_2.jpg&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;おかげで、印刷後の調整がらくになりました。&lt;/p&gt;
@@ -46,238 +46,20 @@
 
 &lt;p&gt;onShapeのcompareいい！
 １代目との差分を表示してます。
-&lt;img src=&#34;http://localhost:1313/images/posts/glasses2/glasses_diff.jpg&#34; alt=&#34;glasses_diff.jpg&#34; /&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/glasses_diff.jpg&#34; alt=&#34;glasses_diff.jpg&#34; /&gt;
 &lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>setup Repetier Firmware for Atom</title>
-      <link>http://localhost:1313/post/setup-Repetier-Firmware-for-Atom/</link>
-      <pubDate>Sun, 31 May 2015 20:19:22 +0900</pubDate>
-      
-      <guid>http://localhost:1313/post/setup-Repetier-Firmware-for-Atom/</guid>
-      <description>&lt;p&gt;実は元々使っていたATOMの基板が壊れてしまいました。
-現在、RAMPS1.4+Arduino Megaに交換しましたが、その際にMarlinからRepetierにファームを変えました。
-理由はなぜかMarlinではうまく動かなかったからです。&lt;/p&gt;
-
-&lt;p&gt;その際の記録をまとめます。&lt;/p&gt;
-
-&lt;p&gt;こちらに使用したConfigを&lt;a href=&#34;//&#34;&gt;こちらにおいておきます&lt;/a&gt;。
-その際にZ-ENDSTOPをMAX側に変更しています。何故かと言うと、オートベットレベリング機能を使うためです。
-Z-ENDSTOP-MINが有効状態だと&lt;code&gt;G1 Z0&lt;/code&gt;実行時にENDSTOP-MINが邪魔をして底面まで下がらなくなってしまいます。&lt;/p&gt;
-
-&lt;p&gt;Repetierを使うメリットはプロトコルがasciiベースからbainaryベースに変えることができるため、
-通信が軽くなるってことらしいですが、自分の場合はoctoprint+raspberypiで運用しているのであんまり意味が無い・・・&lt;/p&gt;
-
-&lt;p&gt;参考：
-&lt;a href=&#34;http://reprap.org/wiki/List_of_Firmware#Repetier-Firmware&#34;&gt;http://reprap.org/wiki/List_of_Firmware#Repetier-Firmware&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>my_autobedleveling</title>
-      <link>http://localhost:1313/post/my_autobedleveling/</link>
-      <pubDate>Sun, 31 May 2015 20:08:15 +0900</pubDate>
-      
-      <guid>http://localhost:1313/post/my_autobedleveling/</guid>
-      <description>
-
-&lt;p&gt;今回サーボとホットエンドとつなげるためのパーツを作りましたので
-パーツと取り付け方を公開します。
-サーボはマイクロスイッチの上げ下げをコントロールしてオートベットレベリングを行うために使います。&lt;/p&gt;
-
-&lt;h1 id=&#34;オートベットレベリングとは:b249ecd4ee4ee9a98883646cbe5ada80&#34;&gt;オートベットレベリングとは？&lt;/h1&gt;
-
-&lt;p&gt;オートベットレベリングとは、ヒートベットの傾きを自動検出し、
-そのズレを補正しながら印刷する機能のことです。
-最新のファームであればMarlinでもRepeterでも付いている機能となります。
-今回自分の場合はRepetier-Firmwareを使っているため、そのための手順となりますが、
-Marlinでもファームの設定以外は使えるかと思います。&lt;/p&gt;
-
-&lt;h1 id=&#34;必要なもの:b249ecd4ee4ee9a98883646cbe5ada80&#34;&gt;必要なもの&lt;/h1&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;必要なパーツ&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;個数&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;入手経路&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;印刷パーツ&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;x2&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;&lt;a href=&#34;//&#34;&gt;thigiverse&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;六角ネジ3mm x 40mm&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;x2&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;任意&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;六角ナット3mm&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;x2&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;任意&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;RCサーボ SG90&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;x1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;&lt;a href=&#34;http://ja.aliexpress.com/item/Free-Shipping-5PCS-LOT-SG90-9g-Mini-Micro-Servo-for-RC-for-RC-250-450-Helicopter/1956963732.html&#34;&gt;aliexpress等&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;マイクロスイッチAV622264&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;x1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;&lt;a href=&#34;http://akizukidenshi.com/catalog/g/gP-09186/&#34;&gt;秋月等&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;なお、パーツの入手経路は自分の場合の話です。
-&lt;strong&gt;実際にaliexpressを使うリスクを踏まえた上でご利用下さい。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;印刷パーツは&lt;a href=&#34;h&#34;&gt;thingiverse&lt;/a&gt;に置いてあります。&lt;/p&gt;
-
-&lt;h1 id=&#34;組み立て:b249ecd4ee4ee9a98883646cbe5ada80&#34;&gt;組み立て&lt;/h1&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;サーボに付属しているアームパーツとプラパーツをつなげてアームを作ります。
-調整時に、取り付け直すことになるので、ネジ止めはしないようにします。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;プラパーツに1.のサーボを取り付けます。
-&lt;img src=&#34;//&#34; alt=&#34;プラパーツにサーボを取り付け&#34; /&gt;
-&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;ホットエンド前面のファンを取り外し、間にプラパーツを挟む形で再度取り付けます。
-&lt;img src=&#34;//&#34; alt=&#34;プラパーツをホットエンド前面に接続&#34; /&gt;
-&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;RAMPS1.4とサーボを取り付けます。自分の場合はPin11に取り付けました。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;サーボは5V供給がないと動かないのでRAMPS1.4のVCCと5Vを短絡させます。
-&lt;img src=&#34;//&#34; alt=&#34;サーボは5V供給がないと動かないのでRAMPS1.4のVCCと5Vを短絡させます。&#34; /&gt;
-&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&#34;ファームウェアの調整:b249ecd4ee4ee9a98883646cbe5ada80&#34;&gt;ファームウェアの調整&lt;/h1&gt;
-
-&lt;p&gt;今回ファームウエアは&lt;a href=&#34;h&#34;&gt;Repeter&lt;/a&gt;を使っています。
-marlinとは結構違ってG-Code自体一部異なります。
-STL印刷の時のG-Codeは互換性はあるんですが、少なくとも今回のオートベットレベリングは異なるようです。&lt;/p&gt;
-
-&lt;h2 id=&#34;ファームのサーボ機能の有効化:b249ecd4ee4ee9a98883646cbe5ada80&#34;&gt;ファームのサーボ機能の有効化&lt;/h2&gt;
-
-&lt;h2 id=&#34;サーボの調整:b249ecd4ee4ee9a98883646cbe5ada80&#34;&gt;サーボの調整&lt;/h2&gt;
-
-&lt;p&gt;以下のGCODEを打ち込むことでサーボを動かすことができます。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;M340 P0 S2350
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;上記の &lt;code&gt;2350&lt;/code&gt; の値を変えることでアームの開閉を行います。
-アームを展開させる場合の値と、閉じる場合の値をメモしておきます。&lt;/p&gt;
-
-&lt;h1 id=&#34;ファームの操作手順:b249ecd4ee4ee9a98883646cbe5ada80&#34;&gt;ファームの操作手順&lt;/h1&gt;
-
-&lt;p&gt;それを使う手順をまとめます。&lt;/p&gt;
-
-&lt;p&gt;まずはベッドにバッテンをつけます。ここを基準に、ホットエンドの先端とプローブ一の差分を検出します。&lt;/p&gt;
-
-&lt;p&gt;バッテンの位置にホットエンド先端を移動します。
-そして以下のコマンドを入力し、現在の位置情報を初期化します。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;G92 X0 Y0 Z0
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;この後にサーボを下ろします。
-自分の場合は&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;M340 P0 S2350
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;switch check&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;M119
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;M114
-
-X-11.0 Y-83.0 Z:5.3
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt; M303 S190 C8
- Kp: 10.88
- Ki: 0.48
- Kd: 61.87
-
-Recv: EPR:3 218 13.3400 Extr.1 PID P-gain/dead-time
-Recv: EPR:3 222 0.6700 Extr.1 PID I-gain
-Recv: EPR:3 226 66.6200 Extr.1 PID D-gain
-
-M206 T3 P808 X%(zv)s
-
-M206 T3 P218 X10.88
-M206 T3 P222 X0.67
-M206 T3 P226 X66.62
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;参考：&lt;a href=&#34;http://zennmaster.com/random-things/auto-bed-leveling-for-the-makerfarm-prusa-i3-part-3-final-setup&#34;&gt;http://zennmaster.com/random-things/auto-bed-leveling-for-the-makerfarm-prusa-i3-part-3-final-setup&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>test</title>
-      <link>http://localhost:1313/post/test/</link>
-      <pubDate>Wed, 20 May 2015 23:41:36 +0900</pubDate>
-      
-      <guid>http://localhost:1313/post/test/</guid>
-      <description>
-
-&lt;h1 id=&#34;テスト書き込み:b128b7694e4de962e0088bcb1bcb254f&#34;&gt;テスト書き込み&lt;/h1&gt;
-
-&lt;p&gt;SDカードを接続して以下のコマンドを実行&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;df -h
-Filesystem                    Size   Used  Avail Capacity   iused     ifree %iused  Mounted on
-/dev/disk1                   465Gi  303Gi  161Gi    66%  79563765  42278409   65%   /
-devfs                        353Ki  353Ki    0Bi   100%      1220         0  100%   /dev
-map -hosts                     0Bi    0Bi    0Bi   100%         0         0  100%   /net
-map auto_home                  0Bi    0Bi    0Bi   100%         0         0  100%   /home
-/dev/disk7s1                  56Mi   14Mi   42Mi    26%       512         0  100%   /Volumes/boot
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;上記から&lt;code&gt;/dev/disk7&lt;/code&gt;　が該当&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;＃ sudo diskutil umount /dev/disk7s1
-Password:
-Volume boot on disk7s1 unmounted
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;sudo dd if=XXX.img of=/dev/rdisk7 bs=1m&lt;/p&gt;
-
-&lt;p&gt;ID&amp;rsquo; : pi
-パスワード&amp;rdquo; : raspberry&lt;/p&gt;
-
-&lt;p&gt;あとはipでアクセスすると使えるようになります。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>myDIYPrinter20150517</title>
-      <link>http://localhost:1313/post/myDIYPrinter20150517/</link>
+      <link>https://m0a.github.io/post/myDIYPrinter20150517/</link>
       <pubDate>Sun, 17 May 2015 20:39:59 +0900</pubDate>
       
-      <guid>http://localhost:1313/post/myDIYPrinter20150517/</guid>
+      <guid>https://m0a.github.io/post/myDIYPrinter20150517/</guid>
       <description>&lt;p&gt;onShapeで設計してみました。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/posts/DIYPrinter01/shot01.png&#34; alt=&#34;shot01.png&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/DIYPrinter01/shot01.png&#34; alt=&#34;shot01.png&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;onShapeはWebアプリなCADなのでアセンブリ画面で実際に触ることができちゃいます。&lt;/p&gt;
@@ -292,10 +74,10 @@ Volume boot on disk7s1 unmounted
     
     <item>
       <title>genkei atom customize</title>
-      <link>http://localhost:1313/post/genkei-atom-customize/</link>
+      <link>https://m0a.github.io/post/genkei-atom-customize/</link>
       <pubDate>Sun, 17 May 2015 10:24:49 +0900</pubDate>
       
-      <guid>http://localhost:1313/post/genkei-atom-customize/</guid>
+      <guid>https://m0a.github.io/post/genkei-atom-customize/</guid>
       <description>&lt;p&gt;genkei ATOMを使っています。
 3DPrinter2機種目です。1機種目は引越し時に捨ててしまいました。&lt;br&gt;
 （後から部品取りに使うなりいろいろ手があっただろうと後悔）&lt;/p&gt;
@@ -304,7 +86,7 @@ Volume boot on disk7s1 unmounted
 使いこなし切れてなかったんですが、&lt;a href=&#34;https://www.onshape.com/&#34;&gt;onShape&lt;/a&gt;をきっかけに、結構なんでも作れるようになってきました。&lt;br&gt;
 それで作ってみたのがこちら。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/posts/genkei_atom_customize/genkei_atom_customize.jpg&#34; alt=&#34;genkei_atom_customize.jpg&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/genkei_atom_customize.jpg&#34; alt=&#34;genkei_atom_customize.jpg&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;X軸周りのパーツを印刷しやすくしたパーツです。&lt;br&gt;
@@ -318,15 +100,15 @@ Volume boot on disk7s1 unmounted
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;x_moter&lt;br&gt;
-&lt;img src=&#34;http://localhost:1313/images/posts/genkei_atom_customize/x_moter_preview_featured.jpg&#34; alt=&#34;x_moter_preview_featured.jpg&#34; /&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/x_moter_preview_featured.jpg&#34; alt=&#34;x_moter_preview_featured.jpg&#34; /&gt;
 &lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;x_end_a&lt;br&gt;
-&lt;img src=&#34;http://localhost:1313/images/posts/genkei_atom_customize/x_end_a_preview_featured.jpg&#34; alt=&#34;x_end_a_preview_featured.jpg&#34; /&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/x_end_a_preview_featured.jpg&#34; alt=&#34;x_end_a_preview_featured.jpg&#34; /&gt;
 &lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;x_carriage_lm_a b c 一体型&lt;br&gt;
-&lt;img src=&#34;http://localhost:1313/images/posts/genkei_atom_customize/x_carriage_lm_abc_set_preview_featured.jpg&#34; alt=&#34;x_carriage_lm_abc_set_preview_featured.jpg&#34; /&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/x_carriage_lm_abc_set_preview_featured.jpg&#34; alt=&#34;x_carriage_lm_abc_set_preview_featured.jpg&#34; /&gt;
 &lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -338,10 +120,10 @@ Volume boot on disk7s1 unmounted
     
     <item>
       <title>glasses</title>
-      <link>http://localhost:1313/post/glasses/</link>
+      <link>https://m0a.github.io/post/glasses/</link>
       <pubDate>Sat, 16 May 2015 22:20:29 +0900</pubDate>
       
-      <guid>http://localhost:1313/post/glasses/</guid>
+      <guid>https://m0a.github.io/post/glasses/</guid>
       <description>
 
 &lt;h2 id=&#34;メガネを作ったんです:ef511c63b3fa744e48b4b29c062d412d&#34;&gt;メガネを作ったんです。&lt;/h2&gt;
@@ -356,7 +138,7 @@ Volume boot on disk7s1 unmounted
 
 &lt;p&gt;身体に身につけてるので、俺３Dプリンタ触ってるんだアピールにピッタリ&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/posts/myglasses.jpg&#34; alt=&#34;メガネ&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/myglasses.jpg&#34; alt=&#34;メガネ&#34; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;thingverseにもアップしてます。
