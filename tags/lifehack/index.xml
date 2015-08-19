@@ -6,8 +6,102 @@
     <description>Recent content in Lifehack on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 20 May 2015 14:47:52 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2015 11:07:25 +0900</lastBuildDate>
     <atom:link href="https://m0a.github.io/tags/lifehack/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>oyayubishiftinput</title>
+      <link>https://m0a.github.io/post/oyayubishiftinput/</link>
+      <pubDate>Wed, 19 Aug 2015 11:07:25 +0900</pubDate>
+      
+      <guid>https://m0a.github.io/post/oyayubishiftinput/</guid>
+      <description>
+
+&lt;h1 id=&#34;はじめに:2982c74f74f5adebcb0b1a0505d95045&#34;&gt;はじめに&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://backspace.fm/episode/094/&#34;&gt;backspacefmというポッドキャスト&lt;/a&gt;を聞いていたところ親指シフト入力の話があり、
+すごく惹かれてしまいました。自分のメインマシンはMacでUSキーボードですが、これでも始められるという話を聞いたので、
+始めてみることにしました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://ja.wikipedia.org/wiki/%E8%A6%AA%E6%8C%87%E3%82%B7%E3%83%95%E3%83%88&#34;&gt;親指シフト入力とは&lt;/a&gt;
+日本語の文章を入力する上で『効率』と『使いやすさ』のバランスを再設計するために、いくつかの検討と実験を行ったうえで「一つのアクションが、一つのかなに対応する」方法
+だそうです。
+(wikipediaより)&lt;/p&gt;
+
+&lt;p&gt;打鍵数がひらがなと一致するのでローマ字入力と比べると半分近くに減ることになります。
+正直今のタイピングもエセブラインドタイピングなので、体得できるか試してみることにします(6/23記載)。&lt;/p&gt;
+
+&lt;h1 id=&#34;学んで3ヶ月目の感想:2982c74f74f5adebcb0b1a0505d95045&#34;&gt;学んで3ヶ月目の感想&lt;/h1&gt;
+
+&lt;p&gt;完全にbackspace.fmの売り文句に騙されましたw。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;「考えるスピードで文字が打てるようになるよ。」&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;多分考える速度で打てるようになるにはまだ精進が必要ということなんでしょう。
+普段使いできるレベルに到達した感想は「ローマ字入力とあんまり変わらないです」。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;入力ミスが完全になくなったら再検証&lt;/strong&gt; してみます。&lt;/p&gt;
+
+&lt;h1 id=&#34;学んだプロセス:2982c74f74f5adebcb0b1a0505d95045&#34;&gt;学んだプロセス&lt;/h1&gt;
+
+&lt;p&gt;で、どうやって学んだかを紹介します。
+ちなみに普通に使えるレベルに到達するには練習を毎日30分しても３ヶ月はかかります。
+なので覚悟が必要だと思います。仕事にならないという覚悟がw&lt;/p&gt;
+
+&lt;h2 id=&#34;設定:2982c74f74f5adebcb0b1a0505d95045&#34;&gt;設定&lt;/h2&gt;
+
+&lt;p&gt;いい記事がありました。まさに自分用設定でしたので、この様に進めます。
+&lt;a href=&#34;http://qiita.com/mochi/items/5b44169db7b3a76d3da1&#34;&gt;http://qiita.com/mochi/items/5b44169db7b3a76d3da1&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;ローマ字入力の封印:2982c74f74f5adebcb0b1a0505d95045&#34;&gt;ローマ字入力の封印&lt;/h2&gt;
+
+&lt;p&gt;正直体に染み込んだローマ字脳のせいで気を抜くと身体がローマ字を打とうとするので
+脳内がリセットされるまで、封印するしかないです。
+Karabinerを絶対終了しないようにしました。&lt;/p&gt;
+
+&lt;h2 id=&#34;まずはキーの並びから記憶術で覚える:2982c74f74f5adebcb0b1a0505d95045&#34;&gt;まずはキーの並びから記憶術で覚える&lt;/h2&gt;
+
+&lt;p&gt;最初は体で覚えるだろうって期待して手元にキー配列表を置き作業的に打ち込み練習しましたが、遅々として覚えず絶望します。
+(３日続けましたが覚えませんでした)&lt;/p&gt;
+
+&lt;p&gt;思うに、キーボード配列に規則性がないので&lt;strong&gt;自然に覚えるのはかなり酷です。&lt;/strong&gt;
+いわゆる身体で覚えるという手が使えないんですよね。少なくとも最初のうちは。
+特にローマ字入力時の反射神経が邪魔してくるので、上手く行きません。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;マツコの知らない世界&lt;/strong&gt; で記憶術の回があり、それをヒントに並びを覚えます。&lt;/p&gt;
+
+&lt;p&gt;こんな感じで覚えました。(一部抜粋)
+&lt;img src=&#34;https://m0a.github.io/images/posts/oyayubishiftinput/keyboard.jpg&#34; alt=&#34;x_moter_preview_featured.jpg&#34; /&gt;
+
+重要なのはストーリーが頭に思い浮かぶような語呂合わせが良いみたいです。
+「鳩が棋院で囲碁さしてる」なんて一瞬で覚えました。
+逆に牛とか単語単位の語呂合わせは簡単に忘れてしまいます。
+実際に使う予定の方はこの語呂合わせ検討に時間をしっかり取ったほうが後々良い結果が出ます。&lt;/p&gt;
+
+&lt;p&gt;後は小脳に書き換わるまでは、常にストーリーを思い出しながらキーを打ちます。&lt;/p&gt;
+
+&lt;h2 id=&#34;アプリを作った:2982c74f74f5adebcb0b1a0505d95045&#34;&gt;アプリを作った。&lt;/h2&gt;
+
+&lt;p&gt;ひたすらキーを打ち続けるしかないんですが、正直今までできでたことができなくなってるんで
+モチベーションの維持が難しいです。&lt;/p&gt;
+
+&lt;p&gt;基本的には下記リンクにある練習テキストを打ち続けるしかないのですが、
+時間を記録してタイプスピードが上がるのを確認するしかないんです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://nicola.sunicom.co.jp/olddoc/nicolaha.html&#34;&gt;http://nicola.sunicom.co.jp/olddoc/nicolaha.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;そこでMac版ですがアプリを作ることにしました。
+このアプリを作っているうちに体得してしまったので今はモチベが下がり完成してないですがそのうち公開します。&lt;/p&gt;
+
+&lt;h2 id=&#34;e-typingで練習:2982c74f74f5adebcb0b1a0505d95045&#34;&gt;e-typingで練習&lt;/h2&gt;
+
+&lt;p&gt;macはソフトの力で内部的に親指シフト入力をローマ字入力に変換しているため、
+ローマ字入力の練習サイトがそのまま使えます
+こちらのサイトが特にオススメです&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.e-typing.ne.jp/member/&#34;&gt;http://www.e-typing.ne.jp/member/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>hashimoto_intai_hantai</title>
