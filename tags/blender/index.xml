@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ue4 on 楽しいことしかやりたくない。</title>
-    <link>http://localhost:1313/tags/ue4/</link>
-    <description>Recent content in Ue4 on 楽しいことしかやりたくない。</description>
+    <title>Blender on 楽しいことしかやりたくない。</title>
+    <link>http://localhost:1313/tags/blender/</link>
+    <description>Recent content in Blender on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 19 Aug 2015 10:52:50 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ue4/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/blender/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>blender tutorial for UE4</title>
@@ -39,43 +39,6 @@
 &lt;/ul&gt;
 
 &lt;p&gt;これらについてまとめる予定です。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>test</title>
-      <link>http://localhost:1313/post/test/</link>
-      <pubDate>Wed, 20 May 2015 23:41:36 +0900</pubDate>
-      
-      <guid>http://localhost:1313/post/test/</guid>
-      <description>
-
-&lt;h1 id=&#34;テスト書き込み:b128b7694e4de962e0088bcb1bcb254f&#34;&gt;テスト書き込み&lt;/h1&gt;
-
-&lt;p&gt;SDカードを接続して以下のコマンドを実行&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;df -h
-Filesystem                    Size   Used  Avail Capacity   iused     ifree %iused  Mounted on
-/dev/disk1                   465Gi  303Gi  161Gi    66%  79563765  42278409   65%   /
-devfs                        353Ki  353Ki    0Bi   100%      1220         0  100%   /dev
-map -hosts                     0Bi    0Bi    0Bi   100%         0         0  100%   /net
-map auto_home                  0Bi    0Bi    0Bi   100%         0         0  100%   /home
-/dev/disk7s1                  56Mi   14Mi   42Mi    26%       512         0  100%   /Volumes/boot
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;上記から&lt;code&gt;/dev/disk7&lt;/code&gt;　が該当&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;＃ sudo diskutil umount /dev/disk7s1
-Password:
-Volume boot on disk7s1 unmounted
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;sudo dd if=XXX.img of=/dev/rdisk7 bs=1m&lt;/p&gt;
-
-&lt;p&gt;ID&amp;rsquo; : pi
-パスワード&amp;rdquo; : raspberry&lt;/p&gt;
-
-&lt;p&gt;あとはipでアクセスすると使えるようになります。&lt;/p&gt;
 </description>
     </item>
     
