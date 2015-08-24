@@ -6,8 +6,304 @@
     <description>Recent content in 3dprinter on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 24 Jun 2015 17:22:03 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2015 00:55:55 +0900</lastBuildDate>
     <atom:link href="https://m0a.github.io/tags/3dprinter/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>studying_blender001</title>
+      <link>https://m0a.github.io/post/studying_blender001/</link>
+      <pubDate>Tue, 25 Aug 2015 00:55:55 +0900</pubDate>
+      
+      <guid>https://m0a.github.io/post/studying_blender001/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender005.png&#34; alt=&#34;blender005.png&#34;&gt;
+&lt;/p&gt;
+
+&lt;h1 id=&#34;はじめに:a1533defc77846ad6463965096eb23c0&#34;&gt;はじめに&lt;/h1&gt;
+
+&lt;!--
+もともとはUE4のためにBlenderの勉強を始めるはずでしたが、&lt;br&gt;
+3DPrinterで印刷してみたらなんか新鮮な感じだったので急遽記事化してみました
+--&gt;
+
+&lt;p&gt;OnShape等のCADを使っていると無味乾燥な形状ばかり印刷しがちです。&lt;br&gt;
+ところが、Blenderで&lt;strong&gt;OnShapeで作った形状を改造してみるとなんとも味わい深い形状が作れました。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;こんな感じでOnShapeでダイスを作ります。&lt;br&gt;
+&lt;strong&gt;なんてこともないのでなんの感動もないです。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/onshapedice.png&#34; alt=&#34;onshapedice.png&#34;&gt;
+&lt;/p&gt;
+
+&lt;p&gt;これがこうなります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blenderdice.png&#34; alt=&#34;blenderdice.png&#34;&gt;
+&lt;/p&gt;
+
+&lt;p&gt;これを印刷すると3DPrinterの印刷痕の規則正しさと相まって実に趣深いことになります&lt;/p&gt;
+
+&lt;p&gt;ここに印刷結果を出そうと思いましたが、黒いフィラメントしか無く、写真写りが悪いため断念しています。&lt;br&gt;
+(そのうち貼る)&lt;/p&gt;
+
+&lt;h1 id=&#34;blenderとは:a1533defc77846ad6463965096eb23c0&#34;&gt;Blenderとは&lt;/h1&gt;
+
+&lt;p&gt;簡単にいえばフリーの3DCGソフトです。
+CADと違い映画やゲームのオブジェクト作成を目的としているため、
+アニメーションの為の機能などが組み込まれています。
+動画があるのでそちらを見るとどんな事ができるか想像できるかと思います。&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;embed video-player&#34;&gt;
+
+&lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
+  width=&#34;640&#34; height=&#34;385&#34;
+  src=&#34;http://www.youtube.com/embed/wDRTjzLNK0g&#34;
+  allowfullscreen frameborder=&#34;0&#34;&gt;
+&lt;/iframe&gt;
+
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;こちらからダウンロードできます。
+&lt;a href=&#34;http://www.blender.org/download/&#34;&gt;http://www.blender.org/download/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;目標設定:a1533defc77846ad6463965096eb23c0&#34;&gt;目標設定&lt;/h1&gt;
+
+&lt;p&gt;とにかくなんでもできるツールなので正直使うのが難しく、実は自分は過去に何度も挫折してます。
+そこで、特定の機能に特化してそこの使い方だけを学ぶことにします。
+ズバリ粘土細工機能(sclupt)だけを触ります。&lt;/p&gt;
+
+&lt;h1 id=&#34;blender事始め:a1533defc77846ad6463965096eb23c0&#34;&gt;Blender事始め&lt;/h1&gt;
+
+&lt;p&gt;とはいえ、基本操作だけは覚えていたほうが良さそうです。
+&lt;a href=&#34;http://www.giudansky.com/design/51-blender-map&#34;&gt;チートシートを手に入れておきましょう&lt;/a&gt; &lt;br&gt;
+Blenderを起動します。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender001.png&#34; alt=&#34;blender001.png&#34;&gt;
+&lt;/p&gt;
+
+&lt;p&gt;とりあえずこれだけ覚えておきます。&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;マウス＆キー　&lt;/th&gt;
+&lt;th&gt;動作内容&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;マウス中ボタンドラッグ&lt;/td&gt;
+&lt;td&gt;視点移動(回転)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;マウス中ボタンドラッグ +Shiftキー&lt;/td&gt;
+&lt;td&gt;視点移動(並行移動)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;マウスホイール操作&lt;/td&gt;
+&lt;td&gt;視点移動(拡大縮小)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;マウス右クリック&lt;/td&gt;
+&lt;td&gt;オブジェクト選択&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;マウス右ドラック&lt;/td&gt;
+&lt;td&gt;オブジェクト移動(左クリックで確定)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;マウス左クリック&lt;/td&gt;
+&lt;td&gt;Cursor移動&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;中央の3DView画面と呼ばれる箱が表示されている画面でこの表の操作が可能です。
+試してみましょう&lt;/p&gt;
+
+&lt;p&gt;ひと通り試したら右クリックで箱を選択し、&lt;code&gt;x&lt;/code&gt;で削除します。&lt;/p&gt;
+
+&lt;p&gt;間違って左クリックするとカーソルが原点から移動しているかと思います。&lt;/p&gt;
+
+&lt;p&gt;カーソル↓&lt;br&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/cursor.png&#34; alt=&#34;cursor.png&#34;&gt;
+&lt;/p&gt;
+
+&lt;p&gt;stlファイルをロードするときにカーソル位置に出現するので、カーソルを原点に戻します&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;shift+s&lt;/code&gt;で&lt;code&gt;cursor to center&lt;/code&gt;を選びます。&lt;/p&gt;
+
+&lt;p&gt;stlファイルを読み込みます。
+今回ダイスを用意してみました&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://m0a.github.io/files/posts/studying_blender001/dice.stl.zip&#34;&gt;dice.stl.zip&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;File-&amp;gt;Import-&amp;gt;Stlを選びます&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender000_1.png&#34; alt=&#34;blender000_1.png&#34;&gt;
+&lt;/p&gt;
+
+&lt;p&gt;ファイルブラウザが立ち上がるので、stlファイルを選びimportします。&lt;/p&gt;
+
+&lt;p&gt;最初は画面が乱れたようにみえるかもしれません。
+実はBlenerの初期状態は単位系がCADと異なるため凄く大きいサイズでインポートされるみたいです。
+今回は単位系を直さずに行きます。&lt;/p&gt;
+
+&lt;p&gt;右クリックでサイコロを選択し、&lt;code&gt;s&lt;/code&gt;でスケールを調整します。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender000_3.png&#34; alt=&#34;blender000_3.png&#34;&gt;
+&lt;/p&gt;
+
+&lt;p&gt;大きさはこんな感じで。テキトーでいいです。
+ここで一つ注意ですが、最終的にまたSTLでExportするので、今度はスライサー(3Dprinter用のツール)で開いた時に
+凄く小さくなります。&lt;/p&gt;
+
+&lt;p&gt;なので最後exportする前に&lt;code&gt;s&lt;/code&gt;でスケールを変えたほうがいいかもです。&lt;/p&gt;
+
+&lt;h1 id=&#34;sculptmodeへ:a1533defc77846ad6463965096eb23c0&#34;&gt;sculptModeへ&lt;/h1&gt;
+
+&lt;p&gt;sculptModeに移動します。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender002.png&#34; alt=&#34;blender002.png&#34;&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ObjectMode&lt;/code&gt;をクリックして&lt;code&gt;sculptMode&lt;/code&gt;に変えます&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender006.png&#34; alt=&#34;blender006.png&#34;&gt;
+&lt;/p&gt;
+
+&lt;p&gt;マウスカーソルが変わり左側にBrushの選択状態が見えているかと思います。
+ここで心の赴くまま左クリックで弄りたくなると思います&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender007.png&#34; alt=&#34;blender007.png&#34;&gt;
+&lt;/p&gt;
+
+&lt;p&gt;ところが実際はこのままでは上記のように横線が入ったりして上手く行きません&lt;br&gt;
+&lt;code&gt;z&lt;/code&gt;キーで原因がわかります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender007_2.png&#34; alt=&#34;blender007_2.png&#34;&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;z&lt;/code&gt;はワイヤーフレーム表示にしてくれます。
+ご覧のとおりCADソフトは綺麗にポリゴンを形成してくれており、そのままではsculptは面分割してくれないため
+こんな風に歪にしか加工できない状態です。&lt;/p&gt;
+
+&lt;p&gt;そこで面を自動で分割するようにします。
+再度&lt;code&gt;z&lt;/code&gt;キーでソリッド表示に戻ります。&lt;br&gt;
+&lt;code&gt;ctrl+z&lt;/code&gt;でundoして、変更前に戻しておきましょう&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender008.png&#34; alt=&#34;blender008.png&#34;&gt;
+&lt;/p&gt;
+
+&lt;p&gt;左ベインのツールボックスから&lt;code&gt;Dyntopo&lt;/code&gt;の▲をクリックしプルダウンを開きます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender009.png&#34; alt=&#34;blender009.png&#34;&gt;
+&lt;/p&gt;
+
+&lt;p&gt;開いたプルダウンから&lt;code&gt;Enable Dyntopo&lt;/code&gt;をクリックします。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender010.png&#34; alt=&#34;blender010.png&#34;&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Detail size&lt;/code&gt;のボタン部分を左ドラックすると値を小さくできます。
+今回は&lt;code&gt;3.0&lt;/code&gt;付近にします。
+実際にダイスをクリックやドラックして弄ってみると、左右対称のように適用されているようです。&lt;/p&gt;
+
+&lt;p&gt;sculptは人間の顔とか左右対称のものをいじる事が多いので初期状態からこの設定のようです。
+今回はoffにします。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender011.png&#34; alt=&#34;blender011.png&#34;&gt;
+&lt;/p&gt;
+
+&lt;p&gt;左ベインの&lt;code&gt;Symmetry&lt;/code&gt;の▲をクリックしプルダウンを開き、Mirrorのxの部分がonになっているので
+クリックしてoffにします。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender013.png&#34; alt=&#34;blender013.png&#34;&gt;
+&lt;/p&gt;
+
+&lt;p&gt;実際に操作してみると今回はミラーリングされずに加工できますね。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender014.png&#34; alt=&#34;blender014.png&#34;&gt;
+&lt;/p&gt;
+
+&lt;p&gt;ブラシを選択して色々試してみましょう&lt;/p&gt;
+
+&lt;p&gt;ショートカットキーも色々あるので纏めておきます。&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;マウス＆キー　&lt;/th&gt;
+&lt;th&gt;動作内容&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;F&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;ブラシサイズ変更&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;F&lt;/code&gt; + Shiftキー&lt;/td&gt;
+&lt;td&gt;ブラシの強度変更&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;マウスの左クリック&lt;/td&gt;
+&lt;td&gt;ブラシの適用(持ち上げる)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;マウスの左クリック +Ctrlキー&lt;/td&gt;
+&lt;td&gt;ブラシの逆適用(凹ませる)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&#34;最後に:a1533defc77846ad6463965096eb23c0&#34;&gt;最後に&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender015.png&#34; alt=&#34;blender015.png&#34;&gt;
+&lt;/p&gt;
+
+&lt;p&gt;快くまで楽しんだら、&lt;code&gt;File&lt;/code&gt;-&amp;gt;&lt;code&gt;Export&lt;/code&gt; -&amp;gt; &lt;code&gt;Stl&lt;/code&gt;と選択してexportしましょう。
+お疲れ様でした。&lt;/p&gt;
+
+&lt;p&gt;参考にした動画をのせておきます。&lt;/p&gt;
+
+&lt;p&gt;参考:&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;embed video-player&#34;&gt;
+
+&lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
+  width=&#34;640&#34; height=&#34;385&#34;
+  src=&#34;http://www.youtube.com/embed/mTOBCp2k1R8&#34;
+  allowfullscreen frameborder=&#34;0&#34;&gt;
+&lt;/iframe&gt;
+
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;embed video-player&#34;&gt;
+
+&lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
+  width=&#34;640&#34; height=&#34;385&#34;
+  src=&#34;http://www.youtube.com/embed/zTxxZAroC_w&#34;
+  allowfullscreen frameborder=&#34;0&#34;&gt;
+&lt;/iframe&gt;
+
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>glasses2</title>
