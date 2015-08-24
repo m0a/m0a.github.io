@@ -10,14 +10,14 @@
     <atom:link href="http://localhost:1313/tags/haskell/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>test</title>
-      <link>http://localhost:1313/post/test/</link>
+      <title>memo</title>
+      <link>http://localhost:1313/post/memo/</link>
       <pubDate>Wed, 20 May 2015 23:41:36 +0900</pubDate>
       
-      <guid>http://localhost:1313/post/test/</guid>
+      <guid>http://localhost:1313/post/memo/</guid>
       <description>
 
-&lt;h1 id=&#34;テスト書き込み:b128b7694e4de962e0088bcb1bcb254f&#34;&gt;テスト書き込み&lt;/h1&gt;
+&lt;h1 id=&#34;テスト書き込み:58b6d3c6183aa888006bb550b18cb9e5&#34;&gt;テスト書き込み&lt;/h1&gt;
 
 &lt;p&gt;SDカードを接続して以下のコマンドを実行&lt;/p&gt;
 
@@ -43,6 +43,97 @@ Volume boot on disk7s1 unmounted
 パスワード&amp;rdquo; : raspberry&lt;/p&gt;
 
 &lt;p&gt;あとはipでアクセスすると使えるようになります。&lt;/p&gt;
+
+&lt;p&gt;実際にUE4二人間型のモデルが読み込めんで動かすところまで。
+ボーンの扱いまで理解れば、後は簡単になるかと。&lt;/p&gt;
+
+&lt;p&gt;つまり、覚えることは以下です&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;モデリングの基本&lt;/li&gt;
+&lt;li&gt;sculpting&lt;/li&gt;
+&lt;li&gt;骨組み&lt;/li&gt;
+&lt;li&gt;骨組みの操作&lt;/li&gt;
+&lt;li&gt;UE4のためのFBXエクスポート、インポート&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;参考メモ&lt;/p&gt;
+
+&lt;p&gt;日本のBlender使いはレベル低いから
+海外の作例を見るといい
+&lt;a href=&#34;https://vimeo.com/82013451&#34;&gt;https://vimeo.com/82013451&lt;/a&gt;
+スカルプト -&amp;gt; リトポが主流でそ？
+ポリゴンでチマチマモデリングするのはもう古いんでない？
+ハードサーフェイスのモデリングの手法は残っていくんじゃぁないかい&lt;/p&gt;
+
+&lt;p&gt;あとSubdivベースのディズニー系デフォルメキャラも&lt;/p&gt;
+
+&lt;p&gt;昔は「PandaRadio」さんのサイト覗いてたりしてたんだよなー&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://vimeo.com/127949223/description&#34;&gt;https://vimeo.com/127949223/description&lt;/a&gt;
+PBRってこれ…！？ すご&lt;/p&gt;
+
+&lt;p&gt;3D Coatみたいに出来るようになるの？
+&lt;a href=&#34;https://www.youtube.com/watch?v=_fb5tHXpCPs&#34;&gt;https://www.youtube.com/watch?v=_fb5tHXpCPs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ここか　&lt;a href=&#34;https://youtu.be/QCMyvcc3ZaU?t=17m3s&#34;&gt;https://youtu.be/QCMyvcc3ZaU?t=17m3s&lt;/a&gt;
+blenderの弱点はこの日本語の情報量の無さですよね
+調べようと思っても英語じゃないとでてこない
+それとも３ＤＣＧはどれもそうなのか&lt;/p&gt;
+
+&lt;p&gt;英語だからって回避するのはもったいない。
+Andrew氏の動画とか、英語分からなくても何となく分かるようにできてる。
+動画じゃなくて画像系のチュートリアルにしても、最近のはこまか～くステップごとに画像を乗っけてくれる。
+辞書が必要なのは、日本語の機能名を英語に訳してググるときぐらいよ。&lt;/p&gt;
+
+&lt;p&gt;…と、言うのは言い過ぎだというのは分かっている。
+しかし、一切合切英語の情報を遮断するってのは本当にもったいない。&lt;/p&gt;
+
+&lt;p&gt;最近始めたんでオススメのチュートリアル教えてくれ
+tutor4uのは全部やった&lt;/p&gt;
+
+&lt;p&gt;Modeling simple body (Anime style)
+&lt;a href=&#34;https://www.youtube.com/watch?v=pDZQnyy0f8k&#34;&gt;https://www.youtube.com/watch?v=pDZQnyy0f8k&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Blender 2.75a - Simple Curtain
+&lt;a href=&#34;https://www.youtube.com/watch?v=UTi8SyQrjGQ&#34;&gt;https://www.youtube.com/watch?v=UTi8SyQrjGQ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Tutorial Create Candles in Blender Cycles 2.75
+&lt;a href=&#34;https://www.youtube.com/watch?v=ck27K8rfzoY&#34;&gt;https://www.youtube.com/watch?v=ck27K8rfzoY&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;こういうの見ると有料メタセコという雑魚に楽に勝ててる&lt;/p&gt;
+
+&lt;p&gt;ベジェやスプラインモデリングがやりやすくなればなー
+四方のエッジのラインを作成選択すれば面を張ってくれるとか
+296 名前: 名無しさん＠お腹いっぱい。  Mail: sage 投稿日: 2015/07/24(金) 21:37:48.76  ID: Yrg6omzF
+Bsurfacesじゃダメなの？
+&lt;a href=&#34;https://vimeo.com/26339130&#34;&gt;https://vimeo.com/26339130&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Marvel Wasp - Blender Timelapse
+&lt;a href=&#34;https://www.youtube.com/watch?v=by3i5xzM9_o&#34;&gt;https://www.youtube.com/watch?v=by3i5xzM9_o&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;評価１００のBlenderの達人
+モデリング、スカルプト、ペイント、すべての面で使いこなしてて凄いわ
+これ見るとBlenderってやっぱり凄いしな&lt;/p&gt;
+
+&lt;p&gt;Threaded Sculptのオプション外したらスカルプトの動作が軽くなったお
+333  1 名前: 名無しさん＠お腹いっぱい。  Mail: sage 投稿日: 2015/07/27(月) 13:40:34.44  ID: 4QpUUr8u
+&amp;gt;&amp;gt;332&lt;/p&gt;
+
+&lt;p&gt;それ何処？
+&amp;gt;&amp;gt;333
+3DViewのメニューのSculptのところにあるよ
+Bevel Curve Tools v0.1 - Blender Addon
+&lt;a href=&#34;https://www.youtube.com/watch?v=xfOlvZNgDt0&#34;&gt;https://www.youtube.com/watch?v=xfOlvZNgDt0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Blender最強
+こんなのmodo、LWにもない&lt;/p&gt;
+
+&lt;p&gt;横に倒したUV球からつくる人もおるね
+某牛山氏とか
+&lt;a href=&#34;http://i.ytimg.com/vi/ac4qV2uIF3Q/hqdefault.jpg&#34;&gt;http://i.ytimg.com/vi/ac4qV2uIF3Q/hqdefault.jpg&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Matalogueアドオンええな&lt;/p&gt;
 </description>
     </item>
     

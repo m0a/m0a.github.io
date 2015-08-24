@@ -58,77 +58,303 @@
   
   <main id="single" role="main">
     <div class="article-header">
-      <h1>UE4のためのBlender入門(001)</h1>
+      <h1>Blenderで粘土細工のようにオブジェクトを改造する</h1>
       <div class="meta">
-        2015-08-24 11:09:25 &nbsp;
+        2015-08-25 00:55:55 &nbsp;
         
           #<a href="/tags/3dprinter">3DPrinter</a>&nbsp;
         
-          #<a href="/tags/ue4">UE4</a>&nbsp;
-        
-          #<a href="/tags/blender">blender</a>&nbsp;
+          #<a href="/tags/blender">Blender</a>&nbsp;
         
       </div>
     </div>
     <article>
       
 
-<p>UE4の使い方を把握しても、モデルデータが作れないと、、、<br>
-ずっと挫折を繰り返してきましたが今こそ挽回の時です。</p>
+<p><img src="/images/posts/studying_blender001/blender005.png" alt="blender005.png">
+</p>
+
+<h1 id="はじめに:a1533defc77846ad6463965096eb23c0">はじめに</h1>
+
+<!--
+もともとはUE4のためにBlenderの勉強を始めるはずでしたが、<br>
+3DPrinterで印刷してみたらなんか新鮮な感じだったので急遽記事化してみました
+-->
+
+<p>OnShape等のCADを使っていると無味乾燥な形状ばかり印刷しがちです。<br>
+ところが、Blenderで<strong>OnShapeで作った形状を改造してみるとなんとも味わい深い形状が作れました。</strong></p>
+
+<p>こんな感じでOnShapeでダイスを作ります。<br>
+<strong>なんてこともないのでなんの感動もないです。</strong></p>
+
+<p><img src="/images/posts/studying_blender001/onshapedice.png" alt="onshapedice.png">
+</p>
+
+<p>これがこうなります。</p>
+
+<p><img src="/images/posts/studying_blender001/blenderdice.png" alt="blenderdice.png">
+</p>
+
+<p>これを印刷すると3DPrinterの印刷痕の規則正しさと相まって実に趣深いことになります</p>
+
+<p>ここに印刷結果を出そうと思いましたが、黒いフィラメントしか無く、写真写りが悪いため断念しています。<br>
+(そのうち貼る)</p>
+
+<h1 id="blenderとは:a1533defc77846ad6463965096eb23c0">Blenderとは</h1>
+
+<p>簡単にいえばフリーの3DCGソフトです。
+CADと違い映画やゲームのオブジェクト作成を目的としているため、
+アニメーションの為の機能などが組み込まれています。
+動画があるのでそちらを見るとどんな事ができるか想像できるかと思います。</p>
+
+<p><div class="embed video-player">
+
+<iframe class="youtube-player" type="text/html"
+  width="640" height="385"
+  src="http://www.youtube.com/embed/wDRTjzLNK0g"
+  allowfullscreen frameborder="0">
+</iframe>
+
+</div>
+</p>
+
+<p>こちらからダウンロードできます。
+<a href="http://www.blender.org/download/">http://www.blender.org/download/</a></p>
 
 <h1 id="目標設定:a1533defc77846ad6463965096eb23c0">目標設定</h1>
 
-<p>実際にUE4二人間型のモデルが読み込めんで動かすところまで。
-ボーンの扱いまで理解れば、後は簡単になるかと。</p>
+<p>とにかくなんでもできるツールなので正直使うのが難しく、実は自分は過去に何度も挫折してます。
+そこで、特定の機能に特化してそこの使い方だけを学ぶことにします。
+ズバリ粘土細工機能(sclupt)だけを触ります。</p>
 
-<p>つまり、覚えることは以下です</p>
+<h1 id="blender事始め:a1533defc77846ad6463965096eb23c0">Blender事始め</h1>
 
-<ul>
-<li>モデリングの基本</li>
-<li>sculpting</li>
-<li>骨組み</li>
-<li>骨組みの操作</li>
-<li>UE4のためのFBXエクスポート、インポート</li>
-</ul>
-
-<h1 id="モデリングの基本:a1533defc77846ad6463965096eb23c0">モデリングの基本</h1>
-
-<p>いきなり他力本願ですがリンクを張ります</p>
-
-<p>チートシートがあるので持っていたほうが良さそうです</p>
-
-<h1 id="scalupting:a1533defc77846ad6463965096eb23c0">scalupting</h1>
-
-<p>粘土いじりのようにモデリングする機能です。
-人間みたいな有機物体を作るのにはこっちが向いています。
-これをメインに学んでいきたい。</p>
-
-<ul>
-<li>blenderを起動します。</li>
-</ul>
+<p>とはいえ、基本操作だけは覚えていたほうが良さそうです。
+<a href="http://www.giudansky.com/design/51-blender-map">チートシートを手に入れておきましょう</a> <br>
+Blenderを起動します。</p>
 
 <p><img src="/images/posts/studying_blender001/blender001.png" alt="blender001.png">
 </p>
 
-<p><img src="/images/posts/studying_blender001/blender001.png" alt="blender001.png" />
+<p>とりあえずこれだけ覚えておきます。</p>
+
+<table>
+<thead>
+<tr>
+<th>マウス＆キー　</th>
+<th>動作内容</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>マウス中ボタンドラッグ</td>
+<td>視点移動(回転)</td>
+</tr>
+
+<tr>
+<td>マウス中ボタンドラッグ +Shiftキー</td>
+<td>視点移動(並行移動)</td>
+</tr>
+
+<tr>
+<td>マウスホイール操作</td>
+<td>視点移動(拡大縮小)</td>
+</tr>
+
+<tr>
+<td>マウス右クリック</td>
+<td>オブジェクト選択</td>
+</tr>
+
+<tr>
+<td>マウス右ドラック</td>
+<td>オブジェクト移動(左クリックで確定)</td>
+</tr>
+
+<tr>
+<td>マウス左クリック</td>
+<td>Cursor移動</td>
+</tr>
+</tbody>
+</table>
+
+<p>中央の3DView画面と呼ばれる箱が表示されている画面でこの表の操作が可能です。
+試してみましょう</p>
+
+<p>ひと通り試したら右クリックで箱を選択し、<code>x</code>で削除します。</p>
+
+<p>間違って左クリックするとカーソルが原点から移動しているかと思います。</p>
+
+<p>カーソル↓<br>
+<img src="/images/posts/studying_blender001/cursor.png" alt="cursor.png">
 </p>
 
-<ul>
-<li>sculptModeに移動します。</li>
-</ul>
+<p>stlファイルをロードするときにカーソル位置に出現するので、カーソルを原点に戻します</p>
 
-<p><img src="/images/posts/studying_blender001/blender002.png" alt="blender002.png" />
+<p><code>shift+s</code>で<code>cursor to center</code>を選びます。</p>
+
+<p>stlファイルを読み込みます。
+今回ダイスを用意してみました</p>
+
+<p><a href="/files/posts/studying_blender001/dice.stl.zip">dice.stl.zip</a>
 </p>
 
-<ul>
-<li>対象のモデルを分割します。
-右ペインの<code>outliner</code>の<code>objectModifers</code>をクリック。</li>
-</ul>
+<p>File-&gt;Import-&gt;Stlを選びます</p>
 
-<p><img src="/images/posts/studying_blender001/blender003.png" alt="blender003.png" />
+<p><img src="/images/posts/studying_blender001/blender000_1.png" alt="blender000_1.png">
 </p>
 
-<p><img src="/images/posts/studying_blender001/blender004.png" alt="blender004.png" />
+<p>ファイルブラウザが立ち上がるので、stlファイルを選びimportします。</p>
+
+<p>最初は画面が乱れたようにみえるかもしれません。
+実はBlenerの初期状態は単位系がCADと異なるため凄く大きいサイズでインポートされるみたいです。
+今回は単位系を直さずに行きます。</p>
+
+<p>右クリックでサイコロを選択し、<code>s</code>でスケールを調整します。</p>
+
+<p><img src="/images/posts/studying_blender001/blender000_3.png" alt="blender000_3.png">
+</p>
+
+<p>大きさはこんな感じで。テキトーでいいです。
+ここで一つ注意ですが、最終的にまたSTLでExportするので、今度はスライサー(3Dprinter用のツール)で開いた時に
+凄く小さくなります。</p>
+
+<p>なので最後exportする前に<code>s</code>でスケールを変えたほうがいいかもです。</p>
+
+<h1 id="sculptmodeへ:a1533defc77846ad6463965096eb23c0">sculptModeへ</h1>
+
+<p>sculptModeに移動します。</p>
+
+<p><img src="/images/posts/studying_blender001/blender002.png" alt="blender002.png">
+</p>
+
+<p><code>ObjectMode</code>をクリックして<code>sculptMode</code>に変えます</p>
+
+<p><img src="/images/posts/studying_blender001/blender006.png" alt="blender006.png">
+</p>
+
+<p>マウスカーソルが変わり左側にBrushの選択状態が見えているかと思います。
+ここで心の赴くまま左クリックで弄りたくなると思います</p>
+
+<p><img src="/images/posts/studying_blender001/blender007.png" alt="blender007.png">
+</p>
+
+<p>ところが実際はこのままでは上記のように横線が入ったりして上手く行きません<br>
+<code>z</code>キーで原因がわかります。</p>
+
+<p><img src="/images/posts/studying_blender001/blender007_2.png" alt="blender007_2.png">
+</p>
+
+<p><code>z</code>はワイヤーフレーム表示にしてくれます。
+ご覧のとおりCADソフトは綺麗にポリゴンを形成してくれており、そのままではsculptは面分割してくれないため
+こんな風に歪にしか加工できない状態です。</p>
+
+<p>そこで面を自動で分割するようにします。
+再度<code>z</code>キーでソリッド表示に戻ります。<br>
+<code>ctrl+z</code>でundoして、変更前に戻しておきましょう</p>
+
+<p><img src="/images/posts/studying_blender001/blender008.png" alt="blender008.png">
+</p>
+
+<p>左ベインのツールボックスから<code>Dyntopo</code>の▲をクリックしプルダウンを開きます。</p>
+
+<p><img src="/images/posts/studying_blender001/blender009.png" alt="blender009.png">
+</p>
+
+<p>開いたプルダウンから<code>Enable Dyntopo</code>をクリックします。</p>
+
+<p><img src="/images/posts/studying_blender001/blender010.png" alt="blender010.png">
+</p>
+
+<p><code>Detail size</code>のボタン部分を左ドラックすると値を小さくできます。
+今回は<code>3.0</code>付近にします。
+実際にダイスをクリックやドラックして弄ってみると、左右対称のように適用されているようです。</p>
+
+<p>sculptは人間の顔とか左右対称のものをいじる事が多いので初期状態からこの設定のようです。
+今回はoffにします。</p>
+
+<p><img src="/images/posts/studying_blender001/blender011.png" alt="blender011.png">
+</p>
+
+<p>左ベインの<code>Symmetry</code>の▲をクリックしプルダウンを開き、Mirrorのxの部分がonになっているので
+クリックしてoffにします。</p>
+
+<p><img src="/images/posts/studying_blender001/blender013.png" alt="blender013.png">
+</p>
+
+<p>実際に操作してみると今回はミラーリングされずに加工できますね。</p>
+
+<p><img src="/images/posts/studying_blender001/blender014.png" alt="blender014.png">
+</p>
+
+<p>ブラシを選択して色々試してみましょう</p>
+
+<p>ショートカットキーも色々あるので纏めておきます。</p>
+
+<table>
+<thead>
+<tr>
+<th>マウス＆キー　</th>
+<th>動作内容</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><code>F</code></td>
+<td>ブラシサイズ変更</td>
+</tr>
+
+<tr>
+<td><code>F</code> + Shiftキー</td>
+<td>ブラシの強度変更</td>
+</tr>
+
+<tr>
+<td>マウスの左クリック</td>
+<td>ブラシの適用(持ち上げる)</td>
+</tr>
+
+<tr>
+<td>マウスの左クリック +Ctrlキー</td>
+<td>ブラシの逆適用(凹ませる)</td>
+</tr>
+</tbody>
+</table>
+
+<h1 id="最後に:a1533defc77846ad6463965096eb23c0">最後に</h1>
+
+<p><img src="/images/posts/studying_blender001/blender015.png" alt="blender015.png">
+</p>
+
+<p>快くまで楽しんだら、<code>File</code>-&gt;<code>Export</code> -&gt; <code>Stl</code>と選択してexportしましょう。
+お疲れ様でした。</p>
+
+<p>参考にした動画をのせておきます。</p>
+
+<p>参考:</p>
+
+<p><div class="embed video-player">
+
+<iframe class="youtube-player" type="text/html"
+  width="640" height="385"
+  src="http://www.youtube.com/embed/mTOBCp2k1R8"
+  allowfullscreen frameborder="0">
+</iframe>
+
+</div>
+</p>
+
+<p><div class="embed video-player">
+
+<iframe class="youtube-player" type="text/html"
+  width="640" height="385"
+  src="http://www.youtube.com/embed/zTxxZAroC_w"
+  allowfullscreen frameborder="0">
+</iframe>
+
+</div>
 </p>
 
     </article>
