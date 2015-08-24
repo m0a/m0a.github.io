@@ -6,8 +6,76 @@
     <description>Recent content in Blender on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 19 Aug 2015 10:52:50 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2015 11:09:25 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/blender/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>studying_blender001</title>
+      <link>http://localhost:1313/post/studying_blender001/</link>
+      <pubDate>Mon, 24 Aug 2015 11:09:25 +0900</pubDate>
+      
+      <guid>http://localhost:1313/post/studying_blender001/</guid>
+      <description>
+
+&lt;p&gt;UE4の使い方を把握しても、モデルデータが作れないと、、、&lt;br&gt;
+ずっと挫折を繰り返してきましたが今こそ挽回の時です。&lt;/p&gt;
+
+&lt;h1 id=&#34;目標設定:a1533defc77846ad6463965096eb23c0&#34;&gt;目標設定&lt;/h1&gt;
+
+&lt;p&gt;実際にUE4二人間型のモデルが読み込めんで動かすところまで。
+ボーンの扱いまで理解れば、後は簡単になるかと。&lt;/p&gt;
+
+&lt;p&gt;つまり、覚えることは以下です&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;モデリングの基本&lt;/li&gt;
+&lt;li&gt;sculpting&lt;/li&gt;
+&lt;li&gt;骨組み&lt;/li&gt;
+&lt;li&gt;骨組みの操作&lt;/li&gt;
+&lt;li&gt;UE4のためのFBXエクスポート、インポート&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;モデリングの基本:a1533defc77846ad6463965096eb23c0&#34;&gt;モデリングの基本&lt;/h1&gt;
+
+&lt;p&gt;いきなり他力本願ですがリンクを張ります&lt;/p&gt;
+
+&lt;p&gt;チートシートがあるので持っていたほうが良さそうです&lt;/p&gt;
+
+&lt;h1 id=&#34;scalupting:a1533defc77846ad6463965096eb23c0&#34;&gt;scalupting&lt;/h1&gt;
+
+&lt;p&gt;粘土いじりのようにモデリングする機能です。
+人間みたいな有機物体を作るのにはこっちが向いています。
+これをメインに学んでいきたい。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;blenderを起動します。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/posts/studying_blender001/blender001.png&#34; alt=&#34;blender001.png&#34;&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/posts/studying_blender001/blender001.png&#34; alt=&#34;blender001.png&#34; /&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;sculptModeに移動します。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/posts/studying_blender001/blender002.png&#34; alt=&#34;blender002.png&#34; /&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;対象のモデルを分割します。
+右ペインの&lt;code&gt;outliner&lt;/code&gt;の&lt;code&gt;objectModifers&lt;/code&gt;をクリック。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/posts/studying_blender001/blender003.png&#34; alt=&#34;blender003.png&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/posts/studying_blender001/blender004.png&#34; alt=&#34;blender004.png&#34; /&gt;
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>blender tutorial for UE4</title>
