@@ -81,10 +81,10 @@
 3DPrinterで印刷してみたらなんか新鮮な感じだったので急遽記事化してみました
 -->
 
-<p>OnShape等のCADを使っていると無味乾燥な形状ばかり印刷しがちです。<br>
+<p>OnShape等のCADを使っていると無味乾燥な形状ばかり印刷しがちです。<br />
 ところが、Blenderで<strong>OnShapeで作った形状を改造してみるとなんとも味わい深い形状が作れました。</strong></p>
 
-<p>こんな感じでOnShapeでダイスを作ります。<br>
+<p>こんな感じでOnShapeでダイスを作ります。<br />
 <strong>なんてこともないのでなんの感動もないです。</strong></p>
 
 <p><img src="/images/posts/studying_blender001/onshapedice.png" alt="onshapedice.png">
@@ -97,7 +97,7 @@
 
 <p>これを印刷すると3DPrinterの印刷痕の規則正しさと相まって実に趣深いことになります</p>
 
-<p>ここに印刷結果を出そうと思いましたが、黒いフィラメントしか無く、写真写りが悪いため断念しています。<br>
+<p>ここに印刷結果を出そうと思いましたが、黒いフィラメントしか無く、写真写りが悪いため断念しています。<br />
 (そのうち貼る)</p>
 
 <h1 id="blenderとは:a1533defc77846ad6463965096eb23c0">Blenderとは</h1>
@@ -130,7 +130,7 @@ CADと違い映画やゲームのオブジェクト作成を目的としてい�
 <h1 id="blender事始め:a1533defc77846ad6463965096eb23c0">Blender事始め</h1>
 
 <p>とはいえ、基本操作だけは覚えていたほうが良さそうです。
-<a href="http://www.giudansky.com/design/51-blender-map">チートシートを手に入れておきましょう</a> <br>
+<a href="http://www.giudansky.com/design/51-blender-map">チートシートを手に入れておきましょう</a>
 Blenderを起動します。</p>
 
 <p><img src="/images/posts/studying_blender001/blender001.png" alt="blender001.png">
@@ -331,11 +331,10 @@ Blenderを起動します。</p>
 <p>快くまで楽しんだら、<code>File</code>-&gt;<code>Export</code> -&gt; <code>Stl</code>と選択してexportしましょう。
 お疲れ様でした。</p>
 
-<p>参考にした動画をのせておきます。</p>
+<h1 id="参考:a1533defc77846ad6463965096eb23c0">参考</h1>
 
-<p>参考:</p>
-
-<p><div class="embed video-player">
+<p>参考にした動画をのせておきます。<br />
+<div class="embed video-player">
 
 <iframe class="youtube-player" type="text/html"
   width="640" height="385"
@@ -344,9 +343,8 @@ Blenderを起動します。</p>
 </iframe>
 
 </div>
-</p>
-
-<p><div class="embed video-player">
+<br />
+<div class="embed video-player">
 
 <iframe class="youtube-player" type="text/html"
   width="640" height="385"
@@ -400,6 +398,34 @@ Blenderを起動します。</p>
 	ga('send', 'pageview');
 </script>
 
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
 </body>
 </html>
 
