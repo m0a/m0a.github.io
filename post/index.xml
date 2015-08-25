@@ -578,24 +578,5 @@ youtubeで橋下さんの動画をたまに見ていて、メディアとの戦�
 </description>
     </item>
     
-    <item>
-      <title>firstStep</title>
-      <link>https://m0a.github.io/post/firstStep/</link>
-      <pubDate>Sat, 16 May 2015 18:12:30 +0900</pubDate>
-      
-      <guid>https://m0a.github.io/post/firstStep/</guid>
-      <description>
-
-&lt;h2 id=&#34;hello:89e60529a142b9bc0a0eb77341dc696a&#34;&gt;Hello&lt;/h2&gt;
-
-&lt;p&gt;こんにちわ。ちょっとブログを始めてみます。&lt;/p&gt;
-
-&lt;p&gt;Hugoを選んだのは単純にGoが好きだから。それだけです。&lt;/p&gt;
-
-&lt;p&gt;色々触ってみると、使いにくいようで実は使いやすいです。
-でもそれって逆のほうが普及しやすいよなぁ。&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>

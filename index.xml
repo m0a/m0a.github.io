@@ -579,38 +579,19 @@ youtubeで橋下さんの動画をたまに見ていて、メディアとの戦�
     </item>
     
     <item>
-      <title>firstStep</title>
-      <link>https://m0a.github.io/post/firstStep/</link>
-      <pubDate>Sat, 16 May 2015 18:12:30 +0900</pubDate>
-      
-      <guid>https://m0a.github.io/post/firstStep/</guid>
-      <description>
-
-&lt;h2 id=&#34;hello:89e60529a142b9bc0a0eb77341dc696a&#34;&gt;Hello&lt;/h2&gt;
-
-&lt;p&gt;こんにちわ。ちょっとブログを始めてみます。&lt;/p&gt;
-
-&lt;p&gt;Hugoを選んだのは単純にGoが好きだから。それだけです。&lt;/p&gt;
-
-&lt;p&gt;色々触ってみると、使いにくいようで実は使いやすいです。
-でもそれって逆のほうが普及しやすいよなぁ。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>about</title>
       <link>https://m0a.github.io/about/</link>
       <pubDate>Sat, 16 May 2015 18:11:20 +0900</pubDate>
       
       <guid>https://m0a.github.io/about/</guid>
-      <description>&lt;p&gt;最近諸事情により仙台に戻っています。&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;いろいろやりたいことがありますが、できることからやることがコツだと最近知りました。&lt;br&gt;
+      <description>&lt;p&gt;いろいろやりたいことがありますが、できることからやることがコツだと最近知りました。&lt;br&gt;
 興味あることは、好奇心順に&lt;br&gt;
-3DPrinter &amp;gt; iOS &amp;gt; FRP(functional reactive programming) &amp;gt; UE4 &amp;gt; Meteor.jsです。
-Haskellもやりたいけどモナド周りが未だにわかっていない。&lt;/p&gt;
+3DPrinter &amp;gt; iOS &amp;gt; MachineLearning &amp;gt; FRP(functional reactive programming) &amp;gt; UE4 です。
+Haskellもやりたいけどモナド周りが未だにわかっていない。
+Meteor.js熱は冷め気味&lt;/p&gt;
 
-&lt;p&gt;よろしくです！&lt;/p&gt;
+&lt;p&gt;基本的に技術的なことはqiitaに書き込みますが、
+こちらにはUE4の話題、作ったものについて書く予定です。&lt;/p&gt;
 </description>
     </item>
     
