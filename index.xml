@@ -99,7 +99,7 @@ Blenderを起動します。&lt;/p&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;マウス中ボタンドラッグ +Shiftキー&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Shift&lt;/code&gt; + マウス中ボタンドラッグ&lt;/td&gt;
 &lt;td&gt;視点移動(並行移動)&lt;/td&gt;
 &lt;/tr&gt;
 
@@ -130,15 +130,15 @@ Blenderを起動します。&lt;/p&gt;
 
 &lt;p&gt;ひと通り試したら右クリックで箱を選択し、&lt;code&gt;x&lt;/code&gt;で削除します。&lt;/p&gt;
 
-&lt;p&gt;間違って左クリックするとカーソルが原点から移動しているかと思います。&lt;/p&gt;
+&lt;p&gt;間違って左クリックすると &lt;strong&gt;カーソル&lt;/strong&gt; が原点から移動しているかと思います。&lt;/p&gt;
 
 &lt;p&gt;カーソル↓&lt;br&gt;
 &lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/cursor.png&#34; alt=&#34;cursor.png&#34;&gt;
 &lt;/p&gt;
 
-&lt;p&gt;stlファイルをロードするときにカーソル位置に出現するので、カーソルを原点に戻します&lt;/p&gt;
+&lt;p&gt;stlファイルをロードするときに &lt;strong&gt;カーソル位置に出現する&lt;/strong&gt; ので、&lt;strong&gt;カーソル&lt;/strong&gt; を原点に戻します&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;shift+s&lt;/code&gt;で&lt;code&gt;cursor to center&lt;/code&gt;を選びます。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;shift+s&lt;/code&gt; -&amp;gt;  &lt;code&gt;cursor to center&lt;/code&gt;を選びます。&lt;/p&gt;
 
 &lt;p&gt;stlファイルを読み込みます。
 今回ダイスを用意してみました&lt;/p&gt;
@@ -253,7 +253,7 @@ Blenderを起動します。&lt;/p&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;&lt;code&gt;F&lt;/code&gt; + Shiftキー&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Shift&lt;/code&gt; + &lt;code&gt;F&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;ブラシの強度変更&lt;/td&gt;
 &lt;/tr&gt;
 
@@ -263,7 +263,7 @@ Blenderを起動します。&lt;/p&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;マウスの左クリック +Ctrlキー&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Ctrl&lt;/code&gt; + マウスの左クリック&lt;/td&gt;
 &lt;td&gt;ブラシの逆適用(凹ませる)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;

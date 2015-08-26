@@ -6,8 +6,74 @@
     <description>Recent content in Ue4 on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 20 May 2015 23:41:36 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2015 22:46:46 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/ue4/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>studying_UE4_001</title>
+      <link>http://localhost:1313/post/studying_UE4_001/</link>
+      <pubDate>Wed, 26 Aug 2015 22:46:46 +0900</pubDate>
+      
+      <guid>http://localhost:1313/post/studying_UE4_001/</guid>
+      <description>
+
+&lt;h1 id=&#34;初めに:8bed7aa7ad261e586d681eb6d3eb4e86&#34;&gt;初めに&lt;/h1&gt;
+
+&lt;p&gt;最近わかってきたことですが、勉強する上で一番理解が早いのはチュートリアルをやることでした。&lt;br /&gt;
+正直体得するのはこれにつきます。&lt;/p&gt;
+
+&lt;p&gt;でもいいチュートリアルに出会う必要があります。
+そんなわけで自分が見て勉強になったチュートリアルを纏めます。&lt;/p&gt;
+
+&lt;h1 id=&#34;youtubeでチュートリアルをやる上で知っておいたほうがいいこと:8bed7aa7ad261e586d681eb6d3eb4e86&#34;&gt;Youtubeでチュートリアルをやる上で知っておいたほうがいいこと。&lt;/h1&gt;
+
+&lt;p&gt;その前に以下のショートカットキーがあること知ってました？&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;ショートカットキー　&lt;/th&gt;
+&lt;th&gt;動作内容&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;j&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;10秒前に戻る&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;k&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;10秒先に進む&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;これがあれば、あっ聞き逃した。見逃したってことがなくなります。&lt;br /&gt;
+これを知っていればもうyoutubeはビデオ講座の便利ツールです。&lt;/p&gt;
+
+&lt;h1 id=&#34;基本操作からblueprintまで理解できる-しかも日本語で:8bed7aa7ad261e586d681eb6d3eb4e86&#34;&gt;基本操作からBluePrintまで理解できる。しかも日本語で！&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://youtu.be/G-EHUAqaYfw&#34;&gt;夏休み特別UE4授業 Day 1 「UE4基礎」下田純也&lt;/a&gt;&lt;br /&gt;
+基本操作とblueprintの基本を学べます。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=1UpSyGfd8lw&#34;&gt;夏休み特別UE4授業Day2　「ゲーム構築基礎」ロブグレイ&lt;/a&gt;&lt;br /&gt;
+実際にゲームを作ります。AIを使ったゲームが簡単につくれて感動します&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;本格的なゲームをひと通り作る:8bed7aa7ad261e586d681eb6d3eb4e86&#34;&gt;本格的なゲームをひと通り作る&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;エンドレスランナーのプロトタイプを作る&lt;br /&gt;
+&lt;a href=&#34;https://youtu.be/qFZgs3e_1d4?list=PLr_Cbd4sUDTwkCNG4VeL7D4opgjAk9NhZ&#34;&gt;エンドレスランナーのプロトタイプ 01~07&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ステージがエンドレスに出来上がっていくロジックを体感します。&lt;br /&gt;
+blueprintがオブジェクト指向言語であることも理解できます。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>memo</title>
