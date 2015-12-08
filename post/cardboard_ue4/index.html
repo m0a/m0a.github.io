@@ -6,7 +6,7 @@
   
   <meta charset="UTF-8">
   <title>
-    studying_UE4_001 | 楽しいことしかやりたくない。
+    cardboard_ue4 | 楽しいことしかやりたくない。
   </title>
 
 
@@ -58,9 +58,9 @@
   
   <main id="single" role="main">
     <div class="article-header">
-      <h1>UE4を勉強する上で見るべき動画(001)</h1>
+      <h1>UE4でcardboardアプリを作りたいと思ったら</h1>
       <div class="meta">
-        2015-08-26 22:46:46 &nbsp;
+        2015-12-09 00:48:32 &nbsp;
         
           #<a href="/tags/ue4">UE4</a>&nbsp;
         
@@ -69,61 +69,49 @@
     <article>
       
 
-<h1 id="初めに:8bed7aa7ad261e586d681eb6d3eb4e86">初めに</h1>
+<p>UE4で手軽にVRを試そうと思ったらcardboardだよね～<br />
+と思って調べてみたらver.4.10現在(2015-12-09)では未対応な模様<br />
+<strong>oculusRift</strong> とか <strong>gearVR</strong> は全然手軽じゃない。</p>
 
-<p>最近わかってきたことですが、勉強する上で一番理解が早いのはチュートリアルをやることでした。<br />
-正直体得するのはこれにつきます。</p>
+<h1 id="cardboardとは:4500be483849ade8e38f48779567eaa0">cardboardとは</h1>
 
-<p>でもいいチュートリアルに出会う必要があります。
-そんなわけで自分が見て勉強になったチュートリアルを纏めます。</p>
+<p><a href="http://www.googlecardboard.tokyo/?gclid=CKGD_9fXzMkCFYGXvAod668G-Q">Google CardBoard V2.0</a><br />
+上記にリンクが有ります。
+いつの間にか磁石式じゃなくなっているみたいですね<br />
+要はスマホにレンズつけて無理やりVRってことです。</p>
 
-<h1 id="youtubeでチュートリアルをやる上で知っておいたほうがいいこと:8bed7aa7ad261e586d681eb6d3eb4e86">Youtubeでチュートリアルをやる上で知っておいたほうがいいこと。</h1>
+<p>プラグインを作っている人はいるみたいだけどリリースはまだのようです。<br />
+<a href="https://inmagicwetrust.wordpress.com/2015/07/18/project-unreal-4-cardboard/">PROJECT:UNREAL4CARDBOARD</a></p>
 
-<p>その前に以下のショートカットキーがあること知ってました？</p>
+<p>なんか現状で試せる方法はないかなーと探していたらUE4のフォーラムに、<br />
+サンプルプロジェクトを置いていました。スレッドの一番最初のコメントにリンクが有ります。
+<a href="https://forums.unrealengine.com/showthread.php?87236">https://forums.unrealengine.com/showthread.php?87236</a></p>
 
-<table>
-<thead>
-<tr>
-<th>ショートカットキー　</th>
-<th>動作内容</th>
-</tr>
-</thead>
+<img src="/images/posts/cardboard_ue4/Screenshot_20151209-010343.png" alt="Screenshot_20151209-010343.png">
 
-<tbody>
-<tr>
-<td><code>j</code></td>
-<td>10秒前に戻る</td>
-</tr>
 
-<tr>
-<td><code>k</code></td>
-<td>10秒先に進む</td>
-</tr>
-</tbody>
-</table>
+<p>ちゃんとNexus5(第一世代)で動作しました</p>
 
-<p>これがあれば、あっ聞き逃した。見逃したってことがなくなります。<br />
-これを知っていればもうyoutubeはビデオ講座の便利ツールです。</p>
+<h1 id="シンプルなその仕組み:4500be483849ade8e38f48779567eaa0">シンプルなその仕組み</h1>
 
-<h1 id="基本操作からblueprintまで理解できる-しかも日本語で:8bed7aa7ad261e586d681eb6d3eb4e86">基本操作からBluePrintまで理解できる。しかも日本語で！</h1>
+<p>多分キモはここです。</p>
 
-<ul>
-<li><p><a href="https://youtu.be/G-EHUAqaYfw">夏休み特別UE4授業 Day 1 「UE4基礎」下田純也</a><br />
-基本操作とblueprintの基本を学べます。</p></li>
+<img src="/images/posts/cardboard_ue4/UE4_HMD_KIMO.png" alt="UE4_HMD_KIMO.png">
 
-<li><p><a href="https://www.youtube.com/watch?v=1UpSyGfd8lw">夏休み特別UE4授業Day2　「ゲーム構築基礎」ロブグレイ</a><br />
-実際にゲームを作ります。AIを使ったゲームが簡単につくれて感動します</p></li>
-</ul>
 
-<h1 id="本格的なゲームをひと通り作る:8bed7aa7ad261e586d681eb6d3eb4e86">本格的なゲームをひと通り作る</h1>
+<p>上記のローカル対戦の設定で画面分割の設定で二人対戦するように設定してありました。
+後はロジックとしてBluePrintでPlayerを一人追加しPlyer0と動きを同期するってことみたいです。
+これで一応cardboardで見てみるとちゃんとVRしてました。すごいです。</p>
 
-<ul>
-<li>エンドレスランナーのプロトタイプを作る<br />
-<a href="https://youtu.be/qFZgs3e_1d4?list=PLr_Cbd4sUDTwkCNG4VeL7D4opgjAk9NhZ">エンドレスランナーのプロトタイプ 01~07</a></li>
-</ul>
+<p>とりあえずこれで遊んでみることにします。</p>
 
-<p>ステージがエンドレスに出来上がっていくロジックを体感します。<br />
-blueprintがオブジェクト指向言語であることも理解できます。</p>
+<h1 id="ついでに:4500be483849ade8e38f48779567eaa0">ついでに</h1>
+
+<p>ちょっとフライングしてこんなのも買ってみました</p>
+
+<p><a href="http://www.amazon.co.jp/gp/product/B00ZR3BVLW/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;psc=1">http://www.amazon.co.jp/gp/product/B00ZR3BVLW/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;psc=1</a></p>
+
+<p>どうなるかな。</p>
 
     </article>
     
@@ -196,9 +184,6 @@ MathJax.Hub.Config({
     }
 });
 </script>
-<script data-no-instant>document.write('<script src="http://'
-        + (location.host || 'localhost').split(':')[0]
-		+ ':1313/livereload.js?mindelay=10"></'
-        + 'script>')</script></body>
+</body>
 </html>
 

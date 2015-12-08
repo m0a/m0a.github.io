@@ -2,204 +2,64 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ue4 on 楽しいことしかやりたくない。</title>
-    <link>http://localhost:1313/tags/ue4/</link>
+    <link>https://m0a.github.io/tags/ue4/</link>
     <description>Recent content in Ue4 on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 26 Aug 2015 22:46:46 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ue4/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Dec 2015 00:48:32 +0900</lastBuildDate>
+    <atom:link href="https://m0a.github.io/tags/ue4/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>studying_UE4_001</title>
-      <link>http://localhost:1313/post/studying_UE4_001/</link>
-      <pubDate>Wed, 26 Aug 2015 22:46:46 +0900</pubDate>
+      <title>cardboard_ue4</title>
+      <link>https://m0a.github.io/post/cardboard_ue4/</link>
+      <pubDate>Wed, 09 Dec 2015 00:48:32 +0900</pubDate>
       
-      <guid>http://localhost:1313/post/studying_UE4_001/</guid>
+      <guid>https://m0a.github.io/post/cardboard_ue4/</guid>
       <description>
 
-&lt;h1 id=&#34;初めに:8bed7aa7ad261e586d681eb6d3eb4e86&#34;&gt;初めに&lt;/h1&gt;
+&lt;p&gt;UE4で手軽にVRを試そうと思ったらcardboardだよね～&lt;br /&gt;
+と思って調べてみたらver.4.10現在(2015-12-09)では未対応な模様&lt;br /&gt;
+&lt;strong&gt;oculusRift&lt;/strong&gt; とか &lt;strong&gt;gearVR&lt;/strong&gt; は全然手軽じゃない。&lt;/p&gt;
 
-&lt;p&gt;最近わかってきたことですが、勉強する上で一番理解が早いのはチュートリアルをやることでした。&lt;br /&gt;
-正直体得するのはこれにつきます。&lt;/p&gt;
+&lt;h1 id=&#34;cardboardとは:4500be483849ade8e38f48779567eaa0&#34;&gt;cardboardとは&lt;/h1&gt;
 
-&lt;p&gt;でもいいチュートリアルに出会う必要があります。
-そんなわけで自分が見て勉強になったチュートリアルを纏めます。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.googlecardboard.tokyo/?gclid=CKGD_9fXzMkCFYGXvAod668G-Q&#34;&gt;Google CardBoard V2.0&lt;/a&gt;&lt;br /&gt;
+上記にリンクが有ります。
+いつの間にか磁石式じゃなくなっているみたいですね&lt;br /&gt;
+要はスマホにレンズつけて無理やりVRってことです。&lt;/p&gt;
 
-&lt;h1 id=&#34;youtubeでチュートリアルをやる上で知っておいたほうがいいこと:8bed7aa7ad261e586d681eb6d3eb4e86&#34;&gt;Youtubeでチュートリアルをやる上で知っておいたほうがいいこと。&lt;/h1&gt;
+&lt;p&gt;プラグインを作っている人はいるみたいだけどリリースはまだのようです。&lt;br /&gt;
+&lt;a href=&#34;https://inmagicwetrust.wordpress.com/2015/07/18/project-unreal-4-cardboard/&#34;&gt;PROJECT:UNREAL4CARDBOARD&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;その前に以下のショートカットキーがあること知ってました？&lt;/p&gt;
+&lt;p&gt;なんか現状で試せる方法はないかなーと探していたらUE4のフォーラムに、&lt;br /&gt;
+サンプルプロジェクトを置いていました。スレッドの一番最初のコメントにリンクが有ります。
+&lt;a href=&#34;https://forums.unrealengine.com/showthread.php?87236&#34;&gt;https://forums.unrealengine.com/showthread.php?87236&lt;/a&gt;&lt;/p&gt;
 
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;ショートカットキー　&lt;/th&gt;
-&lt;th&gt;動作内容&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/cardboard_ue4/Screenshot_20151209-010343.png&#34; alt=&#34;Screenshot_20151209-010343.png&#34;&gt;
 
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;j&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;10秒前に戻る&lt;/td&gt;
-&lt;/tr&gt;
 
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;k&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;10秒先に進む&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;ちゃんとNexus5(第一世代)で動作しました&lt;/p&gt;
 
-&lt;p&gt;これがあれば、あっ聞き逃した。見逃したってことがなくなります。&lt;br /&gt;
-これを知っていればもうyoutubeはビデオ講座の便利ツールです。&lt;/p&gt;
+&lt;h1 id=&#34;シンプルなその仕組み:4500be483849ade8e38f48779567eaa0&#34;&gt;シンプルなその仕組み&lt;/h1&gt;
 
-&lt;h1 id=&#34;基本操作からblueprintまで理解できる-しかも日本語で:8bed7aa7ad261e586d681eb6d3eb4e86&#34;&gt;基本操作からBluePrintまで理解できる。しかも日本語で！&lt;/h1&gt;
+&lt;p&gt;多分キモはここです。&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://youtu.be/G-EHUAqaYfw&#34;&gt;夏休み特別UE4授業 Day 1 「UE4基礎」下田純也&lt;/a&gt;&lt;br /&gt;
-基本操作とblueprintの基本を学べます。&lt;/p&gt;&lt;/li&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/cardboard_ue4/UE4_HMD_KIMO.png&#34; alt=&#34;UE4_HMD_KIMO.png&#34;&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=1UpSyGfd8lw&#34;&gt;夏休み特別UE4授業Day2　「ゲーム構築基礎」ロブグレイ&lt;/a&gt;&lt;br /&gt;
-実際にゲームを作ります。AIを使ったゲームが簡単につくれて感動します&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;h1 id=&#34;本格的なゲームをひと通り作る:8bed7aa7ad261e586d681eb6d3eb4e86&#34;&gt;本格的なゲームをひと通り作る&lt;/h1&gt;
+&lt;p&gt;上記のローカル対戦の設定で画面分割の設定で二人対戦するように設定してありました。
+後はロジックとしてBluePrintでPlayerを一人追加しPlyer0と動きを同期するってことみたいです。
+これで一応cardboardで見てみるとちゃんとVRしてました。すごいです。&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;エンドレスランナーのプロトタイプを作る&lt;br /&gt;
-&lt;a href=&#34;https://youtu.be/qFZgs3e_1d4?list=PLr_Cbd4sUDTwkCNG4VeL7D4opgjAk9NhZ&#34;&gt;エンドレスランナーのプロトタイプ 01~07&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;とりあえずこれで遊んでみることにします。&lt;/p&gt;
 
-&lt;p&gt;ステージがエンドレスに出来上がっていくロジックを体感します。&lt;br /&gt;
-blueprintがオブジェクト指向言語であることも理解できます。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>memo</title>
-      <link>http://localhost:1313/post/memo/</link>
-      <pubDate>Wed, 20 May 2015 23:41:36 +0900</pubDate>
-      
-      <guid>http://localhost:1313/post/memo/</guid>
-      <description>
+&lt;h1 id=&#34;ついでに:4500be483849ade8e38f48779567eaa0&#34;&gt;ついでに&lt;/h1&gt;
 
-&lt;h1 id=&#34;テスト書き込み:58b6d3c6183aa888006bb550b18cb9e5&#34;&gt;テスト書き込み&lt;/h1&gt;
+&lt;p&gt;ちょっとフライングしてこんなのも買ってみました&lt;/p&gt;
 
-&lt;p&gt;SDカードを接続して以下のコマンドを実行&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/product/B00ZR3BVLW/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;amp;psc=1&#34;&gt;http://www.amazon.co.jp/gp/product/B00ZR3BVLW/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;amp;psc=1&lt;/a&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;df -h
-Filesystem                    Size   Used  Avail Capacity   iused     ifree %iused  Mounted on
-/dev/disk1                   465Gi  303Gi  161Gi    66%  79563765  42278409   65%   /
-devfs                        353Ki  353Ki    0Bi   100%      1220         0  100%   /dev
-map -hosts                     0Bi    0Bi    0Bi   100%         0         0  100%   /net
-map auto_home                  0Bi    0Bi    0Bi   100%         0         0  100%   /home
-/dev/disk7s1                  56Mi   14Mi   42Mi    26%       512         0  100%   /Volumes/boot
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;上記から&lt;code&gt;/dev/disk7&lt;/code&gt;　が該当&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;＃ sudo diskutil umount /dev/disk7s1
-Password:
-Volume boot on disk7s1 unmounted
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;sudo dd if=XXX.img of=/dev/rdisk7 bs=1m&lt;/p&gt;
-
-&lt;p&gt;ID&amp;rsquo; : pi
-パスワード&amp;rdquo; : raspberry&lt;/p&gt;
-
-&lt;p&gt;あとはipでアクセスすると使えるようになります。&lt;/p&gt;
-
-&lt;p&gt;実際にUE4二人間型のモデルが読み込めんで動かすところまで。
-ボーンの扱いまで理解れば、後は簡単になるかと。&lt;/p&gt;
-
-&lt;p&gt;つまり、覚えることは以下です&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;モデリングの基本&lt;/li&gt;
-&lt;li&gt;sculpting&lt;/li&gt;
-&lt;li&gt;骨組み&lt;/li&gt;
-&lt;li&gt;骨組みの操作&lt;/li&gt;
-&lt;li&gt;UE4のためのFBXエクスポート、インポート&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;参考メモ&lt;/p&gt;
-
-&lt;p&gt;日本のBlender使いはレベル低いから
-海外の作例を見るといい
-&lt;a href=&#34;https://vimeo.com/82013451&#34;&gt;https://vimeo.com/82013451&lt;/a&gt;
-スカルプト -&amp;gt; リトポが主流でそ？
-ポリゴンでチマチマモデリングするのはもう古いんでない？
-ハードサーフェイスのモデリングの手法は残っていくんじゃぁないかい&lt;/p&gt;
-
-&lt;p&gt;あとSubdivベースのディズニー系デフォルメキャラも&lt;/p&gt;
-
-&lt;p&gt;昔は「PandaRadio」さんのサイト覗いてたりしてたんだよなー&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://vimeo.com/127949223/description&#34;&gt;https://vimeo.com/127949223/description&lt;/a&gt;
-PBRってこれ…！？ すご&lt;/p&gt;
-
-&lt;p&gt;3D Coatみたいに出来るようになるの？
-&lt;a href=&#34;https://www.youtube.com/watch?v=_fb5tHXpCPs&#34;&gt;https://www.youtube.com/watch?v=_fb5tHXpCPs&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;ここか　&lt;a href=&#34;https://youtu.be/QCMyvcc3ZaU?t=17m3s&#34;&gt;https://youtu.be/QCMyvcc3ZaU?t=17m3s&lt;/a&gt;
-blenderの弱点はこの日本語の情報量の無さですよね
-調べようと思っても英語じゃないとでてこない
-それとも３ＤＣＧはどれもそうなのか&lt;/p&gt;
-
-&lt;p&gt;英語だからって回避するのはもったいない。
-Andrew氏の動画とか、英語分からなくても何となく分かるようにできてる。
-動画じゃなくて画像系のチュートリアルにしても、最近のはこまか～くステップごとに画像を乗っけてくれる。
-辞書が必要なのは、日本語の機能名を英語に訳してググるときぐらいよ。&lt;/p&gt;
-
-&lt;p&gt;…と、言うのは言い過ぎだというのは分かっている。
-しかし、一切合切英語の情報を遮断するってのは本当にもったいない。&lt;/p&gt;
-
-&lt;p&gt;最近始めたんでオススメのチュートリアル教えてくれ
-tutor4uのは全部やった&lt;/p&gt;
-
-&lt;p&gt;Modeling simple body (Anime style)
-&lt;a href=&#34;https://www.youtube.com/watch?v=pDZQnyy0f8k&#34;&gt;https://www.youtube.com/watch?v=pDZQnyy0f8k&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Blender 2.75a - Simple Curtain
-&lt;a href=&#34;https://www.youtube.com/watch?v=UTi8SyQrjGQ&#34;&gt;https://www.youtube.com/watch?v=UTi8SyQrjGQ&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Tutorial Create Candles in Blender Cycles 2.75
-&lt;a href=&#34;https://www.youtube.com/watch?v=ck27K8rfzoY&#34;&gt;https://www.youtube.com/watch?v=ck27K8rfzoY&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;こういうの見ると有料メタセコという雑魚に楽に勝ててる&lt;/p&gt;
-
-&lt;p&gt;ベジェやスプラインモデリングがやりやすくなればなー
-四方のエッジのラインを作成選択すれば面を張ってくれるとか
-296 名前: 名無しさん＠お腹いっぱい。  Mail: sage 投稿日: 2015/07/24(金) 21:37:48.76  ID: Yrg6omzF
-Bsurfacesじゃダメなの？
-&lt;a href=&#34;https://vimeo.com/26339130&#34;&gt;https://vimeo.com/26339130&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Marvel Wasp - Blender Timelapse
-&lt;a href=&#34;https://www.youtube.com/watch?v=by3i5xzM9_o&#34;&gt;https://www.youtube.com/watch?v=by3i5xzM9_o&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;評価１００のBlenderの達人
-モデリング、スカルプト、ペイント、すべての面で使いこなしてて凄いわ
-これ見るとBlenderってやっぱり凄いしな&lt;/p&gt;
-
-&lt;p&gt;Threaded Sculptのオプション外したらスカルプトの動作が軽くなったお
-333  1 名前: 名無しさん＠お腹いっぱい。  Mail: sage 投稿日: 2015/07/27(月) 13:40:34.44  ID: 4QpUUr8u
-&amp;gt;&amp;gt;332&lt;/p&gt;
-
-&lt;p&gt;それ何処？
-&amp;gt;&amp;gt;333
-3DViewのメニューのSculptのところにあるよ
-Bevel Curve Tools v0.1 - Blender Addon
-&lt;a href=&#34;https://www.youtube.com/watch?v=xfOlvZNgDt0&#34;&gt;https://www.youtube.com/watch?v=xfOlvZNgDt0&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Blender最強
-こんなのmodo、LWにもない&lt;/p&gt;
-
-&lt;p&gt;横に倒したUV球からつくる人もおるね
-某牛山氏とか
-&lt;a href=&#34;http://i.ytimg.com/vi/ac4qV2uIF3Q/hqdefault.jpg&#34;&gt;http://i.ytimg.com/vi/ac4qV2uIF3Q/hqdefault.jpg&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Matalogueアドオンええな&lt;/p&gt;
+&lt;p&gt;どうなるかな。&lt;/p&gt;
 </description>
     </item>
     

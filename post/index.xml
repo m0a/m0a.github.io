@@ -6,8 +6,62 @@
     <description>Recent content in Posts on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 25 Aug 2015 00:55:55 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 09 Dec 2015 00:48:32 +0900</lastBuildDate>
     <atom:link href="https://m0a.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>cardboard_ue4</title>
+      <link>https://m0a.github.io/post/cardboard_ue4/</link>
+      <pubDate>Wed, 09 Dec 2015 00:48:32 +0900</pubDate>
+      
+      <guid>https://m0a.github.io/post/cardboard_ue4/</guid>
+      <description>
+
+&lt;p&gt;UE4で手軽にVRを試そうと思ったらcardboardだよね～&lt;br /&gt;
+と思って調べてみたらver.4.10現在(2015-12-09)では未対応な模様&lt;br /&gt;
+&lt;strong&gt;oculusRift&lt;/strong&gt; とか &lt;strong&gt;gearVR&lt;/strong&gt; は全然手軽じゃない。&lt;/p&gt;
+
+&lt;h1 id=&#34;cardboardとは:4500be483849ade8e38f48779567eaa0&#34;&gt;cardboardとは&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.googlecardboard.tokyo/?gclid=CKGD_9fXzMkCFYGXvAod668G-Q&#34;&gt;Google CardBoard V2.0&lt;/a&gt;&lt;br /&gt;
+上記にリンクが有ります。
+いつの間にか磁石式じゃなくなっているみたいですね&lt;br /&gt;
+要はスマホにレンズつけて無理やりVRってことです。&lt;/p&gt;
+
+&lt;p&gt;プラグインを作っている人はいるみたいだけどリリースはまだのようです。&lt;br /&gt;
+&lt;a href=&#34;https://inmagicwetrust.wordpress.com/2015/07/18/project-unreal-4-cardboard/&#34;&gt;PROJECT:UNREAL4CARDBOARD&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;なんか現状で試せる方法はないかなーと探していたらUE4のフォーラムに、&lt;br /&gt;
+サンプルプロジェクトを置いていました。スレッドの一番最初のコメントにリンクが有ります。
+&lt;a href=&#34;https://forums.unrealengine.com/showthread.php?87236&#34;&gt;https://forums.unrealengine.com/showthread.php?87236&lt;/a&gt;&lt;/p&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/cardboard_ue4/Screenshot_20151209-010343.png&#34; alt=&#34;Screenshot_20151209-010343.png&#34;&gt;
+
+
+&lt;p&gt;ちゃんとNexus5(第一世代)で動作しました&lt;/p&gt;
+
+&lt;h1 id=&#34;シンプルなその仕組み:4500be483849ade8e38f48779567eaa0&#34;&gt;シンプルなその仕組み&lt;/h1&gt;
+
+&lt;p&gt;多分キモはここです。&lt;/p&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/cardboard_ue4/UE4_HMD_KIMO.png&#34; alt=&#34;UE4_HMD_KIMO.png&#34;&gt;
+
+
+&lt;p&gt;上記のローカル対戦の設定で画面分割の設定で二人対戦するように設定してありました。
+後はロジックとしてBluePrintでPlayerを一人追加しPlyer0と動きを同期するってことみたいです。
+これで一応cardboardで見てみるとちゃんとVRしてました。すごいです。&lt;/p&gt;
+
+&lt;p&gt;とりあえずこれで遊んでみることにします。&lt;/p&gt;
+
+&lt;h1 id=&#34;ついでに:4500be483849ade8e38f48779567eaa0&#34;&gt;ついでに&lt;/h1&gt;
+
+&lt;p&gt;ちょっとフライングしてこんなのも買ってみました&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/product/B00ZR3BVLW/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;amp;psc=1&#34;&gt;http://www.amazon.co.jp/gp/product/B00ZR3BVLW/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;amp;psc=1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;どうなるかな。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>studying_blender001</title>
@@ -17,8 +71,8 @@
       <guid>https://m0a.github.io/post/studying_blender001/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender005.png&#34; alt=&#34;blender005.png&#34;&gt;
-&lt;/p&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender005.png&#34; alt=&#34;blender005.png&#34;&gt;
+
 
 &lt;h1 id=&#34;はじめに:a1533defc77846ad6463965096eb23c0&#34;&gt;はじめに&lt;/h1&gt;
 
@@ -33,13 +87,13 @@
 &lt;p&gt;こんな感じでOnShapeでダイスを作ります。&lt;br /&gt;
 &lt;strong&gt;なんてこともないのでなんの感動もないです。&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/onshapedice.png&#34; alt=&#34;onshapedice.png&#34;&gt;
-&lt;/p&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/onshapedice.png&#34; alt=&#34;onshapedice.png&#34;&gt;
+
 
 &lt;p&gt;これがこうなります。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blenderdice.png&#34; alt=&#34;blenderdice.png&#34;&gt;
-&lt;/p&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blenderdice.png&#34; alt=&#34;blenderdice.png&#34;&gt;
+
 
 &lt;p&gt;これを印刷すると3DPrinterの印刷痕の規則正しさと相まって実に趣深いことになります&lt;/p&gt;
 
@@ -53,7 +107,7 @@ CADと違い映画やゲームのオブジェクト作成を目的としてい�
 アニメーションの為の機能などが組み込まれています。
 動画があるのでそちらを見るとどんな事ができるか想像できるかと思います。&lt;/p&gt;
 
-&lt;p&gt;&lt;div class=&#34;embed video-player&#34;&gt;
+&lt;div class=&#34;embed video-player&#34;&gt;
 
 &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
   width=&#34;640&#34; height=&#34;385&#34;
@@ -62,7 +116,7 @@ CADと違い映画やゲームのオブジェクト作成を目的としてい�
 &lt;/iframe&gt;
 
 &lt;/div&gt;
-&lt;/p&gt;
+
 
 &lt;p&gt;こちらからダウンロードできます。
 &lt;a href=&#34;http://www.blender.org/download/&#34;&gt;http://www.blender.org/download/&lt;/a&gt;&lt;/p&gt;
@@ -79,8 +133,8 @@ CADと違い映画やゲームのオブジェクト作成を目的としてい�
 &lt;a href=&#34;http://www.giudansky.com/design/51-blender-map&#34;&gt;チートシートを手に入れておきましょう&lt;/a&gt;
 Blenderを起動します。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender001.png&#34; alt=&#34;blender001.png&#34;&gt;
-&lt;/p&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender001.png&#34; alt=&#34;blender001.png&#34;&gt;
+
 
 &lt;p&gt;とりあえずこれだけ覚えておきます。&lt;/p&gt;
 
@@ -143,13 +197,13 @@ Blenderを起動します。&lt;/p&gt;
 &lt;p&gt;stlファイルを読み込みます。
 今回ダイスを用意してみました&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://m0a.github.io/files/posts/studying_blender001/dice.stl.zip&#34;&gt;dice.stl.zip&lt;/a&gt;
-&lt;/p&gt;
+&lt;a href=&#34;https://m0a.github.io/files/posts/studying_blender001/dice.stl.zip&#34;&gt;dice.stl.zip&lt;/a&gt;
+
 
 &lt;p&gt;File-&amp;gt;Import-&amp;gt;Stlを選びます&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender000_1.png&#34; alt=&#34;blender000_1.png&#34;&gt;
-&lt;/p&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender000_1.png&#34; alt=&#34;blender000_1.png&#34;&gt;
+
 
 &lt;p&gt;ファイルブラウザが立ち上がるので、stlファイルを選びimportします。&lt;/p&gt;
 
@@ -159,8 +213,8 @@ Blenderを起動します。&lt;/p&gt;
 
 &lt;p&gt;右クリックでサイコロを選択し、&lt;code&gt;s&lt;/code&gt;でスケールを調整します。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender000_3.png&#34; alt=&#34;blender000_3.png&#34;&gt;
-&lt;/p&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender000_3.png&#34; alt=&#34;blender000_3.png&#34;&gt;
+
 
 &lt;p&gt;大きさはこんな感じで。テキトーでいいです。
 ここで一つ注意ですが、最終的にまたSTLでExportするので、今度はスライサー(3Dprinter用のツール)で開いた時に
@@ -172,25 +226,25 @@ Blenderを起動します。&lt;/p&gt;
 
 &lt;p&gt;sculptModeに移動します。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender002.png&#34; alt=&#34;blender002.png&#34;&gt;
-&lt;/p&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender002.png&#34; alt=&#34;blender002.png&#34;&gt;
+
 
 &lt;p&gt;&lt;code&gt;ObjectMode&lt;/code&gt;をクリックして&lt;code&gt;sculptMode&lt;/code&gt;に変えます&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender006.png&#34; alt=&#34;blender006.png&#34;&gt;
-&lt;/p&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender006.png&#34; alt=&#34;blender006.png&#34;&gt;
+
 
 &lt;p&gt;マウスカーソルが変わり左側にBrushの選択状態が見えているかと思います。
 ここで心の赴くまま左クリックで弄りたくなると思います&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender007.png&#34; alt=&#34;blender007.png&#34;&gt;
-&lt;/p&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender007.png&#34; alt=&#34;blender007.png&#34;&gt;
+
 
 &lt;p&gt;ところが実際はこのままでは上記のように横線が入ったりして上手く行きません&lt;br&gt;
 &lt;code&gt;z&lt;/code&gt;キーで原因がわかります。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender007_2.png&#34; alt=&#34;blender007_2.png&#34;&gt;
-&lt;/p&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender007_2.png&#34; alt=&#34;blender007_2.png&#34;&gt;
+
 
 &lt;p&gt;&lt;code&gt;z&lt;/code&gt;はワイヤーフレーム表示にしてくれます。
 ご覧のとおりCADソフトは綺麗にポリゴンを形成してくれており、そのままではsculptは面分割してくれないため
@@ -200,18 +254,18 @@ Blenderを起動します。&lt;/p&gt;
 再度&lt;code&gt;z&lt;/code&gt;キーでソリッド表示に戻ります。&lt;br&gt;
 &lt;code&gt;ctrl+z&lt;/code&gt;でundoして、変更前に戻しておきましょう&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender008.png&#34; alt=&#34;blender008.png&#34;&gt;
-&lt;/p&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender008.png&#34; alt=&#34;blender008.png&#34;&gt;
+
 
 &lt;p&gt;左ベインのツールボックスから&lt;code&gt;Dyntopo&lt;/code&gt;の▲をクリックしプルダウンを開きます。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender009.png&#34; alt=&#34;blender009.png&#34;&gt;
-&lt;/p&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender009.png&#34; alt=&#34;blender009.png&#34;&gt;
+
 
 &lt;p&gt;開いたプルダウンから&lt;code&gt;Enable Dyntopo&lt;/code&gt;をクリックします。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender010.png&#34; alt=&#34;blender010.png&#34;&gt;
-&lt;/p&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender010.png&#34; alt=&#34;blender010.png&#34;&gt;
+
 
 &lt;p&gt;&lt;code&gt;Detail size&lt;/code&gt;のボタン部分を左ドラックすると値を小さくできます。
 今回は&lt;code&gt;3.0&lt;/code&gt;付近にします。
@@ -220,19 +274,19 @@ Blenderを起動します。&lt;/p&gt;
 &lt;p&gt;sculptは人間の顔とか左右対称のものをいじる事が多いので初期状態からこの設定のようです。
 今回はoffにします。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender011.png&#34; alt=&#34;blender011.png&#34;&gt;
-&lt;/p&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender011.png&#34; alt=&#34;blender011.png&#34;&gt;
+
 
 &lt;p&gt;左ベインの&lt;code&gt;Symmetry&lt;/code&gt;の▲をクリックしプルダウンを開き、Mirrorのxの部分がonになっているので
 クリックしてoffにします。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender013.png&#34; alt=&#34;blender013.png&#34;&gt;
-&lt;/p&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender013.png&#34; alt=&#34;blender013.png&#34;&gt;
+
 
 &lt;p&gt;実際に操作してみると今回はミラーリングされずに加工できますね。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender014.png&#34; alt=&#34;blender014.png&#34;&gt;
-&lt;/p&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender014.png&#34; alt=&#34;blender014.png&#34;&gt;
+
 
 &lt;p&gt;ブラシを選択して色々試してみましょう&lt;/p&gt;
 
@@ -374,7 +428,6 @@ Karabinerを絶対終了しないようにしました。&lt;/p&gt;
 
 &lt;p&gt;こんな感じで覚えました。(一部抜粋)
 &lt;img src=&#34;https://m0a.github.io/images/posts/oyayubishiftinput/keyboard.jpg&#34; alt=&#34;x_moter_preview_featured.jpg&#34; /&gt;
-
 重要なのはストーリーが頭に思い浮かぶような語呂合わせが良いみたいです。
 「鳩が棋院で囲碁さしてる」なんて一瞬で覚えました。
 逆に牛とか単語単位の語呂合わせは簡単に忘れてしまいます。
@@ -405,8 +458,7 @@ Karabinerを絶対終了しないようにしました。&lt;/p&gt;
 
 &lt;p&gt;やはりモチベーションを上げるためにも、実際に成長できるか確認できるサイトを使いたいところです&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/7euOUBv.png&#34; alt=&#34;モチベーション&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/7euOUBv.png&#34; alt=&#34;モチベーション&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;まだ全国平均にも届いていないみたいです。&lt;/p&gt;
 </description>
@@ -422,18 +474,15 @@ Karabinerを絶対終了しないようにしました。&lt;/p&gt;
 
 &lt;h1 id=&#34;２代目となるメガネを作ったので公開します:d11f8740114dbf91252480dd747e31e3&#34;&gt;２代目となるメガネを作ったので公開します。&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/main.jpg&#34; alt=&#34;main.jpg&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/main.jpg&#34; alt=&#34;main.jpg&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;onShapeで作成し、
 データもtingiverseにて&lt;a href=&#34;http://www.thingiverse.com/thing:895662&#34;&gt;公開&lt;/a&gt;してます。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/frame_design_1.jpg&#34; alt=&#34;frame_design_1.jpg&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/frame_design_1.jpg&#34; alt=&#34;frame_design_1.jpg&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://m0a.github.io/post/glasses&#34;&gt;1代目&lt;/a&gt;との違いは、下記のようにレンズとサイドフレームをネジでサンドイッチする構造にしたことです。
-&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/frame_design_2.jpg&#34; alt=&#34;frame_design_2.jpg&#34; /&gt;
-&lt;/p&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/frame_design_2.jpg&#34; alt=&#34;frame_design_2.jpg&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;おかげで、印刷後の調整がらくになりました。&lt;/p&gt;
 
@@ -449,8 +498,7 @@ Karabinerを絶対終了しないようにしました。&lt;/p&gt;
 
 &lt;p&gt;onShapeのcompareいい！
 １代目との差分を表示してます。
-&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/glasses_diff.jpg&#34; alt=&#34;glasses_diff.jpg&#34; /&gt;
-&lt;/p&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/glasses_diff.jpg&#34; alt=&#34;glasses_diff.jpg&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -462,8 +510,7 @@ Karabinerを絶対終了しないようにしました。&lt;/p&gt;
       <guid>https://m0a.github.io/post/hashimoto_intai_hantai/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/hashimoto_intai_hantai/change_org.jpg&#34; alt=&#34;change_org.jpg&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/hashimoto_intai_hantai/change_org.jpg&#34; alt=&#34;change_org.jpg&#34; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;署名サイトを使った政治活動をやってみた:de5369f227dcc12001a74a630425c4c3&#34;&gt;署名サイトを使った政治活動をやってみた。&lt;/h1&gt;
 
@@ -494,8 +541,7 @@ youtubeで橋下さんの動画をたまに見ていて、メディアとの戦�
       <guid>https://m0a.github.io/post/myDIYPrinter20150517/</guid>
       <description>&lt;p&gt;onShapeで設計してみました。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/DIYPrinter01/shot01.png&#34; alt=&#34;shot01.png&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/DIYPrinter01/shot01.png&#34; alt=&#34;shot01.png&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;onShapeはWebアプリなCADなのでアセンブリ画面で実際に触ることができちゃいます。&lt;/p&gt;
 
@@ -521,8 +567,7 @@ youtubeで橋下さんの動画をたまに見ていて、メディアとの戦�
 使いこなし切れてなかったんですが、&lt;a href=&#34;https://www.onshape.com/&#34;&gt;onShape&lt;/a&gt;をきっかけに、結構なんでも作れるようになってきました。&lt;br&gt;
 それで作ってみたのがこちら。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/genkei_atom_customize.jpg&#34; alt=&#34;genkei_atom_customize.jpg&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/genkei_atom_customize.jpg&#34; alt=&#34;genkei_atom_customize.jpg&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;X軸周りのパーツを印刷しやすくしたパーツです。&lt;br&gt;
 3DPrinterはとにかく、オーバーハングしたパーツを印刷するのが苦手です。&lt;br&gt;
@@ -535,16 +580,13 @@ youtubeで橋下さんの動画をたまに見ていて、メディアとの戦�
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;x_moter&lt;br&gt;
-&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/x_moter_preview_featured.jpg&#34; alt=&#34;x_moter_preview_featured.jpg&#34; /&gt;
-&lt;/p&gt;&lt;/li&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/x_moter_preview_featured.jpg&#34; alt=&#34;x_moter_preview_featured.jpg&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;x_end_a&lt;br&gt;
-&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/x_end_a_preview_featured.jpg&#34; alt=&#34;x_end_a_preview_featured.jpg&#34; /&gt;
-&lt;/p&gt;&lt;/li&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/x_end_a_preview_featured.jpg&#34; alt=&#34;x_end_a_preview_featured.jpg&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;x_carriage_lm_a b c 一体型&lt;br&gt;
-&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/x_carriage_lm_abc_set_preview_featured.jpg&#34; alt=&#34;x_carriage_lm_abc_set_preview_featured.jpg&#34; /&gt;
-&lt;/p&gt;&lt;/li&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/x_carriage_lm_abc_set_preview_featured.jpg&#34; alt=&#34;x_carriage_lm_abc_set_preview_featured.jpg&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;thingiverseから&lt;a href=&#34;http://www.thingiverse.com/thing:798710&#34;&gt;ダウンロード&lt;/a&gt;できます。&lt;/p&gt;
@@ -573,8 +615,7 @@ youtubeで橋下さんの動画をたまに見ていて、メディアとの戦�
 
 &lt;p&gt;身体に身につけてるので、俺３Dプリンタ触ってるんだアピールにピッタリ&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/myglasses.jpg&#34; alt=&#34;メガネ&#34; /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/myglasses.jpg&#34; alt=&#34;メガネ&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;thingverseにもアップしてます。
 &lt;a href=&#34;http://www.thingiverse.com/thing:790898&#34;&gt;http://www.thingiverse.com/thing:790898&lt;/a&gt;&lt;/p&gt;
