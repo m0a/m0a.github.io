@@ -6,8 +6,64 @@
     <description>Recent content in Posts on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 30 Sep 2016 08:25:40 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 30 Sep 2016 15:55:43 +0900</lastBuildDate>
     <atom:link href="https://m0a.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>flyingbear-p902-002</title>
+      <link>https://m0a.github.io/post/flyingbear-p902-002/</link>
+      <pubDate>Fri, 30 Sep 2016 15:55:43 +0900</pubDate>
+      
+      <guid>https://m0a.github.io/post/flyingbear-p902-002/</guid>
+      <description>
+
+&lt;p&gt;早速壊したかと思いました。
+flyingbearはエクストルーダが最初から構築済みだったので楽でしたが&lt;br /&gt;
+その分中の仕組みがわからず、壊れたときに対処できないという問題があります。&lt;/p&gt;
+
+&lt;p&gt;これまで使ってきた Genkei ATOMさんは&lt;strong&gt;bowden方式&lt;/strong&gt;のエクストルーダで&lt;br /&gt;
+今回のflyingBearは&lt;strong&gt;ヘッド直結型&lt;/strong&gt;のエクストルーダとなります。&lt;br /&gt;
+その違いをわかっておらずbowdenタイプと同じようにフィラメントを抜いて取り替えたら大変なことに。&lt;br /&gt;
+動かなくなりました。中で多分詰まってます。&lt;/p&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-002/extruder01.jpg&#34; alt=&#34;extruder01.jpg&#34;&gt;
+
+
+&lt;p&gt;上記2箇所のネジを外すとノズルの入り口にアクセスできます。&lt;/p&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-002/extruder_open01.jpg&#34; alt=&#34;extruder_open01.jpg&#34;&gt;
+
+
+&lt;p&gt;お分かりでしょうか？&lt;/p&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-002/nozzule01.jpg&#34; alt=&#34;nozzule01.jpg&#34;&gt;
+
+
+&lt;p&gt;ノズルの入り口に曲がって詰まっているフィラメントが現れました。&lt;br /&gt;
+コレが邪魔して新たにフィラメントが挿入できない事態になっていました。&lt;/p&gt;
+
+&lt;p&gt;恐らく引き抜いたときにフィラメントが伸びて入り口に残ってしまったみたいです。&lt;br /&gt;
+直結型の場合はフィラメントを引き抜いたりしないほうが良さそうです&lt;/p&gt;
+
+&lt;p&gt;仕方ないので更にアクセスしやすくするため他の部品も取り除きます&lt;/p&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-002/extruder_open02.jpg&#34; alt=&#34;extruder_open02.jpg&#34;&gt;
+
+
+&lt;p&gt;ノズルの温度を205度にあげて入口付近のの残ったフィラメントを抜き取り(ちぎり取り？)&lt;br /&gt;
+新しいフィラメントを押し込んで通ることを確認します&lt;/p&gt;
+
+&lt;p&gt;せっかくなのでエクストルーダが開放状態でフィラメントを通しておきます。&lt;/p&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-002/extruder_open03.jpg&#34; alt=&#34;extruder_open03.jpg&#34;&gt;
+
+
+&lt;h1 id=&#34;学んだこと&#34;&gt;学んだこと&lt;/h1&gt;
+
+&lt;p&gt;直結型はフィラメントを抜かない。てことですかね。&lt;br /&gt;
+とりあえずネジ二本抜けばエクストルーダにアクセスできることはわかったので良かったです。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>flyingbear-p902-001</title>
