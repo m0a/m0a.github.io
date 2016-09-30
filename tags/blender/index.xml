@@ -20,7 +20,7 @@
 &lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender005.png&#34; alt=&#34;blender005.png&#34;&gt;
 
 
-&lt;h1 id=&#34;はじめに:a1533defc77846ad6463965096eb23c0&#34;&gt;はじめに&lt;/h1&gt;
+&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
 
 &lt;!--
 もともとはUE4のためにBlenderの勉強を始めるはずでしたが、&lt;br&gt;
@@ -46,7 +46,7 @@
 &lt;p&gt;ここに印刷結果を出そうと思いましたが、黒いフィラメントしか無く、写真写りが悪いため断念しています。&lt;br /&gt;
 (そのうち貼る)&lt;/p&gt;
 
-&lt;h1 id=&#34;blenderとは:a1533defc77846ad6463965096eb23c0&#34;&gt;Blenderとは&lt;/h1&gt;
+&lt;h1 id=&#34;blenderとは&#34;&gt;Blenderとは&lt;/h1&gt;
 
 &lt;p&gt;簡単にいえばフリーの3DCGソフトです。
 CADと違い映画やゲームのオブジェクト作成を目的としているため、
@@ -67,13 +67,13 @@ CADと違い映画やゲームのオブジェクト作成を目的としてい�
 &lt;p&gt;こちらからダウンロードできます。
 &lt;a href=&#34;http://www.blender.org/download/&#34;&gt;http://www.blender.org/download/&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;目標設定:a1533defc77846ad6463965096eb23c0&#34;&gt;目標設定&lt;/h1&gt;
+&lt;h1 id=&#34;目標設定&#34;&gt;目標設定&lt;/h1&gt;
 
 &lt;p&gt;とにかくなんでもできるツールなので正直使うのが難しく、実は自分は過去に何度も挫折してます。
 そこで、特定の機能に特化してそこの使い方だけを学ぶことにします。
 ズバリ粘土細工機能(sclupt)だけを触ります。&lt;/p&gt;
 
-&lt;h1 id=&#34;blender事始め:a1533defc77846ad6463965096eb23c0&#34;&gt;Blender事始め&lt;/h1&gt;
+&lt;h1 id=&#34;blender事始め&#34;&gt;Blender事始め&lt;/h1&gt;
 
 &lt;p&gt;とはいえ、基本操作だけは覚えていたほうが良さそうです。
 &lt;a href=&#34;http://www.giudansky.com/design/51-blender-map&#34;&gt;チートシートを手に入れておきましょう&lt;/a&gt;
@@ -168,7 +168,7 @@ Blenderを起動します。&lt;/p&gt;
 
 &lt;p&gt;なので最後exportする前に&lt;code&gt;s&lt;/code&gt;でスケールを変えたほうがいいかもです。&lt;/p&gt;
 
-&lt;h1 id=&#34;sculptmodeへ:a1533defc77846ad6463965096eb23c0&#34;&gt;sculptModeへ&lt;/h1&gt;
+&lt;h1 id=&#34;sculptmodeへ&#34;&gt;sculptModeへ&lt;/h1&gt;
 
 &lt;p&gt;sculptModeに移動します。&lt;/p&gt;
 
@@ -269,23 +269,23 @@ Blenderを起動します。&lt;/p&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h1 id=&#34;最後に:a1533defc77846ad6463965096eb23c0&#34;&gt;最後に&lt;/h1&gt;
+&lt;h1 id=&#34;最後に&#34;&gt;最後に&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender015.png&#34; alt=&#34;blender015.png&#34;&gt;
-&lt;/p&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender015.png&#34; alt=&#34;blender015.png&#34;&gt;
+
 
 &lt;p&gt;快くまで楽しんだら、&lt;code&gt;File&lt;/code&gt;-&amp;gt;&lt;code&gt;Export&lt;/code&gt; -&amp;gt; &lt;code&gt;Stl&lt;/code&gt;と選択してexportしましょう。
 お疲れ様でした。&lt;/p&gt;
 
-&lt;h1 id=&#34;おまけ:a1533defc77846ad6463965096eb23c0&#34;&gt;おまけ&lt;/h1&gt;
+&lt;h1 id=&#34;おまけ&#34;&gt;おまけ&lt;/h1&gt;
 
 &lt;p&gt;こんなの印刷したら面白そう。&lt;br /&gt;
 今試しに印刷中です。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/omake.png&#34; alt=&#34;omake.png&#34;&gt;
-&lt;/p&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/omake.png&#34; alt=&#34;omake.png&#34;&gt;
 
-&lt;h1 id=&#34;参考:a1533defc77846ad6463965096eb23c0&#34;&gt;参考&lt;/h1&gt;
+
+&lt;h1 id=&#34;参考&#34;&gt;参考&lt;/h1&gt;
 
 &lt;p&gt;参考にした動画をのせておきます。&lt;br /&gt;
 &lt;div class=&#34;embed video-player&#34;&gt;
