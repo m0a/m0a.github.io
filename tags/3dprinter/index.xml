@@ -63,23 +63,24 @@
 &lt;img src=&#34;https://m0a.github.io/images/posts/flyngbear-p902-001/parts-list02.jpg&#34; alt=&#34;parts-list02.jpg&#34;&gt;
 
 
-&lt;p&gt;このリストが便利。&lt;/p&gt;
+&lt;p&gt;パーツリストが凄く便利です。&lt;/p&gt;
 
 &lt;img src=&#34;https://m0a.github.io/images/posts/flyngbear-p902-001/alumi.jpg&#34; alt=&#34;alumi.jpg&#34;&gt;
 
 
-&lt;p&gt;アルミレールの切断時の削り節がそのまま残っているのは困りました。
+&lt;p&gt;アルミレールの切断時の削り節がそのまま残っているのは困りました。&lt;br /&gt;
 これって掃除機で吸い込んで大丈夫なんですかね。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/flyngbear-p902-001/alumi02.jpg&#34; alt=&#34;alumi02.jpg&#34;&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyngbear-p902-001/alumi02.jpg&#34; alt=&#34;alumi02.jpg&#34;&gt;
 
-こういうのも地味に困る
+
+&lt;p&gt;削った後がそのまま残っていて危ないです。&lt;br /&gt;
 マイナスドライバーで無理やり削って対応しました。&lt;/p&gt;
 
 &lt;img src=&#34;https://m0a.github.io/images/posts/flyngbear-p902-001/neji.jpg&#34; alt=&#34;neji.jpg&#34;&gt;
 
 
-&lt;p&gt;ネジは種類ごとに袋詰されていていい感じです。
+&lt;p&gt;ネジは種類ごとに袋詰されていていい感じです。&lt;br /&gt;
 惜しむらくはネジの種類がわかるように何か書いていてほしかった。&lt;br /&gt;
 ノギスで長さとか太さを図って推測するしかないです。 まぁ間違えなかったみたいです。&lt;/p&gt;
 
@@ -88,28 +89,32 @@
 &lt;img src=&#34;https://m0a.github.io/images/posts/flyngbear-p902-001/box.jpg&#34; alt=&#34;box.jpg&#34;&gt;
 
 
-&lt;p&gt;どんどん組み立てていきます。その様子を全部記録しようとしたんですがなかなか気持ちに余裕が無いみたいで
-忘れがちです&lt;/p&gt;
+&lt;p&gt;どんどん組み立てていきます。&lt;/p&gt;
 
-&lt;p&gt;これを組み立てた後に予めナットを入れなくていいのか不安になったんですが付属のTNAT-M4が凄くいい仕事をしてくれるのでその心配は無用でした
-特に直角かどうか確認せずにガシガシ組み立てていきました。あとで組み立て直す可能性もあるので。&lt;/p&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyngbear-p902-001/extruder.jpg&#34; alt=&#34;extruder.jpg&#34;&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/flyngbear-p902-001/extruder.jpg&#34; alt=&#34;extruder.jpg&#34;&gt;
 
-エクストルーダも既に組み立て済みです。正直拍子抜け
+&lt;p&gt;エクストルーダも既に組み立て済みです。正直拍子抜け
 難しい部分はすべて組み立て済みとか&lt;/p&gt;
 
 &lt;img src=&#34;https://m0a.github.io/images/posts/flyngbear-p902-001/carriage.jpg&#34; alt=&#34;carriage.jpg&#34;&gt;
 
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/flyngbear-p902-001/carriage02.jpg&#34; alt=&#34;carriage02.jpg&#34;&gt;
+&lt;p&gt;射出成形品です&lt;/p&gt;
 
-ENDSTOPも必要なところは組み込み済み。&lt;/p&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyngbear-p902-001/carriage02.jpg&#34; alt=&#34;carriage02.jpg&#34;&gt;
+
+
+&lt;p&gt;コレも射出成形品です&lt;/p&gt;
+
+&lt;p&gt;ENDSTOPも必要なところは組み込み済み。&lt;/p&gt;
 
 &lt;img src=&#34;https://m0a.github.io/images/posts/flyngbear-p902-001/x-carriage.jpg&#34; alt=&#34;x-carriage.jpg&#34;&gt;
 
 
-&lt;video width=&#34;480&#34; controls&gt;
+&lt;p&gt;かんたんすぎる&lt;/p&gt;
+
+&lt;video controls&gt;
   &lt;source src=&#34;https://m0a.github.io/images/posts/flyngbear-p902-001/carriage-anime01.mp4&#34; type=&#34;video/mp4&#34;&gt;
 Your browser does not support the video tag.
 &lt;/video&gt;
@@ -134,23 +139,29 @@ Z軸用のENDSTOPは珍しく3DPrinterで出力されたものでした。&lt;/p
 
 
 &lt;p&gt;マザーボードに当たるRAMPS+Arduino MEGAもファン込みで組み立て済みで感動しました。
-と見せかけて&lt;/p&gt;
-
-&lt;p&gt;上のファン部分を取り除かないと配線できないみたいです。
+と見せかけて&lt;strong&gt;上のファン部分を取り除かないと配線できないみたいです。&lt;/strong&gt;
 おしい。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/flyngbear-p902-001/ac-dc.jpg&#34; alt=&#34;ac-dc.jpg&#34;&gt;
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyngbear-p902-001/ac-dc.jpg&#34; alt=&#34;ac-dc.jpg&#34;&gt;
 
-中華の電源はちょっと怖いです。&lt;/p&gt;
 
-&lt;p&gt;薄っすらと読める合格証の字も逆に怖い。&lt;/p&gt;
+&lt;p&gt;中華の電源はちょっと怖いです。&lt;br /&gt;
+薄っすらと読める合格証の字も逆に怖い。&lt;/p&gt;
 
-&lt;video width=&#34;480&#34; controls&gt;
+&lt;video controls&gt;
   &lt;source src=&#34;https://m0a.github.io/images/posts/flyngbear-p902-001/end.mp4&#34; type=&#34;video/mp4&#34;&gt;
 Your browser does not support the video tag.
 &lt;/video&gt;
 
-&lt;p&gt;いきなり電源投入したら動きました。かんたんすぎてちょっと怖い&lt;/p&gt;
+&lt;p&gt;いきなり電源投入したら動きました。&lt;/p&gt;
+
+&lt;h1 id=&#34;感想&#34;&gt;感想&lt;/h1&gt;
+
+&lt;p&gt;かんたんすぎてちょっとつまらないかもです。&lt;br /&gt;
+でももしかしたら初心者向けとしていけるかもしれないです。&lt;/p&gt;
+
+&lt;p&gt;Genkei Atomよりビルドエリアがだいぶ広くなったので今後が楽しみです。&lt;br /&gt;
+次はkisslicerからの使い方を研究してみます&lt;/p&gt;
 </description>
     </item>
     
