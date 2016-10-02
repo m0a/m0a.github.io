@@ -10,7 +10,7 @@
     <atom:link href="https://m0a.github.io/tags/flyingbear/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>flyingbear-p902-002</title>
+      <title>ヘッド直結型エクストルーダの扱い</title>
       <link>https://m0a.github.io/post/flyingbear-p902-002/</link>
       <pubDate>Fri, 30 Sep 2016 15:55:43 +0900</pubDate>
       
@@ -66,7 +66,7 @@ flyingbearはエクストルーダが最初から構築済みだったので楽�
     </item>
     
     <item>
-      <title>flyingbear-p902-001</title>
+      <title>FlyingBearを買って試してみました</title>
       <link>https://m0a.github.io/post/flyingbear-p902-001/</link>
       <pubDate>Fri, 30 Sep 2016 08:25:40 +0900</pubDate>
       
@@ -170,6 +170,7 @@ flyingbearはエクストルーダが最初から構築済みだったので楽�
 
 &lt;p&gt;かんたんすぎる&lt;/p&gt;
 
+
 &lt;video controls&gt;
   &lt;source src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-001/carriage-anime01.mp4&#34; type=&#34;video/mp4&#34;&gt;
 Your browser does not support the video tag.
@@ -203,6 +204,7 @@ Z軸用のENDSTOPは珍しく3DPrinterで出力されたものでした。&lt;/p
 
 &lt;p&gt;中華の電源はちょっと怖いです。&lt;br /&gt;
 薄っすらと読める合格証の字も逆に怖い。&lt;/p&gt;
+
 
 &lt;video controls&gt;
   &lt;source src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-001/end.mp4&#34; type=&#34;video/mp4&#34;&gt;

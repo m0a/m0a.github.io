@@ -10,7 +10,7 @@
     <atom:link href="https://m0a.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>flyingbear-p902-002</title>
+      <title>ヘッド直結型エクストルーダの扱い</title>
       <link>https://m0a.github.io/post/flyingbear-p902-002/</link>
       <pubDate>Fri, 30 Sep 2016 15:55:43 +0900</pubDate>
       
@@ -66,7 +66,7 @@ flyingbearはエクストルーダが最初から構築済みだったので楽�
     </item>
     
     <item>
-      <title>flyingbear-p902-001</title>
+      <title>FlyingBearを買って試してみました</title>
       <link>https://m0a.github.io/post/flyingbear-p902-001/</link>
       <pubDate>Fri, 30 Sep 2016 08:25:40 +0900</pubDate>
       
@@ -170,6 +170,7 @@ flyingbearはエクストルーダが最初から構築済みだったので楽�
 
 &lt;p&gt;かんたんすぎる&lt;/p&gt;
 
+
 &lt;video controls&gt;
   &lt;source src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-001/carriage-anime01.mp4&#34; type=&#34;video/mp4&#34;&gt;
 Your browser does not support the video tag.
@@ -203,6 +204,7 @@ Z軸用のENDSTOPは珍しく3DPrinterで出力されたものでした。&lt;/p
 
 &lt;p&gt;中華の電源はちょっと怖いです。&lt;br /&gt;
 薄っすらと読める合格証の字も逆に怖い。&lt;/p&gt;
+
 
 &lt;video controls&gt;
   &lt;source src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-001/end.mp4&#34; type=&#34;video/mp4&#34;&gt;
@@ -276,7 +278,7 @@ Your browser does not support the video tag.
     </item>
     
     <item>
-      <title>studying_blender001</title>
+      <title>Blenderで粘土細工のようにオブジェクトを改造する</title>
       <link>https://m0a.github.io/post/studying_blender001/</link>
       <pubDate>Tue, 25 Aug 2015 00:55:55 +0900</pubDate>
       
@@ -578,7 +580,7 @@ Blenderを起動します。&lt;/p&gt;
     </item>
     
     <item>
-      <title>oyayubishiftinput</title>
+      <title>親指シフト入力を始める。Mac＆USキーボードで</title>
       <link>https://m0a.github.io/post/oyayubishiftinput/</link>
       <pubDate>Wed, 19 Aug 2015 11:07:25 +0900</pubDate>
       
@@ -677,7 +679,7 @@ Karabinerを絶対終了しないようにしました。&lt;/p&gt;
     </item>
     
     <item>
-      <title>glasses2</title>
+      <title>メガネ作った。二回目。</title>
       <link>https://m0a.github.io/post/glasses2/</link>
       <pubDate>Wed, 24 Jun 2015 17:22:03 +0900</pubDate>
       
@@ -715,7 +717,7 @@ Karabinerを絶対終了しないようにしました。&lt;/p&gt;
     </item>
     
     <item>
-      <title>hashimoto_intai_hantai</title>
+      <title>橋下さん政治家引退表明撤回要求の署名活動をしてみます。</title>
       <link>https://m0a.github.io/post/hashimoto_intai_hantai/</link>
       <pubDate>Wed, 20 May 2015 14:47:52 +0900</pubDate>
       
@@ -746,7 +748,7 @@ youtubeで橋下さんの動画をたまに見ていて、メディアとの戦�
     </item>
     
     <item>
-      <title>myDIYPrinter20150517</title>
+      <title>3DPrinter自作01</title>
       <link>https://m0a.github.io/post/myDIYPrinter20150517/</link>
       <pubDate>Sun, 17 May 2015 20:39:59 +0900</pubDate>
       
@@ -766,7 +768,7 @@ youtubeで橋下さんの動画をたまに見ていて、メディアとの戦�
     </item>
     
     <item>
-      <title>genkei atom customize</title>
+      <title>Genkei ATOMのカスタムパーツを作りました。</title>
       <link>https://m0a.github.io/post/genkei-atom-customize/</link>
       <pubDate>Sun, 17 May 2015 10:24:49 +0900</pubDate>
       
@@ -808,7 +810,7 @@ youtubeで橋下さんの動画をたまに見ていて、メディアとの戦�
     </item>
     
     <item>
-      <title>glasses</title>
+      <title>メガネ作った</title>
       <link>https://m0a.github.io/post/glasses/</link>
       <pubDate>Sat, 16 May 2015 22:20:29 +0900</pubDate>
       
