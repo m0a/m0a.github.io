@@ -6,8 +6,193 @@
     <description>Recent content in 3dprinter on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 30 Sep 2016 15:55:43 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 07 Oct 2016 21:53:52 +0900</lastBuildDate>
     <atom:link href="https://m0a.github.io/tags/3dprinter/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>flyingbear改善</title>
+      <link>https://m0a.github.io/post/flyingbear-p902-003/</link>
+      <pubDate>Fri, 07 Oct 2016 21:53:52 +0900</pubDate>
+      
+      <guid>https://m0a.github.io/post/flyingbear-p902-003/</guid>
+      <description>
+
+&lt;p&gt;今の環境のスナップショットの図&lt;/p&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/start.jpg&#34; alt=&#34;start.jpg&#34;&gt;
+
+
+&lt;p&gt;買ってからしばらく経ちました。genkei ATOMよりビルドエリアが広がってCADの自由度が増えました(歓喜)&lt;br /&gt;
+早速色々変更しましたので纏めてみることにしました&lt;/p&gt;
+
+&lt;h1 id=&#34;ヒートベットの改善&#34;&gt;ヒートベットの改善&lt;/h1&gt;
+
+&lt;p&gt;初期状態ではビルドプレートにブルーシールが貼ってあります。&lt;br /&gt;
+今回使っていてとてもいいものだとは思いましたがシールが壊れたら新規に購入しなくてはいけません。&lt;br /&gt;
+しかも張替えが面倒くさいのです。&lt;/p&gt;
+
+&lt;p&gt;そこでATOMを使っていた頃に培った方法をまとめさせていただきます&lt;/p&gt;
+
+&lt;p&gt;用意したもの&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;品名&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;購入先&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;お値段&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;スタンドミラー&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ダイソー&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;¥108&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;スティックのり&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://www.amazon.co.jp/%E3%83%88%E3%83%B3%E3%83%9C-%E3%83%88%E3%83%B3%E3%83%9C%E9%89%9B%E7%AD%86-%E3%83%94%E3%83%83%E3%83%88%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E7%B3%8A-%E3%82%B7%E3%83%AF%E3%81%AA%E3%81%97%E3%83%94%E3%83%83%E3%83%88%E3%82%A2%E3%83%BC%E3%83%88T/dp/B001CR5Q22/ref=sr_1_3?ie=UTF8&amp;amp;qid=1475845373&amp;amp;sr=8-3&amp;amp;keywords=%E3%82%B7%E3%83%AF%E3%81%AA%E3%81%97%E3%83%94%E3%83%83%E3%83%88&#34;&gt;amazon&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;¥76&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;無水エタノール&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://www.amazon.co.jp/%E5%81%A5%E6%A0%84%E8%A3%BD%E8%96%AC-%E7%84%A1%E6%B0%B4%E3%82%A8%E3%82%BF%E3%83%8E%E3%83%BC%E3%83%ABP-500ml/dp/B000TKDKA8/ref=sr_1_1?s=hpc&amp;amp;ie=UTF8&amp;amp;qid=1475845556&amp;amp;sr=1-1&amp;amp;keywords=%E7%84%A1%E6%B0%B4%E3%82%A8%E3%82%BF%E3%83%8E%E3%83%BC%E3%83%AB&#34;&gt;amazon&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;¥1,280&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;特にスタンドミラーなんですがかなりフィットしてます。&lt;br /&gt;
+最初ガラス加工業者にお願いしようとしたところ一枚¥2,100とのことでした。高い、、、、&lt;br /&gt;
+ちょっと合わなくても十分です&lt;/p&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/daiso_mirror.jpg&#34; alt=&#34;daiso_mirror.jpg&#34;&gt;
+
+
+&lt;h2 id=&#34;ミラーの加工&#34;&gt;ミラーの加工&lt;/h2&gt;
+
+&lt;p&gt;加工は簡単です。 筐体部分を外してむき出しにするだけです。&lt;br /&gt;
+角の安全加工がれてないのでご注意下さい&lt;/p&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/daiso_mirror02.jpg&#34; alt=&#34;daiso_mirror02.jpg&#34;&gt;
+
+
+&lt;h2 id=&#34;使い方&#34;&gt;使い方&lt;/h2&gt;
+
+&lt;p&gt;ピットのりを使うのはよくある話だと思いますが&lt;br /&gt;
+自分の場合、それだけでは上手く行かず無水エタノールと組み合わせて使うことにしました。&lt;/p&gt;
+
+&lt;p&gt;まず無水エタノールは使いやすいように瓶詰めにしておきます&lt;/p&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/daiso_mirror03.jpg&#34; alt=&#34;daiso_mirror03.jpg&#34;&gt;
+
+
+&lt;p&gt;できればピット乗りにエタノールをつけるのに便利な大きさがいいです&lt;br /&gt;
+コレは試しに用意したでけで使いづらかったです。&lt;/p&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/daiso_mirror04.jpg&#34; alt=&#34;daiso_mirror04.jpg&#34;&gt;
+
+
+&lt;p&gt;要はノリをエタノールで薄めて薄く塗りつける感じです&lt;/p&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/daiso_mirror05.jpg&#34; alt=&#34;daiso_mirror05.jpg&#34;&gt;
+
+
+&lt;p&gt;今はブルーシールが貼ってある状態で上に乗せて使っています。&lt;/p&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/daiso_mirror06.jpg&#34; alt=&#34;daiso_mirror06.jpg&#34;&gt;
+
+
+&lt;h2 id=&#34;メリットとデメリット&#34;&gt;メリットとデメリット&lt;/h2&gt;
+
+&lt;h3 id=&#34;メリット&#34;&gt;メリット&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;面倒くさいカプトンテープ（もしくはブルーテープ）の張替えが要らない&lt;/li&gt;
+&lt;li&gt;ガラス板の数だけ素早く載せ替えが可能なのですぐに次の印刷ができる&lt;/li&gt;
+&lt;li&gt;メンテナンスが簡単。使えないとと思ったらノリを水道で洗い流すだけ&lt;/li&gt;
+&lt;li&gt;印刷物の取り外しが簡単&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;デメリット&#34;&gt;デメリット&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ガラスが割れやすいかも&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;印刷物の取り外しが簡単の理由はガラス板は熱で伸び縮みがあるので
+冷却すると自然に剥がれるのです。ほんとうに便利。&lt;/p&gt;
+
+&lt;h1 id=&#34;ヒートベットの改善-2&#34;&gt;ヒートベットの改善#2&lt;/h1&gt;
+
+&lt;p&gt;ヒートベットが広くなった分加熱に時間がかかるので背面に断熱材を貼って改善します。&lt;br /&gt;
+ここでもやっぱりダイソーです。&lt;br /&gt;
+日本にはダイソーがあるので3Dプリンタの普及が進まないというのはあながち嘘じゃないのかもしれないです。&lt;br /&gt;
+使うのはこちら&lt;/p&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/nabeshiki.jpg&#34; alt=&#34;nabeshiki.jpg&#34;&gt;
+
+
+&lt;p&gt;コルク製の鍋敷きです。まぁ鍋敷きなんで本来の目的に近い？&lt;/p&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/nabeshiki02.jpg&#34; alt=&#34;nabeshiki02.jpg&#34;&gt;
+
+
+&lt;p&gt;ほらピッタリ？&lt;/p&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/nabeshiki03.jpg&#34; alt=&#34;nabeshiki03.jpg&#34;&gt;
+
+
+&lt;p&gt;カプトンテープで固定しました。
+このときにハンダ付けされていた部分もカプトンテープで絶縁します。
+後ほどガラス板はるのにクリップを使うので接触しないようにです&lt;/p&gt;
+
+&lt;h2 id=&#34;改善結果&#34;&gt;改善結果&lt;/h2&gt;
+
+&lt;p&gt;計測したところ&lt;/p&gt;
+
+&lt;p&gt;33度 → 70度 の温度変化までの時間が&lt;br /&gt;
+7分45秒 から 7分ジャストにスピードアップしました。&lt;br /&gt;
+あんまり変わってないですね。でも100 円ですし、使っていてわかったのですが保温性が上がった感じです&lt;/p&gt;
+
+&lt;h1 id=&#34;rampsの改造&#34;&gt;RAMPSの改造&lt;/h1&gt;
+
+&lt;p&gt;コレは改善というより故障修理に近いです。&lt;/p&gt;
+
+&lt;p&gt;RAMPSといわれる部品が焦げてしまいました&lt;/p&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/ramps.jpg&#34; alt=&#34;ramps.jpg&#34;&gt;
+
+
+&lt;p&gt;焼けてターミナルブロックが固まっています。&lt;/p&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/ramps02.jpg&#34; alt=&#34;ramps02.jpg&#34;&gt;
+
+
+&lt;p&gt;取り替えてもいいのですが、他の人も同じ問題が発生したようなので
+配線を直結することにしました。&lt;/p&gt;
+
+&lt;p&gt;表面と裏面です&lt;/p&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/ramps04.jpg&#34; alt=&#34;ramps04.jpg&#34;&gt;
+
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/ramps03.jpg&#34; alt=&#34;ramps03.jpg&#34;&gt;
+
+
+&lt;p&gt;配線し直します&lt;/p&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/ramps05.jpg&#34; alt=&#34;ramps05.jpg&#34;&gt;
+
+
+&lt;p&gt;配線周りを整理するついでにボードを前面に配置しました&lt;/p&gt;
+
+&lt;p&gt;リセットボタンが押しやすくなりました。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>ヘッド直結型エクストルーダの扱い</title>

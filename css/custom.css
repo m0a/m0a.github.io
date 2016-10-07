@@ -1,17 +1,17 @@
 /* Image Center Alignment */
 article img {
   display: block;
+  max-width: 60%;
   margin: 0 auto;
   text-align: center;
 }
 
-video {
-  max-width: 100%;
-  height: auto;
-  border: 0;
-  vertical-align: middle;
+article video {
+  display: block;
+  max-width: 60%;
+  margin: 0 auto;
+  text-align: center;
 }
-
 
 /* ShareThis Buttons */
 #share-this {
