@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ue4 on 楽しいことしかやりたくない。</title>
-    <link>https://m0a.github.io/tags/ue4/</link>
-    <description>Recent content in Ue4 on 楽しいことしかやりたくない。</description>
+    <title>楽しいことしかやりたくない。</title>
+    <link>https://m0a.github.io/tags/ue4/index.xml</link>
+    <description>Recent content on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 09 Dec 2015 00:48:32 +0900</lastBuildDate>
+    <copyright>Written by m0a</copyright>
     <atom:link href="https://m0a.github.io/tags/ue4/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
