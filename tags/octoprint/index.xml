@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>楽しいことしかやりたくない。</title>
-    <link>https://m0a.github.io/tags/orangepi/index.xml</link>
+    <link>https://m0a.github.io/tags/octoprint/index.xml</link>
     <description>Recent content on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>Written by m0a</copyright>
-    <atom:link href="https://m0a.github.io/tags/orangepi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://m0a.github.io/tags/octoprint/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>OrangePi liteをつかってプリンタにwifi機能をつけよう(Ansible使って自動化するよ)</title>

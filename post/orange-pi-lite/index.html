@@ -6,7 +6,7 @@
   
   <meta charset="UTF-8">
   <title>
-    OrangePi liteにOctoPrintを入れてあなたのプリンタにwifi機能をつけよう(Ansible使って自動化するよ) | 楽しいことしかやりたくない。
+    OrangePi liteをつかってプリンタにwifi機能をつけよう(Ansible使って自動化するよ) | 楽しいことしかやりたくない。
   </title>
 
 
@@ -64,7 +64,7 @@
   
   <main id="single" role="main">
     <div class="article-header">
-      <h1>OrangePi liteにOctoPrintを入れてあなたのプリンタにwifi機能をつけよう(Ansible使って自動化するよ)</h1>
+      <h1>OrangePi liteをつかってプリンタにwifi機能をつけよう(Ansible使って自動化するよ)</h1>
       <div class="meta">
         2016-11-03 14:45:15 &nbsp;
         
@@ -73,6 +73,8 @@
           #<a href="/tags/flyingbear">flyingbear</a>&nbsp;
         
           #<a href="/tags/orangepi">orangepi</a>&nbsp;
+        
+          #<a href="/tags/octoprint">octoprint</a>&nbsp;
         
       </div>
     </div>
@@ -84,35 +86,45 @@ OrangePi Liteを買いました。名刺サイズながら最初からWifiが搭
 
 <p><a href="http://qiita.com/m0a/items/6608feb654c64ea45dd1">早速wifiを有効化させるところまで纏めましたが</a>、Qiitaではいまいち人気がない様子。</p>
 
-<p>気を取り直して、当初の目的であるocotoprintを導入します。
+<p>気を取り直して、当初の目的であるOctoPrintを導入します。
 ラズパイみたいな人気のやつの場合は最初からOctoPiというのがありまして
-SDにイメージを入れるだけで全部入りの環境が手に入ります。</p>
+SDカードにイメージを入れるだけで全部入りの環境が手に入ります。</p>
 
 <p>でもこいつは安いのが魅力。本体だけなら1200円くらいです。</p>
 
-<p>OcotoPiほどではないけどAnsibleをつかって全自動で構築まで持っていきましょう。
+<p>OctoPiほどではないけどAnsibleをつかって全自動で構築まで持っていきましょう。
 仮にSDが壊れても瞬時に復旧できるように。</p>
+
+<h1 id="ansibleって">Ansibleって</h1>
+
+<p>自分のPCからOrangePiにsshアクセスして自動で必要なコマンドやファイルコピーを行って
+環境を自動構築してくれるツールです。こいつを使えば、SDにイメージを焼く程にすぐには出来ませんが<br />
+待ってれば環境を作ってくれます。</p>
 
 <h1 id="wifiの設定までは自動化出来ず">wifiの設定までは自動化出来ず。</h1>
 
-<p>とりあえずwifi経由でsshできる状態まで持っていく必要があります。</p>
+<p>ということで少なくともssh接続できるように<br />
+wifi経由でsshできる状態まで設定しておく必要があります。</p>
 
-<p>その手順は幸いQiitaに纏めましたのでご参照下さい<br />
+<p>その手順はQiitaに纏めましたのでご参照下さい<br />
 <a href="http://qiita.com/m0a/items/6608feb654c64ea45dd1">OrangePi LiteのWIFI設定(armbian)</a></p>
 
-<p>まあ固定Ipで使ったほうがいいでしょうね。</p>
+<p>固定Ipを使ったほうがいいでしょうね。</p>
 
 <h1 id="ansibleの準備">Ansibleの準備</h1>
 
 <p>macであればbrewコマンドで簡単にインストールできます。
 windowsの場合も最近はlinux環境があるそうなんで簡単じゃないでしょうか？
-正直覚えていませんが
 macなら以下で入ると思います。</p>
 
 <pre><code> brew install ansible
 </code></pre>
 
+<p>windowsは自分で調べて下さい。ubuntu環境を手元に作れるはずです。</p>
+
 <h1 id="構築開始">構築開始</h1>
+
+<p>必要なファイルをgitで取得します。</p>
 
 <pre><code>  ❯ git clone https://github.com/m0a/octoprint_armbian.git
   ❯ cd octoprint_armbian
@@ -120,24 +132,26 @@ macなら以下で入ると思います。</p>
 
 <p>接続するときのipを設定します</p>
 
-<pre><code>  ❯ cat hosts                                                                                                                                                                          [15:33:04]
+<pre><code>  ❯ cat hosts   
 [octoprint_server]
 192.168.11.111
 </code></pre>
 
-<p>ここを変えて下さい</p>
+<p>ここを自分の設定したOrangePiのipに変えて下さい</p>
 
 <p>sudo時のパスワードを設定しておきます。</p>
 
-<pre><code>  ❯ cd octoprint_armbian
-  ❯ cat group_vars/octoprint_server.yml                                                                                                                                                [15:29:17]
+<pre><code>  ❯ cat group_vars/octoprint_server.yml 
 ansible_sudo_pass: p@ssword
+
+octoprint_version: 1.3.0rc1
+.......
 %
 </code></pre>
 
 <p>p@sswordのところを適時変えて下さい</p>
 
-<p>後実行するときのユーザはssh側の設定になっています。念のため</p>
+<p>後はオプションでバージョンの変更をして下さい(octoprint_versionにTagを指定できます。)</p>
 
 <p>コレで構築開始です。</p>
 
@@ -146,44 +160,30 @@ ansible_sudo_pass: p@ssword
 
 <p>あとは待つだけのはず。</p>
 
-<p>octoprintとカメラの設定が終わります。
+<p>OctoPrintとカメラの設定が終わります。
 カメラは普通のUSBWEBカメラならなんでも良いかと思います。<br />
 俺はこいつを使っています。<br />
 <a href="https://www.amazon.co.jp/LOGICOOL-%E3%82%A6%E3%82%A7%E3%83%96%E3%82%AB%E3%83%A0-HD%E7%94%BB%E8%B3%AA-120%E4%B8%87%E7%94%BB%E7%B4%A0-C270/dp/B003YUB660">LOGICOOL ウェブカム HD画質 120万画素 C270</a></p>
-
-<p>あとは手動で色々設定を変更します。</p>
-
-<pre><code>http://&lt;あなたのorangepiのip&gt;:5000
-</code></pre>
-
-<p>ocotoprintにはport5000でアクセスできます。</p>
-
-<img src="/images/posts/orange-pi-lite/webcamstart.jpg" alt="webcamstart.jpg">
-
-
-<p>上記をクリックでカメラが稼働開始します。</p>
-
-<pre><code>http://&lt;あなたのorangepiのip&gt;:8080/?action=stream
-</code></pre>
-
-<p>でカメラが表示できればok</p>
-
-<p>あとはカメラの設定をocotoprintに入れるだけです。</p>
-
-<p>streamのところには<code>http://&lt;あなたのorangepiのip&gt;:8080/?action=stream</code><br />
-snapshotのところには<code>http://&lt;あなたのorangepiのip&gt;:8080/?action=snapshot</code><br />
-を入れるだけです。</p>
-
-<p>ここまで設定したらorangepiを再起動しましょう
-再起動しないとカメラの設定か有効化しないので。
-再起動したらカメラを起動します(カメラは自動で起動しない)</p>
 
 <p>こんな画面になればokです。</p>
 
 <img src="/images/posts/orange-pi-lite/octoprint.jpg" alt="octoprint.jpg">
 
 
-<p>後半適当に流していますので後でアップデートするかもしれないです。</p>
+<p>デフォルトでタイムラプスを取るように設定済みです。</p>
+
+<div class="embed video-player">
+
+<iframe class="youtube-player" type="text/html"
+  width="640" height="385"
+  src="https://www.youtube.com/embed/aNHr-nNFhQs"
+  allowfullscreen frameborder="0">
+</iframe>
+
+</div>
+
+
+<p>なんだか久しぶりに触ったら色々機能が追加されてるみたいですね。色々いじりがいがありそうです。</p>
 
     </article>
     
