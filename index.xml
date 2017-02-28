@@ -7,8 +7,59 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>Written by m0a</copyright>
-    <lastBuildDate>Thu, 03 Nov 2016 14:45:15 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 28 Feb 2017 15:07:34 +0900</lastBuildDate>
     <atom:link href="https://m0a.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>octoprintのタイムラプスをstreamableに自動アップロード</title>
+      <link>https://m0a.github.io/post/up2streamable001/</link>
+      <pubDate>Tue, 28 Feb 2017 15:07:34 +0900</pubDate>
+      
+      <guid>https://m0a.github.io/post/up2streamable001/</guid>
+      <description>&lt;p&gt;octoprintをつかってタイムラプスを取るのは楽しいですが、&lt;br /&gt;
+どうにもサイズがでかいのでSDカードを逼迫するような気もします。&lt;/p&gt;
+
+&lt;p&gt;ところで&lt;a href=&#34;https://streamable.com/&#34;&gt;streamable&lt;/a&gt;ってサービスをご存知でしょうか？&lt;br /&gt;
+imgurの動画版みたいなやつです。&lt;br /&gt;
+とりあえず動画をアップして共有しようというサービスです。&lt;/p&gt;
+
+&lt;p&gt;そこでこいつに自動アップロードする機能をoctoprintにつけられないかな？と思いました。&lt;br /&gt;
+&lt;a href=&#34;https://github.com/m0a/up2streamable&#34;&gt;作りました。&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;golangのライブラリが提供されていたのでアホみたいに簡単なので、
+正直ツール化する意味はあるのかという気もしますが。&lt;/p&gt;
+
+&lt;p&gt;先ずは&lt;a href=&#34;https://streamable.com/signup&#34;&gt;streamable/signup&lt;/a&gt;からアカントを作っておきます。&lt;br /&gt;
+そうしないと削除できないので。&lt;/p&gt;
+
+&lt;p&gt;octoprintが動いているサーバ(raspberypiかorangepi等のarm環境限定です)から以下のコマンドで取得します&lt;br /&gt;
+またoctoprintを動かすユーザはoctoprintだと仮定しています&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo su - octoprint
+cd ~/bin
+wget  https://github.com/m0a/up2streamable/releases/download/0.1/up2streamable
+chmod +x up2streamable
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;以下のコマンドを実行します&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;up2streamable -path ~/.octoprint/timelapse -u userid -p password
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;~/.octoprint/timelapse&lt;/code&gt;に動画が格納されていればuploadが成功します&lt;/p&gt;
+
+&lt;p&gt;成功したらcronで設定しておきます。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+0 0 * * * up2streamable -path ~/.octoprint/timelapse -delete -u userid -p password
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;以上です。オプションに &lt;code&gt;-delete&lt;/code&gt;を指定することで自動削除します。&lt;/p&gt;
+
+&lt;div style=&#34;width: 100%; height: 0px; position: relative; padding-bottom: 75.000%;&#34;&gt;&lt;iframe src=&#34;//streamable.com/e/r46h2&#34; frameborder=&#34;0&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen scrolling=&#34;no&#34; style=&#34;width: 100%; height: 100%; position: absolute;&#34;&gt;&lt;/iframe&gt;&lt;script async  src=&#34;//v.embedcdn.com/v1/embed.js&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>OrangePi liteをつかってプリンタにwifi機能をつけよう(Ansible使って自動化するよ)</title>
