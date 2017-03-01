@@ -51,8 +51,8 @@ chmod +x up2streamable
 &lt;p&gt;成功したらcronで設定しておきます。&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;
-0 0 * * * up2streamable -path ~/.octoprint/timelapse -delete -u userid -p password
-
+HOME=/home/octoprint
+*/15  * * * * $HOME/bin/up2streamable -path $HOME/.octoprint/timelapse  -u username -p password -delete
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;以上です。オプションに &lt;code&gt;-delete&lt;/code&gt;を指定することで自動削除します。&lt;/p&gt;

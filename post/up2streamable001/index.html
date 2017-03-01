@@ -114,8 +114,8 @@ chmod +x up2streamable
 <p>成功したらcronで設定しておきます。</p>
 
 <pre><code>
-0 0 * * * up2streamable -path ~/.octoprint/timelapse -delete -u userid -p password
-
+HOME=/home/octoprint
+*/15  * * * * $HOME/bin/up2streamable -path $HOME/.octoprint/timelapse  -u username -p password -delete
 </code></pre>
 
 <p>以上です。オプションに <code>-delete</code>を指定することで自動削除します。</p>
@@ -186,11 +186,11 @@ MathJax.Hub.Config({
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Queue(function() {
-    
-    
-    
+    // Fix <code> tags after MathJax finishes running. This is a
+    // hack to overcome a shortcoming of Markdown. Discussion at
+    // https://github.com/mojombo/jekyll/issues/199
     var all = MathJax.Hub.getAllJax(), i;
-    for(i = 0; i < all.length; i += 1) {
+    for(i = 0; i &lt; all.length; i += 1) {
         all[i].SourceElement().parentNode.className += ' has-jax';
     }
 });
