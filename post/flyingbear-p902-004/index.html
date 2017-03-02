@@ -1,0 +1,287 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+  
+  <meta charset="UTF-8">
+  <title>
+    flyingbearのエクストルーダを改造しました。 | 楽しいことしかやりたくない。
+  </title>
+
+
+  
+  <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1,initial-scale=1">
+
+  
+  <link rel="canonical" href="https://m0a.github.io/post/flyingbear-p902-004/"/>
+
+  
+  <link rel="stylesheet" href="/css/sanitize.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+  <link rel="stylesheet" href="/css/highlight_monokai.css">
+  <link rel="stylesheet" href="/css/theme.css">
+  <link rel="stylesheet" href="/css/custom.css">
+
+  
+  <link href="https://m0a.github.io/index.xml" rel="alternate" type="application/rss+xml" title="楽しいことしかやりたくない。" />
+  <link href="https://m0a.github.io/index.xml" rel="feed" type="application/rss+xml" title="楽しいことしかやりたくない。" />
+
+  
+  
+
+<script data-cfasync="false" type="text/javascript" src="//filamentapp.s3.amazonaws.com/d912f375df0f4892df47619c70995f16.js" async="async"></script>
+
+
+
+</head>
+
+
+<body>
+<div class="container">
+
+  
+  <header role="banner">
+    <div class="row gutters">
+      <div id="site-title" class="col span_6">
+        <h1><a href="https://m0a.github.io/">楽しいことしかやりたくない。</a></h1>
+        <h2>loves 3DPrinter iOS MachineLearning UE4  etc.</h2>
+      </div>
+      <div id="social" class="col span_6">
+        <ul>
+          <li><a href="https://twitter.com/abe00makoto" target="_blank">Twitter</a></li>
+          <li><a href="https://facebook.com/abe00makoto" target="_blank">Facebook</a></li>
+          <li><a href="https://github.com/m0a" target="_blank">GitHub</a></li>
+          <li><a href="http://qiita.com/m0a" target="_blank">Qiita</a></li>
+          <li><a href="http://www.thingiverse.com/m0a/designs" target="_blank">Thingiverse</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
+  
+  <main id="single" role="main">
+    <div class="article-header">
+      <h1>flyingbearのエクストルーダを改造しました。</h1>
+      <div class="meta">
+        2017-03-02 21:17:40 &nbsp;
+        
+          #<a href="/tags/3dprinter">3DPrinter</a>&nbsp;
+        
+          #<a href="/tags/flyingbear">flyingbear</a>&nbsp;
+        
+      </div>
+    </div>
+    <article>
+      
+
+<img src="/images/posts/flyingbear-p902-004/start.jpg" alt="start.jpg">
+
+
+<p>flyingbearは値段の割にとても素敵なプリンタですが、色々調整しないとなかなか性能が出ません<br />
+今回のエクストルーダ改造はかなりいい感じでしたのでここに纏めてみます。</p>
+
+<h1 id="はじめに">はじめに</h1>
+
+<p>先ず今回の改造はどういう方針かといいますと。
+バレルを3cm延長し空間を作りその隙間からシロッコファンで送風するように改造します。
+したがってデメリットがあります。<br />
+ズバリ</p>
+
+<p><strong>Z方向の印刷範囲が3cm小さくなります。</strong></p>
+
+<p>ですが結果は劇的でした。</p>
+
+<img src="/images/posts/flyingbear-p902-004/test001.jpg" alt="test001.jpg">
+
+
+<p>そしてオーバーハングのテストがこちら<br />
+赤フィラメントが改造前のflyingbear(途中で印刷中止)<br />
+茶色フィラメントが改造後です。</p>
+
+<p><img src="/images/posts/flyingbear-p902-004/test002-1.jpg" alt="test002-1.jpg">
+
+<img src="/images/posts/flyingbear-p902-004/test002-2.jpg" alt="test002-2.jpg">
+
+<img src="/images/posts/flyingbear-p902-004/test002-3.jpg" alt="test002-3.jpg">
+</p>
+
+<p>70度以降に乱れがありますか積層0.1で行ったためです。0.05で試せばまた変わるかもしれません。</p>
+
+<h1 id="追加で必要な部品について">追加で必要な部品について</h1>
+
+<p>改造したSTLはthigiverseで<a href="http://www.thingiverse.com/thing:2144767">公開中</a>です。
+改造に必要なものは以下の通り</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">追加内容</th>
+<th align="center">個数</th>
+<th align="right">リンク</th>
+<th align="center">金額</th>
+<th align="right">備考</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">プリントパーツ</td>
+<td align="center">2</td>
+<td align="right"><a href="http://www.thingiverse.com/thing:2144767">thingiverse</a></td>
+<td align="center">0円</td>
+<td align="right"></td>
+</tr>
+
+<tr>
+<td align="left">シロッコファン 5015S</td>
+<td align="center">1</td>
+<td align="right"><a href="https://www.aliexpress.com/item/DC-12V-0-06A-50x15mm-Black-Brushless-Cooling-Blower-Fan-2-Wires-5015S-Free-Shipping/32596451910.html">aliexpress</a></td>
+<td align="center">200円</td>
+<td align="right"></td>
+</tr>
+
+<tr>
+<td align="left">50mm バレル</td>
+<td align="center">1</td>
+<td align="right"><a href="https://www.aliexpress.com/item/3D-Printer-nozzle-Throat-Stainless-Steel-M6-50mm-throat-With-Teflon-PTFE-Tube-For-1-75mm/32610742672.html">aliexpress</a></td>
+<td align="center">122円</td>
+<td align="right"></td>
+</tr>
+
+<tr>
+<td align="left">M6 Nut or heatsink</td>
+<td align="center">4</td>
+<td align="right"><a href="https://www.aliexpress.com/item/Free-shipping-10Pcs-Assembly-type-Modular-E3D-Full-Metal-Heat-sink-Screw-M6-cooling-fin-Radiator/32695576733.html">aliexpress</a></td>
+<td align="center">909円</td>
+<td align="right">ヒートシンクの代用になるもの</td>
+</tr>
+
+<tr>
+<td align="left">シロッコファン固定用木ネジ</td>
+<td align="center">2</td>
+<td align="right">その辺のホームセンター</td>
+<td align="center">300円</td>
+<td align="right">flyingbear付属のネジを参考に購入</td>
+</tr>
+</tbody>
+</table>
+
+<p>aliexpressのお陰で1500円くらいで素材は揃います。aliexpressは本当に便利です。</p>
+
+<p>改造手順は特にないです。<br />
+仕組みがわかっていれば写真でわかるのではないかと。</p>
+
+<h1 id="改造内容">改造内容</h1>
+
+<p>改造前に必要なものは印刷しておきます。当たり前ですが</p>
+
+<p>先ずはバレルの延長です。<br />
+元々は26mmのバレルを50mmの物に換装します。
+<img src="/images/posts/flyingbear-p902-004/barrel.jpg" alt="barrel.jpg">
+</p>
+
+<p>見てもらえばわかりますがM6ナットを取り付けています。ヒートシンク用です。
+つけないと延長したバレルに熱が伝わりフィラメントがバレル内で溶けて抵抗が増します。
+最初は良くともだんだんと抵抗が増えていくため試験印刷をしてみないとわからないかもしれません。</p>
+
+<p>また購入したバレルは<strong>ヒートブロックと微妙にサイズが合わないため</strong>熱が入った状態で回さないと<br />
+隙間から溶けたフィラメントが漏れてくる点にも注意です。</p>
+
+<p>ヒートシンクにも使えるナットはバレルを回すのにも使えるので２つのナットを逆回しすることで
+バレルにしっかり固定しておくといいと思います</p>
+
+<img src="/images/posts/flyingbear-p902-004/extruder.jpg" alt="extruder.jpg">
+
+
+<p>横側についているシロッコファンはバレル冷却専用で常に回すように<br />
+12V電源に直結しておきます。</p>
+
+<p>正面側はRAMPSに接続しておくことでコントロール可能にしておきます。</p>
+
+<h1 id="最後に">最後に</h1>
+
+<p>aliを中心に部品を集めれば安く部品も揃うのでオススメ改造です。<br />
+Z軸の調整と合わせてぜひお試しください。</p>
+
+<img src="/images/posts/flyingbear-p902-004/monster.jpg" alt="monster.jpg">
+
+
+    </article>
+    
+ <aside><div id="disqus_thread"></div></aside>
+
+<script type="text/javascript">
+     
+    var disqus_shortname = 'm0a';
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+  </main>
+
+
+  
+  <footer role="contentinfo">
+    <div style="text-align:center;">
+      <img src="/images/profile.jpg" width="64" height="64"><br>
+      Written by m0a
+    </div>
+  </footer>
+
+
+</div>
+
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-50625996-3', 'auto');
+	ga('send', 'pageview');
+</script>
+
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    // Fix <code> tags after MathJax finishes running. This is a
+    // hack to overcome a shortcoming of Markdown. Discussion at
+    // https://github.com/mojombo/jekyll/issues/199
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i &lt; all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+</body>
+</html>
+

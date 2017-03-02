@@ -7,8 +7,150 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>Written by m0a</copyright>
-    <lastBuildDate>Tue, 28 Feb 2017 15:07:34 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 02 Mar 2017 21:17:40 +0900</lastBuildDate>
     <atom:link href="https://m0a.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>flyingbearのエクストルーダを改造しました。</title>
+      <link>https://m0a.github.io/post/flyingbear-p902-004/</link>
+      <pubDate>Thu, 02 Mar 2017 21:17:40 +0900</pubDate>
+      
+      <guid>https://m0a.github.io/post/flyingbear-p902-004/</guid>
+      <description>
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-004/start.jpg&#34; alt=&#34;start.jpg&#34;&gt;
+
+
+&lt;p&gt;flyingbearは値段の割にとても素敵なプリンタですが、色々調整しないとなかなか性能が出ません&lt;br /&gt;
+今回のエクストルーダ改造はかなりいい感じでしたのでここに纏めてみます。&lt;/p&gt;
+
+&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
+
+&lt;p&gt;先ず今回の改造はどういう方針かといいますと。
+バレルを3cm延長し空間を作りその隙間からシロッコファンで送風するように改造します。
+したがってデメリットがあります。&lt;br /&gt;
+ズバリ&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Z方向の印刷範囲が3cm小さくなります。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ですが結果は劇的でした。&lt;/p&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-004/test001.jpg&#34; alt=&#34;test001.jpg&#34;&gt;
+
+
+&lt;p&gt;そしてオーバーハングのテストがこちら&lt;br /&gt;
+赤フィラメントが改造前のflyingbear(途中で印刷中止)&lt;br /&gt;
+茶色フィラメントが改造後です。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-004/test002-1.jpg&#34; alt=&#34;test002-1.jpg&#34;&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-004/test002-2.jpg&#34; alt=&#34;test002-2.jpg&#34;&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-004/test002-3.jpg&#34; alt=&#34;test002-3.jpg&#34;&gt;
+&lt;/p&gt;
+
+&lt;p&gt;70度以降に乱れがありますか積層0.1で行ったためです。0.05で試せばまた変わるかもしれません。&lt;/p&gt;
+
+&lt;h1 id=&#34;追加で必要な部品について&#34;&gt;追加で必要な部品について&lt;/h1&gt;
+
+&lt;p&gt;改造したSTLはthigiverseで&lt;a href=&#34;http://www.thingiverse.com/thing:2144767&#34;&gt;公開中&lt;/a&gt;です。
+改造に必要なものは以下の通り&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;追加内容&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;個数&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;リンク&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;金額&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;備考&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;プリントパーツ&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;a href=&#34;http://www.thingiverse.com/thing:2144767&#34;&gt;thingiverse&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0円&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;シロッコファン 5015S&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;a href=&#34;https://www.aliexpress.com/item/DC-12V-0-06A-50x15mm-Black-Brushless-Cooling-Blower-Fan-2-Wires-5015S-Free-Shipping/32596451910.html&#34;&gt;aliexpress&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;200円&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;50mm バレル&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;a href=&#34;https://www.aliexpress.com/item/3D-Printer-nozzle-Throat-Stainless-Steel-M6-50mm-throat-With-Teflon-PTFE-Tube-For-1-75mm/32610742672.html&#34;&gt;aliexpress&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;122円&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;M6 Nut or heatsink&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;&lt;a href=&#34;https://www.aliexpress.com/item/Free-shipping-10Pcs-Assembly-type-Modular-E3D-Full-Metal-Heat-sink-Screw-M6-cooling-fin-Radiator/32695576733.html&#34;&gt;aliexpress&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;909円&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;ヒートシンクの代用になるもの&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;シロッコファン固定用木ネジ&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;その辺のホームセンター&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;300円&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;flyingbear付属のネジを参考に購入&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;aliexpressのお陰で1500円くらいで素材は揃います。aliexpressは本当に便利です。&lt;/p&gt;
+
+&lt;p&gt;改造手順は特にないです。&lt;br /&gt;
+仕組みがわかっていれば写真でわかるのではないかと。&lt;/p&gt;
+
+&lt;h1 id=&#34;改造内容&#34;&gt;改造内容&lt;/h1&gt;
+
+&lt;p&gt;改造前に必要なものは印刷しておきます。当たり前ですが&lt;/p&gt;
+
+&lt;p&gt;先ずはバレルの延長です。&lt;br /&gt;
+元々は26mmのバレルを50mmの物に換装します。
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-004/barrel.jpg&#34; alt=&#34;barrel.jpg&#34;&gt;
+&lt;/p&gt;
+
+&lt;p&gt;見てもらえばわかりますがM6ナットを取り付けています。ヒートシンク用です。
+つけないと延長したバレルに熱が伝わりフィラメントがバレル内で溶けて抵抗が増します。
+最初は良くともだんだんと抵抗が増えていくため試験印刷をしてみないとわからないかもしれません。&lt;/p&gt;
+
+&lt;p&gt;また購入したバレルは&lt;strong&gt;ヒートブロックと微妙にサイズが合わないため&lt;/strong&gt;熱が入った状態で回さないと&lt;br /&gt;
+隙間から溶けたフィラメントが漏れてくる点にも注意です。&lt;/p&gt;
+
+&lt;p&gt;ヒートシンクにも使えるナットはバレルを回すのにも使えるので２つのナットを逆回しすることで
+バレルにしっかり固定しておくといいと思います&lt;/p&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-004/extruder.jpg&#34; alt=&#34;extruder.jpg&#34;&gt;
+
+
+&lt;p&gt;横側についているシロッコファンはバレル冷却専用で常に回すように&lt;br /&gt;
+12V電源に直結しておきます。&lt;/p&gt;
+
+&lt;p&gt;正面側はRAMPSに接続しておくことでコントロール可能にしておきます。&lt;/p&gt;
+
+&lt;h1 id=&#34;最後に&#34;&gt;最後に&lt;/h1&gt;
+
+&lt;p&gt;aliを中心に部品を集めれば安く部品も揃うのでオススメ改造です。&lt;br /&gt;
+Z軸の調整と合わせてぜひお試しください。&lt;/p&gt;
+
+&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-004/monster.jpg&#34; alt=&#34;monster.jpg&#34;&gt;
+
+</description>
+    </item>
     
     <item>
       <title>octoprintのタイムラプスをstreamableに自動アップロード</title>
@@ -1733,23 +1875,6 @@ youtubeで橋下さんの動画をたまに見ていて、メディアとの戦�
 
 &lt;p&gt;onShapeのデータも公開してます。
 &lt;a href=&#34;https://cad.onshape.com/documents/6a39e60d71ae4d19ae0e66ac/w/525a50b6016f42d58042b1b0/e/73dcc89cdd2248e1846706b4&#34;&gt;https://cad.onshape.com/documents/6a39e60d71ae4d19ae0e66ac/w/525a50b6016f42d58042b1b0/e/73dcc89cdd2248e1846706b4&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>about</title>
-      <link>https://m0a.github.io/about/</link>
-      <pubDate>Sat, 16 May 2015 18:11:20 +0900</pubDate>
-      
-      <guid>https://m0a.github.io/about/</guid>
-      <description>&lt;p&gt;いろいろやりたいことがありますが、できることからやることがコツだと最近知りました。&lt;br&gt;
-興味あることは、好奇心順に&lt;br&gt;
-3DPrinter &amp;gt; iOS &amp;gt; MachineLearning &amp;gt; FRP(functional reactive programming) &amp;gt; UE4 です。
-Haskellもやりたいけどモナド周りが未だにわかっていない。
-Meteor.js熱は冷め気味&lt;/p&gt;
-
-&lt;p&gt;基本的に技術的なことはqiitaに書き込みますが、
-こちらにはUE4の話題、作ったものについて書く予定です。&lt;/p&gt;
 </description>
     </item>
     
