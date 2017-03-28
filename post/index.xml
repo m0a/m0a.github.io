@@ -7,8 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>Written by m0a</copyright>
-    <lastBuildDate>Thu, 02 Mar 2017 21:17:40 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 28 Mar 2017 23:12:01 +0900</lastBuildDate>
     <atom:link href="https://m0a.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>octoprintをbitbarを使って便利にしよう</title>
+      <link>https://m0a.github.io/post/octoprint001/</link>
+      <pubDate>Tue, 28 Mar 2017 23:12:01 +0900</pubDate>
+      
+      <guid>https://m0a.github.io/post/octoprint001/</guid>
+      <description>&lt;img src=&#34;https://m0a.github.io/images/posts/octoprint001/snapshot.png&#34; alt=&#34;snapshot.png&#34;&gt;
+
+
+&lt;p&gt;octoprintを便利に使うためにbitbarのプラグインを作りました。  多分linux環境(Gnome環境？)でも、&lt;br /&gt;
+&lt;a href=&#34;https://github.com/p-e-w/argos&#34;&gt;argos&lt;/a&gt;などで使えると思います&lt;/p&gt;
+
+&lt;p&gt;見ての通りbitbarとはメニューバーを簡単に拡張できる機能のことです。
+mac限定なのが悲しい。&lt;/p&gt;
+
+&lt;p&gt;こちらにプラグインへのリンクを置きますね。&lt;br /&gt;
+&lt;a href=&#34;https://getbitbar.com/plugins/Tools/octoprint.1m.sh&#34;&gt;https://getbitbar.com/plugins/Tools/octoprint.1m.sh&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>flyingbearのエクストルーダを改造しました。</title>
@@ -1845,36 +1865,6 @@ youtubeで橋下さんの動画をたまに見ていて、メディアとの戦�
 &lt;p&gt;thingiverseから&lt;a href=&#34;http://www.thingiverse.com/thing:798710&#34;&gt;ダウンロード&lt;/a&gt;できます。&lt;/p&gt;
 
 &lt;p&gt;onShapeのデータも&lt;a href=&#34;https://cad.onshape.com/documents/2c2a47a4874a451bbae52e10/w/72d3ecc78847416497e807bc/e/29a4f8fa908e4116ad1a09fe&#34;&gt;公開&lt;/a&gt;してます。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>メガネ作った</title>
-      <link>https://m0a.github.io/post/glasses/</link>
-      <pubDate>Sat, 16 May 2015 22:20:29 +0900</pubDate>
-      
-      <guid>https://m0a.github.io/post/glasses/</guid>
-      <description>
-
-&lt;h2 id=&#34;メガネを作ったんです&#34;&gt;メガネを作ったんです。&lt;/h2&gt;
-
-&lt;p&gt;メガネのフレームのネジを無くしたので、3Dプリンタでメガネを作りました。
-作るのに3人日位かかりました。買ったほうが早いです。&lt;/p&gt;
-
-&lt;p&gt;でも&lt;a href=&#34;https://www.onshape.com/&#34;&gt;onShape&lt;/a&gt;の使い方を覚えられたし、
-必要は発明の母？なんか違いますが。&lt;/p&gt;
-
-&lt;p&gt;うまく出来てよかった。&lt;/p&gt;
-
-&lt;p&gt;身体に身につけてるので、俺３Dプリンタ触ってるんだアピールにピッタリ&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/myglasses.jpg&#34; alt=&#34;メガネ&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;thingverseにもアップしてます。
-&lt;a href=&#34;http://www.thingiverse.com/thing:790898&#34;&gt;http://www.thingiverse.com/thing:790898&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;onShapeのデータも公開してます。
-&lt;a href=&#34;https://cad.onshape.com/documents/6a39e60d71ae4d19ae0e66ac/w/525a50b6016f42d58042b1b0/e/73dcc89cdd2248e1846706b4&#34;&gt;https://cad.onshape.com/documents/6a39e60d71ae4d19ae0e66ac/w/525a50b6016f42d58042b1b0/e/73dcc89cdd2248e1846706b4&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
