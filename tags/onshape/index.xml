@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Onshape on 楽しいことしかやりたくない。</title>
-    <link>https://m0a.github.io/tags/onshape/index.xml</link>
+    <link>https://m0a.github.io/tags/onshape/</link>
     <description>Recent content in Onshape on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>Written by m0a</copyright>
-    <atom:link href="https://m0a.github.io/tags/onshape/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Jun 2015 17:22:03 +0900</lastBuildDate>
+    
+	<atom:link href="https://m0a.github.io/tags/onshape/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>メガネ作った。二回目。</title>
@@ -15,56 +18,22 @@
       <pubDate>Wed, 24 Jun 2015 17:22:03 +0900</pubDate>
       
       <guid>https://m0a.github.io/post/glasses2/</guid>
-      <description>
-
-&lt;h1 id=&#34;２代目となるメガネを作ったので公開します&#34;&gt;２代目となるメガネを作ったので公開します。&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/main.jpg&#34; alt=&#34;main.jpg&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;onShapeで作成し、
-データもtingiverseにて&lt;a href=&#34;http://www.thingiverse.com/thing:895662&#34;&gt;公開&lt;/a&gt;してます。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/frame_design_1.jpg&#34; alt=&#34;frame_design_1.jpg&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://m0a.github.io/post/glasses&#34;&gt;1代目&lt;/a&gt;との違いは、下記のようにレンズとサイドフレームをネジでサンドイッチする構造にしたことです。
-&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/frame_design_2.jpg&#34; alt=&#34;frame_design_2.jpg&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;おかげで、印刷後の調整がらくになりました。&lt;/p&gt;
-
-&lt;p&gt;データのリンクはこちら&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;onShape &lt;a href=&#34;https://cad.onshape.com/documents/6a39e60d71ae4d19ae0e66ac/w/525a50b6016f42d58042b1b0/e/73dcc89cdd2248e1846706b4&#34;&gt;https://cad.onshape.com/documents&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;thingiverse
-&lt;a href=&#34;http://www.thingiverse.com/thing:895662&#34;&gt;http://www.thingiverse.com/thing:895662&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;ついでに&#34;&gt;ついでに&lt;/h1&gt;
-
-&lt;p&gt;onShapeのcompareいい！
-１代目との差分を表示してます。
-&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/glasses_diff.jpg&#34; alt=&#34;glasses_diff.jpg&#34; /&gt;&lt;/p&gt;
-</description>
+      <description> ２代目となるメガネを作ったので公開します。 onShapeで作成し、 データもtingiverseにて公開してます。
+1代目との違いは、下記のようにレンズとサイドフレームをネジでサンドイッチする構造にしたことです。 おかげで、印刷後の調整がらくになりました。
+データのリンクはこちら
+ onShape https://cad.onshape.com/documents thingiverse http://www.thingiverse.com/thing:895662  ついでに onShapeのcompareいい！ １代目との差分を表示してます。 </description>
     </item>
     
     <item>
       <title>3DPrinter自作01</title>
-      <link>https://m0a.github.io/post/myDIYPrinter20150517/</link>
+      <link>https://m0a.github.io/post/mydiyprinter20150517/</link>
       <pubDate>Sun, 17 May 2015 20:39:59 +0900</pubDate>
       
-      <guid>https://m0a.github.io/post/myDIYPrinter20150517/</guid>
-      <description>&lt;p&gt;onShapeで設計してみました。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/DIYPrinter01/shot01.png&#34; alt=&#34;shot01.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;onShapeはWebアプリなCADなのでアセンブリ画面で実際に触ることができちゃいます。&lt;/p&gt;
-
-&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/kZmRX-trJVs&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://cad.onshape.com/documents/0f131d41320541f4928a8004/w/d7520b7a2ca946f986dfc31b/e/e3fc818d2c994dd8b5905cf0&#34;&gt;こちらからアクセスできます&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;実際に自作プリンター製作記の開始と行きたいものですがどうなるかは未定です。&lt;/p&gt;
-</description>
+      <guid>https://m0a.github.io/post/mydiyprinter20150517/</guid>
+      <description>onShapeで設計してみました。
+onShapeはWebアプリなCADなのでアセンブリ画面で実際に触ることができちゃいます。
+ こちらからアクセスできます
+実際に自作プリンター製作記の開始と行きたいものですがどうなるかは未定です。</description>
     </item>
     
     <item>
@@ -73,40 +42,22 @@
       <pubDate>Sun, 17 May 2015 10:24:49 +0900</pubDate>
       
       <guid>https://m0a.github.io/post/genkei-atom-customize/</guid>
-      <description>&lt;p&gt;genkei ATOMを使っています。
-3DPrinter2機種目です。1機種目は引越し時に捨ててしまいました。&lt;br&gt;
-（後から部品取りに使うなりいろいろ手があっただろうと後悔）&lt;/p&gt;
-
-&lt;p&gt;とにかく、購入して1年経過しましたが、thingiverseのデータを印刷してみただけとか、&lt;br&gt;
-使いこなし切れてなかったんですが、&lt;a href=&#34;https://www.onshape.com/&#34;&gt;onShape&lt;/a&gt;をきっかけに、結構なんでも作れるようになってきました。&lt;br&gt;
-それで作ってみたのがこちら。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/genkei_atom_customize.jpg&#34; alt=&#34;genkei_atom_customize.jpg&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;X軸周りのパーツを印刷しやすくしたパーツです。&lt;br&gt;
-3DPrinterはとにかく、オーバーハングしたパーツを印刷するのが苦手です。&lt;br&gt;
-サポート材を付けて印刷することで、解決は出来るんですが、あとでサポート材を外すのが大変だったりします。&lt;br&gt;
-特にPLAの場合は辛い。&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;なので、極力サポート材を付けずに印刷できるようなにしたほうが後々メンテ性が高いと思い、作った次第です。&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;で、作ったのがこちら。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;x_moter&lt;br&gt;
-&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/x_moter_preview_featured.jpg&#34; alt=&#34;x_moter_preview_featured.jpg&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;x_end_a&lt;br&gt;
-&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/x_end_a_preview_featured.jpg&#34; alt=&#34;x_end_a_preview_featured.jpg&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;x_carriage_lm_a b c 一体型&lt;br&gt;
-&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/x_carriage_lm_abc_set_preview_featured.jpg&#34; alt=&#34;x_carriage_lm_abc_set_preview_featured.jpg&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;thingiverseから&lt;a href=&#34;http://www.thingiverse.com/thing:798710&#34;&gt;ダウンロード&lt;/a&gt;できます。&lt;/p&gt;
-
-&lt;p&gt;onShapeのデータも&lt;a href=&#34;https://cad.onshape.com/documents/2c2a47a4874a451bbae52e10/w/72d3ecc78847416497e807bc/e/29a4f8fa908e4116ad1a09fe&#34;&gt;公開&lt;/a&gt;してます。&lt;/p&gt;
-</description>
+      <description>genkei ATOMを使っています。 3DPrinter2機種目です。1機種目は引越し時に捨ててしまいました。
+（後から部品取りに使うなりいろいろ手があっただろうと後悔）
+とにかく、購入して1年経過しましたが、thingiverseのデータを印刷してみただけとか、
+使いこなし切れてなかったんですが、onShapeをきっかけに、結構なんでも作れるようになってきました。
+それで作ってみたのがこちら。
+X軸周りのパーツを印刷しやすくしたパーツです。
+3DPrinterはとにかく、オーバーハングしたパーツを印刷するのが苦手です。
+サポート材を付けて印刷することで、解決は出来るんですが、あとでサポート材を外すのが大変だったりします。
+特にPLAの場合は辛い。
+なので、極力サポート材を付けずに印刷できるようなにしたほうが後々メンテ性が高いと思い、作った次第です。
+で、作ったのがこちら。
+ x_moter
+ x_end_a
+ x_carriage_lm_a b c 一体型
+  thingiverseからダウンロードできます。
+onShapeのデータも公開してます。</description>
     </item>
     
     <item>
@@ -115,28 +66,12 @@
       <pubDate>Sat, 16 May 2015 22:20:29 +0900</pubDate>
       
       <guid>https://m0a.github.io/post/glasses/</guid>
-      <description>
-
-&lt;h2 id=&#34;メガネを作ったんです&#34;&gt;メガネを作ったんです。&lt;/h2&gt;
-
-&lt;p&gt;メガネのフレームのネジを無くしたので、3Dプリンタでメガネを作りました。
-作るのに3人日位かかりました。買ったほうが早いです。&lt;/p&gt;
-
-&lt;p&gt;でも&lt;a href=&#34;https://www.onshape.com/&#34;&gt;onShape&lt;/a&gt;の使い方を覚えられたし、
-必要は発明の母？なんか違いますが。&lt;/p&gt;
-
-&lt;p&gt;うまく出来てよかった。&lt;/p&gt;
-
-&lt;p&gt;身体に身につけてるので、俺３Dプリンタ触ってるんだアピールにピッタリ&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/myglasses.jpg&#34; alt=&#34;メガネ&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;thingverseにもアップしてます。
-&lt;a href=&#34;http://www.thingiverse.com/thing:790898&#34;&gt;http://www.thingiverse.com/thing:790898&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;onShapeのデータも公開してます。
-&lt;a href=&#34;https://cad.onshape.com/documents/6a39e60d71ae4d19ae0e66ac/w/525a50b6016f42d58042b1b0/e/73dcc89cdd2248e1846706b4&#34;&gt;https://cad.onshape.com/documents/6a39e60d71ae4d19ae0e66ac/w/525a50b6016f42d58042b1b0/e/73dcc89cdd2248e1846706b4&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>メガネを作ったんです。 メガネのフレームのネジを無くしたので、3Dプリンタでメガネを作りました。 作るのに3人日位かかりました。買ったほうが早いです。
+でもonShapeの使い方を覚えられたし、 必要は発明の母？なんか違いますが。
+うまく出来てよかった。
+身体に身につけてるので、俺３Dプリンタ触ってるんだアピールにピッタリ
+thingverseにもアップしてます。 http://www.thingiverse.com/thing:790898
+onShapeのデータも公開してます。 https://cad.onshape.com/documents/6a39e60d71ae4d19ae0e66ac/w/525a50b6016f42d58042b1b0/e/73dcc89cdd2248e1846706b4</description>
     </item>
     
   </channel>

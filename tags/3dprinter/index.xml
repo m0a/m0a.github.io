@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3dprinter on 楽しいことしかやりたくない。</title>
-    <link>https://m0a.github.io/tags/3dprinter/index.xml</link>
+    <link>https://m0a.github.io/tags/3dprinter/</link>
     <description>Recent content in 3dprinter on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>Written by m0a</copyright>
-    <atom:link href="https://m0a.github.io/tags/3dprinter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Mar 2017 23:12:01 +0900</lastBuildDate>
+    
+	<atom:link href="https://m0a.github.io/tags/3dprinter/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>octoprintをbitbarを使って便利にしよう</title>
@@ -15,18 +18,11 @@
       <pubDate>Tue, 28 Mar 2017 23:12:01 +0900</pubDate>
       
       <guid>https://m0a.github.io/post/octoprint001/</guid>
-      <description>&lt;img src=&#34;https://m0a.github.io/images/posts/octoprint001/snapshot.png&#34; alt=&#34;snapshot.png&#34;&gt;
-
-
-&lt;p&gt;octoprintを便利に使うためにbitbarのプラグインを作りました。  多分linux環境(Gnome環境？)でも、&lt;br /&gt;
-&lt;a href=&#34;https://github.com/p-e-w/argos&#34;&gt;argos&lt;/a&gt;などで使えると思います&lt;/p&gt;
-
-&lt;p&gt;見ての通りbitbarとはメニューバーを簡単に拡張できる機能のことです。
-mac限定なのが悲しい。&lt;/p&gt;
-
-&lt;p&gt;こちらにプラグインへのリンクを置きますね。&lt;br /&gt;
-&lt;a href=&#34;https://getbitbar.com/plugins/Tools/octoprint.1m.sh&#34;&gt;https://getbitbar.com/plugins/Tools/octoprint.1m.sh&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>octoprintを便利に使うためにbitbarのプラグインを作りました。 多分linux環境(Gnome環境？)でも、
+argosなどで使えると思います
+見ての通りbitbarとはメニューバーを簡単に拡張できる機能のことです。 mac限定なのが悲しい。
+こちらにプラグインへのリンクを置きますね。
+https://getbitbar.com/plugins/Tools/octoprint.1m.sh</description>
     </item>
     
     <item>
@@ -35,140 +31,18 @@ mac限定なのが悲しい。&lt;/p&gt;
       <pubDate>Thu, 02 Mar 2017 21:17:40 +0900</pubDate>
       
       <guid>https://m0a.github.io/post/flyingbear-p902-004/</guid>
-      <description>
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-004/start.jpg&#34; alt=&#34;start.jpg&#34;&gt;
-
-
-&lt;p&gt;flyingbearは値段の割にとても素敵なプリンタですが、色々調整しないとなかなか性能が出ません&lt;br /&gt;
-今回のエクストルーダ改造はかなりいい感じでしたのでここに纏めてみます。&lt;/p&gt;
-
-&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
-
-&lt;p&gt;先ず今回の改造はどういう方針かといいますと。
-バレルを3cm延長し空間を作りその隙間からシロッコファンで送風するように改造します。
-したがってデメリットがあります。&lt;br /&gt;
-ズバリ&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Z方向の印刷範囲が3cm小さくなります。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;ですが結果は劇的でした。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-004/test001.jpg&#34; alt=&#34;test001.jpg&#34;&gt;
-
-
-&lt;p&gt;そしてオーバーハングのテストがこちら&lt;br /&gt;
-赤フィラメントが改造前のflyingbear(途中で印刷中止)&lt;br /&gt;
-茶色フィラメントが改造後です。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-004/test002-1.jpg&#34; alt=&#34;test002-1.jpg&#34;&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-004/test002-2.jpg&#34; alt=&#34;test002-2.jpg&#34;&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-004/test002-3.jpg&#34; alt=&#34;test002-3.jpg&#34;&gt;
-&lt;/p&gt;
-
-&lt;p&gt;70度以降に乱れがありますか積層0.1で行ったためです。0.05で試せばまた変わるかもしれません。&lt;/p&gt;
-
-&lt;h1 id=&#34;追加で必要な部品について&#34;&gt;追加で必要な部品について&lt;/h1&gt;
-
-&lt;p&gt;改造したSTLはthigiverseで&lt;a href=&#34;http://www.thingiverse.com/thing:2144767&#34;&gt;公開中&lt;/a&gt;です。
-改造に必要なものは以下の通り&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;追加内容&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;個数&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;リンク&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;金額&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;備考&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;プリントパーツ&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;&lt;a href=&#34;http://www.thingiverse.com/thing:2144767&#34;&gt;thingiverse&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0円&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;シロッコファン 5015S&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;&lt;a href=&#34;https://www.aliexpress.com/item/DC-12V-0-06A-50x15mm-Black-Brushless-Cooling-Blower-Fan-2-Wires-5015S-Free-Shipping/32596451910.html&#34;&gt;aliexpress&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;200円&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;50mm バレル&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;&lt;a href=&#34;https://www.aliexpress.com/item/3D-Printer-nozzle-Throat-Stainless-Steel-M6-50mm-throat-With-Teflon-PTFE-Tube-For-1-75mm/32610742672.html&#34;&gt;aliexpress&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;122円&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;M6 Nut or heatsink&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;&lt;a href=&#34;https://www.aliexpress.com/item/Free-shipping-10Pcs-Assembly-type-Modular-E3D-Full-Metal-Heat-sink-Screw-M6-cooling-fin-Radiator/32695576733.html&#34;&gt;aliexpress&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;909円&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;ヒートシンクの代用になるもの&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;シロッコファン固定用木ネジ&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;その辺のホームセンター&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;300円&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;flyingbear付属のネジを参考に購入&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;aliexpressのお陰で1500円くらいで素材は揃います。aliexpressは本当に便利です。&lt;/p&gt;
-
-&lt;p&gt;改造手順は特にないです。&lt;br /&gt;
-仕組みがわかっていれば写真でわかるのではないかと。&lt;/p&gt;
-
-&lt;h1 id=&#34;改造内容&#34;&gt;改造内容&lt;/h1&gt;
-
-&lt;p&gt;改造前に必要なものは印刷しておきます。当たり前ですが&lt;/p&gt;
-
-&lt;p&gt;先ずはバレルの延長です。&lt;br /&gt;
-元々は26mmのバレルを50mmの物に換装します。
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-004/barrel.jpg&#34; alt=&#34;barrel.jpg&#34;&gt;
-&lt;/p&gt;
-
-&lt;p&gt;見てもらえばわかりますがM6ナットを取り付けています。ヒートシンク用です。
-つけないと延長したバレルに熱が伝わりフィラメントがバレル内で溶けて抵抗が増します。
-最初は良くともだんだんと抵抗が増えていくため試験印刷をしてみないとわからないかもしれません。&lt;/p&gt;
-
-&lt;p&gt;また購入したバレルは&lt;strong&gt;ヒートブロックと微妙にサイズが合わないため&lt;/strong&gt;熱が入った状態で回さないと&lt;br /&gt;
-隙間から溶けたフィラメントが漏れてくる点にも注意です。&lt;/p&gt;
-
-&lt;p&gt;ヒートシンクにも使えるナットはバレルを回すのにも使えるので２つのナットを逆回しすることで
-バレルにしっかり固定しておくといいと思います&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-004/extruder.jpg&#34; alt=&#34;extruder.jpg&#34;&gt;
-
-
-&lt;p&gt;横側についているシロッコファンはバレル冷却専用で常に回すように&lt;br /&gt;
-12V電源に直結しておきます。&lt;/p&gt;
-
-&lt;p&gt;正面側はRAMPSに接続しておくことでコントロール可能にしておきます。&lt;/p&gt;
-
-&lt;h1 id=&#34;最後に&#34;&gt;最後に&lt;/h1&gt;
-
-&lt;p&gt;aliを中心に部品を集めれば安く部品も揃うのでオススメ改造です。&lt;br /&gt;
-Z軸の調整と合わせてぜひお試しください。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-004/monster.jpg&#34; alt=&#34;monster.jpg&#34;&gt;
-
-</description>
+      <description>flyingbearは値段の割にとても素敵なプリンタですが、色々調整しないとなかなか性能が出ません
+今回のエクストルーダ改造はかなりいい感じでしたのでここに纏めてみます。
+はじめに 先ず今回の改造はどういう方針かといいますと。 バレルを3cm延長し空間を作りその隙間からシロッコファンで送風するように改造します。 したがってデメリットがあります。
+ズバリ
+Z方向の印刷範囲が3cm小さくなります。
+ですが結果は劇的でした。
+そしてオーバーハングのテストがこちら
+赤フィラメントが改造前のflyingbear(途中で印刷中止)
+茶色フィラメントが改造後です。
+70度以降に乱れがありますか積層0.1で行ったためです。0.05で試せばまた変わるかもしれません。
+追加で必要な部品について 改造したSTLはthigiverseで公開中です。 改造に必要なものは以下の通り
+   追加内容 個数 リンク 金額 備考     プリントパーツ 2 thingiverse 0円    シロッコファン 5015S 1 aliexpress 200円    50mm バレル 1 aliexpress 122円    M6 Nut or heatsink 4 aliexpress 909円 ヒートシンクの代用になるもの   シロッコファン固定用木ネジ 2 その辺のホームセンター 300円 flyingbear付属のネジを参考に購入    aliexpressのお陰で1500円くらいで素材は揃います。aliexpressは本当に便利です。</description>
     </item>
     
     <item>
@@ -177,49 +51,23 @@ Z軸の調整と合わせてぜひお試しください。&lt;/p&gt;
       <pubDate>Tue, 28 Feb 2017 15:07:34 +0900</pubDate>
       
       <guid>https://m0a.github.io/post/up2streamable001/</guid>
-      <description>&lt;p&gt;octoprintをつかってタイムラプスを取るのは楽しいですが、&lt;br /&gt;
-どうにもサイズがでかいのでSDカードを逼迫するような気もします。&lt;/p&gt;
-
-&lt;p&gt;ところで&lt;a href=&#34;https://streamable.com/&#34;&gt;streamable&lt;/a&gt;ってサービスをご存知でしょうか？&lt;br /&gt;
-imgurの動画版みたいなやつです。&lt;br /&gt;
-とりあえず動画をアップして共有しようというサービスです。&lt;/p&gt;
-
-&lt;p&gt;そこでこいつに自動アップロードする機能をoctoprintにつけられないかな？と思いました。&lt;br /&gt;
-&lt;a href=&#34;https://github.com/m0a/up2streamable&#34;&gt;作りました。&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;golangのライブラリが提供されていたのでアホみたいに簡単なので、
-正直ツール化する意味はあるのかという気もしますが。&lt;/p&gt;
-
-&lt;p&gt;先ずは&lt;a href=&#34;https://streamable.com/signup&#34;&gt;streamable/signup&lt;/a&gt;からアカントを作っておきます。&lt;br /&gt;
-そうしないと削除できないので。&lt;/p&gt;
-
-&lt;p&gt;octoprintが動いているサーバ(raspberypiかorangepi等のarm環境限定です)から以下のコマンドで取得します&lt;br /&gt;
-またoctoprintを動かすユーザはoctoprintだと仮定しています&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo su - octoprint
-cd ~/bin
-wget  https://github.com/m0a/up2streamable/releases/download/0.1/up2streamable
-chmod +x up2streamable
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;以下のコマンドを実行します&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;up2streamable -path ~/.octoprint/timelapse -u userid -p password
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;code&gt;~/.octoprint/timelapse&lt;/code&gt;に動画が格納されていればuploadが成功します&lt;/p&gt;
-
-&lt;p&gt;成功したらcronで設定しておきます。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-HOME=/home/octoprint
-*/15  * * * * $HOME/bin/up2streamable -path $HOME/.octoprint/timelapse  -u username -p password -delete
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;以上です。オプションに &lt;code&gt;-delete&lt;/code&gt;を指定することで自動削除します。&lt;/p&gt;
-
-&lt;div style=&#34;width: 100%; height: 0px; position: relative; padding-bottom: 75.000%;&#34;&gt;&lt;iframe src=&#34;//streamable.com/e/r46h2&#34; frameborder=&#34;0&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen scrolling=&#34;no&#34; style=&#34;width: 100%; height: 100%; position: absolute;&#34;&gt;&lt;/iframe&gt;&lt;script async  src=&#34;//v.embedcdn.com/v1/embed.js&#34;&gt;&lt;/script&gt;&lt;/div&gt;
-</description>
+      <description>octoprintをつかってタイムラプスを取るのは楽しいですが、
+どうにもサイズがでかいのでSDカードを逼迫するような気もします。
+ところでstreamableってサービスをご存知でしょうか？
+imgurの動画版みたいなやつです。
+とりあえず動画をアップして共有しようというサービスです。
+そこでこいつに自動アップロードする機能をoctoprintにつけられないかな？と思いました。
+作りました。
+golangのライブラリが提供されていたのでアホみたいに簡単なので、 正直ツール化する意味はあるのかという気もしますが。
+先ずはstreamable/signupからアカントを作っておきます。
+そうしないと削除できないので。
+octoprintが動いているサーバ(raspberypiかorangepi等のarm環境限定です)から以下のコマンドで取得します
+またoctoprintを動かすユーザはoctoprintだと仮定しています
+sudo su - octoprint cd ~/bin wget https://github.com/m0a/up2streamable/releases/download/0.1/up2streamable chmod +x up2streamable  以下のコマンドを実行します
+up2streamable -path ~/.octoprint/timelapse -u userid -p password  ~/.octoprint/timelapseに動画が格納されていればuploadが成功します
+成功したらcronで設定しておきます。
+ HOME=/home/octoprint */15 * * * * $HOME/bin/up2streamable -path $HOME/.octoprint/timelapse -u username -p password -delete  以上です。オプションに -deleteを指定することで自動削除します。
+ </description>
     </item>
     
     <item>
@@ -228,112 +76,28 @@ HOME=/home/octoprint
       <pubDate>Thu, 03 Nov 2016 14:45:15 +0900</pubDate>
       
       <guid>https://m0a.github.io/post/orange-pi-lite/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/o15drKg.jpg&#34; alt=&#34;http://i.imgur.com/o15drKg.jpg&#34; /&gt;
-OrangePi Liteを買いました。名刺サイズながら最初からWifiが搭載されているやつです。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://qiita.com/m0a/items/6608feb654c64ea45dd1&#34;&gt;早速wifiを有効化させるところまで纏めましたが&lt;/a&gt;、Qiitaではいまいち人気がない様子。&lt;/p&gt;
-
-&lt;p&gt;気を取り直して、当初の目的であるOctoPrintを導入します。
-ラズパイみたいな人気のやつの場合は最初からOctoPiというのがありまして
-SDカードにイメージを入れるだけで全部入りの環境が手に入ります。&lt;/p&gt;
-
-&lt;p&gt;でもこいつは安いのが魅力。本体だけなら1200円くらいです。&lt;/p&gt;
-
-&lt;p&gt;OctoPiほどではないけどAnsibleをつかって全自動で構築まで持っていきましょう。
-仮にSDが壊れても瞬時に復旧できるように。&lt;/p&gt;
-
-&lt;h1 id=&#34;ansibleって&#34;&gt;Ansibleって&lt;/h1&gt;
-
-&lt;p&gt;自分のPCからOrangePiにsshアクセスして自動で必要なコマンドやファイルコピーを行って
-環境を自動構築してくれるツールです。こいつを使えば、SDにイメージを焼く程にすぐには出来ませんが&lt;br /&gt;
-待ってれば環境を作ってくれます。&lt;/p&gt;
-
-&lt;h1 id=&#34;wifiの設定までは自動化出来ず&#34;&gt;wifiの設定までは自動化出来ず。&lt;/h1&gt;
-
-&lt;p&gt;ということで少なくともssh接続できるように&lt;br /&gt;
-wifi経由でsshできる状態まで設定しておく必要があります。&lt;/p&gt;
-
-&lt;p&gt;その手順はQiitaに纏めましたのでご参照下さい&lt;br /&gt;
-&lt;a href=&#34;http://qiita.com/m0a/items/6608feb654c64ea45dd1&#34;&gt;OrangePi LiteのWIFI設定(armbian)&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;固定Ipを使ったほうがいいでしょうね。&lt;/p&gt;
-
-&lt;h1 id=&#34;ansibleの準備&#34;&gt;Ansibleの準備&lt;/h1&gt;
-
-&lt;p&gt;macであればbrewコマンドで簡単にインストールできます。
-windowsの場合も最近はlinux環境があるそうなんで簡単じゃないでしょうか？
-macなら以下で入ると思います。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt; brew install ansible
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;windowsは自分で調べて下さい。ubuntu環境を手元に作れるはずです。&lt;/p&gt;
-
-&lt;h1 id=&#34;構築開始&#34;&gt;構築開始&lt;/h1&gt;
-
-&lt;p&gt;必要なファイルをgitで取得します。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  ❯ git clone https://github.com/m0a/octoprint_armbian.git
-  ❯ cd octoprint_armbian
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;接続するときのipを設定します&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  ❯ cat hosts   
-[octoprint_server]
-192.168.11.111
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;ここを自分の設定したOrangePiのipに変えて下さい&lt;/p&gt;
-
-&lt;p&gt;sudo時のパスワードを設定しておきます。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  ❯ cat group_vars/octoprint_server.yml 
-ansible_sudo_pass: p@ssword
-
-octoprint_version: 1.2.17
-.......
-%
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;p@sswordのところを適時変えて下さい&lt;/p&gt;
-
-&lt;p&gt;後はオプションでバージョンの変更をして下さい(octoprint_versionにTagを指定できます。)&lt;/p&gt;
-
-&lt;p&gt;コレで構築開始です。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  ❯ ansible-playbook -i hosts playbook.yml
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;あとは待つだけのはず。&lt;/p&gt;
-
-&lt;p&gt;OctoPrintとカメラの設定が終わります。
-カメラは普通のUSBWEBカメラならなんでも良いかと思います。&lt;br /&gt;
-俺はこいつを使っています。&lt;br /&gt;
-&lt;a href=&#34;https://www.amazon.co.jp/LOGICOOL-%E3%82%A6%E3%82%A7%E3%83%96%E3%82%AB%E3%83%A0-HD%E7%94%BB%E8%B3%AA-120%E4%B8%87%E7%94%BB%E7%B4%A0-C270/dp/B003YUB660&#34;&gt;LOGICOOL ウェブカム HD画質 120万画素 C270&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;こんな画面になればokです。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/orange-pi-lite/octoprint.jpg&#34; alt=&#34;octoprint.jpg&#34;&gt;
-
-
-&lt;p&gt;デフォルトでタイムラプスを取るように設定済みです。&lt;/p&gt;
-
-&lt;div class=&#34;embed video-player&#34;&gt;
-
-&lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
-  width=&#34;640&#34; height=&#34;385&#34;
-  src=&#34;https://www.youtube.com/embed/aNHr-nNFhQs&#34;
-  allowfullscreen frameborder=&#34;0&#34;&gt;
-&lt;/iframe&gt;
-
-&lt;/div&gt;
-
-
-&lt;p&gt;なんだか久しぶりに触ったら色々機能が追加されてるみたいですね。色々いじりがいがありそうです。&lt;/p&gt;
-</description>
+      <description>OrangePi Liteを買いました。名刺サイズながら最初からWifiが搭載されているやつです。
+早速wifiを有効化させるところまで纏めましたが、Qiitaではいまいち人気がない様子。
+気を取り直して、当初の目的であるOctoPrintを導入します。 ラズパイみたいな人気のやつの場合は最初からOctoPiというのがありまして SDカードにイメージを入れるだけで全部入りの環境が手に入ります。
+でもこいつは安いのが魅力。本体だけなら1200円くらいです。
+OctoPiほどではないけどAnsibleをつかって全自動で構築まで持っていきましょう。 仮にSDが壊れても瞬時に復旧できるように。
+Ansibleって 自分のPCからOrangePiにsshアクセスして自動で必要なコマンドやファイルコピーを行って 環境を自動構築してくれるツールです。こいつを使えば、SDにイメージを焼く程にすぐには出来ませんが
+待ってれば環境を作ってくれます。
+wifiの設定までは自動化出来ず。 ということで少なくともssh接続できるように
+wifi経由でsshできる状態まで設定しておく必要があります。
+その手順はQiitaに纏めましたのでご参照下さい
+OrangePi LiteのWIFI設定(armbian)
+固定Ipを使ったほうがいいでしょうね。
+Ansibleの準備 macであればbrewコマンドで簡単にインストールできます。 windowsの場合も最近はlinux環境があるそうなんで簡単じゃないでしょうか？ macなら以下で入ると思います。
+ brew install ansible  windowsは自分で調べて下さい。ubuntu環境を手元に作れるはずです。
+構築開始 必要なファイルをgitで取得します。
+ ❯ git clone https://github.com/m0a/octoprint_armbian.git ❯ cd octoprint_armbian  接続するときのipを設定します
+ ❯ cat hosts [octoprint_server] 192.168.11.111  ここを自分の設定したOrangePiのipに変えて下さい
+sudo時のパスワードを設定しておきます。
+ ❯ cat group_vars/octoprint_server.yml ansible_sudo_pass: p@ssword octoprint_version: 1.2.17 ....... %  p@sswordのところを適時変えて下さい
+後はオプションでバージョンの変更をして下さい(octoprint_versionにTagを指定できます。)
+コレで構築開始です。
+ ❯ ansible-playbook -i hosts playbook.</description>
     </item>
     
     <item>
@@ -342,495 +106,16 @@ octoprint_version: 1.2.17
       <pubDate>Tue, 18 Oct 2016 20:22:31 +0900</pubDate>
       
       <guid>https://m0a.github.io/post/modify_marlin/</guid>
-      <description>
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/modify_marlin/ETE.jpg&#34; alt=&#34;ETE.jpg&#34;&gt;
-
-
-&lt;p&gt;同じことを考えている人はいる。&lt;br /&gt;
-&lt;a href=&#34;https://github.com/MarlinFirmware/Marlin/issues/2181#issuecomment-106572076&#34;&gt;Display time remaining on the LCD screen ?&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;SDカードの読み取り状況と現状の印刷時間から逆算する方針なら情報は出揃っているから簡単でした。&lt;/p&gt;
-
-&lt;h1 id=&#34;実装結果&#34;&gt;実装結果&lt;/h1&gt;
-
-&lt;p&gt;Marlinのコードはこちらにあります。
-flyingbearP902用の設定になっています
-&lt;a href=&#34;https://github.com/m0a/flyingbearMarlin/archive/lcd_kai.zip&#34;&gt;https://github.com/m0a/flyingbearMarlin/archive/lcd_kai.zip&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;実際のところSDカードの進捗は正確ではなくコレを元に印刷時間を表示するとあまり正確な値にならない。&lt;br /&gt;
-ただ後半90%以上進行するとまぁまぁ正確にはなる(当たり前か)&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://reprap.org/wiki/G-code#M73:_Set_build_percentage&#34;&gt;M73というGCODE&lt;/a&gt;をMarlinに実装すると正確になるかもしれない。&lt;/p&gt;
-
-&lt;h1 id=&#34;変更内容&#34;&gt;変更内容&lt;/h1&gt;
-
-&lt;p&gt;ちょっとテスト的に弄ったものも含まれています。&lt;br /&gt;
-あと中華ArduinoだったせいかBAUDRATEも25000では上手く動かず115200に変更しています&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;diff --git a/Marlin/Configuration.h b/Marlin/Configuration.h
-index ad869b7..a730543 100644
---- a/Marlin/Configuration.h
-+++ b/Marlin/Configuration.h
-@@ -113,7 +113,7 @@
- 
- // This determines the communication speed of the printer
- // :[2400,9600,19200,38400,57600,115200,250000]
--#define BAUDRATE 250000
-+#define BAUDRATE 115200
- 
- // Enable the Bluetooth serial interface on AT90USB devices
- //#define BLUETOOTH
-@@ -126,7 +126,7 @@
- 
- // Optional custom name for your RepStrap or other custom machine
- // Displayed in the LCD &amp;quot;Ready&amp;quot; message
--//#define CUSTOM_MACHINE_NAME &amp;quot;3D Printer&amp;quot;
-+#define CUSTOM_MACHINE_NAME &amp;quot;Flyingbear&amp;quot;
- 
- // Define this to set a unique identifier for this printer, (Used by some programs to differentiate between machines)
- // You can use an online service to generate a random UUID. (eg http://www.uuidgenerator.net/version4)
-@@ -229,7 +229,7 @@
- #define TEMP_SENSOR_1 0
- #define TEMP_SENSOR_2 0
- #define TEMP_SENSOR_3 0
--#define TEMP_SENSOR_BED 0
-+#define TEMP_SENSOR_BED 1
- 
- // This makes temp sensor 1 a redundant sensor for sensor 0. If the temperatures difference between these sensors is to high the print will be aborted.
- //#define TEMP_SENSOR_1_AS_REDUNDANT
-@@ -419,13 +419,22 @@
-   //#define ENDSTOPPULLUP_ZMIN_PROBE
- #endif
- 
-+#ifdef ENDSTOPPULLUPS
-+  #define ENDSTOPPULLUP_XMAX
-+  #define ENDSTOPPULLUP_YMAX
-+  #define ENDSTOPPULLUP_ZMAX
-+  #define ENDSTOPPULLUP_XMIN
-+  #define ENDSTOPPULLUP_YMIN
-+  #define ENDSTOPPULLUP_ZMIN
-+#endif
-+
- // Mechanical endstop with COM to ground and NC to Signal uses &amp;quot;false&amp;quot; here (most common setup).
--#define X_MIN_ENDSTOP_INVERTING false // set to true to invert the logic of the endstop.
--#define Y_MIN_ENDSTOP_INVERTING false // set to true to invert the logic of the endstop.
--#define Z_MIN_ENDSTOP_INVERTING false // set to true to invert the logic of the endstop.
--#define X_MAX_ENDSTOP_INVERTING false // set to true to invert the logic of the endstop.
--#define Y_MAX_ENDSTOP_INVERTING false // set to true to invert the logic of the endstop.
--#define Z_MAX_ENDSTOP_INVERTING false // set to true to invert the logic of the endstop.
-+#define X_MIN_ENDSTOP_INVERTING true // set to true to invert the logic of the endstop.
-+#define Y_MIN_ENDSTOP_INVERTING true // set to true to invert the logic of the endstop.
-+#define Z_MIN_ENDSTOP_INVERTING true // set to true to invert the logic of the endstop.
-+#define X_MAX_ENDSTOP_INVERTING true // set to true to invert the logic of the endstop.
-+#define Y_MAX_ENDSTOP_INVERTING true // set to true to invert the logic of the endstop.
-+#define Z_MAX_ENDSTOP_INVERTING true // set to true to invert the logic of the endstop.
- #define Z_MIN_PROBE_ENDSTOP_INVERTING false // set to true to invert the logic of the endstop.
- 
- //===========================================================================
-@@ -576,13 +585,13 @@
- 
- // Invert the stepper direction. Change (or reverse the motor connector) if an axis goes the wrong way.
- #define INVERT_X_DIR false
--#define INVERT_Y_DIR true
--#define INVERT_Z_DIR false
-+#define INVERT_Y_DIR false
-+#define INVERT_Z_DIR true
- 
- // @section extruder
- 
- // For direct drive extruder v9 set to true, for geared extruder set to false.
--#define INVERT_E0_DIR false
-+#define INVERT_E0_DIR true
- #define INVERT_E1_DIR false
- #define INVERT_E2_DIR false
- #define INVERT_E3_DIR false
-@@ -608,9 +617,9 @@
- #define X_MIN_POS 0
- #define Y_MIN_POS 0
- #define Z_MIN_POS 0
--#define X_MAX_POS 200
--#define Y_MAX_POS 200
--#define Z_MAX_POS 200
-+#define X_MAX_POS 220
-+#define Y_MAX_POS 220
-+#define Z_MAX_POS 270
- 
- //===========================================================================
- //========================= Filament Runout Sensor ==========================
-@@ -749,12 +758,12 @@
- 
- // default settings
- 
--#define DEFAULT_AXIS_STEPS_PER_UNIT   {80,80,4000,500}  // default steps per unit for Ultimaker
--#define DEFAULT_MAX_FEEDRATE          {300, 300, 5, 25}    // (mm/sec)
--#define DEFAULT_MAX_ACCELERATION      {3000,3000,100,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
-+#define DEFAULT_AXIS_STEPS_PER_UNIT   {100,100,800,92.6}  // default steps per unit for Ultimaker
-+#define DEFAULT_MAX_FEEDRATE          {330, 330, 5, 25}    // (mm/sec)
-+#define DEFAULT_MAX_ACCELERATION      {4000,4000,90,8000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
- 
--#define DEFAULT_ACCELERATION          3000    // X, Y, Z and E acceleration in mm/s^2 for printing moves
--#define DEFAULT_RETRACT_ACCELERATION  3000    // E acceleration in mm/s^2 for retracts
-+#define DEFAULT_ACCELERATION          500    // X, Y, Z and E acceleration in mm/s^2 for printing moves
-+#define DEFAULT_RETRACT_ACCELERATION  1500    // E acceleration in mm/s^2 for retracts
- #define DEFAULT_TRAVEL_ACCELERATION   3000    // X, Y, Z acceleration in mm/s^2 for travel (non printing) moves
- 
- // The speed change that does not require acceleration (i.e. the software might assume it can be done instantaneously)
-@@ -811,13 +820,13 @@
- // @section temperature
- 
- // Preheat Constants
--#define PREHEAT_1_TEMP_HOTEND 180
--#define PREHEAT_1_TEMP_BED     70
--#define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
-+#define PREHEAT_1_TEMP_HOTEND 206
-+#define PREHEAT_1_TEMP_BED     65
-+#define PREHEAT_1_FAN_SPEED   255 // Value from 0 to 255
- 
- #define PREHEAT_2_TEMP_HOTEND 240
--#define PREHEAT_2_TEMP_BED    110
--#define PREHEAT_2_FAN_SPEED     0 // Value from 0 to 255
-+#define PREHEAT_2_TEMP_BED     65
-+#define PREHEAT_2_FAN_SPEED   255 // Value from 0 to 255
- 
- //
- // Nozzle Park -- EXPERIMENTAL
-@@ -918,7 +927,7 @@
- //  - Total time printing
- //
- // This information can be viewed by the M78 command.
--//#define PRINTCOUNTER
-+#define PRINTCOUNTER
- 
- //=============================================================================
- //============================= LCD and SD support ============================
-@@ -981,7 +990,7 @@
- // SD Card support is disabled by default. If your controller has an SD slot,
- // you must uncomment the following option or it won&#39;t work.
- //
--//#define SDSUPPORT
-+#define SDSUPPORT
- 
- //
- // SD CARD: SPI SPEED
-@@ -991,14 +1000,14 @@
- //
- //#define SPI_SPEED SPI_HALF_SPEED
- //#define SPI_SPEED SPI_QUARTER_SPEED
--//#define SPI_SPEED SPI_EIGHTH_SPEED
-+#define SPI_SPEED SPI_EIGHTH_SPEED
- 
- //
- // SD CARD: ENABLE CRC
- //
- // Use CRC checks and retries on the SD communication.
- //
--//#define SD_CHECK_AND_RETRY
-+#define SD_CHECK_AND_RETRY
- 
- //
- // ENCODER SETTINGS
-@@ -1125,7 +1134,7 @@
- //
- // Note: Usually sold with a white PCB.
- //
--//#define REPRAP_DISCOUNT_SMART_CONTROLLER
-+#define REPRAP_DISCOUNT_SMART_CONTROLLER
- 
- //
- // GADGETS3D G3D LCD/SD Controller
-@@ -1308,7 +1317,7 @@
- // Uncomment below to enable
- //#define FILAMENT_WIDTH_SENSOR
- 
--#define DEFAULT_NOMINAL_FILAMENT_DIA 3.00  //Enter the diameter (in mm) of the filament generally used (3.0 mm or 1.75 mm) - this is then used in the slicer software.  Used for sensor reading validation
-+#define DEFAULT_NOMINAL_FILAMENT_DIA 1.75  //Enter the diameter (in mm) of the filament generally used (3.0 mm or 1.75 mm) - this is then used in the slicer software.  Used for sensor reading validation
- 
- #if ENABLED(FILAMENT_WIDTH_SENSOR)
-   #define FILAMENT_SENSOR_EXTRUDER_NUM 0   //The number of the extruder that has the filament sensor (0,1,2)
-diff --git a/Marlin/Configuration_adv.h b/Marlin/Configuration_adv.h
-index a822c83..82bc149 100644
---- a/Marlin/Configuration_adv.h
-+++ b/Marlin/Configuration_adv.h
-@@ -403,7 +403,7 @@
- // @section lcd
- 
- // Include a page of printer information in the LCD Main Menu
--//#define LCD_INFO_MENU
-+#define LCD_INFO_MENU
- 
- #if ENABLED(SDSUPPORT)
- 
-diff --git a/Marlin/Marlin_main.cpp b/Marlin/Marlin_main.cpp
-index d1c4876..fe36013 100644
---- a/Marlin/Marlin_main.cpp
-+++ b/Marlin/Marlin_main.cpp
-@@ -3996,6 +3996,7 @@ inline void gcode_M17() {
-    */
-   inline void gcode_M23() {
-     card.openFile(current_command_args, true);
-+    print_job_timer.setFileSize(card.getFileSize());
-   }
- 
-   /**
-diff --git a/Marlin/cardreader.h b/Marlin/cardreader.h
-index 8c22e58..3bb11f3 100644
---- a/Marlin/cardreader.h
-+++ b/Marlin/cardreader.h
-@@ -75,7 +75,9 @@ public:
-   FORCE_INLINE int16_t get() { sdpos = file.curPosition(); return (int16_t)file.read(); }
-   FORCE_INLINE void setIndex(long index) { sdpos = index; file.seekSet(index); }
-   FORCE_INLINE uint8_t percentDone() { return (isFileOpen() &amp;amp;&amp;amp; filesize) ? sdpos / ((filesize + 99) / 100) : 0; }
-+  FORCE_INLINE float   percentDoneF() { return (isFileOpen() &amp;amp;&amp;amp; filesize) ? sdpos / ((filesize + 99.0) / 100.0): 0.0; }
-   FORCE_INLINE char* getWorkDirName() { workDir.getFilename(filename); return filename; }
-+  FORCE_INLINE uint32_t getFileSize() { return (isFileOpen()) ? filesize: 0; }
- 
- public:
-   bool saving, logging, sdprinting, cardOK, filenameIsDir;
-diff --git a/Marlin/printcounter.cpp b/Marlin/printcounter.cpp
-index b6cef6e..4314ca4 100644
---- a/Marlin/printcounter.cpp
-+++ b/Marlin/printcounter.cpp
-@@ -51,6 +51,7 @@ void PrintCounter::incFilamentUsed(double const &amp;amp;amount) {
-   if (!this-&amp;gt;isLoaded()) return;
- 
-   this-&amp;gt;data.filamentUsed += amount; // mm
-+  this-&amp;gt;currentFile.filamentUsed += amount; // mm
- }
- 
- 
-@@ -60,7 +61,11 @@ void PrintCounter::initStats() {
-   #endif
- 
-   this-&amp;gt;loaded = true;
--  this-&amp;gt;data = { 0, 0, 0, 0, 0.0 };
-+  this-&amp;gt;data = { 0, 0, 0, 0, 0.0,
-+      {0, 0, 0.0},
-+      {0, 0, 0.0},
-+      {0, 0, 0.0}
-+    };
- 
-   this-&amp;gt;saveStats();
-   eeprom_write_byte((uint8_t *) this-&amp;gt;address, 0x16);
-@@ -143,6 +148,55 @@ void PrintCounter::showStats() {
-   SERIAL_ECHOPGM(&amp;quot;m&amp;quot;);
- 
-   SERIAL_EOL;
-+
-+  SERIAL_PROTOCOLPGM(MSG_STATS);
-+
-+  SERIAL_ECHOPGM(&amp;quot;current file size: &amp;quot;);
-+  SERIAL_ECHO(this-&amp;gt;currentFile.size);
-+  SERIAL_ECHOPGM(&amp;quot;filament used: &amp;quot;);
-+  SERIAL_ECHO(this-&amp;gt;currentFile.filamentUsed);
-+  SERIAL_ECHOPGM(&amp;quot;mm&amp;quot;);
-+  SERIAL_ECHOPGM(&amp;quot; print time: &amp;quot;);
-+  SERIAL_ECHO(this-&amp;gt;currentFile.printTime);
-+
-+  SERIAL_EOL;
-+
-+  SERIAL_PROTOCOLPGM(MSG_STATS);
-+
-+  SERIAL_ECHOPGM(&amp;quot;file1 size: &amp;quot;);
-+  SERIAL_ECHO(this-&amp;gt;data.file1.size);
-+  SERIAL_ECHOPGM(&amp;quot; filament used: &amp;quot;);
-+  SERIAL_ECHO(this-&amp;gt;data.file1.filamentUsed);
-+  SERIAL_ECHOPGM(&amp;quot;mm&amp;quot;);
-+  SERIAL_ECHOPGM(&amp;quot; print time: &amp;quot;);
-+  SERIAL_ECHO(this-&amp;gt;data.file1.printTime);
-+
-+  SERIAL_EOL;
-+
-+  SERIAL_PROTOCOLPGM(MSG_STATS);
-+
-+  SERIAL_ECHOPGM(&amp;quot;file2 size: &amp;quot;);
-+  SERIAL_ECHO(this-&amp;gt;data.file2.size);
-+  SERIAL_ECHOPGM(&amp;quot;filament used: &amp;quot;);
-+  SERIAL_ECHO(this-&amp;gt;data.file2.filamentUsed);
-+  SERIAL_ECHOPGM(&amp;quot;mm&amp;quot;);
-+  SERIAL_ECHOPGM(&amp;quot; print time: &amp;quot;);
-+  SERIAL_ECHO(this-&amp;gt;data.file2.printTime);
-+
-+  SERIAL_EOL;
-+
-+  SERIAL_PROTOCOLPGM(MSG_STATS);
-+
-+  SERIAL_ECHOPGM(&amp;quot;file3 size: &amp;quot;);
-+  SERIAL_ECHO(this-&amp;gt;data.file3.size);
-+  SERIAL_ECHOPGM(&amp;quot;filament used: &amp;quot;);
-+  SERIAL_ECHO(this-&amp;gt;data.file3.filamentUsed);
-+  SERIAL_ECHOPGM(&amp;quot;mm&amp;quot;);
-+  SERIAL_ECHOPGM(&amp;quot; print time: &amp;quot;);
-+  SERIAL_ECHO(this-&amp;gt;data.file3.printTime);
-+
-+  SERIAL_EOL;
-+
- }
- 
- void PrintCounter::tick() {
-@@ -162,6 +216,7 @@ void PrintCounter::tick() {
-     #endif
- 
-     this-&amp;gt;data.printTime += this-&amp;gt;deltaDuration();
-+    this-&amp;gt;currentFile.printTime = this-&amp;gt;duration();
-     update_last = now;
-   }
- 
-@@ -185,6 +240,8 @@ bool PrintCounter::start() {
-     if (!paused) {
-       this-&amp;gt;data.totalPrints++;
-       this-&amp;gt;lastDuration = 0;
-+      this -&amp;gt; currentFile.printTime = 0;
-+      this -&amp;gt; currentFile.filamentUsed = 0;
-     }
-     return true;
-   }
-@@ -204,6 +261,11 @@ bool PrintCounter::stop() {
-     if (this-&amp;gt;duration() &amp;gt; this-&amp;gt;data.longestPrint)
-       this-&amp;gt;data.longestPrint = this-&amp;gt;duration();
- 
-+    this-&amp;gt;currentFile.printTime = this-&amp;gt;duration();
-+    this-&amp;gt;data.file3 = this-&amp;gt;data.file2;
-+    this-&amp;gt;data.file2 = this-&amp;gt;data.file1;
-+    this-&amp;gt;data.file1 = this-&amp;gt;currentFile;
-+
-     this-&amp;gt;saveStats();
-     return true;
-   }
-@@ -218,8 +280,17 @@ void PrintCounter::reset() {
- 
-   super::reset();
-   this-&amp;gt;lastDuration = 0;
-+  this-&amp;gt;currentFile.filamentUsed = 0.0;
-+  this-&amp;gt;currentFile.printTime = 0;
- }
- 
-+void PrintCounter::setFileSize(uint32_t size) {
-+  this-&amp;gt;currentFile.size = size;
-+}
-+
-+printFile PrintCounter::getCurrentFile() {
-+  return this-&amp;gt;currentFile;
-+}
- #if ENABLED(DEBUG_PRINTCOUNTER)
- 
-   void PrintCounter::debug(const char func[]) {
-diff --git a/Marlin/printcounter.h b/Marlin/printcounter.h
-index 0e9d06f..f81e006 100644
---- a/Marlin/printcounter.h
-+++ b/Marlin/printcounter.h
-@@ -31,6 +31,11 @@
- 
- // Print debug messages with M111 S2
- //#define DEBUG_PRINTCOUNTER
-+struct printFile {
-+  uint32_t size;
-+  uint32_t printTime;
-+  double filamentUsed;
-+};
- 
- struct printStatistics {    // 13 bytes
-   //const uint8_t magic;    // Magic header, it will always be 0x16
-@@ -39,6 +44,11 @@ struct printStatistics {    // 13 bytes
-   uint32_t printTime;       // Accumulated printing time
-   uint32_t longestPrint;    // Longest successfull print job
-   double   filamentUsed;    // Accumulated filament consumed in mm
-+
-+  printFile file1;
-+  printFile file2;
-+  printFile file3;
-+
- };
- 
- class PrintCounter: public Stopwatch {
-@@ -46,6 +56,7 @@ class PrintCounter: public Stopwatch {
-     typedef Stopwatch super;
- 
-     printStatistics data;
-+    printFile currentFile;
- 
-     /**
-      * @brief EEPROM address
-@@ -161,6 +172,9 @@ class PrintCounter: public Stopwatch {
-     bool stop();
-     void reset();
- 
-+    void setFileSize(uint32_t size);
-+    printFile getCurrentFile();
-+
-     #if ENABLED(DEBUG_PRINTCOUNTER)
- 
-       /**
-diff --git a/Marlin/ultralcd_impl_HD44780.h b/Marlin/ultralcd_impl_HD44780.h
-index ab120c2..c96366d 100644
---- a/Marlin/ultralcd_impl_HD44780.h
-+++ b/Marlin/ultralcd_impl_HD44780.h
-@@ -785,6 +785,33 @@ static void lcd_implementation_status_screen() {
- 
-   #endif // FILAMENT_LCD_DISPLAY
- 
-+  #define M0A
-+  #ifdef M0A //remain time calc
-+    if (IS_SD_PRINTING) {
-+      float percent = card.percentDoneF();
-+      if (percent &amp;gt;= 1.0 &amp;amp;&amp;amp; percent &amp;lt; 100.0) {
-+          char buffer[21];
-+          memset(buffer, 0, sizeof(buffer));
-+          duration_t d = print_job_timer.duration();
-+          uint32_t remainTime = uint32_t(d.value  * (100.0 - percent) / percent);
-+          d.value = remainTime;
-+          d.toString(buffer);
-+          lcd.print(&amp;quot;ETE:&amp;quot;);
-+          lcd.print(buffer);
-+          lcd.print(&amp;quot;   &amp;quot;);
-+          return;
-+      } else {
-+        printFile pf = print_job_timer.getCurrentFile();
-+        lcd.print(ftostr12ns(pf.size/1024.0/1024.0));
-+        lcd.print(&amp;quot;MB E:&amp;quot;);
-+        lcd.print(itostr3(pf.filamentUsed));
-+        lcd.print(&amp;quot;mm&amp;quot;);
-+        return;
-+      }
-+    }
-+
-+  #endif
-+
-   lcd_print(lcd_status_message);
- }
- 
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;メインのコードは&lt;code&gt;M0A&lt;/code&gt;で囲んだ部分です&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;#define M0A
-#ifdef M0A //remain time calc
-  if (IS_SD_PRINTING) {
-    float percent = card.percentDoneF();
-    if (percent &amp;gt;= 1.0 &amp;amp;&amp;amp; percent &amp;lt; 100.0) {
-        char buffer[21];
-        memset(buffer, 0, sizeof(buffer));
-        duration_t d = print_job_timer.duration();
-        uint32_t remainTime = uint32_t(d.value  * (100.0 - percent) / percent);
-        d.value = remainTime;
-        d.toString(buffer);
-        lcd.print(&amp;quot;ETE:&amp;quot;);
-        lcd.print(buffer);
-        lcd.print(&amp;quot;   &amp;quot;);
-        return;
-    } else {
-      printFile pf = print_job_timer.getCurrentFile();
-      lcd.print(ftostr12ns(pf.size/1024.0/1024.0));
-      lcd.print(&amp;quot;MB E:&amp;quot;);
-      lcd.print(itostr3(pf.filamentUsed));
-      lcd.print(&amp;quot;mm&amp;quot;);
-      return;
-    }
-  }
-#endif
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>同じことを考えている人はいる。
+Display time remaining on the LCD screen ?
+SDカードの読み取り状況と現状の印刷時間から逆算する方針なら情報は出揃っているから簡単でした。
+実装結果 Marlinのコードはこちらにあります。 flyingbearP902用の設定になっています https://github.com/m0a/flyingbearMarlin/archive/lcd_kai.zip
+実際のところSDカードの進捗は正確ではなくコレを元に印刷時間を表示するとあまり正確な値にならない。
+ただ後半90%以上進行するとまぁまぁ正確にはなる(当たり前か)
+M73というGCODEをMarlinに実装すると正確になるかもしれない。
+変更内容 ちょっとテスト的に弄ったものも含まれています。
+あと中華ArduinoだったせいかBAUDRATEも25000では上手く動かず115200に変更しています
+diff --git a/Marlin/Configuration.h b/Marlin/Configuration.h index ad869b7..a730543 100644 --- a/Marlin/Configuration.h +++ b/Marlin/Configuration.h @@ -113,7 +113,7 @@ // This determines the communication speed of the printer // :[2400,9600,19200,38400,57600,115200,250000] -#define BAUDRATE 250000 +#define BAUDRATE 115200 // Enable the Bluetooth serial interface on AT90USB devices //#define BLUETOOTH @@ -126,7 +126,7 @@ // Optional custom name for your RepStrap or other custom machine // Displayed in the LCD &amp;quot;Ready&amp;quot; message -//#define CUSTOM_MACHINE_NAME &amp;quot;3D Printer&amp;quot; +#define CUSTOM_MACHINE_NAME &amp;quot;Flyingbear&amp;quot; // Define this to set a unique identifier for this printer, (Used by some programs to differentiate between machines) // You can use an online service to generate a random UUID.</description>
     </item>
     
     <item>
@@ -839,183 +124,30 @@ index ab120c2..c96366d 100644
       <pubDate>Fri, 07 Oct 2016 21:53:52 +0900</pubDate>
       
       <guid>https://m0a.github.io/post/flyingbear-p902-003/</guid>
-      <description>
-
-&lt;p&gt;今の環境のスナップショットの図&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/start.jpg&#34; alt=&#34;start.jpg&#34;&gt;
-
-
-&lt;p&gt;買ってからしばらく経ちました。genkei ATOMよりビルドエリアが広がってCADの自由度が増えました(歓喜)&lt;br /&gt;
-早速色々変更しましたので纏めてみることにしました&lt;/p&gt;
-
-&lt;h1 id=&#34;ヒートベットの改善&#34;&gt;ヒートベットの改善&lt;/h1&gt;
-
-&lt;p&gt;初期状態ではビルドプレートにブルーシールが貼ってあります。&lt;br /&gt;
-今回使っていてとてもいいものだとは思いましたがシールが壊れたら新規に購入しなくてはいけません。&lt;br /&gt;
-しかも張替えが面倒くさいのです。&lt;/p&gt;
-
-&lt;p&gt;そこでATOMを使っていた頃に培った方法をまとめさせていただきます&lt;/p&gt;
-
-&lt;p&gt;用意したもの&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;品名&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;購入先&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;お値段&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;スタンドミラー&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;ダイソー&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;¥108&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;スティックのり&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://www.amazon.co.jp/%E3%83%88%E3%83%B3%E3%83%9C-%E3%83%88%E3%83%B3%E3%83%9C%E9%89%9B%E7%AD%86-%E3%83%94%E3%83%83%E3%83%88%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E7%B3%8A-%E3%82%B7%E3%83%AF%E3%81%AA%E3%81%97%E3%83%94%E3%83%83%E3%83%88%E3%82%A2%E3%83%BC%E3%83%88T/dp/B001CR5Q22/ref=sr_1_3?ie=UTF8&amp;amp;qid=1475845373&amp;amp;sr=8-3&amp;amp;keywords=%E3%82%B7%E3%83%AF%E3%81%AA%E3%81%97%E3%83%94%E3%83%83%E3%83%88&#34;&gt;amazon&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;¥76&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;無水エタノール&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://www.amazon.co.jp/%E5%81%A5%E6%A0%84%E8%A3%BD%E8%96%AC-%E7%84%A1%E6%B0%B4%E3%82%A8%E3%82%BF%E3%83%8E%E3%83%BC%E3%83%ABP-500ml/dp/B000TKDKA8/ref=sr_1_1?s=hpc&amp;amp;ie=UTF8&amp;amp;qid=1475845556&amp;amp;sr=1-1&amp;amp;keywords=%E7%84%A1%E6%B0%B4%E3%82%A8%E3%82%BF%E3%83%8E%E3%83%BC%E3%83%AB&#34;&gt;amazon&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;¥1,280&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;特にスタンドミラーなんですがかなりフィットしてます。&lt;br /&gt;
-最初ガラス加工業者にお願いしようとしたところ一枚¥2,100とのことでした。高い、、、、&lt;br /&gt;
-ちょっと合わなくても十分です&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/daiso_mirror.jpg&#34; alt=&#34;daiso_mirror.jpg&#34;&gt;
-
-
-&lt;h2 id=&#34;ミラーの加工&#34;&gt;ミラーの加工&lt;/h2&gt;
-
-&lt;p&gt;加工は簡単です。 筐体部分を外してむき出しにするだけです。&lt;br /&gt;
-角の安全加工がれてないのでご注意下さい&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/daiso_mirror02.jpg&#34; alt=&#34;daiso_mirror02.jpg&#34;&gt;
-
-
-&lt;h2 id=&#34;使い方&#34;&gt;使い方&lt;/h2&gt;
-
-&lt;p&gt;ピットのりを使うのはよくある話だと思いますが&lt;br /&gt;
-自分の場合、それだけでは上手く行かず無水エタノールと組み合わせて使うことにしました。&lt;/p&gt;
-
-&lt;p&gt;まず無水エタノールは使いやすいように瓶詰めにしておきます&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/daiso_mirror03.jpg&#34; alt=&#34;daiso_mirror03.jpg&#34;&gt;
-
-
-&lt;p&gt;できればピット乗りにエタノールをつけるのに便利な大きさがいいです&lt;br /&gt;
-コレは試しに用意したでけで使いづらかったです。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/daiso_mirror04.jpg&#34; alt=&#34;daiso_mirror04.jpg&#34;&gt;
-
-
-&lt;p&gt;要はノリをエタノールで薄めて薄く塗りつける感じです&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/daiso_mirror05.jpg&#34; alt=&#34;daiso_mirror05.jpg&#34;&gt;
-
-
-&lt;p&gt;今はブルーシールが貼ってある状態で上に乗せて使っています。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/daiso_mirror06.jpg&#34; alt=&#34;daiso_mirror06.jpg&#34;&gt;
-
-
-&lt;h2 id=&#34;メリットとデメリット&#34;&gt;メリットとデメリット&lt;/h2&gt;
-
-&lt;h3 id=&#34;メリット&#34;&gt;メリット&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;面倒くさいカプトンテープ（もしくはブルーテープ）の張替えが要らない&lt;/li&gt;
-&lt;li&gt;ガラス板の数だけ素早く載せ替えが可能なのですぐに次の印刷ができる&lt;/li&gt;
-&lt;li&gt;メンテナンスが簡単。使えないとと思ったらノリを水道で洗い流すだけ&lt;/li&gt;
-&lt;li&gt;印刷物の取り外しが簡単&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;デメリット&#34;&gt;デメリット&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ガラスが割れやすいかも&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;印刷物の取り外しが簡単の理由はガラス板は熱で伸び縮みがあるので
-冷却すると自然に剥がれるのです。ほんとうに便利。&lt;/p&gt;
-
-&lt;h1 id=&#34;ヒートベットの改善-2&#34;&gt;ヒートベットの改善#2&lt;/h1&gt;
-
-&lt;p&gt;ヒートベットが広くなった分加熱に時間がかかるので背面に断熱材を貼って改善します。&lt;br /&gt;
-ここでもやっぱりダイソーです。&lt;br /&gt;
-日本にはダイソーがあるので3Dプリンタの普及が進まないというのはあながち嘘じゃないのかもしれないです。&lt;br /&gt;
-使うのはこちら&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/nabeshiki.jpg&#34; alt=&#34;nabeshiki.jpg&#34;&gt;
-
-
-&lt;p&gt;コルク製の鍋敷きです。まぁ鍋敷きなんで本来の目的に近い？&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/nabeshiki02.jpg&#34; alt=&#34;nabeshiki02.jpg&#34;&gt;
-
-
-&lt;p&gt;ほらピッタリ？&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/nabeshiki03.jpg&#34; alt=&#34;nabeshiki03.jpg&#34;&gt;
-
-
-&lt;p&gt;カプトンテープで固定しました。
-このときにハンダ付けされていた部分もカプトンテープで絶縁します。
-後ほどガラス板はるのにクリップを使うので接触しないようにです&lt;/p&gt;
-
-&lt;h2 id=&#34;改善結果&#34;&gt;改善結果&lt;/h2&gt;
-
-&lt;p&gt;計測したところ&lt;/p&gt;
-
-&lt;p&gt;33度 → 70度 の温度変化までの時間が&lt;br /&gt;
-7分45秒 から 7分ジャストにスピードアップしました。&lt;br /&gt;
-あんまり変わってないですね。でも100 円ですし、使っていてわかったのですが保温性が上がった感じです&lt;/p&gt;
-
-&lt;h1 id=&#34;rampsの改造&#34;&gt;RAMPSの改造&lt;/h1&gt;
-
-&lt;p&gt;コレは改善というより故障修理に近いです。&lt;/p&gt;
-
-&lt;p&gt;RAMPSといわれる部品が焦げてしまいました&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/ramps.jpg&#34; alt=&#34;ramps.jpg&#34;&gt;
-
-
-&lt;p&gt;焼けてターミナルブロックが固まっています。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/ramps02.jpg&#34; alt=&#34;ramps02.jpg&#34;&gt;
-
-
-&lt;p&gt;取り替えてもいいのですが、他の人も同じ問題が発生したようなので
-配線を直結することにしました。&lt;/p&gt;
-
-&lt;p&gt;表面と裏面です&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/ramps04.jpg&#34; alt=&#34;ramps04.jpg&#34;&gt;
-
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/ramps03.jpg&#34; alt=&#34;ramps03.jpg&#34;&gt;
-
-
-&lt;p&gt;配線し直します&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-003/ramps05.jpg&#34; alt=&#34;ramps05.jpg&#34;&gt;
-
-
-&lt;p&gt;配線周りを整理するついでにボードを前面に配置しました&lt;/p&gt;
-
-&lt;p&gt;リセットボタンが押しやすくなりました。&lt;/p&gt;
-</description>
+      <description>今の環境のスナップショットの図
+買ってからしばらく経ちました。genkei ATOMよりビルドエリアが広がってCADの自由度が増えました(歓喜)
+早速色々変更しましたので纏めてみることにしました
+ヒートベットの改善 初期状態ではビルドプレートにブルーシールが貼ってあります。
+今回使っていてとてもいいものだとは思いましたがシールが壊れたら新規に購入しなくてはいけません。
+しかも張替えが面倒くさいのです。
+そこでATOMを使っていた頃に培った方法をまとめさせていただきます
+用意したもの
+   品名 購入先 お値段     スタンドミラー ダイソー ¥108   スティックのり amazon ¥76   無水エタノール amazon ¥1,280    特にスタンドミラーなんですがかなりフィットしてます。
+最初ガラス加工業者にお願いしようとしたところ一枚¥2,100とのことでした。高い、、、、
+ちょっと合わなくても十分です
+ミラーの加工 加工は簡単です。 筐体部分を外してむき出しにするだけです。
+角の安全加工がれてないのでご注意下さい
+使い方 ピットのりを使うのはよくある話だと思いますが
+自分の場合、それだけでは上手く行かず無水エタノールと組み合わせて使うことにしました。
+まず無水エタノールは使いやすいように瓶詰めにしておきます
+できればピット乗りにエタノールをつけるのに便利な大きさがいいです
+コレは試しに用意したでけで使いづらかったです。
+要はノリをエタノールで薄めて薄く塗りつける感じです
+今はブルーシールが貼ってある状態で上に乗せて使っています。
+メリットとデメリット メリット  面倒くさいカプトンテープ（もしくはブルーテープ）の張替えが要らない ガラス板の数だけ素早く載せ替えが可能なのですぐに次の印刷ができる メンテナンスが簡単。使えないとと思ったらノリを水道で洗い流すだけ 印刷物の取り外しが簡単  デメリット  ガラスが割れやすいかも  印刷物の取り外しが簡単の理由はガラス板は熱で伸び縮みがあるので 冷却すると自然に剥がれるのです。ほんとうに便利。
+ヒートベットの改善#2 ヒートベットが広くなった分加熱に時間がかかるので背面に断熱材を貼って改善します。
+ここでもやっぱりダイソーです。
+日本にはダイソーがあるので3Dプリンタの普及が進まないというのはあながち嘘じゃないのかもしれないです。</description>
     </item>
     
     <item>
@@ -1024,54 +156,24 @@ index ab120c2..c96366d 100644
       <pubDate>Fri, 30 Sep 2016 15:55:43 +0900</pubDate>
       
       <guid>https://m0a.github.io/post/flyingbear-p902-002/</guid>
-      <description>
-
-&lt;p&gt;早速壊したかと思いました。
-flyingbearはエクストルーダが最初から構築済みだったので楽でしたが&lt;br /&gt;
-その分中の仕組みがわからず、壊れたときに対処できないという問題があります。&lt;/p&gt;
-
-&lt;p&gt;これまで使ってきた Genkei ATOMさんは&lt;strong&gt;bowden方式&lt;/strong&gt;のエクストルーダで&lt;br /&gt;
-今回のflyingBearは&lt;strong&gt;ヘッド直結型&lt;/strong&gt;のエクストルーダとなります。&lt;br /&gt;
-その違いをわかっておらずbowdenタイプと同じようにフィラメントを抜いて取り替えたら大変なことに。&lt;br /&gt;
-動かなくなりました。中で多分詰まってます。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-002/extruder01.jpg&#34; alt=&#34;extruder01.jpg&#34;&gt;
-
-
-&lt;p&gt;上記2箇所のネジを外すとノズルの入り口にアクセスできます。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-002/extruder_open01.jpg&#34; alt=&#34;extruder_open01.jpg&#34;&gt;
-
-
-&lt;p&gt;お分かりでしょうか？&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-002/nozzule01.jpg&#34; alt=&#34;nozzule01.jpg&#34;&gt;
-
-
-&lt;p&gt;ノズルの入り口に曲がって詰まっているフィラメントが現れました。&lt;br /&gt;
-コレが邪魔して新たにフィラメントが挿入できない事態になっていました。&lt;/p&gt;
-
-&lt;p&gt;恐らく引き抜いたときにフィラメントが伸びて入り口に残ってしまったみたいです。&lt;br /&gt;
-直結型の場合はフィラメントを引き抜いたりしないほうが良さそうです&lt;/p&gt;
-
-&lt;p&gt;仕方ないので更にアクセスしやすくするため他の部品も取り除きます&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-002/extruder_open02.jpg&#34; alt=&#34;extruder_open02.jpg&#34;&gt;
-
-
-&lt;p&gt;ノズルの温度を205度にあげて入口付近のの残ったフィラメントを抜き取り(ちぎり取り？)&lt;br /&gt;
-新しいフィラメントを押し込んで通ることを確認します&lt;/p&gt;
-
-&lt;p&gt;せっかくなのでエクストルーダが開放状態でフィラメントを通しておきます。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-002/extruder_open03.jpg&#34; alt=&#34;extruder_open03.jpg&#34;&gt;
-
-
-&lt;h1 id=&#34;学んだこと&#34;&gt;学んだこと&lt;/h1&gt;
-
-&lt;p&gt;直結型はフィラメントを抜かない。てことですかね。&lt;br /&gt;
-とりあえずネジ二本抜けばエクストルーダにアクセスできることはわかったので良かったです。&lt;/p&gt;
-</description>
+      <description>早速壊したかと思いました。 flyingbearはエクストルーダが最初から構築済みだったので楽でしたが
+その分中の仕組みがわからず、壊れたときに対処できないという問題があります。
+これまで使ってきた Genkei ATOMさんはbowden方式のエクストルーダで
+今回のflyingBearはヘッド直結型のエクストルーダとなります。
+その違いをわかっておらずbowdenタイプと同じようにフィラメントを抜いて取り替えたら大変なことに。
+動かなくなりました。中で多分詰まってます。
+上記2箇所のネジを外すとノズルの入り口にアクセスできます。
+お分かりでしょうか？
+ノズルの入り口に曲がって詰まっているフィラメントが現れました。
+コレが邪魔して新たにフィラメントが挿入できない事態になっていました。
+恐らく引き抜いたときにフィラメントが伸びて入り口に残ってしまったみたいです。
+直結型の場合はフィラメントを引き抜いたりしないほうが良さそうです
+仕方ないので更にアクセスしやすくするため他の部品も取り除きます
+ノズルの温度を205度にあげて入口付近のの残ったフィラメントを抜き取り(ちぎり取り？)
+新しいフィラメントを押し込んで通ることを確認します
+せっかくなのでエクストルーダが開放状態でフィラメントを通しておきます。
+学んだこと 直結型はフィラメントを抜かない。てことですかね。
+とりあえずネジ二本抜けばエクストルーダにアクセスできることはわかったので良かったです。</description>
     </item>
     
     <item>
@@ -1080,205 +182,48 @@ flyingbearはエクストルーダが最初から構築済みだったので楽�
       <pubDate>Fri, 30 Sep 2016 08:25:40 +0900</pubDate>
       
       <guid>https://m0a.github.io/post/flyingbear-p902-001/</guid>
-      <description>
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-001/start.jpg&#34; alt=&#34;start.jpg&#34;&gt;
-
-
-&lt;p&gt;&lt;a href=&#34;https://www.aliexpress.com/store/product/2016-Free-shiping-Flyingbear-DIY-3d-Printer-kit-Full-metal-Large-printing-size-High-Quality-Precision/2218051_32677798453.html&#34;&gt;flyingbear P902&lt;/a&gt; を買ってみました。購入 &amp;amp; 組み立てレポートをしてみます。&lt;/p&gt;
-
-&lt;!--
-果たして騙されずに済むんでしょうか？
-
-すいません。実は2chで買ったという人がいて悪くなさそうだったんで買ってみました。
-つまり先行者ではないわけです。すいません
---&gt;
-
-&lt;p&gt;どんな風に届いて、どんな感じで組み立てたかをご覧ください。&lt;/p&gt;
-
-&lt;h1 id=&#34;届くまで&#34;&gt;届くまで&lt;/h1&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-001/fedex.png&#34; alt=&#34;fedex.png&#34;&gt;
-
-
-&lt;p&gt;注文したのが17日なので12日で届きました。送料無料なのに速いです。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-001/arraive.jpg&#34; alt=&#34;arraive.jpg&#34;&gt;
-
-
-&lt;p&gt;テープでぐるぐる巻きにされていて地味に開けるのがめんどかったです&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-001/parts-list.jpg&#34; alt=&#34;parts-list.jpg&#34;&gt;
-
-
-&lt;p&gt;パーツリストが含まれていてその場で梱包漏れをチェックできる！&lt;br /&gt;
-と思ったんですが&lt;/p&gt;
-
-&lt;p&gt;パーツ名だけではそれがなんなのかマニュアル動画を見ないとわからないので完璧ではないですね。&lt;br /&gt;
-でも、組み立てのときに必要なパーツを探すのがだいぶ楽でした。&lt;br /&gt;
-(どのパーツがどの梱包に入っているかパーツリストから分かる)&lt;/p&gt;
-
-&lt;p&gt;組み立て時間は10hくらいです。&lt;/p&gt;
-
-&lt;h1 id=&#34;組み立て&#34;&gt;組み立て&lt;/h1&gt;
-
-&lt;p&gt;組み立てはSDカード内の組み立て用動画を見ながら作業します。
-マニュアル類を共有する許可を頂いたのでどんな感じか確認下さい。&lt;/p&gt;
-
-&lt;div class=&#34;embed video-player&#34;&gt;
-
-&lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
-  width=&#34;640&#34; height=&#34;385&#34;
-  src=&#34;https://www.youtube.com/embed/TsnvTCfl9SE&#34;
-  allowfullscreen frameborder=&#34;0&#34;&gt;
-&lt;/iframe&gt;
-
-&lt;/div&gt;
-
-
-&lt;p&gt;組み立て手順は紙媒体じゃなく動画になっており言葉が不要だといえる感じです。&lt;br /&gt;
-わかりやすい。事前に全体を見てからのほうが作業時に迷いが減ります。&lt;/p&gt;
-
-&lt;p&gt;以下に動画リストを置いておきます&lt;br /&gt;
-&lt;a href=&#34;https://www.youtube.com/playlist?list=PLSNzi__sMkVjOkmHA4wVV4kQLnbIQkAxg&#34;&gt;flyingbear P902 組み立てマニュアル(非公式) &lt;/a&gt;&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-001/parts-list02.jpg&#34; alt=&#34;parts-list02.jpg&#34;&gt;
-
-
-&lt;p&gt;パーツリストが凄く便利です。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-001/alumi.jpg&#34; alt=&#34;alumi.jpg&#34;&gt;
-
-
-&lt;p&gt;アルミレールの切断時の削り節がそのまま残っているのは困りました。&lt;br /&gt;
-これって掃除機で吸い込んで大丈夫なんですかね。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-001/alumi02.jpg&#34; alt=&#34;alumi02.jpg&#34;&gt;
-
-
-&lt;p&gt;削った後がそのまま残っていて危ないです。&lt;br /&gt;
-マイナスドライバーで無理やり削って対応しました。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-001/neji.jpg&#34; alt=&#34;neji.jpg&#34;&gt;
-
-
-&lt;p&gt;ネジは種類ごとに袋詰されていていい感じです。&lt;br /&gt;
-惜しむらくはネジの種類がわかるように何か書いていてほしかった。&lt;br /&gt;
-ノギスで長さとか太さを図って推測するしかないです。 まぁ間違えなかったみたいです。&lt;/p&gt;
-
-&lt;p&gt;ただ袋の強度が弱いのか、最初から穴が空いていたのか袋の中身が飛び出るので予め補強しておいたほうが良さそうです。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-001/box.jpg&#34; alt=&#34;box.jpg&#34;&gt;
-
-
-&lt;p&gt;上記のボックス部分はちゃんとガタツキがないか確認しておいたほうがいいです。&lt;br /&gt;
-実はちょっとガタついてしまいました。全部品を組み込んでからの調整は面倒なのでここはしっかり組み立てたほうがいいです。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-001/extruder.jpg&#34; alt=&#34;extruder.jpg&#34;&gt;
-
-
-&lt;p&gt;エクストルーダも既に組み立て済みです。正直拍子抜け
-難しい部分はすべて組み立て済みとか&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-001/carriage.jpg&#34; alt=&#34;carriage.jpg&#34;&gt;
-
-
-&lt;p&gt;重要な部品なのか射出成形品です&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-001/carriage02.jpg&#34; alt=&#34;carriage02.jpg&#34;&gt;
-
-
-&lt;p&gt;コレも射出成形品です&lt;/p&gt;
-
-&lt;p&gt;ENDSTOPも必要なところは組み込み済み。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-001/x-carriage.jpg&#34; alt=&#34;x-carriage.jpg&#34;&gt;
-
-
-&lt;p&gt;とてもかんたんにキャリッジが組み立て終わりました。&lt;/p&gt;
-
-
-&lt;video controls&gt;
-  &lt;source src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-001/carriage-anime01.mp4&#34; type=&#34;video/mp4&#34;&gt;
-Your browser does not support the video tag.
-&lt;/video&gt;
-
-&lt;p&gt;動作確認でスムーズに動くか確認します。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-001/z-axis-fixed-block.jpg&#34; alt=&#34;z-axis-fixed-block.jpg&#34;&gt;
-
-
-&lt;p&gt;上記は&lt;strong&gt;z axis fixed block&lt;/strong&gt;という部品です。&lt;br /&gt;
-この部品は下記にあるZ軸の固定用のブロックなのですがコレだけはロッドと大きさがぎりぎり合わず&lt;br /&gt;
-ヤスリがけしました。ちょっとやすれば入るので4つを頑張ってヤスリがけ。&lt;br /&gt;
-本当にギリギリ合わない感じなのでちょっとやすれば入るようになります。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-001/z-carriage.jpg&#34; alt=&#34;z-carriage.jpg&#34;&gt;
-
-
-&lt;p&gt;Z軸もOK
-Z軸用のENDSTOPはこの製品には珍しく3DPrinter出力されたものでした。&lt;br /&gt;
-flyingbearで出力したんでしょうか？&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-001/heatbed.jpg&#34; alt=&#34;heatbed.jpg&#34;&gt;
-
-
-&lt;p&gt;ヒートベットも取り付けます。すぐ印刷できるようにブルーテープがすでに貼ってあります。&lt;br /&gt;
-SDカードにtest用のデータも置いてあるので完成後すぐに動作確認できるのが凄くいいです。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-001/imoneji.jpg&#34; alt=&#34;imoneji.jpg&#34;&gt;
-
-
-&lt;p&gt;恐らくロッド固定用でイモネジを入れる穴だと思うんですが説明書に指示がなかったので組立時は放置しています&lt;br /&gt;
-(あとでイモネジ入れておきました。)&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-001/motherboard.jpg&#34; alt=&#34;motherboard.jpg&#34;&gt;
-
-
-&lt;p&gt;マザーボードに当たるRAMPS+Arduino MEGAもファン込みで組み立て済みで感動しました。&lt;br /&gt;
-と見せかけて&lt;strong&gt;上のファン部分を取り除かないと配線できないみたいです。&lt;/strong&gt;&lt;br /&gt;
-そもそもアクリル板の保護シートがそのままなので一度分解しないとだめです。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-001/ac-dc.jpg&#34; alt=&#34;ac-dc.jpg&#34;&gt;
-
-
-&lt;p&gt;中華の電源はちょっと怖いです。&lt;br /&gt;
-薄っすらと読める合格証の字も逆に怖い。&lt;/p&gt;
-
-
-&lt;video controls&gt;
-  &lt;source src=&#34;https://m0a.github.io/images/posts/flyingbear-p902-001/end.mp4&#34; type=&#34;video/mp4&#34;&gt;
-Your browser does not support the video tag.
-&lt;/video&gt;
-
-&lt;p&gt;いきなり電源投入したら動きました。&lt;/p&gt;
-
-&lt;h1 id=&#34;感想&#34;&gt;感想&lt;/h1&gt;
-
-&lt;h2 id=&#34;良かった点&#34;&gt;良かった点&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;組み立てマニュアルは動画で提供でわかりやすい。&lt;/li&gt;
-&lt;li&gt;ヒートベットにブルーテープが張ってありSDカードにテスト用のGCODEも置いてあるのですぐに組み立て後テスト可能&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;イマイチな点&#34;&gt;イマイチな点&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;どうせなら印刷手順も動画で説明が欲しかった&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;PCと一度も接続すること無く印刷テストができるように出来ています。&lt;/strong&gt;&lt;br /&gt;
-でもその部分の説明がないのではじめての3DPrintという人には不親切でそこだけは惜しい感じです。&lt;br /&gt;
-もうちょっとですね。&lt;/p&gt;
-
-&lt;h2 id=&#34;気をつけたほうがいいこと&#34;&gt;気をつけたほうがいいこと&lt;/h2&gt;
-
-&lt;p&gt;後ほど別途纏めますがヒートベット用の電源接続用のターミナルブロックが焼けてしまいました。&lt;br /&gt;
-ヒートベットが広い分電源周りの配線は気をつけたほうが良さそうです。&lt;/p&gt;
-
-&lt;p&gt;次はkisslicerからの使い方を研究してみます&lt;/p&gt;
-</description>
+      <description>flyingbear P902 を買ってみました。購入 &amp;amp; 組み立てレポートをしてみます。
+どんな風に届いて、どんな感じで組み立てたかをご覧ください。
+届くまで 注文したのが17日なので12日で届きました。送料無料なのに速いです。
+テープでぐるぐる巻きにされていて地味に開けるのがめんどかったです
+パーツリストが含まれていてその場で梱包漏れをチェックできる！
+と思ったんですが
+パーツ名だけではそれがなんなのかマニュアル動画を見ないとわからないので完璧ではないですね。
+でも、組み立てのときに必要なパーツを探すのがだいぶ楽でした。
+(どのパーツがどの梱包に入っているかパーツリストから分かる)
+組み立て時間は10hくらいです。
+組み立て 組み立てはSDカード内の組み立て用動画を見ながら作業します。 マニュアル類を共有する許可を頂いたのでどんな感じか確認下さい。
+  組み立て手順は紙媒体じゃなく動画になっており言葉が不要だといえる感じです。
+わかりやすい。事前に全体を見てからのほうが作業時に迷いが減ります。
+以下に動画リストを置いておきます
+flyingbear P902 組み立てマニュアル(非公式) 
+パーツリストが凄く便利です。
+アルミレールの切断時の削り節がそのまま残っているのは困りました。
+これって掃除機で吸い込んで大丈夫なんですかね。
+削った後がそのまま残っていて危ないです。
+マイナスドライバーで無理やり削って対応しました。
+ネジは種類ごとに袋詰されていていい感じです。
+惜しむらくはネジの種類がわかるように何か書いていてほしかった。
+ノギスで長さとか太さを図って推測するしかないです。 まぁ間違えなかったみたいです。
+ただ袋の強度が弱いのか、最初から穴が空いていたのか袋の中身が飛び出るので予め補強しておいたほうが良さそうです。
+上記のボックス部分はちゃんとガタツキがないか確認しておいたほうがいいです。
+実はちょっとガタついてしまいました。全部品を組み込んでからの調整は面倒なのでここはしっかり組み立てたほうがいいです。
+エクストルーダも既に組み立て済みです。正直拍子抜け 難しい部分はすべて組み立て済みとか
+重要な部品なのか射出成形品です
+コレも射出成形品です
+ENDSTOPも必要なところは組み込み済み。
+とてもかんたんにキャリッジが組み立て終わりました。
+Your browser does not support the video tag.  動作確認でスムーズに動くか確認します。
+上記はz axis fixed blockという部品です。
+この部品は下記にあるZ軸の固定用のブロックなのですがコレだけはロッドと大きさがぎりぎり合わず
+ヤスリがけしました。ちょっとやすれば入るので4つを頑張ってヤスリがけ。
+本当にギリギリ合わない感じなのでちょっとやすれば入るようになります。
+Z軸もOK Z軸用のENDSTOPはこの製品には珍しく3DPrinter出力されたものでした。
+flyingbearで出力したんでしょうか？
+ヒートベットも取り付けます。すぐ印刷できるようにブルーテープがすでに貼ってあります。
+SDカードにtest用のデータも置いてあるので完成後すぐに動作確認できるのが凄くいいです。
+恐らくロッド固定用でイモネジを入れる穴だと思うんですが説明書に指示がなかったので組立時は放置しています
+(あとでイモネジ入れておきました。)</description>
     </item>
     
     <item>
@@ -1287,300 +232,22 @@ Your browser does not support the video tag.
       <pubDate>Tue, 25 Aug 2015 00:55:55 +0900</pubDate>
       
       <guid>https://m0a.github.io/post/studying_blender001/</guid>
-      <description>
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender005.png&#34; alt=&#34;blender005.png&#34;&gt;
-
-
-&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
-
-&lt;!--
-もともとはUE4のためにBlenderの勉強を始めるはずでしたが、&lt;br&gt;
-3DPrinterで印刷してみたらなんか新鮮な感じだったので急遽記事化してみました
---&gt;
-
-&lt;p&gt;OnShape等のCADを使っていると無味乾燥な形状ばかり印刷しがちです。&lt;br /&gt;
-ところが、Blenderで&lt;strong&gt;OnShapeで作った形状を改造してみるとなんとも味わい深い形状が作れました。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;こんな感じでOnShapeでダイスを作ります。&lt;br /&gt;
-&lt;strong&gt;なんてこともないのでなんの感動もないです。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/onshapedice.png&#34; alt=&#34;onshapedice.png&#34;&gt;
-
-
-&lt;p&gt;これがこうなります。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blenderdice.png&#34; alt=&#34;blenderdice.png&#34;&gt;
-
-
-&lt;p&gt;これを印刷すると3DPrinterの印刷痕の規則正しさと相まって実に趣深いことになります&lt;/p&gt;
-
-&lt;p&gt;ここに印刷結果を出そうと思いましたが、黒いフィラメントしか無く、写真写りが悪いため断念しています。&lt;br /&gt;
-(そのうち貼る)&lt;/p&gt;
-
-&lt;h1 id=&#34;blenderとは&#34;&gt;Blenderとは&lt;/h1&gt;
-
-&lt;p&gt;簡単にいえばフリーの3DCGソフトです。
-CADと違い映画やゲームのオブジェクト作成を目的としているため、
-アニメーションの為の機能などが組み込まれています。
-動画があるのでそちらを見るとどんな事ができるか想像できるかと思います。&lt;/p&gt;
-
-&lt;div class=&#34;embed video-player&#34;&gt;
-
-&lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
-  width=&#34;640&#34; height=&#34;385&#34;
-  src=&#34;https://www.youtube.com/embed/wDRTjzLNK0g&#34;
-  allowfullscreen frameborder=&#34;0&#34;&gt;
-&lt;/iframe&gt;
-
-&lt;/div&gt;
-
-
-&lt;p&gt;こちらからダウンロードできます。
-&lt;a href=&#34;http://www.blender.org/download/&#34;&gt;http://www.blender.org/download/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;目標設定&#34;&gt;目標設定&lt;/h1&gt;
-
-&lt;p&gt;とにかくなんでもできるツールなので正直使うのが難しく、実は自分は過去に何度も挫折してます。
-そこで、特定の機能に特化してそこの使い方だけを学ぶことにします。
-ズバリ粘土細工機能(sclupt)だけを触ります。&lt;/p&gt;
-
-&lt;h1 id=&#34;blender事始め&#34;&gt;Blender事始め&lt;/h1&gt;
-
-&lt;p&gt;とはいえ、基本操作だけは覚えていたほうが良さそうです。
-&lt;a href=&#34;http://www.giudansky.com/design/51-blender-map&#34;&gt;チートシートを手に入れておきましょう&lt;/a&gt;
-Blenderを起動します。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender001.png&#34; alt=&#34;blender001.png&#34;&gt;
-
-
-&lt;p&gt;とりあえずこれだけ覚えておきます。&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;マウス＆キー　&lt;/th&gt;
-&lt;th&gt;動作内容&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;マウス中ボタンドラッグ&lt;/td&gt;
-&lt;td&gt;視点移動(回転)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;Shift&lt;/code&gt; + マウス中ボタンドラッグ&lt;/td&gt;
-&lt;td&gt;視点移動(並行移動)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;マウスホイール操作&lt;/td&gt;
-&lt;td&gt;視点移動(拡大縮小)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;マウス右クリック&lt;/td&gt;
-&lt;td&gt;オブジェクト選択&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;マウス右ドラック&lt;/td&gt;
-&lt;td&gt;オブジェクト移動(左クリックで確定)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;マウス左クリック&lt;/td&gt;
-&lt;td&gt;Cursor移動&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;中央の3DView画面と呼ばれる箱が表示されている画面でこの表の操作が可能です。
-試してみましょう&lt;/p&gt;
-
-&lt;p&gt;ひと通り試したら右クリックで箱を選択し、&lt;code&gt;x&lt;/code&gt;で削除します。&lt;/p&gt;
-
-&lt;p&gt;間違って左クリックすると &lt;strong&gt;カーソル&lt;/strong&gt; が原点から移動しているかと思います。&lt;/p&gt;
-
-&lt;p&gt;カーソル↓&lt;br&gt;
-&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/cursor.png&#34; alt=&#34;cursor.png&#34;&gt;
-&lt;/p&gt;
-
-&lt;p&gt;stlファイルをロードするときに &lt;strong&gt;カーソル位置に出現する&lt;/strong&gt; ので、&lt;strong&gt;カーソル&lt;/strong&gt; を原点に戻します&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;shift+s&lt;/code&gt; -&amp;gt;  &lt;code&gt;cursor to center&lt;/code&gt;を選びます。&lt;/p&gt;
-
-&lt;p&gt;stlファイルを読み込みます。
-今回ダイスを用意してみました&lt;/p&gt;
-
-&lt;a href=&#34;https://m0a.github.io/files/posts/studying_blender001/dice.stl.zip&#34;&gt;dice.stl.zip&lt;/a&gt;
-
-
-&lt;p&gt;File-&amp;gt;Import-&amp;gt;Stlを選びます&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender000_1.png&#34; alt=&#34;blender000_1.png&#34;&gt;
-
-
-&lt;p&gt;ファイルブラウザが立ち上がるので、stlファイルを選びimportします。&lt;/p&gt;
-
-&lt;p&gt;最初は画面が乱れたようにみえるかもしれません。
-実はBlenerの初期状態は単位系がCADと異なるため凄く大きいサイズでインポートされるみたいです。
-今回は単位系を直さずに行きます。&lt;/p&gt;
-
-&lt;p&gt;右クリックでサイコロを選択し、&lt;code&gt;s&lt;/code&gt;でスケールを調整します。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender000_3.png&#34; alt=&#34;blender000_3.png&#34;&gt;
-
-
-&lt;p&gt;大きさはこんな感じで。テキトーでいいです。
-ここで一つ注意ですが、最終的にまたSTLでExportするので、今度はスライサー(3Dprinter用のツール)で開いた時に
-凄く小さくなります。&lt;/p&gt;
-
-&lt;p&gt;なので最後exportする前に&lt;code&gt;s&lt;/code&gt;でスケールを変えたほうがいいかもです。&lt;/p&gt;
-
-&lt;h1 id=&#34;sculptmodeへ&#34;&gt;sculptModeへ&lt;/h1&gt;
-
-&lt;p&gt;sculptModeに移動します。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender002.png&#34; alt=&#34;blender002.png&#34;&gt;
-
-
-&lt;p&gt;&lt;code&gt;ObjectMode&lt;/code&gt;をクリックして&lt;code&gt;sculptMode&lt;/code&gt;に変えます&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender006.png&#34; alt=&#34;blender006.png&#34;&gt;
-
-
-&lt;p&gt;マウスカーソルが変わり左側にBrushの選択状態が見えているかと思います。
-ここで心の赴くまま左クリックで弄りたくなると思います&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender007.png&#34; alt=&#34;blender007.png&#34;&gt;
-
-
-&lt;p&gt;ところが実際はこのままでは上記のように横線が入ったりして上手く行きません&lt;br&gt;
-&lt;code&gt;z&lt;/code&gt;キーで原因がわかります。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender007_2.png&#34; alt=&#34;blender007_2.png&#34;&gt;
-
-
-&lt;p&gt;&lt;code&gt;z&lt;/code&gt;はワイヤーフレーム表示にしてくれます。
-ご覧のとおりCADソフトは綺麗にポリゴンを形成してくれており、そのままではsculptは面分割してくれないため
-こんな風に歪にしか加工できない状態です。&lt;/p&gt;
-
-&lt;p&gt;そこで面を自動で分割するようにします。
-再度&lt;code&gt;z&lt;/code&gt;キーでソリッド表示に戻ります。&lt;br&gt;
-&lt;code&gt;ctrl+z&lt;/code&gt;でundoして、変更前に戻しておきましょう&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender008.png&#34; alt=&#34;blender008.png&#34;&gt;
-
-
-&lt;p&gt;左ベインのツールボックスから&lt;code&gt;Dyntopo&lt;/code&gt;の▲をクリックしプルダウンを開きます。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender009.png&#34; alt=&#34;blender009.png&#34;&gt;
-
-
-&lt;p&gt;開いたプルダウンから&lt;code&gt;Enable Dyntopo&lt;/code&gt;をクリックします。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender010.png&#34; alt=&#34;blender010.png&#34;&gt;
-
-
-&lt;p&gt;&lt;code&gt;Detail size&lt;/code&gt;のボタン部分を左ドラックすると値を小さくできます。
-今回は&lt;code&gt;3.0&lt;/code&gt;付近にします。
-実際にダイスをクリックやドラックして弄ってみると、左右対称のように適用されているようです。&lt;/p&gt;
-
-&lt;p&gt;sculptは人間の顔とか左右対称のものをいじる事が多いので初期状態からこの設定のようです。
-今回はoffにします。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender011.png&#34; alt=&#34;blender011.png&#34;&gt;
-
-
-&lt;p&gt;左ベインの&lt;code&gt;Symmetry&lt;/code&gt;の▲をクリックしプルダウンを開き、Mirrorのxの部分がonになっているので
-クリックしてoffにします。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender013.png&#34; alt=&#34;blender013.png&#34;&gt;
-
-
-&lt;p&gt;実際に操作してみると今回はミラーリングされずに加工できますね。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender014.png&#34; alt=&#34;blender014.png&#34;&gt;
-
-
-&lt;p&gt;ブラシを選択して色々試してみましょう&lt;/p&gt;
-
-&lt;p&gt;ショートカットキーも色々あるので纏めておきます。&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;マウス＆キー　&lt;/th&gt;
-&lt;th&gt;動作内容&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;F&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;ブラシサイズ変更&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;Shift&lt;/code&gt; + &lt;code&gt;F&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;ブラシの強度変更&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;マウスの左クリック&lt;/td&gt;
-&lt;td&gt;ブラシの適用(持ち上げる)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;Ctrl&lt;/code&gt; + マウスの左クリック&lt;/td&gt;
-&lt;td&gt;ブラシの逆適用(凹ませる)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h1 id=&#34;最後に&#34;&gt;最後に&lt;/h1&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/blender015.png&#34; alt=&#34;blender015.png&#34;&gt;
-
-
-&lt;p&gt;快くまで楽しんだら、&lt;code&gt;File&lt;/code&gt;-&amp;gt;&lt;code&gt;Export&lt;/code&gt; -&amp;gt; &lt;code&gt;Stl&lt;/code&gt;と選択してexportしましょう。
-お疲れ様でした。&lt;/p&gt;
-
-&lt;h1 id=&#34;おまけ&#34;&gt;おまけ&lt;/h1&gt;
-
-&lt;p&gt;こんなの印刷したら面白そう。&lt;br /&gt;
-今試しに印刷中です。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/studying_blender001/omake.png&#34; alt=&#34;omake.png&#34;&gt;
-
-
-&lt;h1 id=&#34;参考&#34;&gt;参考&lt;/h1&gt;
-
-&lt;p&gt;参考にした動画をのせておきます。&lt;br /&gt;
-&lt;div class=&#34;embed video-player&#34;&gt;
-
-&lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
-  width=&#34;640&#34; height=&#34;385&#34;
-  src=&#34;https://www.youtube.com/embed/mTOBCp2k1R8&#34;
-  allowfullscreen frameborder=&#34;0&#34;&gt;
-&lt;/iframe&gt;
-
-&lt;/div&gt;
-&lt;br /&gt;
-&lt;div class=&#34;embed video-player&#34;&gt;
-
-&lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
-  width=&#34;640&#34; height=&#34;385&#34;
-  src=&#34;https://www.youtube.com/embed/zTxxZAroC_w&#34;
-  allowfullscreen frameborder=&#34;0&#34;&gt;
-&lt;/iframe&gt;
-
-&lt;/div&gt;
-&lt;/p&gt;
-</description>
+      <description>はじめに OnShape等のCADを使っていると無味乾燥な形状ばかり印刷しがちです。
+ところが、BlenderでOnShapeで作った形状を改造してみるとなんとも味わい深い形状が作れました。
+こんな感じでOnShapeでダイスを作ります。
+なんてこともないのでなんの感動もないです。
+これがこうなります。
+これを印刷すると3DPrinterの印刷痕の規則正しさと相まって実に趣深いことになります
+ここに印刷結果を出そうと思いましたが、黒いフィラメントしか無く、写真写りが悪いため断念しています。
+(そのうち貼る)
+Blenderとは 簡単にいえばフリーの3DCGソフトです。 CADと違い映画やゲームのオブジェクト作成を目的としているため、 アニメーションの為の機能などが組み込まれています。 動画があるのでそちらを見るとどんな事ができるか想像できるかと思います。
+  こちらからダウンロードできます。 http://www.blender.org/download/
+目標設定 とにかくなんでもできるツールなので正直使うのが難しく、実は自分は過去に何度も挫折してます。 そこで、特定の機能に特化してそこの使い方だけを学ぶことにします。 ズバリ粘土細工機能(sclupt)だけを触ります。
+Blender事始め とはいえ、基本操作だけは覚えていたほうが良さそうです。 チートシートを手に入れておきましょう Blenderを起動します。
+とりあえずこれだけ覚えておきます。
+   マウス＆キー　 動作内容     マウス中ボタンドラッグ 視点移動(回転)   Shift + マウス中ボタンドラッグ 視点移動(並行移動)   マウスホイール操作 視点移動(拡大縮小)   マウス右クリック オブジェクト選択   マウス右ドラック オブジェクト移動(左クリックで確定)   マウス左クリック Cursor移動    中央の3DView画面と呼ばれる箱が表示されている画面でこの表の操作が可能です。 試してみましょう
+ひと通り試したら右クリックで箱を選択し、xで削除します。
+間違って左クリックすると カーソル が原点から移動しているかと思います。</description>
     </item>
     
     <item>
@@ -1589,56 +256,22 @@ Blenderを起動します。&lt;/p&gt;
       <pubDate>Wed, 24 Jun 2015 17:22:03 +0900</pubDate>
       
       <guid>https://m0a.github.io/post/glasses2/</guid>
-      <description>
-
-&lt;h1 id=&#34;２代目となるメガネを作ったので公開します&#34;&gt;２代目となるメガネを作ったので公開します。&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/main.jpg&#34; alt=&#34;main.jpg&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;onShapeで作成し、
-データもtingiverseにて&lt;a href=&#34;http://www.thingiverse.com/thing:895662&#34;&gt;公開&lt;/a&gt;してます。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/frame_design_1.jpg&#34; alt=&#34;frame_design_1.jpg&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://m0a.github.io/post/glasses&#34;&gt;1代目&lt;/a&gt;との違いは、下記のようにレンズとサイドフレームをネジでサンドイッチする構造にしたことです。
-&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/frame_design_2.jpg&#34; alt=&#34;frame_design_2.jpg&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;おかげで、印刷後の調整がらくになりました。&lt;/p&gt;
-
-&lt;p&gt;データのリンクはこちら&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;onShape &lt;a href=&#34;https://cad.onshape.com/documents/6a39e60d71ae4d19ae0e66ac/w/525a50b6016f42d58042b1b0/e/73dcc89cdd2248e1846706b4&#34;&gt;https://cad.onshape.com/documents&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;thingiverse
-&lt;a href=&#34;http://www.thingiverse.com/thing:895662&#34;&gt;http://www.thingiverse.com/thing:895662&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;ついでに&#34;&gt;ついでに&lt;/h1&gt;
-
-&lt;p&gt;onShapeのcompareいい！
-１代目との差分を表示してます。
-&lt;img src=&#34;https://m0a.github.io/images/posts/glasses2/glasses_diff.jpg&#34; alt=&#34;glasses_diff.jpg&#34; /&gt;&lt;/p&gt;
-</description>
+      <description> ２代目となるメガネを作ったので公開します。 onShapeで作成し、 データもtingiverseにて公開してます。
+1代目との違いは、下記のようにレンズとサイドフレームをネジでサンドイッチする構造にしたことです。 おかげで、印刷後の調整がらくになりました。
+データのリンクはこちら
+ onShape https://cad.onshape.com/documents thingiverse http://www.thingiverse.com/thing:895662  ついでに onShapeのcompareいい！ １代目との差分を表示してます。 </description>
     </item>
     
     <item>
       <title>3DPrinter自作01</title>
-      <link>https://m0a.github.io/post/myDIYPrinter20150517/</link>
+      <link>https://m0a.github.io/post/mydiyprinter20150517/</link>
       <pubDate>Sun, 17 May 2015 20:39:59 +0900</pubDate>
       
-      <guid>https://m0a.github.io/post/myDIYPrinter20150517/</guid>
-      <description>&lt;p&gt;onShapeで設計してみました。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/DIYPrinter01/shot01.png&#34; alt=&#34;shot01.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;onShapeはWebアプリなCADなのでアセンブリ画面で実際に触ることができちゃいます。&lt;/p&gt;
-
-&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/kZmRX-trJVs&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://cad.onshape.com/documents/0f131d41320541f4928a8004/w/d7520b7a2ca946f986dfc31b/e/e3fc818d2c994dd8b5905cf0&#34;&gt;こちらからアクセスできます&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;実際に自作プリンター製作記の開始と行きたいものですがどうなるかは未定です。&lt;/p&gt;
-</description>
+      <guid>https://m0a.github.io/post/mydiyprinter20150517/</guid>
+      <description>onShapeで設計してみました。
+onShapeはWebアプリなCADなのでアセンブリ画面で実際に触ることができちゃいます。
+ こちらからアクセスできます
+実際に自作プリンター製作記の開始と行きたいものですがどうなるかは未定です。</description>
     </item>
     
     <item>
@@ -1647,40 +280,22 @@ Blenderを起動します。&lt;/p&gt;
       <pubDate>Sun, 17 May 2015 10:24:49 +0900</pubDate>
       
       <guid>https://m0a.github.io/post/genkei-atom-customize/</guid>
-      <description>&lt;p&gt;genkei ATOMを使っています。
-3DPrinter2機種目です。1機種目は引越し時に捨ててしまいました。&lt;br&gt;
-（後から部品取りに使うなりいろいろ手があっただろうと後悔）&lt;/p&gt;
-
-&lt;p&gt;とにかく、購入して1年経過しましたが、thingiverseのデータを印刷してみただけとか、&lt;br&gt;
-使いこなし切れてなかったんですが、&lt;a href=&#34;https://www.onshape.com/&#34;&gt;onShape&lt;/a&gt;をきっかけに、結構なんでも作れるようになってきました。&lt;br&gt;
-それで作ってみたのがこちら。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/genkei_atom_customize.jpg&#34; alt=&#34;genkei_atom_customize.jpg&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;X軸周りのパーツを印刷しやすくしたパーツです。&lt;br&gt;
-3DPrinterはとにかく、オーバーハングしたパーツを印刷するのが苦手です。&lt;br&gt;
-サポート材を付けて印刷することで、解決は出来るんですが、あとでサポート材を外すのが大変だったりします。&lt;br&gt;
-特にPLAの場合は辛い。&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;なので、極力サポート材を付けずに印刷できるようなにしたほうが後々メンテ性が高いと思い、作った次第です。&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;で、作ったのがこちら。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;x_moter&lt;br&gt;
-&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/x_moter_preview_featured.jpg&#34; alt=&#34;x_moter_preview_featured.jpg&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;x_end_a&lt;br&gt;
-&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/x_end_a_preview_featured.jpg&#34; alt=&#34;x_end_a_preview_featured.jpg&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;x_carriage_lm_a b c 一体型&lt;br&gt;
-&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/x_carriage_lm_abc_set_preview_featured.jpg&#34; alt=&#34;x_carriage_lm_abc_set_preview_featured.jpg&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;thingiverseから&lt;a href=&#34;http://www.thingiverse.com/thing:798710&#34;&gt;ダウンロード&lt;/a&gt;できます。&lt;/p&gt;
-
-&lt;p&gt;onShapeのデータも&lt;a href=&#34;https://cad.onshape.com/documents/2c2a47a4874a451bbae52e10/w/72d3ecc78847416497e807bc/e/29a4f8fa908e4116ad1a09fe&#34;&gt;公開&lt;/a&gt;してます。&lt;/p&gt;
-</description>
+      <description>genkei ATOMを使っています。 3DPrinter2機種目です。1機種目は引越し時に捨ててしまいました。
+（後から部品取りに使うなりいろいろ手があっただろうと後悔）
+とにかく、購入して1年経過しましたが、thingiverseのデータを印刷してみただけとか、
+使いこなし切れてなかったんですが、onShapeをきっかけに、結構なんでも作れるようになってきました。
+それで作ってみたのがこちら。
+X軸周りのパーツを印刷しやすくしたパーツです。
+3DPrinterはとにかく、オーバーハングしたパーツを印刷するのが苦手です。
+サポート材を付けて印刷することで、解決は出来るんですが、あとでサポート材を外すのが大変だったりします。
+特にPLAの場合は辛い。
+なので、極力サポート材を付けずに印刷できるようなにしたほうが後々メンテ性が高いと思い、作った次第です。
+で、作ったのがこちら。
+ x_moter
+ x_end_a
+ x_carriage_lm_a b c 一体型
+  thingiverseからダウンロードできます。
+onShapeのデータも公開してます。</description>
     </item>
     
     <item>
@@ -1689,28 +304,12 @@ Blenderを起動します。&lt;/p&gt;
       <pubDate>Sat, 16 May 2015 22:20:29 +0900</pubDate>
       
       <guid>https://m0a.github.io/post/glasses/</guid>
-      <description>
-
-&lt;h2 id=&#34;メガネを作ったんです&#34;&gt;メガネを作ったんです。&lt;/h2&gt;
-
-&lt;p&gt;メガネのフレームのネジを無くしたので、3Dプリンタでメガネを作りました。
-作るのに3人日位かかりました。買ったほうが早いです。&lt;/p&gt;
-
-&lt;p&gt;でも&lt;a href=&#34;https://www.onshape.com/&#34;&gt;onShape&lt;/a&gt;の使い方を覚えられたし、
-必要は発明の母？なんか違いますが。&lt;/p&gt;
-
-&lt;p&gt;うまく出来てよかった。&lt;/p&gt;
-
-&lt;p&gt;身体に身につけてるので、俺３Dプリンタ触ってるんだアピールにピッタリ&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/myglasses.jpg&#34; alt=&#34;メガネ&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;thingverseにもアップしてます。
-&lt;a href=&#34;http://www.thingiverse.com/thing:790898&#34;&gt;http://www.thingiverse.com/thing:790898&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;onShapeのデータも公開してます。
-&lt;a href=&#34;https://cad.onshape.com/documents/6a39e60d71ae4d19ae0e66ac/w/525a50b6016f42d58042b1b0/e/73dcc89cdd2248e1846706b4&#34;&gt;https://cad.onshape.com/documents/6a39e60d71ae4d19ae0e66ac/w/525a50b6016f42d58042b1b0/e/73dcc89cdd2248e1846706b4&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>メガネを作ったんです。 メガネのフレームのネジを無くしたので、3Dプリンタでメガネを作りました。 作るのに3人日位かかりました。買ったほうが早いです。
+でもonShapeの使い方を覚えられたし、 必要は発明の母？なんか違いますが。
+うまく出来てよかった。
+身体に身につけてるので、俺３Dプリンタ触ってるんだアピールにピッタリ
+thingverseにもアップしてます。 http://www.thingiverse.com/thing:790898
+onShapeのデータも公開してます。 https://cad.onshape.com/documents/6a39e60d71ae4d19ae0e66ac/w/525a50b6016f42d58042b1b0/e/73dcc89cdd2248e1846706b4</description>
     </item>
     
   </channel>

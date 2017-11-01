@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Genkei Atom on 楽しいことしかやりたくない。</title>
-    <link>https://m0a.github.io/tags/genkei-atom/index.xml</link>
+    <link>https://m0a.github.io/tags/genkei-atom/</link>
     <description>Recent content in Genkei Atom on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>Written by m0a</copyright>
-    <atom:link href="https://m0a.github.io/tags/genkei-atom/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 May 2015 10:24:49 +0900</lastBuildDate>
+    
+	<atom:link href="https://m0a.github.io/tags/genkei-atom/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Genkei ATOMのカスタムパーツを作りました。</title>
@@ -15,40 +18,22 @@
       <pubDate>Sun, 17 May 2015 10:24:49 +0900</pubDate>
       
       <guid>https://m0a.github.io/post/genkei-atom-customize/</guid>
-      <description>&lt;p&gt;genkei ATOMを使っています。
-3DPrinter2機種目です。1機種目は引越し時に捨ててしまいました。&lt;br&gt;
-（後から部品取りに使うなりいろいろ手があっただろうと後悔）&lt;/p&gt;
-
-&lt;p&gt;とにかく、購入して1年経過しましたが、thingiverseのデータを印刷してみただけとか、&lt;br&gt;
-使いこなし切れてなかったんですが、&lt;a href=&#34;https://www.onshape.com/&#34;&gt;onShape&lt;/a&gt;をきっかけに、結構なんでも作れるようになってきました。&lt;br&gt;
-それで作ってみたのがこちら。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/genkei_atom_customize.jpg&#34; alt=&#34;genkei_atom_customize.jpg&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;X軸周りのパーツを印刷しやすくしたパーツです。&lt;br&gt;
-3DPrinterはとにかく、オーバーハングしたパーツを印刷するのが苦手です。&lt;br&gt;
-サポート材を付けて印刷することで、解決は出来るんですが、あとでサポート材を外すのが大変だったりします。&lt;br&gt;
-特にPLAの場合は辛い。&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;なので、極力サポート材を付けずに印刷できるようなにしたほうが後々メンテ性が高いと思い、作った次第です。&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;で、作ったのがこちら。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;x_moter&lt;br&gt;
-&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/x_moter_preview_featured.jpg&#34; alt=&#34;x_moter_preview_featured.jpg&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;x_end_a&lt;br&gt;
-&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/x_end_a_preview_featured.jpg&#34; alt=&#34;x_end_a_preview_featured.jpg&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;x_carriage_lm_a b c 一体型&lt;br&gt;
-&lt;img src=&#34;https://m0a.github.io/images/posts/genkei_atom_customize/x_carriage_lm_abc_set_preview_featured.jpg&#34; alt=&#34;x_carriage_lm_abc_set_preview_featured.jpg&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;thingiverseから&lt;a href=&#34;http://www.thingiverse.com/thing:798710&#34;&gt;ダウンロード&lt;/a&gt;できます。&lt;/p&gt;
-
-&lt;p&gt;onShapeのデータも&lt;a href=&#34;https://cad.onshape.com/documents/2c2a47a4874a451bbae52e10/w/72d3ecc78847416497e807bc/e/29a4f8fa908e4116ad1a09fe&#34;&gt;公開&lt;/a&gt;してます。&lt;/p&gt;
-</description>
+      <description>genkei ATOMを使っています。 3DPrinter2機種目です。1機種目は引越し時に捨ててしまいました。
+（後から部品取りに使うなりいろいろ手があっただろうと後悔）
+とにかく、購入して1年経過しましたが、thingiverseのデータを印刷してみただけとか、
+使いこなし切れてなかったんですが、onShapeをきっかけに、結構なんでも作れるようになってきました。
+それで作ってみたのがこちら。
+X軸周りのパーツを印刷しやすくしたパーツです。
+3DPrinterはとにかく、オーバーハングしたパーツを印刷するのが苦手です。
+サポート材を付けて印刷することで、解決は出来るんですが、あとでサポート材を外すのが大変だったりします。
+特にPLAの場合は辛い。
+なので、極力サポート材を付けずに印刷できるようなにしたほうが後々メンテ性が高いと思い、作った次第です。
+で、作ったのがこちら。
+ x_moter
+ x_end_a
+ x_carriage_lm_a b c 一体型
+  thingiverseからダウンロードできます。
+onShapeのデータも公開してます。</description>
     </item>
     
   </channel>

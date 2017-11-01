@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 楽しいことしかやりたくない。</title>
+    <link>https://m0a.github.io/tags/</link>
+    <description>Recent content in Tags on 楽しいことしかやりたくない。</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>Written by m0a</copyright>
+    <lastBuildDate>Tue, 28 Mar 2017 23:12:01 +0900</lastBuildDate>
+    
+	<atom:link href="https://m0a.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>3dprinter</title>
+      <link>https://m0a.github.io/tags/3dprinter/</link>
+      <pubDate>Tue, 28 Mar 2017 23:12:01 +0900</pubDate>
+      
+      <guid>https://m0a.github.io/tags/3dprinter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bitbar</title>
+      <link>https://m0a.github.io/tags/bitbar/</link>
+      <pubDate>Tue, 28 Mar 2017 23:12:01 +0900</pubDate>
+      
+      <guid>https://m0a.github.io/tags/bitbar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blender</title>
+      <link>https://m0a.github.io/tags/blender/</link>
+      <pubDate>Tue, 25 Aug 2015 00:55:55 +0900</pubDate>
+      
+      <guid>https://m0a.github.io/tags/blender/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diyprinter</title>
+      <link>https://m0a.github.io/tags/diyprinter/</link>
+      <pubDate>Sun, 17 May 2015 20:39:59 +0900</pubDate>
+      
+      <guid>https://m0a.github.io/tags/diyprinter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flyingbear</title>
+      <link>https://m0a.github.io/tags/flyingbear/</link>
+      <pubDate>Tue, 28 Mar 2017 23:12:01 +0900</pubDate>
+      
+      <guid>https://m0a.github.io/tags/flyingbear/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genkei Atom</title>
+      <link>https://m0a.github.io/tags/genkei-atom/</link>
+      <pubDate>Sun, 17 May 2015 10:24:49 +0900</pubDate>
+      
+      <guid>https://m0a.github.io/tags/genkei-atom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>https://m0a.github.io/tags/golang/</link>
+      <pubDate>Tue, 28 Feb 2017 15:07:34 +0900</pubDate>
+      
+      <guid>https://m0a.github.io/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lifehack</title>
+      <link>https://m0a.github.io/tags/lifehack/</link>
+      <pubDate>Wed, 19 Aug 2015 11:07:25 +0900</pubDate>
+      
+      <guid>https://m0a.github.io/tags/lifehack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marlin Firmware</title>
+      <link>https://m0a.github.io/tags/marlin-firmware/</link>
+      <pubDate>Tue, 18 Oct 2016 20:22:31 +0900</pubDate>
+      
+      <guid>https://m0a.github.io/tags/marlin-firmware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Octoprint</title>
+      <link>https://m0a.github.io/tags/octoprint/</link>
+      <pubDate>Tue, 28 Mar 2017 23:12:01 +0900</pubDate>
+      
+      <guid>https://m0a.github.io/tags/octoprint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Onshape</title>
+      <link>https://m0a.github.io/tags/onshape/</link>
+      <pubDate>Wed, 24 Jun 2015 17:22:03 +0900</pubDate>
+      
+      <guid>https://m0a.github.io/tags/onshape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Orangepi</title>
+      <link>https://m0a.github.io/tags/orangepi/</link>
+      <pubDate>Thu, 03 Nov 2016 14:45:15 +0900</pubDate>
+      
+      <guid>https://m0a.github.io/tags/orangepi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ue4</title>
+      <link>https://m0a.github.io/tags/ue4/</link>
+      <pubDate>Wed, 09 Dec 2015 00:48:32 +0900</pubDate>
+      
+      <guid>https://m0a.github.io/tags/ue4/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

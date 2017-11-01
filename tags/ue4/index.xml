@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ue4 on 楽しいことしかやりたくない。</title>
-    <link>https://m0a.github.io/tags/ue4/index.xml</link>
+    <link>https://m0a.github.io/tags/ue4/</link>
     <description>Recent content in Ue4 on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>Written by m0a</copyright>
-    <atom:link href="https://m0a.github.io/tags/ue4/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Dec 2015 00:48:32 +0900</lastBuildDate>
+    
+	<atom:link href="https://m0a.github.io/tags/ue4/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>cardboard_ue4</title>
@@ -15,52 +18,23 @@
       <pubDate>Wed, 09 Dec 2015 00:48:32 +0900</pubDate>
       
       <guid>https://m0a.github.io/post/cardboard_ue4/</guid>
-      <description>
-
-&lt;p&gt;UE4で手軽にVRを試そうと思ったらcardboardだよね～&lt;br /&gt;
-と思って調べてみたらver.4.10現在(2015-12-09)では未対応な模様&lt;br /&gt;
-&lt;strong&gt;oculusRift&lt;/strong&gt; とか &lt;strong&gt;gearVR&lt;/strong&gt; は全然手軽じゃない。&lt;/p&gt;
-
-&lt;h1 id=&#34;cardboardとは&#34;&gt;cardboardとは&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.googlecardboard.tokyo/?gclid=CKGD_9fXzMkCFYGXvAod668G-Q&#34;&gt;Google CardBoard V2.0&lt;/a&gt;&lt;br /&gt;
-上記にリンクが有ります。
-いつの間にか磁石式じゃなくなっているみたいですね&lt;br /&gt;
-要はスマホにレンズつけて無理やりVRってことです。&lt;/p&gt;
-
-&lt;p&gt;プラグインを作っている人はいるみたいだけどリリースはまだのようです。&lt;br /&gt;
-&lt;a href=&#34;https://inmagicwetrust.wordpress.com/2015/07/18/project-unreal-4-cardboard/&#34;&gt;PROJECT:UNREAL4CARDBOARD&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;なんか現状で試せる方法はないかなーと探していたらUE4のフォーラムに、&lt;br /&gt;
-サンプルプロジェクトを置いていました。スレッドの一番最初のコメントにリンクが有ります。
-&lt;a href=&#34;https://forums.unrealengine.com/showthread.php?87236&#34;&gt;https://forums.unrealengine.com/showthread.php?87236&lt;/a&gt;&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/cardboard_ue4/Screenshot_20151209-010343.png&#34; alt=&#34;Screenshot_20151209-010343.png&#34;&gt;
-
-
-&lt;p&gt;ちゃんとNexus5(第一世代)で動作しました&lt;/p&gt;
-
-&lt;h1 id=&#34;シンプルなその仕組み&#34;&gt;シンプルなその仕組み&lt;/h1&gt;
-
-&lt;p&gt;多分キモはここです。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/cardboard_ue4/UE4_HMD_KIMO.png&#34; alt=&#34;UE4_HMD_KIMO.png&#34;&gt;
-
-
-&lt;p&gt;上記のローカル対戦の設定で画面分割の設定で二人対戦するように設定してありました。
-後はロジックとしてBluePrintでPlayerを一人追加しPlyer0と動きを同期するってことみたいです。
-これで一応cardboardで見てみるとちゃんとVRしてました。すごいです。&lt;/p&gt;
-
-&lt;p&gt;とりあえずこれで遊んでみることにします。&lt;/p&gt;
-
-&lt;h1 id=&#34;ついでに&#34;&gt;ついでに&lt;/h1&gt;
-
-&lt;p&gt;ちょっとフライングしてこんなのも買ってみました&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.amazon.co.jp/gp/product/B00ZR3BVLW/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;amp;psc=1&#34;&gt;http://www.amazon.co.jp/gp/product/B00ZR3BVLW/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;amp;psc=1&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;どうなるかな。&lt;/p&gt;
-</description>
+      <description>UE4で手軽にVRを試そうと思ったらcardboardだよね～
+と思って調べてみたらver.4.10現在(2015-12-09)では未対応な模様
+oculusRift とか gearVR は全然手軽じゃない。
+cardboardとは Google CardBoard V2.0
+上記にリンクが有ります。 いつの間にか磁石式じゃなくなっているみたいですね
+要はスマホにレンズつけて無理やりVRってことです。
+プラグインを作っている人はいるみたいだけどリリースはまだのようです。
+PROJECT:UNREAL4CARDBOARD
+なんか現状で試せる方法はないかなーと探していたらUE4のフォーラムに、
+サンプルプロジェクトを置いていました。スレッドの一番最初のコメントにリンクが有ります。 https://forums.unrealengine.com/showthread.php?87236
+ちゃんとNexus5(第一世代)で動作しました
+シンプルなその仕組み 多分キモはここです。
+上記のローカル対戦の設定で画面分割の設定で二人対戦するように設定してありました。 後はロジックとしてBluePrintでPlayerを一人追加しPlyer0と動きを同期するってことみたいです。 これで一応cardboardで見てみるとちゃんとVRしてました。すごいです。
+とりあえずこれで遊んでみることにします。
+ついでに ちょっとフライングしてこんなのも買ってみました
+http://www.amazon.co.jp/gp/product/B00ZR3BVLW/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;amp;psc=1
+どうなるかな。</description>
     </item>
     
   </channel>

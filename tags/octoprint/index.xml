@@ -2,12 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Octoprint on 楽しいことしかやりたくない。</title>
-    <link>https://m0a.github.io/tags/octoprint/index.xml</link>
+    <link>https://m0a.github.io/tags/octoprint/</link>
     <description>Recent content in Octoprint on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>Written by m0a</copyright>
-    <atom:link href="https://m0a.github.io/tags/octoprint/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Mar 2017 23:12:01 +0900</lastBuildDate>
+    
+	<atom:link href="https://m0a.github.io/tags/octoprint/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>octoprintをbitbarを使って便利にしよう</title>
@@ -15,18 +18,11 @@
       <pubDate>Tue, 28 Mar 2017 23:12:01 +0900</pubDate>
       
       <guid>https://m0a.github.io/post/octoprint001/</guid>
-      <description>&lt;img src=&#34;https://m0a.github.io/images/posts/octoprint001/snapshot.png&#34; alt=&#34;snapshot.png&#34;&gt;
-
-
-&lt;p&gt;octoprintを便利に使うためにbitbarのプラグインを作りました。  多分linux環境(Gnome環境？)でも、&lt;br /&gt;
-&lt;a href=&#34;https://github.com/p-e-w/argos&#34;&gt;argos&lt;/a&gt;などで使えると思います&lt;/p&gt;
-
-&lt;p&gt;見ての通りbitbarとはメニューバーを簡単に拡張できる機能のことです。
-mac限定なのが悲しい。&lt;/p&gt;
-
-&lt;p&gt;こちらにプラグインへのリンクを置きますね。&lt;br /&gt;
-&lt;a href=&#34;https://getbitbar.com/plugins/Tools/octoprint.1m.sh&#34;&gt;https://getbitbar.com/plugins/Tools/octoprint.1m.sh&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>octoprintを便利に使うためにbitbarのプラグインを作りました。 多分linux環境(Gnome環境？)でも、
+argosなどで使えると思います
+見ての通りbitbarとはメニューバーを簡単に拡張できる機能のことです。 mac限定なのが悲しい。
+こちらにプラグインへのリンクを置きますね。
+https://getbitbar.com/plugins/Tools/octoprint.1m.sh</description>
     </item>
     
     <item>
@@ -35,49 +31,23 @@ mac限定なのが悲しい。&lt;/p&gt;
       <pubDate>Tue, 28 Feb 2017 15:07:34 +0900</pubDate>
       
       <guid>https://m0a.github.io/post/up2streamable001/</guid>
-      <description>&lt;p&gt;octoprintをつかってタイムラプスを取るのは楽しいですが、&lt;br /&gt;
-どうにもサイズがでかいのでSDカードを逼迫するような気もします。&lt;/p&gt;
-
-&lt;p&gt;ところで&lt;a href=&#34;https://streamable.com/&#34;&gt;streamable&lt;/a&gt;ってサービスをご存知でしょうか？&lt;br /&gt;
-imgurの動画版みたいなやつです。&lt;br /&gt;
-とりあえず動画をアップして共有しようというサービスです。&lt;/p&gt;
-
-&lt;p&gt;そこでこいつに自動アップロードする機能をoctoprintにつけられないかな？と思いました。&lt;br /&gt;
-&lt;a href=&#34;https://github.com/m0a/up2streamable&#34;&gt;作りました。&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;golangのライブラリが提供されていたのでアホみたいに簡単なので、
-正直ツール化する意味はあるのかという気もしますが。&lt;/p&gt;
-
-&lt;p&gt;先ずは&lt;a href=&#34;https://streamable.com/signup&#34;&gt;streamable/signup&lt;/a&gt;からアカントを作っておきます。&lt;br /&gt;
-そうしないと削除できないので。&lt;/p&gt;
-
-&lt;p&gt;octoprintが動いているサーバ(raspberypiかorangepi等のarm環境限定です)から以下のコマンドで取得します&lt;br /&gt;
-またoctoprintを動かすユーザはoctoprintだと仮定しています&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo su - octoprint
-cd ~/bin
-wget  https://github.com/m0a/up2streamable/releases/download/0.1/up2streamable
-chmod +x up2streamable
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;以下のコマンドを実行します&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;up2streamable -path ~/.octoprint/timelapse -u userid -p password
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;code&gt;~/.octoprint/timelapse&lt;/code&gt;に動画が格納されていればuploadが成功します&lt;/p&gt;
-
-&lt;p&gt;成功したらcronで設定しておきます。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-HOME=/home/octoprint
-*/15  * * * * $HOME/bin/up2streamable -path $HOME/.octoprint/timelapse  -u username -p password -delete
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;以上です。オプションに &lt;code&gt;-delete&lt;/code&gt;を指定することで自動削除します。&lt;/p&gt;
-
-&lt;div style=&#34;width: 100%; height: 0px; position: relative; padding-bottom: 75.000%;&#34;&gt;&lt;iframe src=&#34;//streamable.com/e/r46h2&#34; frameborder=&#34;0&#34; allowfullscreen webkitallowfullscreen mozallowfullscreen scrolling=&#34;no&#34; style=&#34;width: 100%; height: 100%; position: absolute;&#34;&gt;&lt;/iframe&gt;&lt;script async  src=&#34;//v.embedcdn.com/v1/embed.js&#34;&gt;&lt;/script&gt;&lt;/div&gt;
-</description>
+      <description>octoprintをつかってタイムラプスを取るのは楽しいですが、
+どうにもサイズがでかいのでSDカードを逼迫するような気もします。
+ところでstreamableってサービスをご存知でしょうか？
+imgurの動画版みたいなやつです。
+とりあえず動画をアップして共有しようというサービスです。
+そこでこいつに自動アップロードする機能をoctoprintにつけられないかな？と思いました。
+作りました。
+golangのライブラリが提供されていたのでアホみたいに簡単なので、 正直ツール化する意味はあるのかという気もしますが。
+先ずはstreamable/signupからアカントを作っておきます。
+そうしないと削除できないので。
+octoprintが動いているサーバ(raspberypiかorangepi等のarm環境限定です)から以下のコマンドで取得します
+またoctoprintを動かすユーザはoctoprintだと仮定しています
+sudo su - octoprint cd ~/bin wget https://github.com/m0a/up2streamable/releases/download/0.1/up2streamable chmod +x up2streamable  以下のコマンドを実行します
+up2streamable -path ~/.octoprint/timelapse -u userid -p password  ~/.octoprint/timelapseに動画が格納されていればuploadが成功します
+成功したらcronで設定しておきます。
+ HOME=/home/octoprint */15 * * * * $HOME/bin/up2streamable -path $HOME/.octoprint/timelapse -u username -p password -delete  以上です。オプションに -deleteを指定することで自動削除します。
+ </description>
     </item>
     
     <item>
@@ -86,112 +56,28 @@ HOME=/home/octoprint
       <pubDate>Thu, 03 Nov 2016 14:45:15 +0900</pubDate>
       
       <guid>https://m0a.github.io/post/orange-pi-lite/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/o15drKg.jpg&#34; alt=&#34;http://i.imgur.com/o15drKg.jpg&#34; /&gt;
-OrangePi Liteを買いました。名刺サイズながら最初からWifiが搭載されているやつです。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://qiita.com/m0a/items/6608feb654c64ea45dd1&#34;&gt;早速wifiを有効化させるところまで纏めましたが&lt;/a&gt;、Qiitaではいまいち人気がない様子。&lt;/p&gt;
-
-&lt;p&gt;気を取り直して、当初の目的であるOctoPrintを導入します。
-ラズパイみたいな人気のやつの場合は最初からOctoPiというのがありまして
-SDカードにイメージを入れるだけで全部入りの環境が手に入ります。&lt;/p&gt;
-
-&lt;p&gt;でもこいつは安いのが魅力。本体だけなら1200円くらいです。&lt;/p&gt;
-
-&lt;p&gt;OctoPiほどではないけどAnsibleをつかって全自動で構築まで持っていきましょう。
-仮にSDが壊れても瞬時に復旧できるように。&lt;/p&gt;
-
-&lt;h1 id=&#34;ansibleって&#34;&gt;Ansibleって&lt;/h1&gt;
-
-&lt;p&gt;自分のPCからOrangePiにsshアクセスして自動で必要なコマンドやファイルコピーを行って
-環境を自動構築してくれるツールです。こいつを使えば、SDにイメージを焼く程にすぐには出来ませんが&lt;br /&gt;
-待ってれば環境を作ってくれます。&lt;/p&gt;
-
-&lt;h1 id=&#34;wifiの設定までは自動化出来ず&#34;&gt;wifiの設定までは自動化出来ず。&lt;/h1&gt;
-
-&lt;p&gt;ということで少なくともssh接続できるように&lt;br /&gt;
-wifi経由でsshできる状態まで設定しておく必要があります。&lt;/p&gt;
-
-&lt;p&gt;その手順はQiitaに纏めましたのでご参照下さい&lt;br /&gt;
-&lt;a href=&#34;http://qiita.com/m0a/items/6608feb654c64ea45dd1&#34;&gt;OrangePi LiteのWIFI設定(armbian)&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;固定Ipを使ったほうがいいでしょうね。&lt;/p&gt;
-
-&lt;h1 id=&#34;ansibleの準備&#34;&gt;Ansibleの準備&lt;/h1&gt;
-
-&lt;p&gt;macであればbrewコマンドで簡単にインストールできます。
-windowsの場合も最近はlinux環境があるそうなんで簡単じゃないでしょうか？
-macなら以下で入ると思います。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt; brew install ansible
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;windowsは自分で調べて下さい。ubuntu環境を手元に作れるはずです。&lt;/p&gt;
-
-&lt;h1 id=&#34;構築開始&#34;&gt;構築開始&lt;/h1&gt;
-
-&lt;p&gt;必要なファイルをgitで取得します。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  ❯ git clone https://github.com/m0a/octoprint_armbian.git
-  ❯ cd octoprint_armbian
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;接続するときのipを設定します&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  ❯ cat hosts   
-[octoprint_server]
-192.168.11.111
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;ここを自分の設定したOrangePiのipに変えて下さい&lt;/p&gt;
-
-&lt;p&gt;sudo時のパスワードを設定しておきます。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  ❯ cat group_vars/octoprint_server.yml 
-ansible_sudo_pass: p@ssword
-
-octoprint_version: 1.2.17
-.......
-%
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;p@sswordのところを適時変えて下さい&lt;/p&gt;
-
-&lt;p&gt;後はオプションでバージョンの変更をして下さい(octoprint_versionにTagを指定できます。)&lt;/p&gt;
-
-&lt;p&gt;コレで構築開始です。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;  ❯ ansible-playbook -i hosts playbook.yml
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;あとは待つだけのはず。&lt;/p&gt;
-
-&lt;p&gt;OctoPrintとカメラの設定が終わります。
-カメラは普通のUSBWEBカメラならなんでも良いかと思います。&lt;br /&gt;
-俺はこいつを使っています。&lt;br /&gt;
-&lt;a href=&#34;https://www.amazon.co.jp/LOGICOOL-%E3%82%A6%E3%82%A7%E3%83%96%E3%82%AB%E3%83%A0-HD%E7%94%BB%E8%B3%AA-120%E4%B8%87%E7%94%BB%E7%B4%A0-C270/dp/B003YUB660&#34;&gt;LOGICOOL ウェブカム HD画質 120万画素 C270&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;こんな画面になればokです。&lt;/p&gt;
-
-&lt;img src=&#34;https://m0a.github.io/images/posts/orange-pi-lite/octoprint.jpg&#34; alt=&#34;octoprint.jpg&#34;&gt;
-
-
-&lt;p&gt;デフォルトでタイムラプスを取るように設定済みです。&lt;/p&gt;
-
-&lt;div class=&#34;embed video-player&#34;&gt;
-
-&lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34;
-  width=&#34;640&#34; height=&#34;385&#34;
-  src=&#34;https://www.youtube.com/embed/aNHr-nNFhQs&#34;
-  allowfullscreen frameborder=&#34;0&#34;&gt;
-&lt;/iframe&gt;
-
-&lt;/div&gt;
-
-
-&lt;p&gt;なんだか久しぶりに触ったら色々機能が追加されてるみたいですね。色々いじりがいがありそうです。&lt;/p&gt;
-</description>
+      <description>OrangePi Liteを買いました。名刺サイズながら最初からWifiが搭載されているやつです。
+早速wifiを有効化させるところまで纏めましたが、Qiitaではいまいち人気がない様子。
+気を取り直して、当初の目的であるOctoPrintを導入します。 ラズパイみたいな人気のやつの場合は最初からOctoPiというのがありまして SDカードにイメージを入れるだけで全部入りの環境が手に入ります。
+でもこいつは安いのが魅力。本体だけなら1200円くらいです。
+OctoPiほどではないけどAnsibleをつかって全自動で構築まで持っていきましょう。 仮にSDが壊れても瞬時に復旧できるように。
+Ansibleって 自分のPCからOrangePiにsshアクセスして自動で必要なコマンドやファイルコピーを行って 環境を自動構築してくれるツールです。こいつを使えば、SDにイメージを焼く程にすぐには出来ませんが
+待ってれば環境を作ってくれます。
+wifiの設定までは自動化出来ず。 ということで少なくともssh接続できるように
+wifi経由でsshできる状態まで設定しておく必要があります。
+その手順はQiitaに纏めましたのでご参照下さい
+OrangePi LiteのWIFI設定(armbian)
+固定Ipを使ったほうがいいでしょうね。
+Ansibleの準備 macであればbrewコマンドで簡単にインストールできます。 windowsの場合も最近はlinux環境があるそうなんで簡単じゃないでしょうか？ macなら以下で入ると思います。
+ brew install ansible  windowsは自分で調べて下さい。ubuntu環境を手元に作れるはずです。
+構築開始 必要なファイルをgitで取得します。
+ ❯ git clone https://github.com/m0a/octoprint_armbian.git ❯ cd octoprint_armbian  接続するときのipを設定します
+ ❯ cat hosts [octoprint_server] 192.168.11.111  ここを自分の設定したOrangePiのipに変えて下さい
+sudo時のパスワードを設定しておきます。
+ ❯ cat group_vars/octoprint_server.yml ansible_sudo_pass: p@ssword octoprint_version: 1.2.17 ....... %  p@sswordのところを適時変えて下さい
+後はオプションでバージョンの変更をして下さい(octoprint_versionにTagを指定できます。)
+コレで構築開始です。
+ ❯ ansible-playbook -i hosts playbook.</description>
     </item>
     
   </channel>

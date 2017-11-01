@@ -2,31 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Diyprinter on 楽しいことしかやりたくない。</title>
-    <link>https://m0a.github.io/tags/diyprinter/index.xml</link>
+    <link>https://m0a.github.io/tags/diyprinter/</link>
     <description>Recent content in Diyprinter on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>Written by m0a</copyright>
-    <atom:link href="https://m0a.github.io/tags/diyprinter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 May 2015 20:39:59 +0900</lastBuildDate>
+    
+	<atom:link href="https://m0a.github.io/tags/diyprinter/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>3DPrinter自作01</title>
-      <link>https://m0a.github.io/post/myDIYPrinter20150517/</link>
+      <link>https://m0a.github.io/post/mydiyprinter20150517/</link>
       <pubDate>Sun, 17 May 2015 20:39:59 +0900</pubDate>
       
-      <guid>https://m0a.github.io/post/myDIYPrinter20150517/</guid>
-      <description>&lt;p&gt;onShapeで設計してみました。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://m0a.github.io/images/posts/DIYPrinter01/shot01.png&#34; alt=&#34;shot01.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;onShapeはWebアプリなCADなのでアセンブリ画面で実際に触ることができちゃいます。&lt;/p&gt;
-
-&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/kZmRX-trJVs&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://cad.onshape.com/documents/0f131d41320541f4928a8004/w/d7520b7a2ca946f986dfc31b/e/e3fc818d2c994dd8b5905cf0&#34;&gt;こちらからアクセスできます&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;実際に自作プリンター製作記の開始と行きたいものですがどうなるかは未定です。&lt;/p&gt;
-</description>
+      <guid>https://m0a.github.io/post/mydiyprinter20150517/</guid>
+      <description>onShapeで設計してみました。
+onShapeはWebアプリなCADなのでアセンブリ画面で実際に触ることができちゃいます。
+ こちらからアクセスできます
+実際に自作プリンター製作記の開始と行きたいものですがどうなるかは未定です。</description>
     </item>
     
   </channel>
