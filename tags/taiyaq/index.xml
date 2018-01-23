@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Golang on 楽しいことしかやりたくない。</title>
-    <link>https://m0a.github.io/tags/golang/</link>
-    <description>Recent content in Golang on 楽しいことしかやりたくない。</description>
+    <title>Taiyaq on 楽しいことしかやりたくない。</title>
+    <link>https://m0a.github.io/tags/taiyaq/</link>
+    <description>Recent content in Taiyaq on 楽しいことしかやりたくない。</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>Written by m0a</copyright>
     <lastBuildDate>Tue, 23 Jan 2018 11:45:40 +0900</lastBuildDate>
     
-	<atom:link href="https://m0a.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://m0a.github.io/tags/taiyaq/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -35,31 +35,6 @@ https://taiyaq.com/contents/m1OrKPbZv80XsmKLX9ly8XEZe
 翻訳できない対訳のみ英語のままで、翻訳できる部分は翻訳するという動作を行います。
 つまり古い翻訳は翻訳として使われず、最新の英語ドキュメントを読んでいることを保証できるわけです。
 使いかたに関しては後ほど纏めます。</description>
-    </item>
-    
-    <item>
-      <title>octoprintのタイムラプスをstreamableに自動アップロード</title>
-      <link>https://m0a.github.io/post/up2streamable001/</link>
-      <pubDate>Tue, 28 Feb 2017 15:07:34 +0900</pubDate>
-      
-      <guid>https://m0a.github.io/post/up2streamable001/</guid>
-      <description>octoprintをつかってタイムラプスを取るのは楽しいですが、
-どうにもサイズがでかいのでSDカードを逼迫するような気もします。
-ところでstreamableってサービスをご存知でしょうか？
-imgurの動画版みたいなやつです。
-とりあえず動画をアップして共有しようというサービスです。
-そこでこいつに自動アップロードする機能をoctoprintにつけられないかな？と思いました。
-作りました。
-golangのライブラリが提供されていたのでアホみたいに簡単なので、 正直ツール化する意味はあるのかという気もしますが。
-先ずはstreamable/signupからアカントを作っておきます。
-そうしないと削除できないので。
-octoprintが動いているサーバ(raspberypiかorangepi等のarm環境限定です)から以下のコマンドで取得します
-またoctoprintを動かすユーザはoctoprintだと仮定しています
-sudo su - octoprint cd ~/bin wget https://github.com/m0a/up2streamable/releases/download/0.1/up2streamable chmod +x up2streamable  以下のコマンドを実行します
-up2streamable -path ~/.octoprint/timelapse -u userid -p password  ~/.octoprint/timelapseに動画が格納されていればuploadが成功します
-成功したらcronで設定しておきます。
- HOME=/home/octoprint */15 * * * * $HOME/bin/up2streamable -path $HOME/.octoprint/timelapse -u username -p password -delete  以上です。オプションに -deleteを指定することで自動削除します。
- </description>
     </item>
     
   </channel>

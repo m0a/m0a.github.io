@@ -7,10 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>Written by m0a</copyright>
-    <lastBuildDate>Wed, 19 Aug 2015 11:07:25 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jan 2018 11:45:40 +0900</lastBuildDate>
     
 	<atom:link href="https://m0a.github.io/tags/lifehack/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Taiyaq(対訳蓄積ツール)を作った。</title>
+      <link>https://m0a.github.io/post/taiyaq-test-release/</link>
+      <pubDate>Tue, 23 Jan 2018 11:45:40 +0900</pubDate>
+      
+      <guid>https://m0a.github.io/post/taiyaq-test-release/</guid>
+      <description>注意:まだベータリリース段階です。
+英語ができなくてもエンジニアとしてなんとかなりたい。 React.jsが話題になって久しく、 日本でも色々なプロダクトにだいぶ使われている気がしますが、
+ググってみると本家のサイトの順位はこんな感じだったりしますよね
+(2018/1/19現在)。
+Googleの検索結果を観ると英語ができなくて悩んでいるエンジニアは結構たくさんいるんじゃないかな。と 先ずReactについて知りたいと思ったら、ググってQiitaの記事に当たることになります。 でも、それって 最新のライブラリに追従している内容ですかね？
+自分もQiitaの記事は書きますけどぶっちゃけ最新版に追従することなく放置気味だったりします。😨
+そこでChrome-extensionとして、Taiyaq(対訳蓄積ツール)なるものを作りました。
+これを使うと本家のページをこんな感じで翻訳してくれます。
+仕組み 至って単純でコンテンツを分解して、分割単位ごとで対訳を作るだけです。
+とりあえず以下からアクセスすると翻訳対象に移動して翻訳できます。
+https://taiyaq.com/contents/m1OrKPbZv80XsmKLX9ly8XEZe
+ポイントは対訳を作って皆で共有するという点です。
+対訳ということは部分的な一致で翻訳を得られるということです。 例えば、ライブラリであれば、仕様変更は一部でありドキュメントも変更は一部です。
+つまり対訳として前のバージョンのドキュメントでも利用できる点はあるはずです。
+翻訳できない対訳のみ英語のままで、翻訳できる部分は翻訳するという動作を行います。
+つまり古い翻訳は翻訳として使われず、最新の英語ドキュメントを読んでいることを保証できるわけです。
+使いかたに関しては後ほど纏めます。</description>
+    </item>
     
     <item>
       <title>親指シフト入力を始める。Mac＆USキーボードで</title>

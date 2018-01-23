@@ -7,20 +7,20 @@
   <meta charset="UTF-8">
 
   <meta property="og:type"   content="article" />
-  <meta property="og:url"    content="https://m0a.github.io/post/genkei-atom-customize/" />
-  <meta property="og:title"  content="Genkei ATOMのカスタムパーツを作りました。" />
-  <meta property="og:description"  content="Genkei ATOMのカスタムパーツを作りました。" />
+  <meta property="og:url"    content="https://m0a.github.io/post/taiyaq-test-release/" />
+  <meta property="og:title"  content="Taiyaq(対訳蓄積ツール)を作った。" />
+  <meta property="og:description"  content="対訳蓄積ツールTaiyaqを作った。" />
   <meta property="og:site_name" content="楽しいことしかやりたくない。"  />
   <meta property="og:image"  content="https://m0a.github.io/images/profile.jpg" />
   <title>
-    Genkei ATOMのカスタムパーツを作りました。 | 楽しいことしかやりたくない。
+    Taiyaq(対訳蓄積ツール)を作った。 | 楽しいことしかやりたくない。
   </title>
 
   
   <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1,initial-scale=1">
 
   
-  <link rel="canonical" href="https://m0a.github.io/post/genkei-atom-customize/"/>
+  <link rel="canonical" href="https://m0a.github.io/post/taiyaq-test-release/"/>
 
   
   <link rel="stylesheet" href="/css/sanitize.css">
@@ -70,52 +70,70 @@
   
   <main id="single" role="main">
     <div class="article-header">
-      <h1>Genkei ATOMのカスタムパーツを作りました。</h1>
+      <h1>Taiyaq(対訳蓄積ツール)を作った。</h1>
       <div class="meta">
-        2015-05-17 10:24:49 &nbsp;
+        2018-01-23 11:45:40 &nbsp;
         
-          #<a href="/tags/3dprinter">3DPrinter</a>&nbsp;
+          #<a href="/tags/taiyaq">Taiyaq</a>&nbsp;
         
-          #<a href="/tags/genkei-atom">genkei atom</a>&nbsp;
+          #<a href="/tags/golang">golang</a>&nbsp;
         
-          #<a href="/tags/onshape">onShape</a>&nbsp;
+          #<a href="/tags/typescript">typescript</a>&nbsp;
+        
+          #<a href="/tags/lifehack">lifehack</a>&nbsp;
         
       </div>
     </div>
     <article>
-      <p>genkei ATOMを使っています。
-3DPrinter2機種目です。1機種目は引越し時に捨ててしまいました。<br>
-（後から部品取りに使うなりいろいろ手があっただろうと後悔）</p>
+      
 
-<p>とにかく、購入して1年経過しましたが、thingiverseのデータを印刷してみただけとか、<br>
-使いこなし切れてなかったんですが、<a href="https://www.onshape.com/">onShape</a>をきっかけに、結構なんでも作れるようになってきました。<br>
-それで作ってみたのがこちら。</p>
+<p><strong>注意</strong>:まだベータリリース段階です。</p>
 
-<p><img src="/images/posts/genkei_atom_customize/genkei_atom_customize.jpg" alt="genkei_atom_customize.jpg" /></p>
+<img src="/images/posts/taiyaq-test-release/sample.png" alt="sample.png">
 
-<p>X軸周りのパーツを印刷しやすくしたパーツです。<br>
-3DPrinterはとにかく、オーバーハングしたパーツを印刷するのが苦手です。<br>
-サポート材を付けて印刷することで、解決は出来るんですが、あとでサポート材を外すのが大変だったりします。<br>
-特にPLAの場合は辛い。<br></p>
 
-<p>なので、極力サポート材を付けずに印刷できるようなにしたほうが後々メンテ性が高いと思い、作った次第です。<br></p>
+<h1 id="英語ができなくてもエンジニアとしてなんとかなりたい">英語ができなくてもエンジニアとしてなんとかなりたい。</h1>
 
-<p>で、作ったのがこちら。</p>
+<p>React.jsが話題になって久しく、
+日本でも色々なプロダクトにだいぶ使われている気がしますが、<br />
+ググってみると本家のサイトの順位はこんな感じだったりしますよね<br />
+  (2018/1/19現在)。</p>
 
-<ul>
-<li><p>x_moter<br>
-<img src="/images/posts/genkei_atom_customize/x_moter_preview_featured.jpg" alt="x_moter_preview_featured.jpg" /></p></li>
+<img src="/images/posts/taiyaq-test-release/GoogleSearch.png" alt="GoogleSearch.png">
 
-<li><p>x_end_a<br>
-<img src="/images/posts/genkei_atom_customize/x_end_a_preview_featured.jpg" alt="x_end_a_preview_featured.jpg" /></p></li>
 
-<li><p>x_carriage_lm_a b c 一体型<br>
-<img src="/images/posts/genkei_atom_customize/x_carriage_lm_abc_set_preview_featured.jpg" alt="x_carriage_lm_abc_set_preview_featured.jpg" /></p></li>
-</ul>
+<p>Googleの検索結果を観ると英語ができなくて悩んでいるエンジニアは結構たくさんいるんじゃないかな。と
+先ずReactについて知りたいと思ったら、ググってQiitaの記事に当たることになります。
+でも、それって <strong>最新のライブラリに追従している内容ですかね？</strong></p>
 
-<p>thingiverseから<a href="http://www.thingiverse.com/thing:798710">ダウンロード</a>できます。</p>
+<p>自分もQiitaの記事は書きますけどぶっちゃけ最新版に追従することなく放置気味だったりします。😨<br />
+そこでChrome-extensionとして、<a href="https://chrome.google.com/webstore/detail/taiyaq-extension/dpkknbmnepmagbdhookiclcaegodhbkh">Taiyaq(対訳蓄積ツール)</a>なるものを作りました。</p>
 
-<p>onShapeのデータも<a href="https://cad.onshape.com/documents/2c2a47a4874a451bbae52e10/w/72d3ecc78847416497e807bc/e/29a4f8fa908e4116ad1a09fe">公開</a>してます。</p>
+<p>これを使うと本家のページをこんな感じで翻訳してくれます。</p>
+
+<img src="/images/posts/taiyaq-test-release/ReactTutorial.png" alt="ReactTutorial.png">
+
+
+<h1 id="仕組み">仕組み</h1>
+
+<p>至って単純でコンテンツを分解して、分割単位ごとで対訳を作るだけです。</p>
+
+<img src="/images/posts/taiyaq-test-release/translationSample.png" alt="translationSample.png">
+
+
+<p>とりあえず以下からアクセスすると翻訳対象に移動して翻訳できます。</p>
+
+<p><a href="https://taiyaq.com/contents/m1OrKPbZv80XsmKLX9ly8XEZe">https://taiyaq.com/contents/m1OrKPbZv80XsmKLX9ly8XEZe</a></p>
+
+<p>ポイントは<strong>対訳を作って皆で共有するという点です。</strong><br />
+対訳ということは部分的な一致で翻訳を得られるということです。
+例えば、ライブラリであれば、仕様変更は一部でありドキュメントも変更は一部です。<br />
+つまり対訳として前のバージョンのドキュメントでも利用できる点はあるはずです。<br />
+<strong>翻訳できない対訳のみ英語のままで、翻訳できる部分は翻訳するという動作を行います。</strong></p>
+
+<p>つまり古い翻訳は翻訳として使われず、最新の英語ドキュメントを読んでいることを保証できるわけです。</p>
+
+<p>使いかたに関しては後ほど纏めます。</p>
 
     </article>
     
