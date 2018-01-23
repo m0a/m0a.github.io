@@ -7,20 +7,20 @@
   <meta charset="UTF-8">
 
   <meta property="og:type"   content="article" />
-  <meta property="og:url"    content="https://m0a.github.io/post/taiyaq-test-release/" />
-  <meta property="og:title"  content="Taiyaq(対訳蓄積ツール)を作った" />
-  <meta property="og:description"  content="対訳蓄積ツールTaiyaqを作った" />
+  <meta property="og:url"    content="https://m0a.github.io/post/taiyaq-howtouse/" />
+  <meta property="og:title"  content="Taiyaqの使いかた" />
+  <meta property="og:description"  content="Taiyaqの使いかた" />
   <meta property="og:site_name" content="楽しいことしかやりたくない。"  />
   <meta property="og:image"  content="https://m0a.github.io/images/profile.jpg" />
   <title>
-    Taiyaq(対訳蓄積ツール)を作った | 楽しいことしかやりたくない。
+    Taiyaqの使いかた | 楽しいことしかやりたくない。
   </title>
 
   
   <meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1,initial-scale=1">
 
   
-  <link rel="canonical" href="https://m0a.github.io/post/taiyaq-test-release/"/>
+  <link rel="canonical" href="https://m0a.github.io/post/taiyaq-howtouse/"/>
 
   
   <link rel="stylesheet" href="/css/sanitize.css">
@@ -70,70 +70,101 @@
   
   <main id="single" role="main">
     <div class="article-header">
-      <h1>Taiyaq(対訳蓄積ツール)を作った</h1>
+      <h1>Taiyaqの使いかた</h1>
       <div class="meta">
-        2018-01-23 11:45:40 &nbsp;
+        2018-01-23 13:27:06 &nbsp;
         
           #<a href="/tags/taiyaq">Taiyaq</a>&nbsp;
-        
-          #<a href="/tags/golang">golang</a>&nbsp;
-        
-          #<a href="/tags/typescript">typescript</a>&nbsp;
-        
-          #<a href="/tags/lifehack">lifehack</a>&nbsp;
         
       </div>
     </div>
     <article>
       
 
-<p><strong>注意</strong>:まだベータリリース段階です。</p>
+<h1 id="インストール">インストール</h1>
 
-<img src="/images/posts/taiyaq-test-release/sample.png" alt="sample.png">
+<p>現状ではChrome専用です。
+<a href="https://chrome.google.com/webstore/detail/taiyaq-extension/dpkknbmnepmagbdhookiclcaegodhbkh">こちら</a>からChrome-extensionを導入します</p>
 
+<p>とりあえず、インストールが終わると以下のTaiyaqアイコンが表示されます。</p>
 
-<h1 id="英語ができなくてもエンジニアとしてなんとかなりたい">英語ができなくてもエンジニアとしてなんとかなりたい。</h1>
-
-<p>React.jsが話題になって久しく、
-日本でも色々なプロダクトにだいぶ使われている気がしますが、<br />
-ググってみると本家のサイトの順位はこんな感じだったりしますよね<br />
-  (2018/1/19現在)。</p>
-
-<img src="/images/posts/taiyaq-test-release/GoogleSearch.png" alt="GoogleSearch.png">
+<img src="/images/posts/taiyaq-howtouse/taiyaq-icon.png" alt="taiyaq-icon.png">
 
 
-<p>Googleの検索結果を観ると英語ができなくて悩んでいるエンジニアは結構たくさんいるんじゃないかな。と
-先ずReactについて知りたいと思ったら、ググってQiitaの記事に当たることになります。
-でも、それって <strong>最新のライブラリに追従している内容ですかね？</strong></p>
+<p>こうなればインストールが正常に完了しています。
+では何かを翻訳してみましょう。</p>
 
-<p>自分もQiitaの記事は書きますけどぶっちゃけ最新版に追従することなく放置気味だったりします。😨<br />
-そこでChrome-extensionとして、<a href="https://chrome.google.com/webstore/detail/taiyaq-extension/dpkknbmnepmagbdhookiclcaegodhbkh">Taiyaq(対訳蓄積ツール)</a>なるものを作りました。</p>
+<p>ちょっとだけQiitaにて話題になっているNimのサイトを翻訳してみます。</p>
 
-<p>これを使うと本家のページをこんな感じで翻訳してくれます。</p>
+<p><a href="https://nim-lang.org/">https://nim-lang.org/</a></p>
 
-<img src="/images/posts/taiyaq-test-release/ReactTutorial.png" alt="ReactTutorial.png">
+<h1 id="翻訳方法">翻訳方法</h1>
 
-
-<h1 id="仕組み">仕組み</h1>
-
-<p>至って単純でコンテンツを分解して、分割単位ごとで対訳を作るだけです。</p>
-
-<img src="/images/posts/taiyaq-test-release/translationSample.png" alt="translationSample.png">
+<img src="/images/posts/taiyaq-howtouse/nim-site01.png" alt="nim-site01.png">
 
 
-<p>とりあえず以下からアクセスすると翻訳対象に移動して翻訳できます。</p>
+<p>上記サイトのフッター部分にサイトのライセンスが表記されています。</p>
 
-<p><a href="https://taiyaq.com/contents/m1OrKPbZv80XsmKLX9ly8XEZe">https://taiyaq.com/contents/m1OrKPbZv80XsmKLX9ly8XEZe</a></p>
+<pre><code class="language-html">the content of this page is licensed under the Creative Commons Attribution 3.0 license. 
+</code></pre>
 
-<p>ポイントは<strong>対訳を作って皆で共有するという点です。</strong><br />
-対訳ということは部分的な一致で翻訳を得られるということです。
-例えば、ライブラリであれば、仕様変更は一部でありドキュメントも変更は一部です。<br />
-つまり対訳として前のバージョンのドキュメントでも利用できる点はあるはずです。<br />
-<strong>翻訳できない対訳のみ英語のままで、翻訳できる部分は翻訳するという動作を行います。</strong></p>
+<p>どうやら翻訳しても問題ないライセンスのようです。
+翻訳対象は作者の許可を得るか、翻訳しても問題ないライセンス表記のものを選んで下さい。
+(非公開設定のまま翻訳することも可能です)</p>
 
-<p>つまり古い翻訳は翻訳として使われず、最新の英語ドキュメントを読んでいることを保証できるわけです。</p>
+<p>Taiyaqアイコンをクリックしてサイドメニューを表示します。</p>
 
-<p>使いかたに関しては後ほど纏めます。</p>
+<img src="/images/posts/taiyaq-howtouse/nim-site02.png" alt="nim-site02.png">
+
+
+<p>翻訳がまだ無いようです。
+新規作成を押すと対訳情報が作成されます。</p>
+
+<img src="/images/posts/taiyaq-howtouse/nim-site03.png" alt="nim-site03.png">
+
+
+<p>上記の様に分割した翻訳ができるのでそれぞれを翻訳していきます。</p>
+
+<p>翻訳したい箇所をクリックすると絞り込んで一覧に表示する機能もあります。</p>
+
+<img src="/images/posts/taiyaq-howtouse/nim-site04.png" alt="nim-site04.png">
+
+
+<p>こんな感じで翻訳できます。</p>
+
+<img src="/images/posts/taiyaq-howtouse/nim-site05.png" alt="nim-site05.png">
+
+
+<h1 id="翻訳情報の公開">翻訳情報の公開</h1>
+
+<p>翻訳したら皆で共有しましょう</p>
+
+<p>サイドメニューの自作翻訳タブを選ぶと現在の翻訳作業中の一覧がでます。</p>
+
+<img src="/images/posts/taiyaq-howtouse/upload01.png" alt="upload01.png">
+
+
+<p>詳細編集を選んで追加情報を記入して下さい
+<img src="/images/posts/taiyaq-howtouse/upload02.png" alt="upload02.png">
+</p>
+
+<p>保存したらアップロードをクリックしてアップロードを行います。
+尚アップロードするためにはGoogleアカウントが必要です。無ければ事前に登録しておいて下さい。</p>
+
+<img src="/images/posts/taiyaq-howtouse/upload03.png" alt="upload03.png">
+
+
+<p>公開するために公開状態にチェックを入れるのを忘れないでください。
+ライセンスの問題が不明ならばひとまず、非公開のままでも構いません。</p>
+
+<p>サイドサイドメニューが開くと公開設定した翻訳一覧が表示できるようになります。
+ありがとうございました。</p>
+
+<img src="/images/posts/taiyaq-howtouse/upload04.png" alt="upload04.png">
+
+
+<p>翻訳を押しておくと次回からその翻訳ファイルを使って翻訳するようになります。
+リロードしても自動で翻訳することを確認して下さい。</p>
 
     </article>
     

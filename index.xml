@@ -7,13 +7,39 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>Written by m0a</copyright>
-    <lastBuildDate>Tue, 23 Jan 2018 11:45:40 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jan 2018 13:27:06 +0900</lastBuildDate>
     
 	<atom:link href="https://m0a.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Taiyaq(対訳蓄積ツール)を作った。</title>
+      <title>Taiyaqの使いかた</title>
+      <link>https://m0a.github.io/post/taiyaq-howtouse/</link>
+      <pubDate>Tue, 23 Jan 2018 13:27:06 +0900</pubDate>
+      
+      <guid>https://m0a.github.io/post/taiyaq-howtouse/</guid>
+      <description>インストール 現状ではChrome専用です。 こちらからChrome-extensionを導入します
+とりあえず、インストールが終わると以下のTaiyaqアイコンが表示されます。
+こうなればインストールが正常に完了しています。 では何かを翻訳してみましょう。
+ちょっとだけQiitaにて話題になっているNimのサイトを翻訳してみます。
+https://nim-lang.org/
+翻訳方法 上記サイトのフッター部分にサイトのライセンスが表記されています。
+the content of this page is licensed under the Creative Commons Attribution 3.0 license.  どうやら翻訳しても問題ないライセンスのようです。 翻訳対象は作者の許可を得るか、翻訳しても問題ないライセンス表記のものを選んで下さい。 (非公開設定のまま翻訳することも可能です)
+Taiyaqアイコンをクリックしてサイドメニューを表示します。
+翻訳がまだ無いようです。 新規作成を押すと対訳情報が作成されます。
+上記の様に分割した翻訳ができるのでそれぞれを翻訳していきます。
+翻訳したい箇所をクリックすると絞り込んで一覧に表示する機能もあります。
+こんな感じで翻訳できます。
+翻訳情報の公開 翻訳したら皆で共有しましょう
+サイドメニューの自作翻訳タブを選ぶと現在の翻訳作業中の一覧がでます。
+詳細編集を選んで追加情報を記入して下さい 保存したらアップロードをクリックしてアップロードを行います。 尚アップロードするためにはGoogleアカウントが必要です。無ければ事前に登録しておいて下さい。
+公開するために公開状態にチェックを入れるのを忘れないでください。 ライセンスの問題が不明ならばひとまず、非公開のままでも構いません。
+サイドサイドメニューが開くと公開設定した翻訳一覧が表示できるようになります。 ありがとうございました。
+翻訳を押しておくと次回からその翻訳ファイルを使って翻訳するようになります。 リロードしても自動で翻訳することを確認して下さい。</description>
+    </item>
+    
+    <item>
+      <title>Taiyaq(対訳蓄積ツール)を作った</title>
       <link>https://m0a.github.io/post/taiyaq-test-release/</link>
       <pubDate>Tue, 23 Jan 2018 11:45:40 +0900</pubDate>
       
